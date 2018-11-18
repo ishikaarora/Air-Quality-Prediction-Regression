@@ -1,0 +1,1111 @@
+,State,County,Abbreviation
+0,Alabama,Baldwin,AL
+1,Alabama,Clay,AL
+2,Alabama,Colbert,AL
+3,Alabama,DeKalb,AL
+4,Alabama,Elmore,AL
+5,Alabama,Etowah,AL
+6,Alabama,Houston,AL
+7,Alabama,Jefferson,AL
+8,Alabama,Lawrence,AL
+9,Alabama,Madison,AL
+10,Alabama,Mobile,AL
+11,Alabama,Montgomery,AL
+12,Alabama,Morgan,AL
+13,Alabama,Russell,AL
+14,Alabama,Shelby,AL
+15,Alabama,Sumter,AL
+16,Alabama,Talladega,AL
+17,Alabama,Tuscaloosa,AL
+18,Alaska,Aleutians East,AK
+19,Alaska,Anchorage,AK
+20,Alaska,Denali,AK
+21,Alaska,Fairbanks North Star,AK
+22,Alaska,Juneau,AK
+23,Alaska,Kenai Peninsula,AK
+24,Alaska,Matanuska-Susitna,AK
+25,Alaska,Yukon-Koyukuk,AK
+26,Arizona,Apache,AZ
+27,Arizona,Cochise,AZ
+28,Arizona,Coconino,AZ
+29,Arizona,Gila,AZ
+30,Arizona,La Paz,AZ
+31,Arizona,Maricopa,AZ
+32,Arizona,Mohave,AZ
+33,Arizona,Navajo,AZ
+34,Arizona,Pima,AZ
+35,Arizona,Pinal,AZ
+36,Arizona,Santa Cruz,AZ
+37,Arizona,Yavapai,AZ
+38,Arizona,Yuma,AZ
+39,Arkansas,Arkansas,AR
+40,Arkansas,Ashley,AR
+41,Arkansas,Clark,AR
+42,Arkansas,Crittenden,AR
+43,Arkansas,Garland,AR
+44,Arkansas,Jackson,AR
+45,Arkansas,Newton,AR
+46,Arkansas,Polk,AR
+47,Arkansas,Pulaski,AR
+48,Arkansas,Union,AR
+49,Arkansas,Washington,AR
+50,California,Alameda,CA
+51,California,Alpine,CA
+52,California,Amador,CA
+53,California,Butte,CA
+54,California,Calaveras,CA
+55,California,Colusa,CA
+56,California,Contra Costa,CA
+57,California,Del Norte,CA
+58,California,El Dorado,CA
+59,California,Fresno,CA
+60,California,Glenn,CA
+61,California,Humboldt,CA
+62,California,Imperial,CA
+63,California,Inyo,CA
+64,California,Kern,CA
+65,California,Kings,CA
+66,California,Lake,CA
+67,California,Los Angeles,CA
+68,California,Madera,CA
+69,California,Marin,CA
+70,California,Mariposa,CA
+71,California,Mendocino,CA
+72,California,Merced,CA
+73,California,Mono,CA
+74,California,Monterey,CA
+75,California,Napa,CA
+76,California,Nevada,CA
+77,California,Orange,CA
+78,California,Placer,CA
+79,California,Plumas,CA
+80,California,Riverside,CA
+81,California,Sacramento,CA
+82,California,San Benito,CA
+83,California,San Bernardino,CA
+84,California,San Diego,CA
+85,California,San Francisco,CA
+86,California,San Joaquin,CA
+87,California,San Luis Obispo,CA
+88,California,San Mateo,CA
+89,California,Santa Barbara,CA
+90,California,Santa Clara,CA
+91,California,Santa Cruz,CA
+92,California,Shasta,CA
+93,California,Siskiyou,CA
+94,California,Solano,CA
+95,California,Sonoma,CA
+96,California,Stanislaus,CA
+97,California,Sutter,CA
+98,California,Tehama,CA
+99,California,Trinity,CA
+100,California,Tulare,CA
+101,California,Tuolumne,CA
+102,California,Ventura,CA
+103,California,Yolo,CA
+104,Colorado,Adams,CO
+105,Colorado,Alamosa,CO
+106,Colorado,Arapahoe,CO
+107,Colorado,Archuleta,CO
+108,Colorado,Boulder,CO
+109,Colorado,Chaffee,CO
+110,Colorado,Clear Creek,CO
+111,Colorado,Delta,CO
+112,Colorado,Denver,CO
+113,Colorado,Douglas,CO
+114,Colorado,El Paso,CO
+115,Colorado,Fremont,CO
+116,Colorado,Garfield,CO
+117,Colorado,Gunnison,CO
+118,Colorado,Jackson,CO
+119,Colorado,Jefferson,CO
+120,Colorado,La Plata,CO
+121,Colorado,Larimer,CO
+122,Colorado,Mesa,CO
+123,Colorado,Moffat,CO
+124,Colorado,Montezuma,CO
+125,Colorado,Park,CO
+126,Colorado,Pitkin,CO
+127,Colorado,Prowers,CO
+128,Colorado,Pueblo,CO
+129,Colorado,Rio Blanco,CO
+130,Colorado,Routt,CO
+131,Colorado,San Juan,CO
+132,Colorado,San Miguel,CO
+133,Colorado,Weld,CO
+134,Connecticut,Fairfield,CT
+135,Connecticut,Hartford,CT
+136,Connecticut,Litchfield,CT
+137,Connecticut,Middlesex,CT
+138,Connecticut,New Haven,CT
+139,Connecticut,New London,CT
+140,Connecticut,Tolland,CT
+141,Connecticut,Windham,CT
+142,Country Of Mexico,BAJA CALIFORNIA NORTE,
+143,Country Of Mexico,CHIHUAHUA STATE,
+144,Delaware,Kent,DE
+145,Delaware,New Castle,DE
+146,Delaware,Sussex,DE
+147,District Of Columbia,District of Columbia,
+148,Florida,Alachua,FL
+149,Florida,Baker,FL
+150,Florida,Bay,FL
+151,Florida,Brevard,FL
+152,Florida,Broward,FL
+153,Florida,Citrus,FL
+154,Florida,Collier,FL
+155,Florida,Columbia,FL
+156,Florida,Duval,FL
+157,Florida,Escambia,FL
+158,Florida,Flagler,FL
+159,Florida,Hamilton,FL
+160,Florida,Highlands,FL
+161,Florida,Hillsborough,FL
+162,Florida,Holmes,FL
+163,Florida,Indian River,FL
+164,Florida,Lake,FL
+165,Florida,Lee,FL
+166,Florida,Leon,FL
+167,Florida,Liberty,FL
+168,Florida,Manatee,FL
+169,Florida,Marion,FL
+170,Florida,Martin,FL
+171,Florida,Miami-Dade,FL
+172,Florida,Nassau,FL
+173,Florida,Okaloosa,FL
+174,Florida,Orange,FL
+175,Florida,Osceola,FL
+176,Florida,Palm Beach,FL
+177,Florida,Pasco,FL
+178,Florida,Pinellas,FL
+179,Florida,Polk,FL
+180,Florida,Putnam,FL
+181,Florida,Santa Rosa,FL
+182,Florida,Sarasota,FL
+183,Florida,Seminole,FL
+184,Florida,St. Lucie,FL
+185,Florida,Volusia,FL
+186,Florida,Wakulla,FL
+187,Georgia,Bibb,GA
+188,Georgia,Charlton,GA
+189,Georgia,Chatham,GA
+190,Georgia,Chattooga,GA
+191,Georgia,Clarke,GA
+192,Georgia,Clayton,GA
+193,Georgia,Cobb,GA
+194,Georgia,Coffee,GA
+195,Georgia,Columbia,GA
+196,Georgia,Coweta,GA
+197,Georgia,Dawson,GA
+198,Georgia,DeKalb,GA
+199,Georgia,Dougherty,GA
+200,Georgia,Douglas,GA
+201,Georgia,Floyd,GA
+202,Georgia,Fulton,GA
+203,Georgia,Glynn,GA
+204,Georgia,Gwinnett,GA
+205,Georgia,Hall,GA
+206,Georgia,Henry,GA
+207,Georgia,Houston,GA
+208,Georgia,Lowndes,GA
+209,Georgia,Murray,GA
+210,Georgia,Muscogee,GA
+211,Georgia,Paulding,GA
+212,Georgia,Pike,GA
+213,Georgia,Richmond,GA
+214,Georgia,Rockdale,GA
+215,Georgia,Sumter,GA
+216,Georgia,Walker,GA
+217,Georgia,Washington,GA
+218,Georgia,Wilkinson,GA
+219,Hawaii,Hawaii,HI
+220,Hawaii,Honolulu,HI
+221,Hawaii,Kauai,HI
+222,Hawaii,Maui,HI
+223,Idaho,Ada,ID
+224,Idaho,Bannock,ID
+225,Idaho,Benewah,ID
+226,Idaho,Bonner,ID
+227,Idaho,Butte,ID
+228,Idaho,Canyon,ID
+229,Idaho,Caribou,ID
+230,Idaho,Custer,ID
+231,Idaho,Franklin,ID
+232,Idaho,Lemhi,ID
+233,Idaho,Shoshone,ID
+234,Illinois,Adams,IL
+235,Illinois,Champaign,IL
+236,Illinois,Clark,IL
+237,Illinois,Cook,IL
+238,Illinois,DuPage,IL
+239,Illinois,Effingham,IL
+240,Illinois,Hamilton,IL
+241,Illinois,Jersey,IL
+242,Illinois,Jo Daviess,IL
+243,Illinois,Kane,IL
+244,Illinois,La Salle,IL
+245,Illinois,Lake,IL
+246,Illinois,Macon,IL
+247,Illinois,Macoupin,IL
+248,Illinois,Madison,IL
+249,Illinois,McHenry,IL
+250,Illinois,McLean,IL
+251,Illinois,Peoria,IL
+252,Illinois,Randolph,IL
+253,Illinois,Rock Island,IL
+254,Illinois,Saint Clair,IL
+255,Illinois,Sangamon,IL
+256,Illinois,Tazewell,IL
+257,Illinois,Wabash,IL
+258,Illinois,Will,IL
+259,Illinois,Winnebago,IL
+260,Indiana,Allen,IN
+261,Indiana,Bartholomew,IN
+262,Indiana,Boone,IN
+263,Indiana,Brown,IN
+264,Indiana,Carroll,IN
+265,Indiana,Clark,IN
+266,Indiana,Daviess,IN
+267,Indiana,Delaware,IN
+268,Indiana,Dubois,IN
+269,Indiana,Elkhart,IN
+270,Indiana,Floyd,IN
+271,Indiana,Fountain,IN
+272,Indiana,Gibson,IN
+273,Indiana,Greene,IN
+274,Indiana,Hamilton,IN
+275,Indiana,Hancock,IN
+276,Indiana,Hendricks,IN
+277,Indiana,Henry,IN
+278,Indiana,Howard,IN
+279,Indiana,Huntington,IN
+280,Indiana,Jackson,IN
+281,Indiana,Jasper,IN
+282,Indiana,Johnson,IN
+283,Indiana,Knox,IN
+284,Indiana,LaPorte,IN
+285,Indiana,Lake,IN
+286,Indiana,Madison,IN
+287,Indiana,Marion,IN
+288,Indiana,Monroe,IN
+289,Indiana,Montgomery,IN
+290,Indiana,Morgan,IN
+291,Indiana,Perry,IN
+292,Indiana,Pike,IN
+293,Indiana,Porter,IN
+294,Indiana,Posey,IN
+295,Indiana,Shelby,IN
+296,Indiana,Spencer,IN
+297,Indiana,St. Joseph,IN
+298,Indiana,Tippecanoe,IN
+299,Indiana,Vanderburgh,IN
+300,Indiana,Vigo,IN
+301,Indiana,Wabash,IN
+302,Indiana,Warrick,IN
+303,Indiana,Wayne,IN
+304,Indiana,Whitley,IN
+305,Iowa,Black Hawk,IA
+306,Iowa,Bremer,IA
+307,Iowa,Cerro Gordo,IA
+308,Iowa,Clinton,IA
+309,Iowa,Delaware,IA
+310,Iowa,Harrison,IA
+311,Iowa,Johnson,IA
+312,Iowa,Lee,IA
+313,Iowa,Linn,IA
+314,Iowa,Montgomery,IA
+315,Iowa,Muscatine,IA
+316,Iowa,Palo Alto,IA
+317,Iowa,Polk,IA
+318,Iowa,Pottawattamie,IA
+319,Iowa,Scott,IA
+320,Iowa,Story,IA
+321,Iowa,Van Buren,IA
+322,Iowa,Warren,IA
+323,Iowa,Woodbury,IA
+324,Kansas,Chase,KS
+325,Kansas,Ford,KS
+326,Kansas,Johnson,KS
+327,Kansas,Leavenworth,KS
+328,Kansas,Linn,KS
+329,Kansas,Neosho,KS
+330,Kansas,Sedgwick,KS
+331,Kansas,Shawnee,KS
+332,Kansas,Sherman,KS
+333,Kansas,Sumner,KS
+334,Kansas,Trego,KS
+335,Kansas,Wyandotte,KS
+336,Kentucky,Bell,KY
+337,Kentucky,Boone,KY
+338,Kentucky,Boyd,KY
+339,Kentucky,Bullitt,KY
+340,Kentucky,Campbell,KY
+341,Kentucky,Carter,KY
+342,Kentucky,Christian,KY
+343,Kentucky,Daviess,KY
+344,Kentucky,Edmonson,KY
+345,Kentucky,Fayette,KY
+346,Kentucky,Greenup,KY
+347,Kentucky,Hancock,KY
+348,Kentucky,Hardin,KY
+349,Kentucky,Henderson,KY
+350,Kentucky,Jefferson,KY
+351,Kentucky,Jessamine,KY
+352,Kentucky,Livingston,KY
+353,Kentucky,Madison,KY
+354,Kentucky,Marshall,KY
+355,Kentucky,McCracken,KY
+356,Kentucky,Morgan,KY
+357,Kentucky,Oldham,KY
+358,Kentucky,Perry,KY
+359,Kentucky,Pike,KY
+360,Kentucky,Pulaski,KY
+361,Kentucky,Simpson,KY
+362,Kentucky,Trigg,KY
+363,Kentucky,Warren,KY
+364,Kentucky,Washington,KY
+365,Louisiana,Ascension,LA
+366,Louisiana,Bossier,LA
+367,Louisiana,Caddo,LA
+368,Louisiana,Calcasieu,LA
+369,Louisiana,East Baton Rouge,LA
+370,Louisiana,Iberville,LA
+371,Louisiana,Jefferson,LA
+372,Louisiana,Lafayette,LA
+373,Louisiana,Lafourche,LA
+374,Louisiana,Livingston,LA
+375,Louisiana,Orleans,LA
+376,Louisiana,Ouachita,LA
+377,Louisiana,Pointe Coupee,LA
+378,Louisiana,Rapides,LA
+379,Louisiana,St. Bernard,LA
+380,Louisiana,St. Charles,LA
+381,Louisiana,St. James,LA
+382,Louisiana,St. John the Baptist,LA
+383,Louisiana,St. Tammany,LA
+384,Louisiana,Tangipahoa,LA
+385,Louisiana,Terrebonne,LA
+386,Louisiana,West Baton Rouge,LA
+387,Maine,Androscoggin,ME
+388,Maine,Aroostook,ME
+389,Maine,Cumberland,ME
+390,Maine,Hancock,ME
+391,Maine,Kennebec,ME
+392,Maine,Knox,ME
+393,Maine,Oxford,ME
+394,Maine,Penobscot,ME
+395,Maine,Sagadahoc,ME
+396,Maine,Washington,ME
+397,Maine,York,ME
+398,Maryland,Anne Arundel,MD
+399,Maryland,Baltimore,MD
+400,Maryland,Baltimore (City),MD
+401,Maryland,Calvert,MD
+402,Maryland,Carroll,MD
+403,Maryland,Cecil,MD
+404,Maryland,Charles,MD
+405,Maryland,Dorchester,MD
+406,Maryland,Frederick,MD
+407,Maryland,Garrett,MD
+408,Maryland,Harford,MD
+409,Maryland,Howard,MD
+410,Maryland,Kent,MD
+411,Maryland,Montgomery,MD
+412,Maryland,Prince George's,MD
+413,Maryland,Washington,MD
+414,Massachusetts,Barnstable,MA
+415,Massachusetts,Berkshire,MA
+416,Massachusetts,Bristol,MA
+417,Massachusetts,Dukes,MA
+418,Massachusetts,Essex,MA
+419,Massachusetts,Franklin,MA
+420,Massachusetts,Hampden,MA
+421,Massachusetts,Hampshire,MA
+422,Massachusetts,Middlesex,MA
+423,Massachusetts,Norfolk,MA
+424,Massachusetts,Plymouth,MA
+425,Massachusetts,Suffolk,MA
+426,Massachusetts,Worcester,MA
+427,Michigan,Allegan,MI
+428,Michigan,Bay,MI
+429,Michigan,Benzie,MI
+430,Michigan,Berrien,MI
+431,Michigan,Cass,MI
+432,Michigan,Chippewa,MI
+433,Michigan,Clinton,MI
+434,Michigan,Genesee,MI
+435,Michigan,Huron,MI
+436,Michigan,Ingham,MI
+437,Michigan,Kalamazoo,MI
+438,Michigan,Kent,MI
+439,Michigan,Keweenaw,MI
+440,Michigan,Lenawee,MI
+441,Michigan,Macomb,MI
+442,Michigan,Manistee,MI
+443,Michigan,Mason,MI
+444,Michigan,Missaukee,MI
+445,Michigan,Monroe,MI
+446,Michigan,Muskegon,MI
+447,Michigan,Oakland,MI
+448,Michigan,Ottawa,MI
+449,Michigan,Schoolcraft,MI
+450,Michigan,St. Clair,MI
+451,Michigan,Tuscola,MI
+452,Michigan,Washtenaw,MI
+453,Michigan,Wayne,MI
+454,Michigan,Wexford,MI
+455,Minnesota,Anoka,MN
+456,Minnesota,Becker,MN
+457,Minnesota,Beltrami,MN
+458,Minnesota,Carlton,MN
+459,Minnesota,Cook,MN
+460,Minnesota,Crow Wing,MN
+461,Minnesota,Dakota,MN
+462,Minnesota,Goodhue,MN
+463,Minnesota,Hennepin,MN
+464,Minnesota,Lake,MN
+465,Minnesota,Lyon,MN
+466,Minnesota,Mille Lacs,MN
+467,Minnesota,Olmsted,MN
+468,Minnesota,Ramsey,MN
+469,Minnesota,Rock,MN
+470,Minnesota,Saint Louis,MN
+471,Minnesota,Scott,MN
+472,Minnesota,Stearns,MN
+473,Minnesota,Washington,MN
+474,Minnesota,Winona,MN
+475,Minnesota,Wright,MN
+476,Mississippi,Bolivar,MS
+477,Mississippi,DeSoto,MS
+478,Mississippi,Forrest,MS
+479,Mississippi,Hancock,MS
+480,Mississippi,Harrison,MS
+481,Mississippi,Hinds,MS
+482,Mississippi,Jackson,MS
+483,Mississippi,Lauderdale,MS
+484,Mississippi,Lee,MS
+485,Mississippi,Yalobusha,MS
+486,Missouri,Andrew,MO
+487,Missouri,Boone,MO
+488,Missouri,Buchanan,MO
+489,Missouri,Callaway,MO
+490,Missouri,Cass,MO
+491,Missouri,Cedar,MO
+492,Missouri,Clay,MO
+493,Missouri,Clinton,MO
+494,Missouri,Greene,MO
+495,Missouri,Iron,MO
+496,Missouri,Jackson,MO
+497,Missouri,Jasper,MO
+498,Missouri,Jefferson,MO
+499,Missouri,Lincoln,MO
+500,Missouri,Monroe,MO
+501,Missouri,Perry,MO
+502,Missouri,Saint Charles,MO
+503,Missouri,Saint Louis,MO
+504,Missouri,Sainte Genevieve,MO
+505,Missouri,St. Louis City,MO
+506,Missouri,Stoddard,MO
+507,Missouri,Taney,MO
+508,Montana,Cascade,MT
+509,Montana,Fergus,MT
+510,Montana,Flathead,MT
+511,Montana,Gallatin,MT
+512,Montana,Lake,MT
+513,Montana,Lewis and Clark,MT
+514,Montana,Lincoln,MT
+515,Montana,Missoula,MT
+516,Montana,Phillips,MT
+517,Montana,Powder River,MT
+518,Montana,Powell,MT
+519,Montana,Ravalli,MT
+520,Montana,Richland,MT
+521,Montana,Roosevelt,MT
+522,Montana,Rosebud,MT
+523,Montana,Sanders,MT
+524,Montana,Sheridan,MT
+525,Montana,Silver Bow,MT
+526,Montana,Yellowstone,MT
+527,Nebraska,Cass,NE
+528,Nebraska,Dawson,NE
+529,Nebraska,Douglas,NE
+530,Nebraska,Garden,NE
+531,Nebraska,Hall,NE
+532,Nebraska,Knox,NE
+533,Nebraska,Lancaster,NE
+534,Nebraska,Sarpy,NE
+535,Nebraska,Scotts Bluff,NE
+536,Nebraska,Thomas,NE
+537,Nebraska,Washington,NE
+538,Nevada,Carson City,NV
+539,Nevada,Churchill,NV
+540,Nevada,Clark,NV
+541,Nevada,Douglas,NV
+542,Nevada,Elko,NV
+543,Nevada,Lyon,NV
+544,Nevada,Nye,NV
+545,Nevada,Washoe,NV
+546,Nevada,White Pine,NV
+547,New Hampshire,Belknap,NH
+548,New Hampshire,Cheshire,NH
+549,New Hampshire,Coos,NH
+550,New Hampshire,Grafton,NH
+551,New Hampshire,Hillsborough,NH
+552,New Hampshire,Merrimack,NH
+553,New Hampshire,Rockingham,NH
+554,New Jersey,Atlantic,NJ
+555,New Jersey,Bergen,NJ
+556,New Jersey,Camden,NJ
+557,New Jersey,Cumberland,NJ
+558,New Jersey,Essex,NJ
+559,New Jersey,Gloucester,NJ
+560,New Jersey,Hudson,NJ
+561,New Jersey,Hunterdon,NJ
+562,New Jersey,Mercer,NJ
+563,New Jersey,Middlesex,NJ
+564,New Jersey,Monmouth,NJ
+565,New Jersey,Morris,NJ
+566,New Jersey,Ocean,NJ
+567,New Jersey,Passaic,NJ
+568,New Jersey,Union,NJ
+569,New Jersey,Warren,NJ
+570,New Mexico,Bernalillo,NM
+571,New Mexico,Catron,NM
+572,New Mexico,Chaves,NM
+573,New Mexico,Dona Ana,NM
+574,New Mexico,Eddy,NM
+575,New Mexico,Grant,NM
+576,New Mexico,Lea,NM
+577,New Mexico,Lincoln,NM
+578,New Mexico,Los Alamos,NM
+579,New Mexico,Luna,NM
+580,New Mexico,Rio Arriba,NM
+581,New Mexico,San Juan,NM
+582,New Mexico,Sandoval,NM
+583,New Mexico,Santa Fe,NM
+584,New Mexico,Socorro,NM
+585,New Mexico,Taos,NM
+586,New Mexico,Valencia,NM
+587,New York,Albany,NY
+588,New York,Bronx,NY
+589,New York,Chautauqua,NY
+590,New York,Dutchess,NY
+591,New York,Erie,NY
+592,New York,Essex,NY
+593,New York,Franklin,NY
+594,New York,Hamilton,NY
+595,New York,Herkimer,NY
+596,New York,Jefferson,NY
+597,New York,Kings,NY
+598,New York,Monroe,NY
+599,New York,Nassau,NY
+600,New York,New York,NY
+601,New York,Niagara,NY
+602,New York,Oneida,NY
+603,New York,Onondaga,NY
+604,New York,Orange,NY
+605,New York,Oswego,NY
+606,New York,Putnam,NY
+607,New York,Queens,NY
+608,New York,Richmond,NY
+609,New York,Rockland,NY
+610,New York,Saratoga,NY
+611,New York,Steuben,NY
+612,New York,Suffolk,NY
+613,New York,Tompkins,NY
+614,New York,Wayne,NY
+615,New York,Westchester,NY
+616,North Carolina,Alamance,NC
+617,North Carolina,Alexander,NC
+618,North Carolina,Avery,NC
+619,North Carolina,Beaufort,NC
+620,North Carolina,Buncombe,NC
+621,North Carolina,Caldwell,NC
+622,North Carolina,Carteret,NC
+623,North Carolina,Caswell,NC
+624,North Carolina,Catawba,NC
+625,North Carolina,Chatham,NC
+626,North Carolina,Cumberland,NC
+627,North Carolina,Davidson,NC
+628,North Carolina,Davie,NC
+629,North Carolina,Duplin,NC
+630,North Carolina,Durham,NC
+631,North Carolina,Edgecombe,NC
+632,North Carolina,Forsyth,NC
+633,North Carolina,Franklin,NC
+634,North Carolina,Gaston,NC
+635,North Carolina,Graham,NC
+636,North Carolina,Granville,NC
+637,North Carolina,Guilford,NC
+638,North Carolina,Haywood,NC
+639,North Carolina,Hyde,NC
+640,North Carolina,Jackson,NC
+641,North Carolina,Johnston,NC
+642,North Carolina,Lee,NC
+643,North Carolina,Lenoir,NC
+644,North Carolina,Lincoln,NC
+645,North Carolina,Macon,NC
+646,North Carolina,Martin,NC
+647,North Carolina,McDowell,NC
+648,North Carolina,Mecklenburg,NC
+649,North Carolina,Mitchell,NC
+650,North Carolina,Montgomery,NC
+651,North Carolina,New Hanover,NC
+652,North Carolina,Person,NC
+653,North Carolina,Pitt,NC
+654,North Carolina,Robeson,NC
+655,North Carolina,Rockingham,NC
+656,North Carolina,Rowan,NC
+657,North Carolina,Swain,NC
+658,North Carolina,Union,NC
+659,North Carolina,Wake,NC
+660,North Carolina,Watauga,NC
+661,North Carolina,Wayne,NC
+662,North Carolina,Yancey,NC
+663,North Dakota,Billings,ND
+664,North Dakota,Burke,ND
+665,North Dakota,Burleigh,ND
+666,North Dakota,Cass,ND
+667,North Dakota,Dunn,ND
+668,North Dakota,McKenzie,ND
+669,North Dakota,Mercer,ND
+670,North Dakota,Oliver,ND
+671,North Dakota,Williams,ND
+672,Ohio,Adams,OH
+673,Ohio,Allen,OH
+674,Ohio,Ashtabula,OH
+675,Ohio,Athens,OH
+676,Ohio,Belmont,OH
+677,Ohio,Butler,OH
+678,Ohio,Clark,OH
+679,Ohio,Clermont,OH
+680,Ohio,Clinton,OH
+681,Ohio,Columbiana,OH
+682,Ohio,Cuyahoga,OH
+683,Ohio,Delaware,OH
+684,Ohio,Fayette,OH
+685,Ohio,Franklin,OH
+686,Ohio,Geauga,OH
+687,Ohio,Greene,OH
+688,Ohio,Hamilton,OH
+689,Ohio,Jefferson,OH
+690,Ohio,Knox,OH
+691,Ohio,Lake,OH
+692,Ohio,Lawrence,OH
+693,Ohio,Licking,OH
+694,Ohio,Lorain,OH
+695,Ohio,Lucas,OH
+696,Ohio,Madison,OH
+697,Ohio,Mahoning,OH
+698,Ohio,Medina,OH
+699,Ohio,Meigs,OH
+700,Ohio,Miami,OH
+701,Ohio,Montgomery,OH
+702,Ohio,Morgan,OH
+703,Ohio,Noble,OH
+704,Ohio,Portage,OH
+705,Ohio,Preble,OH
+706,Ohio,Scioto,OH
+707,Ohio,Stark,OH
+708,Ohio,Summit,OH
+709,Ohio,Trumbull,OH
+710,Ohio,Warren,OH
+711,Ohio,Washington,OH
+712,Ohio,Wood,OH
+713,Oklahoma,Adair,OK
+714,Oklahoma,Bryan,OK
+715,Oklahoma,Caddo,OK
+716,Oklahoma,Canadian,OK
+717,Oklahoma,Cherokee,OK
+718,Oklahoma,Cleveland,OK
+719,Oklahoma,Comanche,OK
+720,Oklahoma,Creek,OK
+721,Oklahoma,Dewey,OK
+722,Oklahoma,Ellis,OK
+723,Oklahoma,Jefferson,OK
+724,Oklahoma,Kay,OK
+725,Oklahoma,Lincoln,OK
+726,Oklahoma,Love,OK
+727,Oklahoma,Mayes,OK
+728,Oklahoma,McClain,OK
+729,Oklahoma,Muskogee,OK
+730,Oklahoma,Oklahoma,OK
+731,Oklahoma,Ottawa,OK
+732,Oklahoma,Pittsburg,OK
+733,Oklahoma,Sequoyah,OK
+734,Oklahoma,Tulsa,OK
+735,Oregon,Baker,OR
+736,Oregon,Benton,OR
+737,Oregon,Clackamas,OR
+738,Oregon,Columbia,OR
+739,Oregon,Crook,OR
+740,Oregon,Deschutes,OR
+741,Oregon,Douglas,OR
+742,Oregon,Grant,OR
+743,Oregon,Harney,OR
+744,Oregon,Jackson,OR
+745,Oregon,Jefferson,OR
+746,Oregon,Josephine,OR
+747,Oregon,Klamath,OR
+748,Oregon,Lake,OR
+749,Oregon,Lane,OR
+750,Oregon,Linn,OR
+751,Oregon,Marion,OR
+752,Oregon,Multnomah,OR
+753,Oregon,Umatilla,OR
+754,Oregon,Union,OR
+755,Oregon,Wallowa,OR
+756,Oregon,Wasco,OR
+757,Oregon,Washington,OR
+758,Pennsylvania,Adams,PA
+759,Pennsylvania,Allegheny,PA
+760,Pennsylvania,Armstrong,PA
+761,Pennsylvania,Beaver,PA
+762,Pennsylvania,Berks,PA
+763,Pennsylvania,Blair,PA
+764,Pennsylvania,Bradford,PA
+765,Pennsylvania,Bucks,PA
+766,Pennsylvania,Cambria,PA
+767,Pennsylvania,Centre,PA
+768,Pennsylvania,Chester,PA
+769,Pennsylvania,Clearfield,PA
+770,Pennsylvania,Cumberland,PA
+771,Pennsylvania,Dauphin,PA
+772,Pennsylvania,Delaware,PA
+773,Pennsylvania,Elk,PA
+774,Pennsylvania,Erie,PA
+775,Pennsylvania,Franklin,PA
+776,Pennsylvania,Greene,PA
+777,Pennsylvania,Indiana,PA
+778,Pennsylvania,Lackawanna,PA
+779,Pennsylvania,Lancaster,PA
+780,Pennsylvania,Lawrence,PA
+781,Pennsylvania,Lebanon,PA
+782,Pennsylvania,Lehigh,PA
+783,Pennsylvania,Luzerne,PA
+784,Pennsylvania,Lycoming,PA
+785,Pennsylvania,Mercer,PA
+786,Pennsylvania,Monroe,PA
+787,Pennsylvania,Montgomery,PA
+788,Pennsylvania,Northampton,PA
+789,Pennsylvania,Perry,PA
+790,Pennsylvania,Philadelphia,PA
+791,Pennsylvania,Somerset,PA
+792,Pennsylvania,Tioga,PA
+793,Pennsylvania,Warren,PA
+794,Pennsylvania,Washington,PA
+795,Pennsylvania,Westmoreland,PA
+796,Pennsylvania,York,PA
+797,Puerto Rico,Adjuntas,
+798,Puerto Rico,Bayamon,
+799,Puerto Rico,Catano,
+800,Puerto Rico,Fajardo,
+801,Puerto Rico,Guayama,
+802,Puerto Rico,Guayanilla,
+803,Puerto Rico,Guaynabo,
+804,Puerto Rico,Humacao,
+805,Puerto Rico,Juncos,
+806,Puerto Rico,Mayagnez,
+807,Puerto Rico,Ponce,
+808,Puerto Rico,Salinas,
+809,Puerto Rico,San Juan,
+810,Rhode Island,Kent,RI
+811,Rhode Island,Providence,RI
+812,Rhode Island,Washington,RI
+813,South Carolina,Abbeville,SC
+814,South Carolina,Aiken,SC
+815,South Carolina,Anderson,SC
+816,South Carolina,Berkeley,SC
+817,South Carolina,Charleston,SC
+818,South Carolina,Cherokee,SC
+819,South Carolina,Chesterfield,SC
+820,South Carolina,Colleton,SC
+821,South Carolina,Darlington,SC
+822,South Carolina,Edgefield,SC
+823,South Carolina,Florence,SC
+824,South Carolina,Georgetown,SC
+825,South Carolina,Greenville,SC
+826,South Carolina,Lexington,SC
+827,South Carolina,Oconee,SC
+828,South Carolina,Pickens,SC
+829,South Carolina,Richland,SC
+830,South Carolina,Spartanburg,SC
+831,South Carolina,York,SC
+832,South Dakota,Brookings,
+833,South Dakota,Brown,
+834,South Dakota,Codington,
+835,South Dakota,Custer,
+836,South Dakota,Jackson,
+837,South Dakota,Meade,
+838,South Dakota,Minnehaha,
+839,South Dakota,Pennington,
+840,South Dakota,Union,
+841,Tennessee,Anderson,TN
+842,Tennessee,Blount,TN
+843,Tennessee,Claiborne,TN
+844,Tennessee,Davidson,TN
+845,Tennessee,DeKalb,TN
+846,Tennessee,Dyer,TN
+847,Tennessee,Hamilton,TN
+848,Tennessee,Jefferson,TN
+849,Tennessee,Knox,TN
+850,Tennessee,Lawrence,TN
+851,Tennessee,Loudon,TN
+852,Tennessee,Madison,TN
+853,Tennessee,Maury,TN
+854,Tennessee,McMinn,TN
+855,Tennessee,Montgomery,TN
+856,Tennessee,Putnam,TN
+857,Tennessee,Roane,TN
+858,Tennessee,Sevier,TN
+859,Tennessee,Shelby,TN
+860,Tennessee,Sullivan,TN
+861,Tennessee,Sumner,TN
+862,Tennessee,Union,TN
+863,Tennessee,Williamson,TN
+864,Tennessee,Wilson,TN
+865,Texas,Bell,TX
+866,Texas,Bexar,TX
+867,Texas,Bowie,TX
+868,Texas,Brazoria,TX
+869,Texas,Brewster,TX
+870,Texas,Cameron,TX
+871,Texas,Collin,TX
+872,Texas,Culberson,TX
+873,Texas,Dallas,TX
+874,Texas,Denton,TX
+875,Texas,Ector,TX
+876,Texas,El Paso,TX
+877,Texas,Ellis,TX
+878,Texas,Fayette,TX
+879,Texas,Galveston,TX
+880,Texas,Gregg,TX
+881,Texas,Harris,TX
+882,Texas,Harrison,TX
+883,Texas,Hidalgo,TX
+884,Texas,Hood,TX
+885,Texas,Hunt,TX
+886,Texas,Jefferson,TX
+887,Texas,Johnson,TX
+888,Texas,Kaufman,TX
+889,Texas,Kleberg,TX
+890,Texas,Lubbock,TX
+891,Texas,Maverick,TX
+892,Texas,McLennan,TX
+893,Texas,Montgomery,TX
+894,Texas,Navarro,TX
+895,Texas,Nueces,TX
+896,Texas,Orange,TX
+897,Texas,Parker,TX
+898,Texas,Polk,TX
+899,Texas,Potter,TX
+900,Texas,Randall,TX
+901,Texas,Rockwall,TX
+902,Texas,Smith,TX
+903,Texas,Tarrant,TX
+904,Texas,Travis,TX
+905,Texas,Victoria,TX
+906,Texas,Webb,TX
+907,Texas,Wichita,TX
+908,Utah,Box Elder,UT
+909,Utah,Cache,UT
+910,Utah,Carbon,UT
+911,Utah,Daggett,UT
+912,Utah,Davis,UT
+913,Utah,Duchesne,UT
+914,Utah,Garfield,UT
+915,Utah,Salt Lake,UT
+916,Utah,San Juan,UT
+917,Utah,Tooele,UT
+918,Utah,Uintah,UT
+919,Utah,Utah,UT
+920,Utah,Washington,UT
+921,Utah,Wayne,UT
+922,Utah,Weber,UT
+923,Vermont,Bennington,VT
+924,Vermont,Chittenden,VT
+925,Vermont,Rutland,VT
+926,Vermont,Windham,VT
+927,Virgin Islands,St Croix,
+928,Virgin Islands,St John,
+929,Virginia,Albemarle,VA
+930,Virginia,Alexandria City,VA
+931,Virginia,Arlington,VA
+932,Virginia,Bristol City,VA
+933,Virginia,Caroline,VA
+934,Virginia,Carroll,VA
+935,Virginia,Charles,VA
+936,Virginia,Chesterfield,VA
+937,Virginia,Fairfax,VA
+938,Virginia,Fauquier,VA
+939,Virginia,Frederick,VA
+940,Virginia,Fredericksburg City,VA
+941,Virginia,Giles,VA
+942,Virginia,Hampton City,VA
+943,Virginia,Hanover,VA
+944,Virginia,Henrico,VA
+945,Virginia,Hopewell City,VA
+946,Virginia,King William,VA
+947,Virginia,Loudoun,VA
+948,Virginia,Lynchburg City,VA
+949,Virginia,Madison,VA
+950,Virginia,Norfolk City,VA
+951,Virginia,Page,VA
+952,Virginia,Prince Edward,VA
+953,Virginia,Prince William,VA
+954,Virginia,Richmond City,VA
+955,Virginia,Roanoke,VA
+956,Virginia,Rockbridge,VA
+957,Virginia,Rockingham,VA
+958,Virginia,Salem City,VA
+959,Virginia,Stafford,VA
+960,Virginia,Suffolk City,VA
+961,Virginia,Virginia Beach City,VA
+962,Virginia,Winchester City,VA
+963,Virginia,Wythe,VA
+964,Washington,Adams,WA
+965,Washington,Asotin,WA
+966,Washington,Benton,WA
+967,Washington,Chelan,WA
+968,Washington,Clallam,WA
+969,Washington,Clark,WA
+970,Washington,Columbia,WA
+971,Washington,Cowlitz,WA
+972,Washington,Franklin,WA
+973,Washington,Grant,WA
+974,Washington,Grays Harbor,WA
+975,Washington,Jefferson,WA
+976,Washington,King,WA
+977,Washington,Kitsap,WA
+978,Washington,Kittitas,WA
+979,Washington,Klickitat,WA
+980,Washington,Lewis,WA
+981,Washington,Mason,WA
+982,Washington,Okanogan,WA
+983,Washington,Pierce,WA
+984,Washington,Skagit,WA
+985,Washington,Snohomish,WA
+986,Washington,Spokane,WA
+987,Washington,Stevens,WA
+988,Washington,Thurston,WA
+989,Washington,Walla Walla,WA
+990,Washington,Whatcom,WA
+991,Washington,Whitman,WA
+992,Washington,Yakima,WA
+993,West Virginia,Berkeley,WV
+994,West Virginia,Brooke,WV
+995,West Virginia,Cabell,WV
+996,West Virginia,Gilmer,WV
+997,West Virginia,Greenbrier,WV
+998,West Virginia,Hancock,WV
+999,West Virginia,Harrison,WV
+1000,West Virginia,Kanawha,WV
+1001,West Virginia,Marion,WV
+1002,West Virginia,Marshall,WV
+1003,West Virginia,Monongalia,WV
+1004,West Virginia,Ohio,WV
+1005,West Virginia,Raleigh,WV
+1006,West Virginia,Tucker,WV
+1007,West Virginia,Wood,WV
+1008,Wisconsin,Ashland,WI
+1009,Wisconsin,Brown,WI
+1010,Wisconsin,Columbia,WI
+1011,Wisconsin,Dane,WI
+1012,Wisconsin,Dodge,WI
+1013,Wisconsin,Door,WI
+1014,Wisconsin,Eau Claire,WI
+1015,Wisconsin,Fond du Lac,WI
+1016,Wisconsin,Forest,WI
+1017,Wisconsin,Grant,WI
+1018,Wisconsin,Jefferson,WI
+1019,Wisconsin,Kenosha,WI
+1020,Wisconsin,Kewaunee,WI
+1021,Wisconsin,La Crosse,WI
+1022,Wisconsin,Manitowoc,WI
+1023,Wisconsin,Marathon,WI
+1024,Wisconsin,Milwaukee,WI
+1025,Wisconsin,Oneida,WI
+1026,Wisconsin,Outagamie,WI
+1027,Wisconsin,Ozaukee,WI
+1028,Wisconsin,Rock,WI
+1029,Wisconsin,Sauk,WI
+1030,Wisconsin,Sheboygan,WI
+1031,Wisconsin,Taylor,WI
+1032,Wisconsin,Vilas,WI
+1033,Wisconsin,Walworth,WI
+1034,Wisconsin,Waukesha,WI
+1035,Wyoming,Albany,WY
+1036,Wyoming,Big Horn,WY
+1037,Wyoming,Campbell,WY
+1038,Wyoming,Carbon,WY
+1039,Wyoming,Converse,WY
+1040,Wyoming,Fremont,WY
+1041,Wyoming,Goshen,WY
+1042,Wyoming,Johnson,WY
+1043,Wyoming,Laramie,WY
+1044,Wyoming,Lincoln,WY
+1045,Wyoming,Natrona,WY
+1046,Wyoming,Park,WY
+1047,Wyoming,Platte,WY
+1048,Wyoming,Sheridan,WY
+1049,Wyoming,Sublette,WY
+1050,Wyoming,Sweetwater,WY
+1051,Wyoming,Teton,WY
+1052,Wyoming,Uinta,WY
+1053,Wyoming,Weston,WY
+1054,Colorado,Grand,CO
+1055,Idaho,Blaine,ID
+1056,Idaho,Boise,ID
+1057,Idaho,Bonneville,ID
+1058,Idaho,Idaho,ID
+1059,Idaho,Jerome,ID
+1060,Idaho,Kootenai,ID
+1061,Idaho,Latah,ID
+1062,Idaho,Nez Perce,ID
+1063,Idaho,Twin Falls,ID
+1064,Idaho,Valley,ID
+1065,Louisiana,St. Martin,LA
+1066,Maine,Franklin,ME
+1067,Mississippi,Grenada,MS
+1068,Missouri,Franklin,MO
+1069,North Dakota,Stutsman,ND
+1070,Oklahoma,Cotton,OK
+1071,Oklahoma,Custer,OK
+1072,Oklahoma,Johnston,OK
+1073,South Dakota,Hughes,
+1074,Wisconsin,Racine,WI
+1075,Colorado,Montrose,CO
+1076,Illinois,Monroe,IL
+1077,North Carolina,Brunswick,NC
+1078,Oklahoma,Carter,OK
+1079,Oklahoma,Grady,OK
+1080,Oklahoma,Osage,OK
+1081,Oklahoma,Washington,OK
+1082,Puerto Rico,Caguas,
+1083,South Carolina,Horry,SC
+1084,Texas,Howard,TX
+1085,Texas,Hutchinson,TX
+1086,Texas,Milam,TX
+1087,Texas,Robertson,TX
+1088,Texas,Titus,TX
+1089,Country Of Mexico,SONORA,
+1090,Indiana,Sullivan,IN
+1091,Maryland,Allegany,MD
+1092,Missouri,New Madrid,MO
+1093,New York,Seneca,NY
+1094,New York,St. Lawrence,NY
+1095,North Dakota,Ward,ND
+1096,Ohio,Gallia,OH
+1097,Oklahoma,Choctaw,OK
+1098,Oklahoma,Garfield,OK
+1099,Texas,Freestone,TX
+1100,Texas,Rusk,TX
+1101,Virginia,Botetourt,VA
+1102,Virginia,Covington City,VA
+1103,Washington,Garfield,WA
+1104,West Virginia,Mason,WV
+1105,West Virginia,Mineral,WV
+1106,Minnesota,Cass,MN
+1107,Ohio,Harrison,OH
+1108,Oklahoma,Nowata,OK
+1109,Utah,Iron,UT

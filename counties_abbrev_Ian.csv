@@ -1,0 +1,320 @@
+,State,County,Abbreviation
+81,California,Sacramento,CA
+82,California,San Benito,CA
+83,California,San Bernardino,CA
+84,California,San Diego,CA
+85,California,San Francisco,CA
+86,California,San Joaquin,CA
+87,California,San Luis Obispo,CA
+88,California,San Mateo,CA
+89,California,Santa Barbara,CA
+90,California,Santa Clara,CA
+91,California,Santa Cruz,CA
+92,California,Shasta,CA
+93,California,Siskiyou,CA
+94,California,Solano,CA
+95,California,Sonoma,CA
+96,California,Stanislaus,CA
+97,California,Sutter,CA
+98,California,Tehama,CA
+99,California,Trinity,CA
+100,California,Tulare,CA
+101,California,Tuolumne,CA
+102,California,Ventura,CA
+103,California,Yolo,CA
+104,Colorado,Adams,CO
+105,Colorado,Alamosa,CO
+106,Colorado,Arapahoe,CO
+107,Colorado,Archuleta,CO
+108,Colorado,Boulder,CO
+109,Colorado,Chaffee,CO
+110,Colorado,Clear Creek,CO
+111,Colorado,Delta,CO
+112,Colorado,Denver,CO
+113,Colorado,Douglas,CO
+114,Colorado,El Paso,CO
+115,Colorado,Fremont,CO
+116,Colorado,Garfield,CO
+117,Colorado,Gunnison,CO
+118,Colorado,Jackson,CO
+119,Colorado,Jefferson,CO
+120,Colorado,La Plata,CO
+121,Colorado,Larimer,CO
+122,Colorado,Mesa,CO
+123,Colorado,Moffat,CO
+124,Colorado,Montezuma,CO
+125,Colorado,Park,CO
+126,Colorado,Pitkin,CO
+127,Colorado,Prowers,CO
+128,Colorado,Pueblo,CO
+129,Colorado,Rio Blanco,CO
+130,Colorado,Routt,CO
+131,Colorado,San Juan,CO
+132,Colorado,San Miguel,CO
+133,Colorado,Weld,CO
+134,Connecticut,Fairfield,CT
+135,Connecticut,Hartford,CT
+136,Connecticut,Litchfield,CT
+137,Connecticut,Middlesex,CT
+138,Connecticut,New Haven,CT
+139,Connecticut,New London,CT
+140,Connecticut,Tolland,CT
+141,Connecticut,Windham,CT
+142,Country Of Mexico,BAJA CALIFORNIA NORTE,
+143,Country Of Mexico,CHIHUAHUA STATE,
+144,Delaware,Kent,DE
+145,Delaware,New Castle,DE
+146,Delaware,Sussex,DE
+147,District Of Columbia,District of Columbia,
+148,Florida,Alachua,FL
+149,Florida,Baker,FL
+150,Florida,Bay,FL
+151,Florida,Brevard,FL
+152,Florida,Broward,FL
+153,Florida,Citrus,FL
+154,Florida,Collier,FL
+155,Florida,Columbia,FL
+156,Florida,Duval,FL
+157,Florida,Escambia,FL
+158,Florida,Flagler,FL
+159,Florida,Hamilton,FL
+160,Florida,Highlands,FL
+161,Florida,Hillsborough,FL
+162,Florida,Holmes,FL
+163,Florida,Indian River,FL
+164,Florida,Lake,FL
+165,Florida,Lee,FL
+166,Florida,Leon,FL
+167,Florida,Liberty,FL
+168,Florida,Manatee,FL
+169,Florida,Marion,FL
+170,Florida,Martin,FL
+171,Florida,Miami-Dade,FL
+172,Florida,Nassau,FL
+173,Florida,Okaloosa,FL
+174,Florida,Orange,FL
+175,Florida,Osceola,FL
+176,Florida,Palm Beach,FL
+177,Florida,Pasco,FL
+178,Florida,Pinellas,FL
+179,Florida,Polk,FL
+180,Florida,Putnam,FL
+181,Florida,Santa Rosa,FL
+182,Florida,Sarasota,FL
+183,Florida,Seminole,FL
+184,Florida,St. Lucie,FL
+185,Florida,Volusia,FL
+186,Florida,Wakulla,FL
+187,Georgia,Bibb,GA
+188,Georgia,Charlton,GA
+189,Georgia,Chatham,GA
+190,Georgia,Chattooga,GA
+191,Georgia,Clarke,GA
+192,Georgia,Clayton,GA
+193,Georgia,Cobb,GA
+194,Georgia,Coffee,GA
+195,Georgia,Columbia,GA
+196,Georgia,Coweta,GA
+197,Georgia,Dawson,GA
+198,Georgia,DeKalb,GA
+199,Georgia,Dougherty,GA
+200,Georgia,Douglas,GA
+201,Georgia,Floyd,GA
+202,Georgia,Fulton,GA
+203,Georgia,Glynn,GA
+204,Georgia,Gwinnett,GA
+205,Georgia,Hall,GA
+206,Georgia,Henry,GA
+207,Georgia,Houston,GA
+208,Georgia,Lowndes,GA
+209,Georgia,Murray,GA
+210,Georgia,Muscogee,GA
+211,Georgia,Paulding,GA
+212,Georgia,Pike,GA
+213,Georgia,Richmond,GA
+214,Georgia,Rockdale,GA
+215,Georgia,Sumter,GA
+216,Georgia,Walker,GA
+217,Georgia,Washington,GA
+218,Georgia,Wilkinson,GA
+219,Hawaii,Hawaii,HI
+220,Hawaii,Honolulu,HI
+221,Hawaii,Kauai,HI
+222,Hawaii,Maui,HI
+223,Idaho,Ada,ID
+224,Idaho,Bannock,ID
+225,Idaho,Benewah,ID
+226,Idaho,Bonner,ID
+227,Idaho,Butte,ID
+228,Idaho,Canyon,ID
+229,Idaho,Caribou,ID
+230,Idaho,Custer,ID
+231,Idaho,Franklin,ID
+232,Idaho,Lemhi,ID
+233,Idaho,Shoshone,ID
+234,Illinois,Adams,IL
+235,Illinois,Champaign,IL
+236,Illinois,Clark,IL
+237,Illinois,Cook,IL
+238,Illinois,DuPage,IL
+239,Illinois,Effingham,IL
+240,Illinois,Hamilton,IL
+241,Illinois,Jersey,IL
+242,Illinois,Jo Daviess,IL
+243,Illinois,Kane,IL
+244,Illinois,La Salle,IL
+245,Illinois,Lake,IL
+246,Illinois,Macon,IL
+247,Illinois,Macoupin,IL
+248,Illinois,Madison,IL
+249,Illinois,McHenry,IL
+250,Illinois,McLean,IL
+251,Illinois,Peoria,IL
+252,Illinois,Randolph,IL
+253,Illinois,Rock Island,IL
+254,Illinois,Saint Clair,IL
+255,Illinois,Sangamon,IL
+256,Illinois,Tazewell,IL
+257,Illinois,Wabash,IL
+258,Illinois,Will,IL
+259,Illinois,Winnebago,IL
+260,Indiana,Allen,IN
+261,Indiana,Bartholomew,IN
+262,Indiana,Boone,IN
+263,Indiana,Brown,IN
+264,Indiana,Carroll,IN
+265,Indiana,Clark,IN
+266,Indiana,Daviess,IN
+267,Indiana,Delaware,IN
+268,Indiana,Dubois,IN
+269,Indiana,Elkhart,IN
+270,Indiana,Floyd,IN
+271,Indiana,Fountain,IN
+272,Indiana,Gibson,IN
+273,Indiana,Greene,IN
+274,Indiana,Hamilton,IN
+275,Indiana,Hancock,IN
+276,Indiana,Hendricks,IN
+277,Indiana,Henry,IN
+278,Indiana,Howard,IN
+279,Indiana,Huntington,IN
+280,Indiana,Jackson,IN
+281,Indiana,Jasper,IN
+282,Indiana,Johnson,IN
+283,Indiana,Knox,IN
+284,Indiana,LaPorte,IN
+285,Indiana,Lake,IN
+286,Indiana,Madison,IN
+287,Indiana,Marion,IN
+288,Indiana,Monroe,IN
+289,Indiana,Montgomery,IN
+290,Indiana,Morgan,IN
+291,Indiana,Perry,IN
+292,Indiana,Pike,IN
+293,Indiana,Porter,IN
+294,Indiana,Posey,IN
+295,Indiana,Shelby,IN
+296,Indiana,Spencer,IN
+297,Indiana,St. Joseph,IN
+298,Indiana,Tippecanoe,IN
+299,Indiana,Vanderburgh,IN
+300,Indiana,Vigo,IN
+301,Indiana,Wabash,IN
+302,Indiana,Warrick,IN
+303,Indiana,Wayne,IN
+304,Indiana,Whitley,IN
+305,Iowa,Black Hawk,IA
+306,Iowa,Bremer,IA
+307,Iowa,Cerro Gordo,IA
+308,Iowa,Clinton,IA
+309,Iowa,Delaware,IA
+310,Iowa,Harrison,IA
+311,Iowa,Johnson,IA
+312,Iowa,Lee,IA
+313,Iowa,Linn,IA
+314,Iowa,Montgomery,IA
+315,Iowa,Muscatine,IA
+316,Iowa,Palo Alto,IA
+317,Iowa,Polk,IA
+318,Iowa,Pottawattamie,IA
+319,Iowa,Scott,IA
+320,Iowa,Story,IA
+321,Iowa,Van Buren,IA
+322,Iowa,Warren,IA
+323,Iowa,Woodbury,IA
+324,Kansas,Chase,KS
+325,Kansas,Ford,KS
+326,Kansas,Johnson,KS
+327,Kansas,Leavenworth,KS
+328,Kansas,Linn,KS
+329,Kansas,Neosho,KS
+330,Kansas,Sedgwick,KS
+331,Kansas,Shawnee,KS
+332,Kansas,Sherman,KS
+333,Kansas,Sumner,KS
+334,Kansas,Trego,KS
+335,Kansas,Wyandotte,KS
+336,Kentucky,Bell,KY
+337,Kentucky,Boone,KY
+338,Kentucky,Boyd,KY
+339,Kentucky,Bullitt,KY
+340,Kentucky,Campbell,KY
+341,Kentucky,Carter,KY
+342,Kentucky,Christian,KY
+343,Kentucky,Daviess,KY
+344,Kentucky,Edmonson,KY
+345,Kentucky,Fayette,KY
+346,Kentucky,Greenup,KY
+347,Kentucky,Hancock,KY
+348,Kentucky,Hardin,KY
+349,Kentucky,Henderson,KY
+350,Kentucky,Jefferson,KY
+351,Kentucky,Jessamine,KY
+352,Kentucky,Livingston,KY
+353,Kentucky,Madison,KY
+354,Kentucky,Marshall,KY
+355,Kentucky,McCracken,KY
+356,Kentucky,Morgan,KY
+357,Kentucky,Oldham,KY
+358,Kentucky,Perry,KY
+359,Kentucky,Pike,KY
+360,Kentucky,Pulaski,KY
+361,Kentucky,Simpson,KY
+362,Kentucky,Trigg,KY
+363,Kentucky,Warren,KY
+364,Kentucky,Washington,KY
+365,Louisiana,Ascension,LA
+366,Louisiana,Bossier,LA
+367,Louisiana,Caddo,LA
+368,Louisiana,Calcasieu,LA
+369,Louisiana,East Baton Rouge,LA
+370,Louisiana,Iberville,LA
+371,Louisiana,Jefferson,LA
+372,Louisiana,Lafayette,LA
+373,Louisiana,Lafourche,LA
+374,Louisiana,Livingston,LA
+375,Louisiana,Orleans,LA
+376,Louisiana,Ouachita,LA
+377,Louisiana,Pointe Coupee,LA
+378,Louisiana,Rapides,LA
+379,Louisiana,St. Bernard,LA
+380,Louisiana,St. Charles,LA
+381,Louisiana,St. James,LA
+382,Louisiana,St. John the Baptist,LA
+383,Louisiana,St. Tammany,LA
+384,Louisiana,Tangipahoa,LA
+385,Louisiana,Terrebonne,LA
+386,Louisiana,West Baton Rouge,LA
+387,Maine,Androscoggin,ME
+388,Maine,Aroostook,ME
+389,Maine,Cumberland,ME
+390,Maine,Hancock,ME
+391,Maine,Kennebec,ME
+392,Maine,Knox,ME
+393,Maine,Oxford,ME
+394,Maine,Penobscot,ME
+395,Maine,Sagadahoc,ME
+396,Maine,Washington,ME
+397,Maine,York,ME
+398,Maryland,Anne Arundel,MD
+399,Maryland,Baltimore,MD
