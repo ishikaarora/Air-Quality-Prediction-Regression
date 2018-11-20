@@ -131,7 +131,8 @@ def main():
             print("\nSkipping county {} - {}".format(i,county_name))
             continue
 
-        if i%20 == 0:
+        # we don't want to write for just first county, write every 20 counties!
+        if ((i!=0) & (i%20 == 0)):
             batch += 1
             temp.reset_index(drop=True,inplace=True)
             print("\nWriting data to csv for batch {}".format(batch))
