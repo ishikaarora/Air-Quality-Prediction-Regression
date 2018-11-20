@@ -51,7 +51,7 @@ def get_avg(response, var):
     else:
         print("no STATION in keys")
         return np.nan
-
+# @profile
 def run_api_query(url):
     # t1 = time()
     response = requests.get(url)
@@ -61,7 +61,7 @@ def run_api_query(url):
     # print("Time for quering data from URL: {}".format(t2-t1))
     # print("Time for loading into json: {}".format(t3-t2))
     return resp_json
-
+# @profile
 def run_mesowest_api(state_abbrev, county, year, month, day, token):
     date1 = str(year) + str(month).zfill(2) + str(day).zfill(2)
     date2 = str(year) + str(month).zfill(2) + str(day).zfill(2)
@@ -111,14 +111,14 @@ def get_county_weather_data(token, state, county, start_date, end_date, *argv):
     weather_df["County"] = county
 
     return weather_df
-
+# @profile
 def main():
     temp = pd.DataFrame()
     batch = 0
     counties_abbrev = get_counties()
     token = get_token(mesowest_api_key)
 
-    for i in [15]:
+    for i in range(len(counties_abbrev)):
         county_name = counties_abbrev["County"][i]
         if isinstance(counties_abbrev["Abbreviation"][i], str) & isinstance(counties_abbrev["County"][i], str):
             print("\nGetting weather data for county {} - {}".format(counties_abbrev["OrigIndex"][i], county_name))
