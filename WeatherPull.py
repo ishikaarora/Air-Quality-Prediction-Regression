@@ -22,7 +22,7 @@ def get_counties():
     counties_abbrev["County"] = counties_abbrev["County"].apply(str.strip)
     counties_abbrev["is_city"] = 0
 
-    counties_abbrev = counties_abbrev[counties_abbrev['County'] == 'Berkshire']
+    # counties_abbrev = counties_abbrev[counties_abbrev['County'] == 'Berkshire']
     return counties_abbrev
 
 # Helper functions
@@ -118,7 +118,7 @@ def main():
     counties_abbrev = get_counties()
     token = get_token(mesowest_api_key)
 
-    for i in range(len(counties_abbrev)):
+    for i in [15]:
         county_name = counties_abbrev["County"][i]
         if isinstance(counties_abbrev["Abbreviation"][i], str) & isinstance(counties_abbrev["County"][i], str):
             print("\nGetting weather data for county {} - {}".format(counties_abbrev["OrigIndex"][i], county_name))
@@ -127,7 +127,6 @@ def main():
             temp = pd.concat([temp, temp_upd])
             # t2 = time()
             # print("Total time taken for county {} : {}".format(counties_abbrev["OrigIndex"][i], t2-t1))
-            ctr+=1
         else:
             print("\nSkipping county {} - {}".format(i,county_name))
             continue
