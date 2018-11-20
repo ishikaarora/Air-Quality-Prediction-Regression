@@ -1,0 +1,3143 @@
+Region,Division,StateNum,CountyNum,State,County,Population,Year
+3,6,1,1,alabama,autauga,55278,2016
+3,6,1,3,alabama,baldwin,207509,2016
+3,6,1,5,alabama,barbour,25774,2016
+3,6,1,7,alabama,bibb,22633,2016
+3,6,1,9,alabama,blount,57562,2016
+3,6,1,11,alabama,bullock,10441,2016
+3,6,1,13,alabama,butler,19965,2016
+3,6,1,15,alabama,calhoun,114980,2016
+3,6,1,17,alabama,chambers,33717,2016
+3,6,1,19,alabama,cherokee,25766,2016
+3,6,1,21,alabama,chilton,43830,2016
+3,6,1,23,alabama,choctaw,13050,2016
+3,6,1,25,alabama,clarke,24350,2016
+3,6,1,27,alabama,clay,13410,2016
+3,6,1,29,alabama,cleburne,14873,2016
+3,6,1,31,alabama,coffee,51217,2016
+3,6,1,33,alabama,colbert,54327,2016
+3,6,1,35,alabama,conecuh,12515,2016
+3,6,1,37,alabama,coosa,10809,2016
+3,6,1,39,alabama,covington,37386,2016
+3,6,1,41,alabama,crenshaw,13907,2016
+3,6,1,43,alabama,cullman,82322,2016
+3,6,1,45,alabama,dale,49228,2016
+3,6,1,47,alabama,dallas,40081,2016
+3,6,1,49,alabama,dekalb,71216,2016
+3,6,1,51,alabama,elmore,81240,2016
+3,6,1,53,alabama,escambia,37476,2016
+3,6,1,55,alabama,etowah,102726,2016
+3,6,1,57,alabama,fayette,16538,2016
+3,6,1,59,alabama,franklin,31577,2016
+3,6,1,61,alabama,geneva,26516,2016
+3,6,1,63,alabama,greene,8488,2016
+3,6,1,65,alabama,hale,14847,2016
+3,6,1,67,alabama,henry,17092,2016
+3,6,1,69,alabama,houston,104173,2016
+3,6,1,71,alabama,jackson,52049,2016
+3,6,1,73,alabama,jefferson,659747,2016
+3,6,1,75,alabama,lamar,13949,2016
+3,6,1,77,alabama,lauderdale,92319,2016
+3,6,1,79,alabama,lawrence,33232,2016
+3,6,1,81,alabama,lee,158983,2016
+3,6,1,83,alabama,limestone,92920,2016
+3,6,1,85,alabama,lowndes,10241,2016
+3,6,1,87,alabama,macon,19072,2016
+3,6,1,89,alabama,madison,356312,2016
+3,6,1,91,alabama,marengo,19505,2016
+3,6,1,93,alabama,marion,29922,2016
+3,6,1,95,alabama,marshall,95043,2016
+3,6,1,97,alabama,mobile,414852,2016
+3,6,1,99,alabama,monroe,21572,2016
+3,6,1,101,alabama,montgomery,226716,2016
+3,6,1,103,alabama,morgan,118819,2016
+3,6,1,105,alabama,perry,9570,2016
+3,6,1,107,alabama,pickens,20315,2016
+3,6,1,109,alabama,pike,33215,2016
+3,6,1,111,alabama,randolph,22498,2016
+3,6,1,113,alabama,russell,58177,2016
+3,6,1,115,alabama,st. clair,87482,2016
+3,6,1,117,alabama,shelby,211073,2016
+3,6,1,119,alabama,sumter,12932,2016
+3,6,1,121,alabama,talladega,80386,2016
+3,6,1,123,alabama,tallapoosa,40574,2016
+3,6,1,125,alabama,tuscaloosa,206282,2016
+3,6,1,127,alabama,walker,64561,2016
+3,6,1,129,alabama,washington,16646,2016
+3,6,1,131,alabama,wilcox,10875,2016
+3,6,1,133,alabama,winston,23887,2016
+4,9,2,13,alaska,aleutians east borough,3324,2016
+4,9,2,16,alaska,aleutians west census area,5747,2016
+4,9,2,20,alaska,anchorage municipality,297376,2016
+4,9,2,50,alaska,bethel census area,17980,2016
+4,9,2,60,alaska,bristol bay borough,905,2016
+4,9,2,68,alaska,denali borough,2045,2016
+4,9,2,70,alaska,dillingham census area,4976,2016
+4,9,2,90,alaska,fairbanks north star borough,100602,2016
+4,9,2,100,alaska,haines borough,2531,2016
+4,9,2,105,alaska,hoonah-angoon census area,2145,2016
+4,9,2,110,alaska,juneau city and borough,32405,2016
+4,9,2,122,alaska,kenai peninsula borough,58543,2016
+4,9,2,130,alaska,ketchikan gateway borough,13727,2016
+4,9,2,150,alaska,kodiak island borough,13679,2016
+4,9,2,158,alaska,kusilvak census area,8161,2016
+4,9,2,164,alaska,lake and peninsula borough,1602,2016
+4,9,2,170,alaska,matanuska-susitna borough,104123,2016
+4,9,2,180,alaska,nome census area,9915,2016
+4,9,2,185,alaska,north slope borough,9685,2016
+4,9,2,188,alaska,northwest arctic borough,7662,2016
+4,9,2,195,alaska,petersburg borough,3278,2016
+4,9,2,198,alaska,prince of wales-hyder census area,6507,2016
+4,9,2,220,alaska,sitka city and borough,8768,2016
+4,9,2,230,alaska,skagway municipality,1130,2016
+4,9,2,240,alaska,southeast fairbanks census area,6840,2016
+4,9,2,261,alaska,valdez-cordova census area,9340,2016
+4,9,2,275,alaska,wrangell city and borough,2502,2016
+4,9,2,282,alaska,yakutat city and borough,612,2016
+4,9,2,290,alaska,yukon-koyukuk census area,5412,2016
+4,8,4,1,arizona,apache,71373,2016
+4,8,4,3,arizona,cochise,125355,2016
+4,8,4,5,arizona,coconino,140079,2016
+4,8,4,7,arizona,gila,53297,2016
+4,8,4,9,arizona,graham,37767,2016
+4,8,4,11,arizona,greenlee,9623,2016
+4,8,4,12,arizona,la paz,20523,2016
+4,8,4,13,arizona,maricopa,4233383,2016
+4,8,4,15,arizona,mohave,205385,2016
+4,8,4,17,arizona,navajo,108322,2016
+4,8,4,19,arizona,pima,1012519,2016
+4,8,4,21,arizona,pinal,415115,2016
+4,8,4,23,arizona,santa cruz,46075,2016
+4,8,4,25,arizona,yavapai,224363,2016
+4,8,4,27,arizona,yuma,205463,2016
+3,7,5,1,arkansas,arkansas,18215,2016
+3,7,5,3,arkansas,ashley,20498,2016
+3,7,5,5,arkansas,baxter,41145,2016
+3,7,5,7,arkansas,benton,258704,2016
+3,7,5,9,arkansas,boone,37191,2016
+3,7,5,11,arkansas,bradley,10979,2016
+3,7,5,13,arkansas,calhoun,5162,2016
+3,7,5,15,arkansas,carroll,27728,2016
+3,7,5,17,arkansas,chicot,10912,2016
+3,7,5,19,arkansas,clark,22550,2016
+3,7,5,21,arkansas,clay,15057,2016
+3,7,5,23,arkansas,cleburne,25159,2016
+3,7,5,25,arkansas,cleveland,8260,2016
+3,7,5,27,arkansas,columbia,23983,2016
+3,7,5,29,arkansas,conway,20895,2016
+3,7,5,31,arkansas,craighead,105781,2016
+3,7,5,33,arkansas,crawford,62259,2016
+3,7,5,35,arkansas,crittenden,49320,2016
+3,7,5,37,arkansas,cross,17037,2016
+3,7,5,39,arkansas,dallas,7430,2016
+3,7,5,41,arkansas,desha,11920,2016
+3,7,5,43,arkansas,drew,18628,2016
+3,7,5,45,arkansas,faulkner,122083,2016
+3,7,5,47,arkansas,franklin,17671,2016
+3,7,5,49,arkansas,fulton,12039,2016
+3,7,5,51,arkansas,garland,98231,2016
+3,7,5,53,arkansas,grant,18094,2016
+3,7,5,55,arkansas,greene,44715,2016
+3,7,5,57,arkansas,hempstead,22026,2016
+3,7,5,59,arkansas,hot spring,33446,2016
+3,7,5,61,arkansas,howard,13438,2016
+3,7,5,63,arkansas,independence,37094,2016
+3,7,5,65,arkansas,izard,13490,2016
+3,7,5,67,arkansas,jackson,17309,2016
+3,7,5,69,arkansas,jefferson,70342,2016
+3,7,5,71,arkansas,johnson,26225,2016
+3,7,5,73,arkansas,lafayette,6928,2016
+3,7,5,75,arkansas,lawrence,16639,2016
+3,7,5,77,arkansas,lee,9360,2016
+3,7,5,79,arkansas,lincoln,13810,2016
+3,7,5,81,arkansas,little river,12430,2016
+3,7,5,83,arkansas,logan,21713,2016
+3,7,5,85,arkansas,lonoke,71757,2016
+3,7,5,87,arkansas,madison,16105,2016
+3,7,5,89,arkansas,marion,16369,2016
+3,7,5,91,arkansas,miller,43874,2016
+3,7,5,93,arkansas,mississippi,42885,2016
+3,7,5,95,arkansas,monroe,7235,2016
+3,7,5,97,arkansas,montgomery,8949,2016
+3,7,5,99,arkansas,nevada,8374,2016
+3,7,5,101,arkansas,newton,7869,2016
+3,7,5,103,arkansas,ouachita,24019,2016
+3,7,5,105,arkansas,perry,10273,2016
+3,7,5,107,arkansas,phillips,19050,2016
+3,7,5,109,arkansas,pike,10817,2016
+3,7,5,111,arkansas,poinsett,24008,2016
+3,7,5,113,arkansas,polk,20141,2016
+3,7,5,115,arkansas,pope,63852,2016
+3,7,5,117,arkansas,prairie,8271,2016
+3,7,5,119,arkansas,pulaski,393677,2016
+3,7,5,121,arkansas,randolph,17408,2016
+3,7,5,123,arkansas,st. francis,26304,2016
+3,7,5,125,arkansas,saline,117577,2016
+3,7,5,127,arkansas,scott,10360,2016
+3,7,5,129,arkansas,searcy,7965,2016
+3,7,5,131,arkansas,sebastian,127567,2016
+3,7,5,133,arkansas,sevier,16955,2016
+3,7,5,135,arkansas,sharp,17138,2016
+3,7,5,137,arkansas,stone,12500,2016
+3,7,5,139,arkansas,union,39867,2016
+3,7,5,141,arkansas,van buren,16622,2016
+3,7,5,143,arkansas,washington,227600,2016
+3,7,5,145,arkansas,white,78838,2016
+3,7,5,147,arkansas,woodruff,6623,2016
+3,7,5,149,arkansas,yell,21486,2016
+4,9,6,1,california,alameda,1653236,2016
+4,9,6,3,california,alpine,1057,2016
+4,9,6,5,california,amador,37473,2016
+4,9,6,7,california,butte,226525,2016
+4,9,6,9,california,calaveras,45315,2016
+4,9,6,11,california,colusa,21645,2016
+4,9,6,13,california,contra costa,1138645,2016
+4,9,6,15,california,del norte,27450,2016
+4,9,6,17,california,el dorado,186272,2016
+4,9,6,19,california,fresno,979534,2016
+4,9,6,21,california,glenn,27967,2016
+4,9,6,23,california,humboldt,136449,2016
+4,9,6,25,california,imperial,180980,2016
+4,9,6,27,california,inyo,18034,2016
+4,9,6,29,california,kern,885086,2016
+4,9,6,31,california,kings,149797,2016
+4,9,6,33,california,lake,63950,2016
+4,9,6,35,california,lassen,30944,2016
+4,9,6,37,california,los angeles,10150558,2016
+4,9,6,39,california,madera,154966,2016
+4,9,6,41,california,marin,261532,2016
+4,9,6,43,california,mariposa,17524,2016
+4,9,6,45,california,mendocino,87609,2016
+4,9,6,47,california,merced,268878,2016
+4,9,6,49,california,modoc,8941,2016
+4,9,6,51,california,mono,14101,2016
+4,9,6,53,california,monterey,436363,2016
+4,9,6,55,california,napa,141649,2016
+4,9,6,57,california,nevada,99053,2016
+4,9,6,59,california,orange,3177703,2016
+4,9,6,61,california,placer,379742,2016
+4,9,6,63,california,plumas,18787,2016
+4,9,6,65,california,riverside,2386522,2016
+4,9,6,67,california,sacramento,1513260,2016
+4,9,6,69,california,san benito,59335,2016
+4,9,6,71,california,san bernardino,2137131,2016
+4,9,6,73,california,san diego,3317200,2016
+4,9,6,75,california,san francisco,876103,2016
+4,9,6,77,california,san joaquin,734294,2016
+4,9,6,79,california,san luis obispo,282282,2016
+4,9,6,81,california,san mateo,769561,2016
+4,9,6,83,california,santa barbara,446296,2016
+4,9,6,85,california,santa clara,1931575,2016
+4,9,6,87,california,santa cruz,275196,2016
+4,9,6,89,california,shasta,178774,2016
+4,9,6,91,california,sierra,2964,2016
+4,9,6,93,california,siskiyou,43511,2016
+4,9,6,95,california,solano,440318,2016
+4,9,6,97,california,sonoma,503833,2016
+4,9,6,99,california,stanislaus,541353,2016
+4,9,6,101,california,sutter,96058,2016
+4,9,6,103,california,tehama,63444,2016
+4,9,6,105,california,trinity,12839,2016
+4,9,6,107,california,tulare,460835,2016
+4,9,6,109,california,tuolumne,53787,2016
+4,9,6,111,california,ventura,851096,2016
+4,9,6,113,california,yolo,215959,2016
+4,9,6,115,california,yuba,75185,2016
+4,8,8,1,colorado,adams,497395,2016
+4,8,8,3,colorado,alamosa,16456,2016
+4,8,8,5,colorado,arapahoe,636949,2016
+4,8,8,7,colorado,archuleta,12836,2016
+4,8,8,9,colorado,baca,3548,2016
+4,8,8,11,colorado,bent,5681,2016
+4,8,8,13,colorado,boulder,321173,2016
+4,8,8,14,colorado,broomfield,66509,2016
+4,8,8,15,colorado,chaffee,19082,2016
+4,8,8,17,colorado,cheyenne,1834,2016
+4,8,8,19,colorado,clear creek,9361,2016
+4,8,8,21,colorado,conejos,8072,2016
+4,8,8,23,colorado,costilla,3705,2016
+4,8,8,25,colorado,crowley,5254,2016
+4,8,8,27,colorado,custer,4601,2016
+4,8,8,29,colorado,delta,30346,2016
+4,8,8,31,colorado,denver,694777,2016
+4,8,8,33,colorado,dolores,2062,2016
+4,8,8,35,colorado,douglas,327722,2016
+4,8,8,37,colorado,eagle,54364,2016
+4,8,8,39,colorado,elbert,25041,2016
+4,8,8,41,colorado,el paso,686706,2016
+4,8,8,43,colorado,fremont,46906,2016
+4,8,8,45,colorado,garfield,58906,2016
+4,8,8,47,colorado,gilpin,5905,2016
+4,8,8,49,colorado,grand,15129,2016
+4,8,8,51,colorado,gunnison,16491,2016
+4,8,8,53,colorado,hinsdale,787,2016
+4,8,8,55,colorado,huerfano,6582,2016
+4,8,8,57,colorado,jackson,1360,2016
+4,8,8,59,colorado,jefferson,570839,2016
+4,8,8,61,colorado,kiowa,1348,2016
+4,8,8,63,colorado,kit carson,7628,2016
+4,8,8,65,colorado,lake,7606,2016
+4,8,8,67,colorado,la plata,55216,2016
+4,8,8,69,colorado,larimer,338531,2016
+4,8,8,71,colorado,las animas,14087,2016
+4,8,8,73,colorado,lincoln,5562,2016
+4,8,8,75,colorado,logan,21925,2016
+4,8,8,77,colorado,mesa,149794,2016
+4,8,8,79,colorado,mineral,755,2016
+4,8,8,81,colorado,moffat,13161,2016
+4,8,8,83,colorado,montezuma,25975,2016
+4,8,8,85,colorado,montrose,41160,2016
+4,8,8,87,colorado,morgan,28063,2016
+4,8,8,89,colorado,otero,18239,2016
+4,8,8,91,colorado,ouray,4784,2016
+4,8,8,93,colorado,park,17350,2016
+4,8,8,95,colorado,phillips,4281,2016
+4,8,8,97,colorado,pitkin,17894,2016
+4,8,8,99,colorado,prowers,11989,2016
+4,8,8,101,colorado,pueblo,164834,2016
+4,8,8,103,colorado,rio blanco,6483,2016
+4,8,8,105,colorado,rio grande,11338,2016
+4,8,8,107,colorado,routt,24679,2016
+4,8,8,109,colorado,saguache,6407,2016
+4,8,8,111,colorado,san juan,689,2016
+4,8,8,113,colorado,san miguel,7964,2016
+4,8,8,115,colorado,sedgwick,2405,2016
+4,8,8,117,colorado,summit,30332,2016
+4,8,8,119,colorado,teller,24040,2016
+4,8,8,121,colorado,washington,4846,2016
+4,8,8,123,colorado,weld,294243,2016
+4,8,8,125,colorado,yuma,10118,2016
+1,1,9,1,connecticut,fairfield,949191,2016
+1,1,9,3,connecticut,hartford,895497,2016
+1,1,9,5,connecticut,litchfield,183097,2016
+1,1,9,7,connecticut,middlesex,163433,2016
+1,1,9,9,connecticut,new haven,859973,2016
+1,1,9,11,connecticut,new london,269307,2016
+1,1,9,13,connecticut,tolland,151145,2016
+1,1,9,15,connecticut,windham,116042,2016
+3,5,10,1,delaware,kent,174754,2016
+3,5,10,3,delaware,new castle,557851,2016
+3,5,10,5,delaware,sussex,220093,2016
+3,5,11,1,district of columbia,district of columbia,684336,2016
+3,5,12,1,florida,alachua,264341,2016
+3,5,12,3,florida,baker,27915,2016
+3,5,12,5,florida,bay,182992,2016
+3,5,12,7,florida,bradford,26728,2016
+3,5,12,9,florida,brevard,577899,2016
+3,5,12,11,florida,broward,1917122,2016
+3,5,12,13,florida,calhoun,14361,2016
+3,5,12,15,florida,charlotte,178157,2016
+3,5,12,17,florida,citrus,142990,2016
+3,5,12,19,florida,clay,207240,2016
+3,5,12,21,florida,collier,366095,2016
+3,5,12,23,florida,columbia,69274,2016
+3,5,12,27,florida,desoto,35925,2016
+3,5,12,29,florida,dixie,16477,2016
+3,5,12,31,florida,duval,926380,2016
+3,5,12,33,florida,escambia,311711,2016
+3,5,12,35,florida,flagler,107805,2016
+3,5,12,37,florida,franklin,11799,2016
+3,5,12,39,florida,gadsden,46155,2016
+3,5,12,41,florida,gilchrist,17210,2016
+3,5,12,43,florida,glades,13460,2016
+3,5,12,45,florida,gulf,16100,2016
+3,5,12,47,florida,hamilton,14324,2016
+3,5,12,49,florida,hardee,27371,2016
+3,5,12,51,florida,hendry,39640,2016
+3,5,12,53,florida,hernando,182231,2016
+3,5,12,55,florida,highlands,101558,2016
+3,5,12,57,florida,hillsborough,1381627,2016
+3,5,12,59,florida,holmes,19407,2016
+3,5,12,61,florida,indian river,151382,2016
+3,5,12,63,florida,jackson,48292,2016
+3,5,12,65,florida,jefferson,13933,2016
+3,5,12,67,florida,lafayette,8654,2016
+3,5,12,69,florida,lake,335431,2016
+3,5,12,71,florida,lee,722506,2016
+3,5,12,73,florida,leon,287074,2016
+3,5,12,75,florida,levy,39851,2016
+3,5,12,77,florida,liberty,8319,2016
+3,5,12,79,florida,madison,18306,2016
+3,5,12,81,florida,manatee,375563,2016
+3,5,12,83,florida,marion,348139,2016
+3,5,12,85,florida,martin,158484,2016
+3,5,12,86,florida,miami-dade,2736543,2016
+3,5,12,87,florida,monroe,77304,2016
+3,5,12,89,florida,nassau,79922,2016
+3,5,12,91,florida,okaloosa,199915,2016
+3,5,12,93,florida,okeechobee,40697,2016
+3,5,12,95,florida,orange,1323598,2016
+3,5,12,97,florida,osceola,337990,2016
+3,5,12,99,florida,palm beach,1453768,2016
+3,5,12,101,florida,pasco,510561,2016
+3,5,12,103,florida,pinellas,962106,2016
+3,5,12,105,florida,polk,667018,2016
+3,5,12,107,florida,putnam,72404,2016
+3,5,12,109,florida,st. johns,235046,2016
+3,5,12,111,florida,st. lucie,306079,2016
+3,5,12,113,florida,santa rosa,170063,2016
+3,5,12,115,florida,sarasota,412879,2016
+3,5,12,117,florida,seminole,456314,2016
+3,5,12,119,florida,sumter,122121,2016
+3,5,12,121,florida,suwannee,43835,2016
+3,5,12,123,florida,taylor,22118,2016
+3,5,12,125,florida,union,15267,2016
+3,5,12,127,florida,volusia,529038,2016
+3,5,12,129,florida,wakulla,31885,2016
+3,5,12,131,florida,walton,65440,2016
+3,5,12,133,florida,washington,24450,2016
+3,5,13,1,georgia,appling,18485,2016
+3,5,13,3,georgia,atkinson,8320,2016
+3,5,13,5,georgia,bacon,11365,2016
+3,5,13,7,georgia,baker,3208,2016
+3,5,13,9,georgia,baldwin,45190,2016
+3,5,13,11,georgia,banks,18309,2016
+3,5,13,13,georgia,barrow,77091,2016
+3,5,13,15,georgia,bartow,103431,2016
+3,5,13,17,georgia,ben hill,17190,2016
+3,5,13,19,georgia,berrien,19014,2016
+3,5,13,21,georgia,bibb,153205,2016
+3,5,13,23,georgia,bleckley,12898,2016
+3,5,13,25,georgia,brantley,18355,2016
+3,5,13,27,georgia,brooks,15693,2016
+3,5,13,29,georgia,bryan,35842,2016
+3,5,13,31,georgia,bulloch,74721,2016
+3,5,13,33,georgia,burke,22608,2016
+3,5,13,35,georgia,butts,23710,2016
+3,5,13,37,georgia,calhoun,6393,2016
+3,5,13,39,georgia,camden,52416,2016
+3,5,13,43,georgia,candler,10915,2016
+3,5,13,45,georgia,carroll,116291,2016
+3,5,13,47,georgia,catoosa,66267,2016
+3,5,13,49,georgia,charlton,12751,2016
+3,5,13,51,georgia,chatham,289390,2016
+3,5,13,53,georgia,chattahoochee,10100,2016
+3,5,13,55,georgia,chattooga,24833,2016
+3,5,13,57,georgia,cherokee,241600,2016
+3,5,13,59,georgia,clarke,125018,2016
+3,5,13,61,georgia,clay,3006,2016
+3,5,13,63,georgia,clayton,280006,2016
+3,5,13,65,georgia,clinch,6789,2016
+3,5,13,67,georgia,cobb,750477,2016
+3,5,13,69,georgia,coffee,43015,2016
+3,5,13,71,georgia,colquitt,45671,2016
+3,5,13,73,georgia,columbia,147451,2016
+3,5,13,75,georgia,cook,17187,2016
+3,5,13,77,georgia,coweta,140472,2016
+3,5,13,79,georgia,crawford,12291,2016
+3,5,13,81,georgia,crisp,22935,2016
+3,5,13,83,georgia,dade,16242,2016
+3,5,13,85,georgia,dawson,23613,2016
+3,5,13,87,georgia,decatur,26715,2016
+3,5,13,89,georgia,dekalb,746690,2016
+3,5,13,91,georgia,dodge,20837,2016
+3,5,13,93,georgia,dooly,13885,2016
+3,5,13,95,georgia,dougherty,90395,2016
+3,5,13,97,georgia,douglas,142021,2016
+3,5,13,99,georgia,early,10298,2016
+3,5,13,101,georgia,echols,3981,2016
+3,5,13,103,georgia,effingham,58553,2016
+3,5,13,105,georgia,elbert,19143,2016
+3,5,13,107,georgia,emanuel,22404,2016
+3,5,13,109,georgia,evans,10668,2016
+3,5,13,111,georgia,fannin,24991,2016
+3,5,13,113,georgia,fayette,111248,2016
+3,5,13,115,georgia,floyd,96620,2016
+3,5,13,117,georgia,forsyth,220067,2016
+3,5,13,119,georgia,franklin,22306,2016
+3,5,13,121,georgia,fulton,1024248,2016
+3,5,13,123,georgia,gilmer,30033,2016
+3,5,13,125,georgia,glascock,2992,2016
+3,5,13,127,georgia,glynn,84528,2016
+3,5,13,129,georgia,gordon,56987,2016
+3,5,13,131,georgia,grady,24893,2016
+3,5,13,133,georgia,greene,16939,2016
+3,5,13,135,georgia,gwinnett,907101,2016
+3,5,13,137,georgia,habersham,44177,2016
+3,5,13,139,georgia,hall,196237,2016
+3,5,13,141,georgia,hancock,8657,2016
+3,5,13,143,georgia,haralson,28833,2016
+3,5,13,145,georgia,harris,33617,2016
+3,5,13,147,georgia,hart,25548,2016
+3,5,13,149,georgia,heard,11574,2016
+3,5,13,151,georgia,henry,221355,2016
+3,5,13,153,georgia,houston,151862,2016
+3,5,13,155,georgia,irwin,9359,2016
+3,5,13,157,georgia,jackson,64978,2016
+3,5,13,159,georgia,jasper,13821,2016
+3,5,13,161,georgia,jeff davis,14970,2016
+3,5,13,163,georgia,jefferson,15788,2016
+3,5,13,165,georgia,jenkins,8770,2016
+3,5,13,167,georgia,johnson,9730,2016
+3,5,13,169,georgia,jones,28553,2016
+3,5,13,171,georgia,lamar,18470,2016
+3,5,13,173,georgia,lanier,10454,2016
+3,5,13,175,georgia,laurens,47192,2016
+3,5,13,177,georgia,lee,29230,2016
+3,5,13,179,georgia,liberty,61390,2016
+3,5,13,181,georgia,lincoln,7864,2016
+3,5,13,183,georgia,long,18594,2016
+3,5,13,185,georgia,lowndes,114306,2016
+3,5,13,187,georgia,lumpkin,31528,2016
+3,5,13,189,georgia,mcduffie,21456,2016
+3,5,13,191,georgia,mcintosh,14072,2016
+3,5,13,193,georgia,macon,13520,2016
+3,5,13,195,georgia,madison,28827,2016
+3,5,13,197,georgia,marion,8511,2016
+3,5,13,199,georgia,meriwether,21072,2016
+3,5,13,201,georgia,miller,5881,2016
+3,5,13,205,georgia,mitchell,22411,2016
+3,5,13,207,georgia,monroe,26879,2016
+3,5,13,209,georgia,montgomery,8983,2016
+3,5,13,211,georgia,morgan,18121,2016
+3,5,13,213,georgia,murray,39376,2016
+3,5,13,215,georgia,muscogee,196307,2016
+3,5,13,217,georgia,newton,106580,2016
+3,5,13,219,georgia,oconee,36866,2016
+3,5,13,221,georgia,oglethorpe,14710,2016
+3,5,13,223,georgia,paulding,155374,2016
+3,5,13,225,georgia,peach,26899,2016
+3,5,13,227,georgia,pickens,30695,2016
+3,5,13,229,georgia,pierce,19218,2016
+3,5,13,231,georgia,pike,17923,2016
+3,5,13,233,georgia,polk,41730,2016
+3,5,13,235,georgia,pulaski,11307,2016
+3,5,13,237,georgia,putnam,21548,2016
+3,5,13,239,georgia,quitman,2333,2016
+3,5,13,241,georgia,rabun,16528,2016
+3,5,13,243,georgia,randolph,7225,2016
+3,5,13,245,georgia,richmond,202008,2016
+3,5,13,247,georgia,rockdale,89375,2016
+3,5,13,249,georgia,schley,5158,2016
+3,5,13,251,georgia,screven,14032,2016
+3,5,13,253,georgia,seminole,8445,2016
+3,5,13,255,georgia,spalding,64553,2016
+3,5,13,257,georgia,stephens,25724,2016
+3,5,13,259,georgia,stewart,5875,2016
+3,5,13,261,georgia,sumter,30355,2016
+3,5,13,263,georgia,talbot,6353,2016
+3,5,13,265,georgia,taliaferro,1626,2016
+3,5,13,267,georgia,tattnall,25281,2016
+3,5,13,269,georgia,taylor,8199,2016
+3,5,13,271,georgia,telfair,16034,2016
+3,5,13,273,georgia,terrell,8888,2016
+3,5,13,275,georgia,thomas,45090,2016
+3,5,13,277,georgia,tift,40650,2016
+3,5,13,279,georgia,toombs,27195,2016
+3,5,13,281,georgia,towns,11349,2016
+3,5,13,283,georgia,treutlen,6727,2016
+3,5,13,285,georgia,troup,69776,2016
+3,5,13,287,georgia,turner,7972,2016
+3,5,13,289,georgia,twiggs,8235,2016
+3,5,13,291,georgia,union,22660,2016
+3,5,13,293,georgia,upson,26213,2016
+3,5,13,295,georgia,walker,68326,2016
+3,5,13,297,georgia,walton,89911,2016
+3,5,13,299,georgia,ware,35776,2016
+3,5,13,301,georgia,warren,5382,2016
+3,5,13,303,georgia,washington,20343,2016
+3,5,13,305,georgia,wayne,29985,2016
+3,5,13,307,georgia,webster,2612,2016
+3,5,13,309,georgia,wheeler,8017,2016
+3,5,13,311,georgia,white,28825,2016
+3,5,13,313,georgia,whitfield,104698,2016
+3,5,13,315,georgia,wilcox,8867,2016
+3,5,13,317,georgia,wilkes,9822,2016
+3,5,13,319,georgia,wilkinson,9048,2016
+3,5,13,321,georgia,worth,20719,2016
+4,9,15,1,hawaii,hawaii,198681,2016
+4,9,15,3,hawaii,honolulu,992761,2016
+4,9,15,5,hawaii,kalawao,88,2016
+4,9,15,7,hawaii,kauai,71769,2016
+4,9,15,9,hawaii,maui,165384,2016
+4,8,16,1,idaho,ada,444269,2016
+4,8,16,3,idaho,adams,3949,2016
+4,8,16,5,idaho,bannock,84379,2016
+4,8,16,7,idaho,bear lake,5942,2016
+4,8,16,9,idaho,benewah,9022,2016
+4,8,16,11,idaho,bingham,45255,2016
+4,8,16,13,idaho,blaine,21741,2016
+4,8,16,15,idaho,boise,7088,2016
+4,8,16,17,idaho,bonner,42343,2016
+4,8,16,19,idaho,bonneville,112025,2016
+4,8,16,21,idaho,boundary,11650,2016
+4,8,16,23,idaho,butte,2573,2016
+4,8,16,25,idaho,camas,1084,2016
+4,8,16,27,idaho,canyon,211111,2016
+4,8,16,29,idaho,caribou,6906,2016
+4,8,16,31,idaho,cassia,23462,2016
+4,8,16,33,idaho,clark,854,2016
+4,8,16,35,idaho,clearwater,8555,2016
+4,8,16,37,idaho,custer,4109,2016
+4,8,16,39,idaho,elmore,26090,2016
+4,8,16,41,idaho,franklin,13347,2016
+4,8,16,43,idaho,fremont,12888,2016
+4,8,16,45,idaho,gem,16979,2016
+4,8,16,47,idaho,gooding,15094,2016
+4,8,16,49,idaho,idaho,16228,2016
+4,8,16,51,idaho,jefferson,27807,2016
+4,8,16,53,idaho,jerome,23257,2016
+4,8,16,55,idaho,kootenai,153144,2016
+4,8,16,57,idaho,latah,38792,2016
+4,8,16,59,idaho,lemhi,7732,2016
+4,8,16,61,idaho,lewis,3843,2016
+4,8,16,63,idaho,lincoln,5267,2016
+4,8,16,65,idaho,madison,38781,2016
+4,8,16,67,idaho,minidoka,20583,2016
+4,8,16,69,idaho,nez perce,40096,2016
+4,8,16,71,idaho,oneida,4321,2016
+4,8,16,73,idaho,owyhee,11363,2016
+4,8,16,75,idaho,payette,22920,2016
+4,8,16,77,idaho,power,7661,2016
+4,8,16,79,idaho,shoshone,12413,2016
+4,8,16,81,idaho,teton,11086,2016
+4,8,16,83,idaho,twin falls,83536,2016
+4,8,16,85,idaho,valley,10417,2016
+4,8,16,87,idaho,washington,10064,2016
+2,3,17,1,illinois,adams,66673,2016
+2,3,17,3,illinois,alexander,6491,2016
+2,3,17,5,illinois,bond,16841,2016
+2,3,17,7,illinois,boone,53562,2016
+2,3,17,9,illinois,brown,6744,2016
+2,3,17,11,illinois,bureau,33433,2016
+2,3,17,13,illinois,calhoun,4859,2016
+2,3,17,15,illinois,carroll,14611,2016
+2,3,17,17,illinois,cass,12681,2016
+2,3,17,19,illinois,champaign,209267,2016
+2,3,17,21,illinois,christian,33271,2016
+2,3,17,23,illinois,clark,15848,2016
+2,3,17,25,illinois,clay,13311,2016
+2,3,17,27,illinois,clinton,37565,2016
+2,3,17,29,illinois,coles,52412,2016
+2,3,17,31,illinois,cook,5231356,2016
+2,3,17,33,illinois,crawford,19142,2016
+2,3,17,35,illinois,cumberland,10892,2016
+2,3,17,37,illinois,dekalb,104447,2016
+2,3,17,39,illinois,de witt,16159,2016
+2,3,17,41,illinois,douglas,19769,2016
+2,3,17,43,illinois,dupage,931153,2016
+2,3,17,45,illinois,edgar,17472,2016
+2,3,17,47,illinois,edwards,6545,2016
+2,3,17,49,illinois,effingham,34182,2016
+2,3,17,51,illinois,fayette,21816,2016
+2,3,17,53,illinois,ford,13342,2016
+2,3,17,55,illinois,franklin,39092,2016
+2,3,17,57,illinois,fulton,35517,2016
+2,3,17,59,illinois,gallatin,5163,2016
+2,3,17,61,illinois,greene,13119,2016
+2,3,17,63,illinois,grundy,50269,2016
+2,3,17,65,illinois,hamilton,8199,2016
+2,3,17,67,illinois,hancock,18219,2016
+2,3,17,69,illinois,hardin,4099,2016
+2,3,17,71,illinois,henderson,6874,2016
+2,3,17,73,illinois,henry,49524,2016
+2,3,17,75,illinois,iroquois,28214,2016
+2,3,17,77,illinois,jackson,59032,2016
+2,3,17,79,illinois,jasper,9593,2016
+2,3,17,81,illinois,jefferson,38308,2016
+2,3,17,83,illinois,jersey,21945,2016
+2,3,17,85,illinois,jo daviess,21861,2016
+2,3,17,87,illinois,johnson,12961,2016
+2,3,17,89,illinois,kane,532553,2016
+2,3,17,91,illinois,kankakee,110053,2016
+2,3,17,93,illinois,kendall,124573,2016
+2,3,17,95,illinois,knox,50945,2016
+2,3,17,97,illinois,lake,704935,2016
+2,3,17,99,illinois,lasalle,110507,2016
+2,3,17,101,illinois,lawrence,16343,2016
+2,3,17,103,illinois,lee,34399,2016
+2,3,17,105,illinois,livingston,36475,2016
+2,3,17,107,illinois,logan,29338,2016
+2,3,17,109,illinois,mcdonough,31387,2016
+2,3,17,111,illinois,mchenry,307972,2016
+2,3,17,113,illinois,mclean,172688,2016
+2,3,17,115,illinois,macon,106651,2016
+2,3,17,117,illinois,macoupin,45653,2016
+2,3,17,119,illinois,madison,265598,2016
+2,3,17,121,illinois,marion,38066,2016
+2,3,17,123,illinois,marshall,11898,2016
+2,3,17,125,illinois,mason,13706,2016
+2,3,17,127,illinois,massac,14469,2016
+2,3,17,129,illinois,menard,12399,2016
+2,3,17,131,illinois,mercer,15630,2016
+2,3,17,133,illinois,monroe,33878,2016
+2,3,17,135,illinois,montgomery,29079,2016
+2,3,17,137,illinois,morgan,34194,2016
+2,3,17,139,illinois,moultrie,14599,2016
+2,3,17,141,illinois,ogle,51168,2016
+2,3,17,143,illinois,peoria,185296,2016
+2,3,17,145,illinois,perry,21382,2016
+2,3,17,147,illinois,piatt,16526,2016
+2,3,17,149,illinois,pike,15882,2016
+2,3,17,151,illinois,pope,4295,2016
+2,3,17,153,illinois,pulaski,5603,2016
+2,3,17,155,illinois,putnam,5717,2016
+2,3,17,157,illinois,randolph,32597,2016
+2,3,17,159,illinois,richland,15858,2016
+2,3,17,161,illinois,rock island,145472,2016
+2,3,17,163,illinois,st. clair,263120,2016
+2,3,17,165,illinois,saline,24253,2016
+2,3,17,167,illinois,sangamon,197591,2016
+2,3,17,169,illinois,schuyler,7053,2016
+2,3,17,171,illinois,scott,5055,2016
+2,3,17,173,illinois,shelby,21727,2016
+2,3,17,175,illinois,stark,5506,2016
+2,3,17,177,illinois,stephenson,45540,2016
+2,3,17,179,illinois,tazewell,133967,2016
+2,3,17,181,illinois,union,17115,2016
+2,3,17,183,illinois,vermilion,78560,2016
+2,3,17,185,illinois,wabash,11511,2016
+2,3,17,187,illinois,warren,17307,2016
+2,3,17,189,illinois,washington,14210,2016
+2,3,17,191,illinois,wayne,16573,2016
+2,3,17,193,illinois,white,14088,2016
+2,3,17,195,illinois,whiteside,56541,2016
+2,3,17,197,illinois,will,689731,2016
+2,3,17,199,illinois,williamson,67640,2016
+2,3,17,201,illinois,winnebago,286088,2016
+2,3,17,203,illinois,woodford,38933,2016
+2,3,18,1,indiana,adams,35232,2016
+2,3,18,3,indiana,allen,369972,2016
+2,3,18,5,indiana,bartholomew,81873,2016
+2,3,18,7,indiana,benton,8655,2016
+2,3,18,9,indiana,blackford,12075,2016
+2,3,18,11,indiana,boone,64239,2016
+2,3,18,13,indiana,brown,15008,2016
+2,3,18,15,indiana,carroll,19967,2016
+2,3,18,17,indiana,cass,38013,2016
+2,3,18,19,indiana,clark,115800,2016
+2,3,18,21,indiana,clay,26203,2016
+2,3,18,23,indiana,clinton,32267,2016
+2,3,18,25,indiana,crawford,10581,2016
+2,3,18,27,indiana,daviess,32997,2016
+2,3,18,29,indiana,dearborn,49471,2016
+2,3,18,31,indiana,decatur,26641,2016
+2,3,18,33,indiana,dekalb,42620,2016
+2,3,18,35,indiana,delaware,115483,2016
+2,3,18,37,indiana,dubois,42456,2016
+2,3,18,39,indiana,elkhart,204146,2016
+2,3,18,41,indiana,fayette,23257,2016
+2,3,18,43,indiana,floyd,76723,2016
+2,3,18,45,indiana,fountain,16477,2016
+2,3,18,47,indiana,franklin,22725,2016
+2,3,18,49,indiana,fulton,20137,2016
+2,3,18,51,indiana,gibson,33579,2016
+2,3,18,53,indiana,grant,66802,2016
+2,3,18,55,indiana,greene,32223,2016
+2,3,18,57,indiana,hamilton,316296,2016
+2,3,18,59,indiana,hancock,73781,2016
+2,3,18,61,indiana,harrison,39679,2016
+2,3,18,63,indiana,hendricks,160336,2016
+2,3,18,65,indiana,henry,48364,2016
+2,3,18,67,indiana,howard,82339,2016
+2,3,18,69,indiana,huntington,36368,2016
+2,3,18,71,indiana,jackson,43933,2016
+2,3,18,73,indiana,jasper,33389,2016
+2,3,18,75,indiana,jay,21040,2016
+2,3,18,77,indiana,jefferson,32249,2016
+2,3,18,79,indiana,jennings,27622,2016
+2,3,18,81,indiana,johnson,151543,2016
+2,3,18,83,indiana,knox,37542,2016
+2,3,18,85,indiana,kosciusko,78927,2016
+2,3,18,87,indiana,lagrange,39133,2016
+2,3,18,89,indiana,lake,486592,2016
+2,3,18,91,indiana,laporte,110208,2016
+2,3,18,93,indiana,lawrence,45575,2016
+2,3,18,95,indiana,madison,129325,2016
+2,3,18,97,indiana,marion,944034,2016
+2,3,18,99,indiana,marshall,46652,2016
+2,3,18,101,indiana,martin,10202,2016
+2,3,18,103,indiana,miami,36067,2016
+2,3,18,105,indiana,monroe,145692,2016
+2,3,18,107,indiana,montgomery,38323,2016
+2,3,18,109,indiana,morgan,69557,2016
+2,3,18,111,indiana,newton,14049,2016
+2,3,18,113,indiana,noble,47442,2016
+2,3,18,115,indiana,ohio,5888,2016
+2,3,18,117,indiana,orange,19481,2016
+2,3,18,119,indiana,owen,20922,2016
+2,3,18,121,indiana,parke,16957,2016
+2,3,18,123,indiana,perry,19010,2016
+2,3,18,125,indiana,pike,12428,2016
+2,3,18,127,indiana,porter,167438,2016
+2,3,18,129,indiana,posey,25632,2016
+2,3,18,131,indiana,pulaski,12611,2016
+2,3,18,133,indiana,putnam,37265,2016
+2,3,18,135,indiana,randolph,25059,2016
+2,3,18,137,indiana,ripley,28408,2016
+2,3,18,139,indiana,rush,16633,2016
+2,3,18,141,indiana,st. joseph,269613,2016
+2,3,18,143,indiana,scott,23707,2016
+2,3,18,145,indiana,shelby,44228,2016
+2,3,18,147,indiana,spencer,20493,2016
+2,3,18,149,indiana,starke,22992,2016
+2,3,18,151,indiana,steuben,34388,2016
+2,3,18,153,indiana,sullivan,20737,2016
+2,3,18,155,indiana,switzerland,10647,2016
+2,3,18,157,indiana,tippecanoe,188674,2016
+2,3,18,159,indiana,tipton,15154,2016
+2,3,18,161,indiana,union,7168,2016
+2,3,18,163,indiana,vanderburgh,181775,2016
+2,3,18,165,indiana,vermillion,15611,2016
+2,3,18,167,indiana,vigo,107669,2016
+2,3,18,169,indiana,wabash,31551,2016
+2,3,18,171,indiana,warren,8174,2016
+2,3,18,173,indiana,warrick,62049,2016
+2,3,18,175,indiana,washington,27748,2016
+2,3,18,177,indiana,wayne,66591,2016
+2,3,18,179,indiana,wells,27840,2016
+2,3,18,181,indiana,white,24101,2016
+2,3,18,183,indiana,whitley,33484,2016
+2,4,19,1,iowa,adair,7010,2016
+2,4,19,3,iowa,adams,3716,2016
+2,4,19,5,iowa,allamakee,13869,2016
+2,4,19,7,iowa,appanoose,12497,2016
+2,4,19,9,iowa,audubon,5635,2016
+2,4,19,11,iowa,benton,25641,2016
+2,4,19,13,iowa,black hawk,132813,2016
+2,4,19,15,iowa,boone,26419,2016
+2,4,19,17,iowa,bremer,24784,2016
+2,4,19,19,iowa,buchanan,21034,2016
+2,4,19,21,iowa,buena vista,20268,2016
+2,4,19,23,iowa,butler,14687,2016
+2,4,19,25,iowa,calhoun,9799,2016
+2,4,19,27,iowa,carroll,20366,2016
+2,4,19,29,iowa,cass,13180,2016
+2,4,19,31,iowa,cedar,18407,2016
+2,4,19,33,iowa,cerro gordo,43064,2016
+2,4,19,35,iowa,cherokee,11404,2016
+2,4,19,37,iowa,chickasaw,12063,2016
+2,4,19,39,iowa,clarke,9286,2016
+2,4,19,41,iowa,clay,16325,2016
+2,4,19,43,iowa,clayton,17647,2016
+2,4,19,45,iowa,clinton,47236,2016
+2,4,19,47,iowa,crawford,17036,2016
+2,4,19,49,iowa,dallas,84185,2016
+2,4,19,51,iowa,davis,8901,2016
+2,4,19,53,iowa,decatur,8045,2016
+2,4,19,55,iowa,delaware,17269,2016
+2,4,19,57,iowa,des moines,39625,2016
+2,4,19,59,iowa,dickinson,17104,2016
+2,4,19,61,iowa,dubuque,96704,2016
+2,4,19,63,iowa,emmet,9558,2016
+2,4,19,65,iowa,fayette,19986,2016
+2,4,19,67,iowa,floyd,15835,2016
+2,4,19,69,iowa,franklin,10200,2016
+2,4,19,71,iowa,fremont,6960,2016
+2,4,19,73,iowa,greene,9009,2016
+2,4,19,75,iowa,grundy,12297,2016
+2,4,19,77,iowa,guthrie,10650,2016
+2,4,19,79,iowa,hamilton,15100,2016
+2,4,19,81,iowa,hancock,10893,2016
+2,4,19,83,iowa,hardin,17193,2016
+2,4,19,85,iowa,harrison,14072,2016
+2,4,19,87,iowa,henry,19801,2016
+2,4,19,89,iowa,howard,9272,2016
+2,4,19,91,iowa,humboldt,9531,2016
+2,4,19,93,iowa,ida,6957,2016
+2,4,19,95,iowa,iowa,16184,2016
+2,4,19,97,iowa,jackson,19390,2016
+2,4,19,99,iowa,jasper,36661,2016
+2,4,19,101,iowa,jefferson,18172,2016
+2,4,19,103,iowa,johnson,146633,2016
+2,4,19,105,iowa,jones,20384,2016
+2,4,19,107,iowa,keokuk,10177,2016
+2,4,19,109,iowa,kossuth,15133,2016
+2,4,19,111,iowa,lee,34456,2016
+2,4,19,113,iowa,linn,221900,2016
+2,4,19,115,iowa,louisa,11188,2016
+2,4,19,117,iowa,lucas,8556,2016
+2,4,19,119,iowa,lyon,11788,2016
+2,4,19,121,iowa,madison,15794,2016
+2,4,19,123,iowa,mahaska,22206,2016
+2,4,19,125,iowa,marion,33149,2016
+2,4,19,127,iowa,marshall,40160,2016
+2,4,19,129,iowa,mills,15044,2016
+2,4,19,131,iowa,mitchell,10657,2016
+2,4,19,133,iowa,monona,8799,2016
+2,4,19,135,iowa,monroe,7853,2016
+2,4,19,137,iowa,montgomery,10134,2016
+2,4,19,139,iowa,muscatine,42904,2016
+2,4,19,141,iowa,o'brien,13921,2016
+2,4,19,143,iowa,osceola,6084,2016
+2,4,19,145,iowa,page,15335,2016
+2,4,19,147,iowa,palo alto,9042,2016
+2,4,19,149,iowa,plymouth,25205,2016
+2,4,19,151,iowa,pocahontas,6848,2016
+2,4,19,153,iowa,polk,474768,2016
+2,4,19,155,iowa,pottawattamie,93508,2016
+2,4,19,157,iowa,poweshiek,18292,2016
+2,4,19,159,iowa,ringgold,4989,2016
+2,4,19,161,iowa,sac,9818,2016
+2,4,19,163,iowa,scott,172045,2016
+2,4,19,165,iowa,shelby,11672,2016
+2,4,19,167,iowa,sioux,34891,2016
+2,4,19,169,iowa,story,96816,2016
+2,4,19,171,iowa,tama,17179,2016
+2,4,19,173,iowa,taylor,6237,2016
+2,4,19,175,iowa,union,12390,2016
+2,4,19,177,iowa,van buren,7255,2016
+2,4,19,179,iowa,wapello,35270,2016
+2,4,19,181,iowa,warren,49343,2016
+2,4,19,183,iowa,washington,22109,2016
+2,4,19,185,iowa,wayne,6437,2016
+2,4,19,187,iowa,webster,36752,2016
+2,4,19,189,iowa,winnebago,10601,2016
+2,4,19,191,iowa,winneshiek,20409,2016
+2,4,19,193,iowa,woodbury,102707,2016
+2,4,19,195,iowa,worth,7475,2016
+2,4,19,197,iowa,wright,12816,2016
+2,4,20,1,kansas,allen,12647,2016
+2,4,20,3,kansas,anderson,7814,2016
+2,4,20,5,kansas,atchison,16373,2016
+2,4,20,7,kansas,barber,4682,2016
+2,4,20,9,kansas,barton,26911,2016
+2,4,20,11,kansas,bourbon,14672,2016
+2,4,20,13,kansas,brown,9642,2016
+2,4,20,15,kansas,butler,66648,2016
+2,4,20,17,kansas,chase,2644,2016
+2,4,20,19,kansas,chautauqua,3385,2016
+2,4,20,21,kansas,cherokee,20220,2016
+2,4,20,23,kansas,cheyenne,2671,2016
+2,4,20,25,kansas,clark,2065,2016
+2,4,20,27,kansas,clay,8079,2016
+2,4,20,29,kansas,cloud,9100,2016
+2,4,20,31,kansas,coffey,8348,2016
+2,4,20,33,kansas,comanche,1851,2016
+2,4,20,35,kansas,cowley,35621,2016
+2,4,20,37,kansas,crawford,38992,2016
+2,4,20,39,kansas,decatur,2837,2016
+2,4,20,41,kansas,dickinson,18981,2016
+2,4,20,43,kansas,doniphan,7729,2016
+2,4,20,45,kansas,douglas,119492,2016
+2,4,20,47,kansas,edwards,2900,2016
+2,4,20,49,kansas,elk,2511,2016
+2,4,20,51,kansas,ellis,28823,2016
+2,4,20,53,kansas,ellsworth,6311,2016
+2,4,20,55,kansas,finney,36998,2016
+2,4,20,57,kansas,ford,34501,2016
+2,4,20,59,kansas,franklin,25547,2016
+2,4,20,61,kansas,geary,35208,2016
+2,4,20,63,kansas,gove,2630,2016
+2,4,20,65,kansas,graham,2568,2016
+2,4,20,67,kansas,grant,7685,2016
+2,4,20,69,kansas,gray,5980,2016
+2,4,20,71,kansas,greeley,1280,2016
+2,4,20,73,kansas,greenwood,6132,2016
+2,4,20,75,kansas,hamilton,2629,2016
+2,4,20,77,kansas,harper,5680,2016
+2,4,20,79,kansas,harvey,34774,2016
+2,4,20,81,kansas,haskell,4038,2016
+2,4,20,83,kansas,hodgeman,1833,2016
+2,4,20,85,kansas,jackson,13259,2016
+2,4,20,87,kansas,jefferson,18856,2016
+2,4,20,89,kansas,jewell,2888,2016
+2,4,20,91,kansas,johnson,584716,2016
+2,4,20,93,kansas,kearny,3900,2016
+2,4,20,95,kansas,kingman,7414,2016
+2,4,20,97,kansas,kiowa,2504,2016
+2,4,20,99,kansas,labette,20330,2016
+2,4,20,101,kansas,lane,1600,2016
+2,4,20,103,kansas,leavenworth,80115,2016
+2,4,20,105,kansas,lincoln,3077,2016
+2,4,20,107,kansas,linn,9626,2016
+2,4,20,109,kansas,logan,2812,2016
+2,4,20,111,kansas,lyon,33400,2016
+2,4,20,113,kansas,mcpherson,28402,2016
+2,4,20,115,kansas,marion,12022,2016
+2,4,20,117,kansas,marshall,9801,2016
+2,4,20,119,kansas,meade,4251,2016
+2,4,20,121,kansas,miami,32963,2016
+2,4,20,123,kansas,mitchell,6186,2016
+2,4,20,125,kansas,montgomery,32867,2016
+2,4,20,127,kansas,morris,5556,2016
+2,4,20,129,kansas,morton,2800,2016
+2,4,20,131,kansas,nemaha,10100,2016
+2,4,20,133,kansas,neosho,16058,2016
+2,4,20,135,kansas,ness,2956,2016
+2,4,20,137,kansas,norton,5506,2016
+2,4,20,139,kansas,osage,15789,2016
+2,4,20,141,kansas,osborne,3624,2016
+2,4,20,143,kansas,ottawa,5919,2016
+2,4,20,145,kansas,pawnee,6742,2016
+2,4,20,147,kansas,phillips,5393,2016
+2,4,20,149,kansas,pottawatomie,23593,2016
+2,4,20,151,kansas,pratt,9572,2016
+2,4,20,153,kansas,rawlins,2501,2016
+2,4,20,155,kansas,reno,63040,2016
+2,4,20,157,kansas,republic,4651,2016
+2,4,20,159,kansas,rice,9809,2016
+2,4,20,161,kansas,riley,74548,2016
+2,4,20,163,kansas,rooks,5120,2016
+2,4,20,165,kansas,rush,3074,2016
+2,4,20,167,kansas,russell,6990,2016
+2,4,20,169,kansas,saline,55070,2016
+2,4,20,171,kansas,scott,5011,2016
+2,4,20,173,kansas,sedgwick,512641,2016
+2,4,20,175,kansas,seward,22756,2016
+2,4,20,177,kansas,shawnee,178154,2016
+2,4,20,179,kansas,sheridan,2482,2016
+2,4,20,181,kansas,sherman,5945,2016
+2,4,20,183,kansas,smith,3678,2016
+2,4,20,185,kansas,stafford,4200,2016
+2,4,20,187,kansas,stanton,2100,2016
+2,4,20,189,kansas,stevens,5655,2016
+2,4,20,191,kansas,sumner,23203,2016
+2,4,20,193,kansas,thomas,7811,2016
+2,4,20,195,kansas,trego,2863,2016
+2,4,20,197,kansas,wabaunsee,6890,2016
+2,4,20,199,kansas,wallace,1505,2016
+2,4,20,201,kansas,washington,5568,2016
+2,4,20,203,kansas,wichita,2131,2016
+2,4,20,205,kansas,wilson,8693,2016
+2,4,20,207,kansas,woodson,3195,2016
+2,4,20,209,kansas,wyandotte,164418,2016
+3,6,21,1,kentucky,adair,19379,2016
+3,6,21,3,kentucky,allen,20729,2016
+3,6,21,5,kentucky,anderson,22144,2016
+3,6,21,7,kentucky,ballard,8057,2016
+3,6,21,9,kentucky,barren,43789,2016
+3,6,21,11,kentucky,bath,12271,2016
+3,6,21,13,kentucky,bell,27192,2016
+3,6,21,15,kentucky,boone,129154,2016
+3,6,21,17,kentucky,bourbon,20057,2016
+3,6,21,19,kentucky,boyd,48196,2016
+3,6,21,21,kentucky,boyle,29888,2016
+3,6,21,23,kentucky,bracken,8350,2016
+3,6,21,25,kentucky,breathitt,13189,2016
+3,6,21,27,kentucky,breckinridge,19954,2016
+3,6,21,29,kentucky,bullitt,79209,2016
+3,6,21,31,kentucky,butler,12701,2016
+3,6,21,33,kentucky,caldwell,12619,2016
+3,6,21,35,kentucky,calloway,38772,2016
+3,6,21,37,kentucky,campbell,92034,2016
+3,6,21,39,kentucky,carlisle,4816,2016
+3,6,21,41,kentucky,carroll,10599,2016
+3,6,21,43,kentucky,carter,27246,2016
+3,6,21,45,kentucky,casey,15761,2016
+3,6,21,47,kentucky,christian,71735,2016
+3,6,21,49,kentucky,clark,35889,2016
+3,6,21,51,kentucky,clay,20683,2016
+3,6,21,53,kentucky,clinton,10220,2016
+3,6,21,55,kentucky,crittenden,9163,2016
+3,6,21,57,kentucky,cumberland,6736,2016
+3,6,21,59,kentucky,daviess,99844,2016
+3,6,21,61,kentucky,edmonson,12068,2016
+3,6,21,63,kentucky,elliott,7507,2016
+3,6,21,65,kentucky,estill,14345,2016
+3,6,21,67,kentucky,fayette,319052,2016
+3,6,21,69,kentucky,fleming,14506,2016
+3,6,21,71,kentucky,floyd,36969,2016
+3,6,21,73,kentucky,franklin,50241,2016
+3,6,21,75,kentucky,fulton,6180,2016
+3,6,21,77,kentucky,gallatin,8728,2016
+3,6,21,79,kentucky,garrard,17398,2016
+3,6,21,81,kentucky,grant,24908,2016
+3,6,21,83,kentucky,graves,37148,2016
+3,6,21,85,kentucky,grayson,26140,2016
+3,6,21,87,kentucky,green,11001,2016
+3,6,21,89,kentucky,greenup,35795,2016
+3,6,21,91,kentucky,hancock,8737,2016
+3,6,21,93,kentucky,hardin,106893,2016
+3,6,21,95,kentucky,harlan,27016,2016
+3,6,21,97,kentucky,harrison,18588,2016
+3,6,21,99,kentucky,hart,18527,2016
+3,6,21,101,kentucky,henderson,46244,2016
+3,6,21,103,kentucky,henry,15853,2016
+3,6,21,105,kentucky,hickman,4612,2016
+3,6,21,107,kentucky,hopkins,45708,2016
+3,6,21,109,kentucky,jackson,13373,2016
+3,6,21,111,kentucky,jefferson,767335,2016
+3,6,21,113,kentucky,jessamine,52255,2016
+3,6,21,115,kentucky,johnson,22870,2016
+3,6,21,117,kentucky,kenton,164596,2016
+3,6,21,119,kentucky,knott,15510,2016
+3,6,21,121,kentucky,knox,31324,2016
+3,6,21,123,kentucky,larue,14033,2016
+3,6,21,125,kentucky,laurel,59990,2016
+3,6,21,127,kentucky,lawrence,15846,2016
+3,6,21,129,kentucky,lee,6598,2016
+3,6,21,131,kentucky,leslie,10439,2016
+3,6,21,133,kentucky,letcher,22749,2016
+3,6,21,135,kentucky,lewis,13475,2016
+3,6,21,137,kentucky,lincoln,24346,2016
+3,6,21,139,kentucky,livingston,9215,2016
+3,6,21,141,kentucky,logan,26657,2016
+3,6,21,143,kentucky,lyon,8083,2016
+3,6,21,145,kentucky,mccracken,65342,2016
+3,6,21,147,kentucky,mccreary,17555,2016
+3,6,21,149,kentucky,mclean,9342,2016
+3,6,21,151,kentucky,madison,89537,2016
+3,6,21,153,kentucky,magoffin,12674,2016
+3,6,21,155,kentucky,marion,19143,2016
+3,6,21,157,kentucky,marshall,31273,2016
+3,6,21,159,kentucky,martin,11947,2016
+3,6,21,161,kentucky,mason,17158,2016
+3,6,21,163,kentucky,meade,28014,2016
+3,6,21,165,kentucky,menifee,6446,2016
+3,6,21,167,kentucky,mercer,21393,2016
+3,6,21,169,kentucky,metcalfe,10010,2016
+3,6,21,171,kentucky,monroe,10579,2016
+3,6,21,173,kentucky,montgomery,27661,2016
+3,6,21,175,kentucky,morgan,13235,2016
+3,6,21,177,kentucky,muhlenberg,31064,2016
+3,6,21,179,kentucky,nelson,45512,2016
+3,6,21,181,kentucky,nicholas,7063,2016
+3,6,21,183,kentucky,ohio,24196,2016
+3,6,21,185,kentucky,oldham,65336,2016
+3,6,21,187,kentucky,owen,10663,2016
+3,6,21,189,kentucky,owsley,4495,2016
+3,6,21,191,kentucky,pendleton,14576,2016
+3,6,21,193,kentucky,perry,27165,2016
+3,6,21,195,kentucky,pike,60443,2016
+3,6,21,197,kentucky,powell,12295,2016
+3,6,21,199,kentucky,pulaski,64014,2016
+3,6,21,201,kentucky,robertson,2135,2016
+3,6,21,203,kentucky,rockcastle,16871,2016
+3,6,21,205,kentucky,rowan,24402,2016
+3,6,21,207,kentucky,russell,17770,2016
+3,6,21,209,kentucky,scott,53416,2016
+3,6,21,211,kentucky,shelby,46592,2016
+3,6,21,213,kentucky,simpson,17985,2016
+3,6,21,215,kentucky,spencer,18239,2016
+3,6,21,217,kentucky,taylor,25437,2016
+3,6,21,219,kentucky,todd,12362,2016
+3,6,21,221,kentucky,trigg,14313,2016
+3,6,21,223,kentucky,trimble,8627,2016
+3,6,21,225,kentucky,union,14792,2016
+3,6,21,227,kentucky,warren,126341,2016
+3,6,21,229,kentucky,washington,12130,2016
+3,6,21,231,kentucky,wayne,20753,2016
+3,6,21,233,kentucky,webster,13174,2016
+3,6,21,235,kentucky,whitley,36103,2016
+3,6,21,237,kentucky,wolfe,7215,2016
+3,6,21,239,kentucky,woodford,26091,2016
+3,7,22,1,louisiana,acadia parish,62800,2016
+3,7,22,3,louisiana,allen parish,25686,2016
+3,7,22,5,louisiana,ascension parish,121488,2016
+3,7,22,7,louisiana,assumption parish,22755,2016
+3,7,22,9,louisiana,avoyelles parish,41040,2016
+3,7,22,11,louisiana,beauregard parish,36998,2016
+3,7,22,13,louisiana,bienville parish,13806,2016
+3,7,22,15,louisiana,bossier parish,126252,2016
+3,7,22,17,louisiana,caddo parish,249145,2016
+3,7,22,19,louisiana,calcasieu parish,200632,2016
+3,7,22,21,louisiana,caldwell parish,10071,2016
+3,7,22,23,louisiana,cameron parish,6886,2016
+3,7,22,25,louisiana,catahoula parish,9910,2016
+3,7,22,27,louisiana,claiborne parish,16164,2016
+3,7,22,29,louisiana,concordia parish,19994,2016
+3,7,22,31,louisiana,de soto parish,27211,2016
+3,7,22,33,louisiana,east baton rouge parish,447731,2016
+3,7,22,35,louisiana,east carroll parish,7249,2016
+3,7,22,37,louisiana,east feliciana parish,19523,2016
+3,7,22,39,louisiana,evangeline parish,33710,2016
+3,7,22,41,louisiana,franklin parish,20364,2016
+3,7,22,43,louisiana,grant parish,22297,2016
+3,7,22,45,louisiana,iberia parish,73077,2016
+3,7,22,47,louisiana,iberville parish,32917,2016
+3,7,22,49,louisiana,jackson parish,15847,2016
+3,7,22,51,louisiana,jefferson parish,438485,2016
+3,7,22,53,louisiana,jefferson davis parish,31370,2016
+3,7,22,55,louisiana,lafayette parish,241746,2016
+3,7,22,57,louisiana,lafourche parish,98617,2016
+3,7,22,59,louisiana,lasalle parish,15052,2016
+3,7,22,61,louisiana,lincoln parish,47647,2016
+3,7,22,63,louisiana,livingston parish,140080,2016
+3,7,22,65,louisiana,madison parish,11485,2016
+3,7,22,67,louisiana,morehouse parish,25914,2016
+3,7,22,69,louisiana,natchitoches parish,38995,2016
+3,7,22,71,louisiana,orleans parish,393021,2016
+3,7,22,73,louisiana,ouachita parish,156937,2016
+3,7,22,75,louisiana,plaquemines parish,23327,2016
+3,7,22,77,louisiana,pointe coupee parish,22156,2016
+3,7,22,79,louisiana,rapides parish,132097,2016
+3,7,22,81,louisiana,red river parish,8634,2016
+3,7,22,83,louisiana,richland parish,20452,2016
+3,7,22,85,louisiana,sabine parish,24093,2016
+3,7,22,87,louisiana,st. bernard parish,45814,2016
+3,7,22,89,louisiana,st. charles parish,52864,2016
+3,7,22,91,louisiana,st. helena parish,10439,2016
+3,7,22,93,louisiana,st. james parish,21432,2016
+3,7,22,95,louisiana,st. john the baptist parish,43480,2016
+3,7,22,97,louisiana,st. landry parish,83703,2016
+3,7,22,99,louisiana,st. martin parish,53809,2016
+3,7,22,101,louisiana,st. mary parish,52174,2016
+3,7,22,103,louisiana,st. tammany parish,252772,2016
+3,7,22,105,louisiana,tangipahoa parish,130623,2016
+3,7,22,107,louisiana,tensas parish,4677,2016
+3,7,22,109,louisiana,terrebonne parish,113123,2016
+3,7,22,111,louisiana,union parish,22609,2016
+3,7,22,113,louisiana,vermilion parish,60214,2016
+3,7,22,115,louisiana,vernon parish,51621,2016
+3,7,22,117,louisiana,washington parish,46424,2016
+3,7,22,119,louisiana,webster parish,39795,2016
+3,7,22,121,louisiana,west baton rouge parish,25937,2016
+3,7,22,123,louisiana,west carroll parish,11128,2016
+3,7,22,125,louisiana,west feliciana parish,15325,2016
+3,7,22,127,louisiana,winn parish,14533,2016
+1,1,23,1,maine,androscoggin,107269,2016
+1,1,23,3,maine,aroostook,68116,2016
+1,1,23,5,maine,cumberland,290905,2016
+1,1,23,7,maine,franklin,30071,2016
+1,1,23,9,maine,hancock,54398,2016
+1,1,23,11,maine,kennebec,121328,2016
+1,1,23,13,maine,knox,39655,2016
+1,1,23,15,maine,lincoln,33993,2016
+1,1,23,17,maine,oxford,57096,2016
+1,1,23,19,maine,penobscot,151515,2016
+1,1,23,21,maine,piscataquis,16876,2016
+1,1,23,23,maine,sagadahoc,35133,2016
+1,1,23,25,maine,somerset,50663,2016
+1,1,23,27,maine,waldo,39425,2016
+1,1,23,29,maine,washington,31566,2016
+1,1,23,31,maine,york,202223,2016
+3,5,24,1,maryland,allegany,72194,2016
+3,5,24,3,maryland,anne arundel,568916,2016
+3,5,24,5,maryland,baltimore,831431,2016
+3,5,24,9,maryland,calvert,91099,2016
+3,5,24,11,maryland,caroline,32887,2016
+3,5,24,13,maryland,carroll,167140,2016
+3,5,24,15,maryland,cecil,102701,2016
+3,5,24,17,maryland,charles,157430,2016
+3,5,24,19,maryland,dorchester,32267,2016
+3,5,24,21,maryland,frederick,247881,2016
+3,5,24,23,maryland,garrett,29344,2016
+3,5,24,25,maryland,harford,250439,2016
+3,5,24,27,maryland,howard,316966,2016
+3,5,24,29,maryland,kent,19654,2016
+3,5,24,31,maryland,montgomery,1048332,2016
+3,5,24,33,maryland,prince george's,911154,2016
+3,5,24,35,maryland,queen anne's,49178,2016
+3,5,24,37,maryland,st. mary's,111835,2016
+3,5,24,39,maryland,somerset,25833,2016
+3,5,24,41,maryland,talbot,37204,2016
+3,5,24,43,maryland,washington,149810,2016
+3,5,24,45,maryland,wicomico,102585,2016
+3,5,24,47,maryland,worcester,51514,2016
+3,5,24,510,maryland,baltimore city,616958,2016
+1,1,25,1,massachusetts,barnstable,213440,2016
+1,1,25,3,massachusetts,berkshire,126858,2016
+1,1,25,5,massachusetts,bristol,558312,2016
+1,1,25,7,massachusetts,dukes,17312,2016
+1,1,25,9,massachusetts,essex,780633,2016
+1,1,25,11,massachusetts,franklin,70618,2016
+1,1,25,13,massachusetts,hampden,469003,2016
+1,1,25,15,massachusetts,hampshire,161658,2016
+1,1,25,17,massachusetts,middlesex,1594314,2016
+1,1,25,19,massachusetts,nantucket,11089,2016
+1,1,25,21,massachusetts,norfolk,696818,2016
+1,1,25,23,massachusetts,plymouth,511820,2016
+1,1,25,25,massachusetts,suffolk,791165,2016
+1,1,25,27,massachusetts,worcester,820681,2016
+2,3,26,1,michigan,alcona,10383,2016
+2,3,26,3,michigan,alger,9115,2016
+2,3,26,5,michigan,allegan,114955,2016
+2,3,26,7,michigan,alpena,28657,2016
+2,3,26,9,michigan,antrim,23066,2016
+2,3,26,11,michigan,arenac,15127,2016
+2,3,26,13,michigan,baraga,8536,2016
+2,3,26,15,michigan,barry,59712,2016
+2,3,26,17,michigan,bay,104481,2016
+2,3,26,19,michigan,benzie,17524,2016
+2,3,26,21,michigan,berrien,154157,2016
+2,3,26,23,michigan,branch,43457,2016
+2,3,26,25,michigan,calhoun,134178,2016
+2,3,26,27,michigan,cass,51209,2016
+2,3,26,29,michigan,charlevoix,26122,2016
+2,3,26,31,michigan,cheboygan,25404,2016
+2,3,26,33,michigan,chippewa,37696,2016
+2,3,26,35,michigan,clare,30406,2016
+2,3,26,37,michigan,clinton,77530,2016
+2,3,26,39,michigan,crawford,13739,2016
+2,3,26,41,michigan,delta,36225,2016
+2,3,26,43,michigan,dickinson,25515,2016
+2,3,26,45,michigan,eaton,108847,2016
+2,3,26,47,michigan,emmet,32916,2016
+2,3,26,49,michigan,genesee,408607,2016
+2,3,26,51,michigan,gladwin,25144,2016
+2,3,26,53,michigan,gogebic,15349,2016
+2,3,26,55,michigan,grand traverse,91914,2016
+2,3,26,57,michigan,gratiot,40932,2016
+2,3,26,59,michigan,hillsdale,45767,2016
+2,3,26,61,michigan,houghton,36287,2016
+2,3,26,63,michigan,huron,31451,2016
+2,3,26,65,michigan,ingham,287933,2016
+2,3,26,67,michigan,ionia,64182,2016
+2,3,26,69,michigan,iosco,25271,2016
+2,3,26,71,michigan,iron,11182,2016
+2,3,26,73,michigan,isabella,71133,2016
+2,3,26,75,michigan,jackson,158215,2016
+2,3,26,77,michigan,kalamazoo,261056,2016
+2,3,26,79,michigan,kalkaska,17300,2016
+2,3,26,81,michigan,kent,642909,2016
+2,3,26,83,michigan,keweenaw,2139,2016
+2,3,26,85,michigan,lake,11861,2016
+2,3,26,87,michigan,lapeer,88141,2016
+2,3,26,89,michigan,leelanau,21493,2016
+2,3,26,91,michigan,lenawee,98510,2016
+2,3,26,93,michigan,livingston,188358,2016
+2,3,26,95,michigan,luce,6341,2016
+2,3,26,97,michigan,mackinac,10694,2016
+2,3,26,99,michigan,macomb,867503,2016
+2,3,26,101,michigan,manistee,24438,2016
+2,3,26,103,michigan,marquette,66461,2016
+2,3,26,105,michigan,mason,28846,2016
+2,3,26,107,michigan,mecosta,43172,2016
+2,3,26,109,michigan,menominee,23221,2016
+2,3,26,111,michigan,midland,83433,2016
+2,3,26,113,michigan,missaukee,15032,2016
+2,3,26,115,michigan,monroe,149223,2016
+2,3,26,117,michigan,montcalm,62963,2016
+2,3,26,119,michigan,montmorency,9206,2016
+2,3,26,121,michigan,muskegon,173102,2016
+2,3,26,123,michigan,newaygo,47788,2016
+2,3,26,125,michigan,oakland,1245762,2016
+2,3,26,127,michigan,oceana,26281,2016
+2,3,26,129,michigan,ogemaw,20902,2016
+2,3,26,131,michigan,ontonagon,5931,2016
+2,3,26,133,michigan,osceola,23171,2016
+2,3,26,135,michigan,oscoda,8262,2016
+2,3,26,137,michigan,otsego,24385,2016
+2,3,26,139,michigan,ottawa,283242,2016
+2,3,26,141,michigan,presque isle,12725,2016
+2,3,26,143,michigan,roscommon,23847,2016
+2,3,26,145,michigan,saginaw,192285,2016
+2,3,26,147,michigan,st. clair,159507,2016
+2,3,26,149,michigan,st. joseph,60832,2016
+2,3,26,151,michigan,sanilac,41392,2016
+2,3,26,153,michigan,schoolcraft,7990,2016
+2,3,26,155,michigan,shiawassee,68541,2016
+2,3,26,157,michigan,tuscola,53235,2016
+2,3,26,159,michigan,van buren,75201,2016
+2,3,26,161,michigan,washtenaw,364752,2016
+2,3,26,163,michigan,wayne,1756598,2016
+2,3,26,165,michigan,wexford,33090,2016
+2,4,27,1,minnesota,aitkin,15776,2016
+2,4,27,3,minnesota,anoka,347095,2016
+2,4,27,5,minnesota,becker,33752,2016
+2,4,27,7,minnesota,beltrami,46011,2016
+2,4,27,9,minnesota,benton,39468,2016
+2,4,27,11,minnesota,big stone,5012,2016
+2,4,27,13,minnesota,blue earth,66244,2016
+2,4,27,15,minnesota,brown,25262,2016
+2,4,27,17,minnesota,carlton,35544,2016
+2,4,27,19,minnesota,carver,100327,2016
+2,4,27,21,minnesota,cass,29000,2016
+2,4,27,23,minnesota,chippewa,12036,2016
+2,4,27,25,minnesota,chisago,54600,2016
+2,4,27,27,minnesota,clay,62858,2016
+2,4,27,29,minnesota,clearwater,8861,2016
+2,4,27,31,minnesota,cook,5311,2016
+2,4,27,33,minnesota,cottonwood,11396,2016
+2,4,27,35,minnesota,crow wing,63771,2016
+2,4,27,37,minnesota,dakota,417421,2016
+2,4,27,39,minnesota,dodge,20547,2016
+2,4,27,41,minnesota,douglas,37173,2016
+2,4,27,43,minnesota,faribault,13855,2016
+2,4,27,45,minnesota,fillmore,20919,2016
+2,4,27,47,minnesota,freeborn,30403,2016
+2,4,27,49,minnesota,goodhue,46240,2016
+2,4,27,51,minnesota,grant,5931,2016
+2,4,27,53,minnesota,hennepin,1237027,2016
+2,4,27,55,minnesota,houston,18719,2016
+2,4,27,57,minnesota,hubbard,20719,2016
+2,4,27,59,minnesota,isanti,38764,2016
+2,4,27,61,minnesota,itasca,45149,2016
+2,4,27,63,minnesota,jackson,9942,2016
+2,4,27,65,minnesota,kanabec,15882,2016
+2,4,27,67,minnesota,kandiyohi,42622,2016
+2,4,27,69,minnesota,kittson,4318,2016
+2,4,27,71,minnesota,koochiching,12618,2016
+2,4,27,73,minnesota,lac qui parle,6743,2016
+2,4,27,75,minnesota,lake,10516,2016
+2,4,27,77,minnesota,lake of the woods,3796,2016
+2,4,27,79,minnesota,le sueur,27714,2016
+2,4,27,81,minnesota,lincoln,5708,2016
+2,4,27,83,minnesota,lyon,25861,2016
+2,4,27,85,minnesota,mcleod,35748,2016
+2,4,27,87,minnesota,mahnomen,5494,2016
+2,4,27,89,minnesota,marshall,9371,2016
+2,4,27,91,minnesota,martin,19890,2016
+2,4,27,93,minnesota,meeker,23099,2016
+2,4,27,95,minnesota,mille lacs,25614,2016
+2,4,27,97,minnesota,morrison,32920,2016
+2,4,27,99,minnesota,mower,39329,2016
+2,4,27,101,minnesota,murray,8300,2016
+2,4,27,103,minnesota,nicollet,33656,2016
+2,4,27,105,minnesota,nobles,22016,2016
+2,4,27,107,minnesota,norman,6538,2016
+2,4,27,109,minnesota,olmsted,153183,2016
+2,4,27,111,minnesota,otter tail,57981,2016
+2,4,27,113,minnesota,pennington,14251,2016
+2,4,27,115,minnesota,pine,28877,2016
+2,4,27,117,minnesota,pipestone,9193,2016
+2,4,27,119,minnesota,polk,31635,2016
+2,4,27,121,minnesota,pope,10961,2016
+2,4,27,123,minnesota,ramsey,542812,2016
+2,4,27,125,minnesota,red lake,3996,2016
+2,4,27,127,minnesota,redwood,15236,2016
+2,4,27,129,minnesota,renville,14580,2016
+2,4,27,131,minnesota,rice,65588,2016
+2,4,27,133,minnesota,rock,9413,2016
+2,4,27,135,minnesota,roseau,15559,2016
+2,4,27,137,minnesota,st. louis,200018,2016
+2,4,27,139,minnesota,scott,143438,2016
+2,4,27,141,minnesota,sherburne,93236,2016
+2,4,27,143,minnesota,sibley,14792,2016
+2,4,27,145,minnesota,stearns,156571,2016
+2,4,27,147,minnesota,steele,36703,2016
+2,4,27,149,minnesota,stevens,9747,2016
+2,4,27,151,minnesota,swift,9444,2016
+2,4,27,153,minnesota,todd,24404,2016
+2,4,27,155,minnesota,traverse,3322,2016
+2,4,27,157,minnesota,wabasha,21447,2016
+2,4,27,159,minnesota,wadena,13566,2016
+2,4,27,161,minnesota,waseca,18828,2016
+2,4,27,163,minnesota,washington,252976,2016
+2,4,27,165,minnesota,watonwan,10911,2016
+2,4,27,167,minnesota,wilkin,6345,2016
+2,4,27,169,minnesota,winona,50872,2016
+2,4,27,171,minnesota,wright,132387,2016
+2,4,27,173,minnesota,yellow medicine,9892,2016
+3,6,28,1,mississippi,adams,31440,2016
+3,6,28,3,mississippi,alcorn,37240,2016
+3,6,28,5,mississippi,amite,12430,2016
+3,6,28,7,mississippi,attala,18566,2016
+3,6,28,9,mississippi,benton,8265,2016
+3,6,28,11,mississippi,bolivar,32634,2016
+3,6,28,13,mississippi,calhoun,14563,2016
+3,6,28,15,mississippi,carroll,10211,2016
+3,6,28,17,mississippi,chickasaw,17234,2016
+3,6,28,19,mississippi,choctaw,8316,2016
+3,6,28,21,mississippi,claiborne,9129,2016
+3,6,28,23,mississippi,clarke,15896,2016
+3,6,28,25,mississippi,clay,19840,2016
+3,6,28,27,mississippi,coahoma,23820,2016
+3,6,28,29,mississippi,copiah,28605,2016
+3,6,28,31,mississippi,covington,19188,2016
+3,6,28,33,mississippi,desoto,175545,2016
+3,6,28,35,mississippi,forrest,75637,2016
+3,6,28,37,mississippi,franklin,7724,2016
+3,6,28,39,mississippi,george,23715,2016
+3,6,28,41,mississippi,greene,13482,2016
+3,6,28,43,mississippi,grenada,21219,2016
+3,6,28,45,mississippi,hancock,46647,2016
+3,6,28,47,mississippi,harrison,202639,2016
+3,6,28,49,mississippi,hinds,241818,2016
+3,6,28,51,mississippi,holmes,17960,2016
+3,6,28,53,mississippi,humphreys,8594,2016
+3,6,28,55,mississippi,issaquena,1322,2016
+3,6,28,57,mississippi,itawamba,23403,2016
+3,6,28,59,mississippi,jackson,141550,2016
+3,6,28,61,mississippi,jasper,16591,2016
+3,6,28,63,mississippi,jefferson,7322,2016
+3,6,28,65,mississippi,jefferson davis,11464,2016
+3,6,28,67,mississippi,jones,68181,2016
+3,6,28,69,mississippi,kemper,9954,2016
+3,6,28,71,mississippi,lafayette,53479,2016
+3,6,28,73,mississippi,lamar,61230,2016
+3,6,28,75,mississippi,lauderdale,77228,2016
+3,6,28,77,mississippi,lawrence,12803,2016
+3,6,28,79,mississippi,leake,22737,2016
+3,6,28,81,mississippi,lee,84816,2016
+3,6,28,83,mississippi,leflore,29727,2016
+3,6,28,85,mississippi,lincoln,34404,2016
+3,6,28,87,mississippi,lowndes,59460,2016
+3,6,28,89,mississippi,madison,103875,2016
+3,6,28,91,mississippi,marion,25113,2016
+3,6,28,93,mississippi,marshall,35780,2016
+3,6,28,95,mississippi,monroe,35908,2016
+3,6,28,97,mississippi,montgomery,10259,2016
+3,6,28,99,mississippi,neshoba,29439,2016
+3,6,28,101,mississippi,newton,21385,2016
+3,6,28,103,mississippi,noxubee,10914,2016
+3,6,28,105,mississippi,oktibbeha,49579,2016
+3,6,28,107,mississippi,panola,34160,2016
+3,6,28,109,mississippi,pearl river,55072,2016
+3,6,28,111,mississippi,perry,12076,2016
+3,6,28,113,mississippi,pike,39608,2016
+3,6,28,115,mississippi,pontotoc,31437,2016
+3,6,28,117,mississippi,prentiss,25394,2016
+3,6,28,119,mississippi,quitman,7404,2016
+3,6,28,121,mississippi,rankin,151074,2016
+3,6,28,123,mississippi,scott,28378,2016
+3,6,28,125,mississippi,sharkey,4534,2016
+3,6,28,127,mississippi,simpson,26980,2016
+3,6,28,129,mississippi,smith,15971,2016
+3,6,28,131,mississippi,stone,17951,2016
+3,6,28,133,mississippi,sunflower,26389,2016
+3,6,28,135,mississippi,tallahatchie,14383,2016
+3,6,28,137,mississippi,tate,28246,2016
+3,6,28,139,mississippi,tippah,22045,2016
+3,6,28,141,mississippi,tishomingo,19460,2016
+3,6,28,143,mississippi,tunica,10156,2016
+3,6,28,145,mississippi,union,28325,2016
+3,6,28,147,mississippi,walthall,14570,2016
+3,6,28,149,mississippi,warren,47041,2016
+3,6,28,151,mississippi,washington,47191,2016
+3,6,28,153,mississippi,wayne,20450,2016
+3,6,28,155,mississippi,webster,9777,2016
+3,6,28,157,mississippi,wilkinson,9008,2016
+3,6,28,159,mississippi,winston,18360,2016
+3,6,28,161,mississippi,yalobusha,12489,2016
+3,6,28,163,mississippi,yazoo,27206,2016
+2,4,29,1,missouri,adair,25223,2016
+2,4,29,3,missouri,andrew,17339,2016
+2,4,29,5,missouri,atchison,5310,2016
+2,4,29,7,missouri,audrain,25875,2016
+2,4,29,9,missouri,barry,35339,2016
+2,4,29,11,missouri,barton,11859,2016
+2,4,29,13,missouri,bates,16371,2016
+2,4,29,15,missouri,benton,18921,2016
+2,4,29,17,missouri,bollinger,12204,2016
+2,4,29,19,missouri,boone,176555,2016
+2,4,29,21,missouri,buchanan,89354,2016
+2,4,29,23,missouri,butler,42789,2016
+2,4,29,25,missouri,caldwell,9070,2016
+2,4,29,27,missouri,callaway,45077,2016
+2,4,29,29,missouri,camden,45009,2016
+2,4,29,31,missouri,cape girardeau,78390,2016
+2,4,29,33,missouri,carroll,8854,2016
+2,4,29,35,missouri,carter,6207,2016
+2,4,29,37,missouri,cass,102780,2016
+2,4,29,39,missouri,cedar,13886,2016
+2,4,29,41,missouri,chariton,7529,2016
+2,4,29,43,missouri,christian,84159,2016
+2,4,29,45,missouri,clark,6731,2016
+2,4,29,47,missouri,clay,238762,2016
+2,4,29,49,missouri,clinton,20530,2016
+2,4,29,51,missouri,cole,76775,2016
+2,4,29,53,missouri,cooper,17683,2016
+2,4,29,55,missouri,crawford,24232,2016
+2,4,29,57,missouri,dade,7606,2016
+2,4,29,59,missouri,dallas,16380,2016
+2,4,29,61,missouri,daviess,8233,2016
+2,4,29,63,missouri,dekalb,12505,2016
+2,4,29,65,missouri,dent,15425,2016
+2,4,29,67,missouri,douglas,13352,2016
+2,4,29,69,missouri,dunklin,30556,2016
+2,4,29,71,missouri,franklin,102754,2016
+2,4,29,73,missouri,gasconade,14750,2016
+2,4,29,75,missouri,gentry,6637,2016
+2,4,29,77,missouri,greene,287881,2016
+2,4,29,79,missouri,grundy,10080,2016
+2,4,29,81,missouri,harrison,8590,2016
+2,4,29,83,missouri,henry,21617,2016
+2,4,29,85,missouri,hickory,9374,2016
+2,4,29,87,missouri,holt,4479,2016
+2,4,29,89,missouri,howard,10062,2016
+2,4,29,91,missouri,howell,40140,2016
+2,4,29,93,missouri,iron,10147,2016
+2,4,29,95,missouri,jackson,693115,2016
+2,4,29,97,missouri,jasper,119298,2016
+2,4,29,99,missouri,jefferson,223413,2016
+2,4,29,101,missouri,johnson,53651,2016
+2,4,29,103,missouri,knox,3945,2016
+2,4,29,105,missouri,laclede,35427,2016
+2,4,29,107,missouri,lafayette,32542,2016
+2,4,29,109,missouri,lawrence,38224,2016
+2,4,29,111,missouri,lewis,10083,2016
+2,4,29,113,missouri,lincoln,55186,2016
+2,4,29,115,missouri,linn,12140,2016
+2,4,29,117,missouri,livingston,15138,2016
+2,4,29,119,missouri,mcdonald,22767,2016
+2,4,29,121,missouri,macon,15143,2016
+2,4,29,123,missouri,madison,12231,2016
+2,4,29,125,missouri,maries,8874,2016
+2,4,29,127,missouri,marion,28667,2016
+2,4,29,129,missouri,mercer,3658,2016
+2,4,29,131,missouri,miller,24994,2016
+2,4,29,133,missouri,mississippi,13737,2016
+2,4,29,135,missouri,moniteau,16007,2016
+2,4,29,137,missouri,monroe,8637,2016
+2,4,29,139,missouri,montgomery,11477,2016
+2,4,29,141,missouri,morgan,20099,2016
+2,4,29,143,missouri,new madrid,17890,2016
+2,4,29,145,missouri,newton,58219,2016
+2,4,29,147,missouri,nodaway,22492,2016
+2,4,29,149,missouri,oregon,10739,2016
+2,4,29,151,missouri,osage,13596,2016
+2,4,29,153,missouri,ozark,9187,2016
+2,4,29,155,missouri,pemiscot,17102,2016
+2,4,29,157,missouri,perry,19201,2016
+2,4,29,159,missouri,pettis,42280,2016
+2,4,29,161,missouri,phelps,44828,2016
+2,4,29,163,missouri,pike,18504,2016
+2,4,29,165,missouri,platte,98653,2016
+2,4,29,167,missouri,polk,31412,2016
+2,4,29,169,missouri,pulaski,52611,2016
+2,4,29,171,missouri,putnam,4831,2016
+2,4,29,173,missouri,ralls,10228,2016
+2,4,29,175,missouri,randolph,24970,2016
+2,4,29,177,missouri,ray,22721,2016
+2,4,29,179,missouri,reynolds,6370,2016
+2,4,29,181,missouri,ripley,13781,2016
+2,4,29,183,missouri,st. charles,390795,2016
+2,4,29,185,missouri,st. clair,9293,2016
+2,4,29,186,missouri,ste. genevieve,17880,2016
+2,4,29,187,missouri,st. francois,66393,2016
+2,4,29,189,missouri,st. louis,998216,2016
+2,4,29,195,missouri,saline,22852,2016
+2,4,29,197,missouri,schuyler,4491,2016
+2,4,29,199,missouri,scotland,4908,2016
+2,4,29,201,missouri,scott,38723,2016
+2,4,29,203,missouri,shannon,8244,2016
+2,4,29,205,missouri,shelby,6051,2016
+2,4,29,207,missouri,stoddard,29483,2016
+2,4,29,209,missouri,stone,31534,2016
+2,4,29,211,missouri,sullivan,6343,2016
+2,4,29,213,missouri,taney,54749,2016
+2,4,29,215,missouri,texas,25852,2016
+2,4,29,217,missouri,vernon,20554,2016
+2,4,29,219,missouri,warren,33815,2016
+2,4,29,221,missouri,washington,24832,2016
+2,4,29,223,missouri,wayne,13207,2016
+2,4,29,225,missouri,webster,38065,2016
+2,4,29,227,missouri,worth,2028,2016
+2,4,29,229,missouri,wright,18275,2016
+2,4,29,510,missouri,st. louis city,313144,2016
+4,8,30,1,montana,beaverhead,9444,2016
+4,8,30,3,montana,big horn,13371,2016
+4,8,30,5,montana,blaine,6657,2016
+4,8,30,7,montana,broadwater,5788,2016
+4,8,30,9,montana,carbon,10498,2016
+4,8,30,11,montana,carter,1177,2016
+4,8,30,13,montana,cascade,81488,2016
+4,8,30,15,montana,chouteau,5794,2016
+4,8,30,17,montana,custer,11821,2016
+4,8,30,19,montana,daniels,1734,2016
+4,8,30,21,montana,dawson,9243,2016
+4,8,30,23,montana,deer lodge,9069,2016
+4,8,30,25,montana,fallon,3091,2016
+4,8,30,27,montana,fergus,11300,2016
+4,8,30,29,montana,flathead,97693,2016
+4,8,30,31,montana,gallatin,104072,2016
+4,8,30,33,montana,garfield,1308,2016
+4,8,30,35,montana,glacier,13669,2016
+4,8,30,37,montana,golden valley,815,2016
+4,8,30,39,montana,granite,3292,2016
+4,8,30,41,montana,hill,16446,2016
+4,8,30,43,montana,jefferson,11770,2016
+4,8,30,45,montana,judith basin,1949,2016
+4,8,30,47,montana,lake,29711,2016
+4,8,30,49,montana,lewis and clark,66792,2016
+4,8,30,51,montana,liberty,2428,2016
+4,8,30,53,montana,lincoln,19230,2016
+4,8,30,55,montana,mccone,1739,2016
+4,8,30,57,montana,madison,7969,2016
+4,8,30,59,montana,meagher,1842,2016
+4,8,30,61,montana,mineral,4125,2016
+4,8,30,63,montana,missoula,115896,2016
+4,8,30,65,montana,musselshell,4636,2016
+4,8,30,67,montana,park,16098,2016
+4,8,30,69,montana,petroleum,498,2016
+4,8,30,71,montana,phillips,4116,2016
+4,8,30,73,montana,pondera,6028,2016
+4,8,30,75,montana,powder river,1752,2016
+4,8,30,77,montana,powell,6848,2016
+4,8,30,79,montana,prairie,1166,2016
+4,8,30,81,montana,ravalli,41876,2016
+4,8,30,83,montana,richland,11408,2016
+4,8,30,85,montana,roosevelt,11219,2016
+4,8,30,87,montana,rosebud,9265,2016
+4,8,30,89,montana,sanders,11466,2016
+4,8,30,91,montana,sheridan,3596,2016
+4,8,30,93,montana,silver bow,34467,2016
+4,8,30,95,montana,stillwater,9367,2016
+4,8,30,97,montana,sweet grass,3628,2016
+4,8,30,99,montana,teton,6012,2016
+4,8,30,101,montana,toole,4961,2016
+4,8,30,103,montana,treasure,685,2016
+4,8,30,105,montana,valley,7537,2016
+4,8,30,107,montana,wheatland,2111,2016
+4,8,30,109,montana,wibaux,1047,2016
+4,8,30,111,montana,yellowstone,157648,2016
+2,4,31,1,nebraska,adams,31657,2016
+2,4,31,3,nebraska,antelope,6356,2016
+2,4,31,5,nebraska,arthur,470,2016
+2,4,31,7,nebraska,banner,724,2016
+2,4,31,9,nebraska,blaine,469,2016
+2,4,31,11,nebraska,boone,5358,2016
+2,4,31,13,nebraska,box butte,11192,2016
+2,4,31,15,nebraska,boyd,1980,2016
+2,4,31,17,nebraska,brown,2984,2016
+2,4,31,19,nebraska,buffalo,49382,2016
+2,4,31,21,nebraska,burt,6547,2016
+2,4,31,23,nebraska,butler,8005,2016
+2,4,31,25,nebraska,cass,25594,2016
+2,4,31,27,nebraska,cedar,8595,2016
+2,4,31,29,nebraska,chase,3954,2016
+2,4,31,31,nebraska,cherry,5829,2016
+2,4,31,33,nebraska,cheyenne,10066,2016
+2,4,31,35,nebraska,clay,6149,2016
+2,4,31,37,nebraska,colfax,10659,2016
+2,4,31,39,nebraska,cuming,9001,2016
+2,4,31,41,nebraska,custer,10837,2016
+2,4,31,43,nebraska,dakota,20401,2016
+2,4,31,45,nebraska,dawes,8912,2016
+2,4,31,47,nebraska,dawson,23823,2016
+2,4,31,49,nebraska,deuel,1868,2016
+2,4,31,51,nebraska,dixon,5744,2016
+2,4,31,53,nebraska,dodge,36567,2016
+2,4,31,55,nebraska,douglas,555894,2016
+2,4,31,57,nebraska,dundy,1815,2016
+2,4,31,59,nebraska,fillmore,5640,2016
+2,4,31,61,nebraska,franklin,3012,2016
+2,4,31,63,nebraska,frontier,2650,2016
+2,4,31,65,nebraska,furnas,4771,2016
+2,4,31,67,nebraska,gage,21609,2016
+2,4,31,69,nebraska,garden,1911,2016
+2,4,31,71,nebraska,garfield,2001,2016
+2,4,31,73,nebraska,gosper,2023,2016
+2,4,31,75,nebraska,grant,664,2016
+2,4,31,77,nebraska,greeley,2405,2016
+2,4,31,79,nebraska,hall,61530,2016
+2,4,31,81,nebraska,hamilton,9170,2016
+2,4,31,83,nebraska,harlan,3462,2016
+2,4,31,85,nebraska,hayes,891,2016
+2,4,31,87,nebraska,hitchcock,2844,2016
+2,4,31,89,nebraska,holt,10235,2016
+2,4,31,91,nebraska,hooker,691,2016
+2,4,31,93,nebraska,howard,6419,2016
+2,4,31,95,nebraska,jefferson,7178,2016
+2,4,31,97,nebraska,johnson,5208,2016
+2,4,31,99,nebraska,kearney,6569,2016
+2,4,31,101,nebraska,keith,8106,2016
+2,4,31,103,nebraska,keya paha,795,2016
+2,4,31,105,nebraska,kimball,3684,2016
+2,4,31,107,nebraska,knox,8501,2016
+2,4,31,109,nebraska,lancaster,310548,2016
+2,4,31,111,nebraska,lincoln,35474,2016
+2,4,31,113,nebraska,logan,797,2016
+2,4,31,115,nebraska,loup,616,2016
+2,4,31,117,nebraska,mcpherson,505,2016
+2,4,31,119,nebraska,madison,34935,2016
+2,4,31,121,nebraska,merrick,7849,2016
+2,4,31,123,nebraska,morrill,4892,2016
+2,4,31,125,nebraska,nance,3577,2016
+2,4,31,127,nebraska,nemaha,6981,2016
+2,4,31,129,nebraska,nuckolls,4268,2016
+2,4,31,131,nebraska,otoe,15984,2016
+2,4,31,133,nebraska,pawnee,2711,2016
+2,4,31,135,nebraska,perkins,2906,2016
+2,4,31,137,nebraska,phelps,9184,2016
+2,4,31,139,nebraska,pierce,7156,2016
+2,4,31,141,nebraska,platte,32946,2016
+2,4,31,143,nebraska,polk,5202,2016
+2,4,31,145,nebraska,red willow,10783,2016
+2,4,31,147,nebraska,richardson,7998,2016
+2,4,31,149,nebraska,rock,1412,2016
+2,4,31,151,nebraska,saline,14295,2016
+2,4,31,153,nebraska,sarpy,178328,2016
+2,4,31,155,nebraska,saunders,20995,2016
+2,4,31,157,nebraska,scotts bluff,36553,2016
+2,4,31,159,nebraska,seward,17085,2016
+2,4,31,161,nebraska,sheridan,5239,2016
+2,4,31,163,nebraska,sherman,3025,2016
+2,4,31,165,nebraska,sioux,1262,2016
+2,4,31,167,nebraska,stanton,5987,2016
+2,4,31,169,nebraska,thayer,5099,2016
+2,4,31,171,nebraska,thomas,722,2016
+2,4,31,173,nebraska,thurston,7140,2016
+2,4,31,175,nebraska,valley,4181,2016
+2,4,31,177,nebraska,washington,20568,2016
+2,4,31,179,nebraska,wayne,9453,2016
+2,4,31,181,nebraska,webster,3582,2016
+2,4,31,183,nebraska,wheeler,803,2016
+2,4,31,185,nebraska,york,13761,2016
+4,8,32,1,nevada,churchill,24016,2016
+4,8,32,3,nevada,clark,2156724,2016
+4,8,32,5,nevada,douglas,47947,2016
+4,8,32,7,nevada,elko,52283,2016
+4,8,32,9,nevada,esmeralda,828,2016
+4,8,32,11,nevada,eureka,1940,2016
+4,8,32,13,nevada,humboldt,16873,2016
+4,8,32,15,nevada,lander,5765,2016
+4,8,32,17,nevada,lincoln,5178,2016
+4,8,32,19,nevada,lyon,52854,2016
+4,8,32,21,nevada,mineral,4396,2016
+4,8,32,23,nevada,nye,43399,2016
+4,8,32,27,nevada,pershing,6606,2016
+4,8,32,29,nevada,storey,3989,2016
+4,8,32,31,nevada,washoe,452429,2016
+4,8,32,33,nevada,white pine,9744,2016
+4,8,32,510,nevada,carson city,54283,2016
+1,1,33,1,new hampshire,belknap,60606,2016
+1,1,33,3,new hampshire,carroll,47399,2016
+1,1,33,5,new hampshire,cheshire,75697,2016
+1,1,33,7,new hampshire,coos,31923,2016
+1,1,33,9,new hampshire,grafton,89311,2016
+1,1,33,11,new hampshire,hillsborough,407718,2016
+1,1,33,13,new hampshire,merrimack,148133,2016
+1,1,33,15,new hampshire,rockingham,303922,2016
+1,1,33,17,new hampshire,strafford,127270,2016
+1,1,33,19,new hampshire,sullivan,43036,2016
+1,2,34,1,new jersey,atlantic,270830,2016
+1,2,34,3,new jersey,bergen,942387,2016
+1,2,34,5,new jersey,burlington,448342,2016
+1,2,34,7,new jersey,camden,510741,2016
+1,2,34,9,new jersey,cape may,93920,2016
+1,2,34,11,new jersey,cumberland,153914,2016
+1,2,34,13,new jersey,essex,803876,2016
+1,2,34,15,new jersey,gloucester,291703,2016
+1,2,34,17,new jersey,hudson,686391,2016
+1,2,34,19,new jersey,hunterdon,125061,2016
+1,2,34,21,new jersey,mercer,373660,2016
+1,2,34,23,new jersey,middlesex,839986,2016
+1,2,34,25,new jersey,monmouth,626782,2016
+1,2,34,27,new jersey,morris,498844,2016
+1,2,34,29,new jersey,ocean,592944,2016
+1,2,34,31,new jersey,passaic,511265,2016
+1,2,34,33,new jersey,salem,63158,2016
+1,2,34,35,new jersey,somerset,334373,2016
+1,2,34,37,new jersey,sussex,142288,2016
+1,2,34,39,new jersey,union,561106,2016
+1,2,34,41,new jersey,warren,106845,2016
+4,8,35,1,new mexico,bernalillo,675588,2016
+4,8,35,3,new mexico,catron,3532,2016
+4,8,35,5,new mexico,chaves,65371,2016
+4,8,35,6,new mexico,cibola,26996,2016
+4,8,35,7,new mexico,colfax,12262,2016
+4,8,35,9,new mexico,curry,50168,2016
+4,8,35,11,new mexico,de baca,1841,2016
+4,8,35,13,new mexico,dona ana,213874,2016
+4,8,35,15,new mexico,eddy,57456,2016
+4,8,35,17,new mexico,grant,28033,2016
+4,8,35,19,new mexico,guadalupe,4372,2016
+4,8,35,21,new mexico,harding,692,2016
+4,8,35,23,new mexico,hidalgo,4330,2016
+4,8,35,25,new mexico,lea,69850,2016
+4,8,35,27,new mexico,lincoln,19294,2016
+4,8,35,28,new mexico,los alamos,18152,2016
+4,8,35,29,new mexico,luna,24288,2016
+4,8,35,31,new mexico,mckinley,72958,2016
+4,8,35,33,new mexico,mora,4547,2016
+4,8,35,35,new mexico,otero,65184,2016
+4,8,35,37,new mexico,quay,8381,2016
+4,8,35,39,new mexico,rio arriba,39158,2016
+4,8,35,41,new mexico,roosevelt,19082,2016
+4,8,35,43,new mexico,sandoval,140224,2016
+4,8,35,45,new mexico,san juan,127772,2016
+4,8,35,47,new mexico,san miguel,27956,2016
+4,8,35,49,new mexico,santa fe,147943,2016
+4,8,35,51,new mexico,sierra,11134,2016
+4,8,35,53,new mexico,socorro,16919,2016
+4,8,35,55,new mexico,taos,32857,2016
+4,8,35,57,new mexico,torrance,15426,2016
+4,8,35,59,new mexico,union,4153,2016
+4,8,35,61,new mexico,valencia,75639,2016
+1,2,36,1,new york,albany,309080,2016
+1,2,36,3,new york,allegany,47110,2016
+1,2,36,5,new york,bronx,1468976,2016
+1,2,36,7,new york,broome,194830,2016
+1,2,36,9,new york,cattaraugus,77761,2016
+1,2,36,11,new york,cayuga,77757,2016
+1,2,36,13,new york,chautauqua,129638,2016
+1,2,36,15,new york,chemung,86040,2016
+1,2,36,17,new york,chenango,48323,2016
+1,2,36,19,new york,clinton,80973,2016
+1,2,36,21,new york,columbia,61010,2016
+1,2,36,23,new york,cortland,47934,2016
+1,2,36,25,new york,delaware,45425,2016
+1,2,36,27,new york,dutchess,294567,2016
+1,2,36,29,new york,erie,923116,2016
+1,2,36,31,new york,essex,38014,2016
+1,2,36,33,new york,franklin,51139,2016
+1,2,36,35,new york,fulton,53696,2016
+1,2,36,37,new york,genesee,58163,2016
+1,2,36,39,new york,greene,47516,2016
+1,2,36,41,new york,hamilton,4566,2016
+1,2,36,43,new york,herkimer,62479,2016
+1,2,36,45,new york,jefferson,114084,2016
+1,2,36,47,new york,kings,2650859,2016
+1,2,36,49,new york,lewis,26646,2016
+1,2,36,51,new york,livingston,64202,2016
+1,2,36,53,new york,madison,71389,2016
+1,2,36,55,new york,monroe,747326,2016
+1,2,36,57,new york,montgomery,49266,2016
+1,2,36,59,new york,nassau,1365857,2016
+1,2,36,61,new york,new york,1662164,2016
+1,2,36,63,new york,niagara,211798,2016
+1,2,36,65,new york,oneida,231273,2016
+1,2,36,67,new york,onondaga,466635,2016
+1,2,36,69,new york,ontario,109586,2016
+1,2,36,71,new york,orange,379915,2016
+1,2,36,73,new york,orleans,41292,2016
+1,2,36,75,new york,oswego,118907,2016
+1,2,36,77,new york,otsego,60343,2016
+1,2,36,79,new york,putnam,99107,2016
+1,2,36,81,new york,queens,2356044,2016
+1,2,36,83,new york,rensselaer,159736,2016
+1,2,36,85,new york,richmond,477383,2016
+1,2,36,87,new york,rockland,326875,2016
+1,2,36,89,new york,st. lawrence,109989,2016
+1,2,36,91,new york,saratoga,227560,2016
+1,2,36,93,new york,schenectady,154972,2016
+1,2,36,95,new york,schoharie,31453,2016
+1,2,36,97,new york,schuyler,17998,2016
+1,2,36,99,new york,seneca,34781,2016
+1,2,36,101,new york,steuben,96830,2016
+1,2,36,103,new york,suffolk,1494334,2016
+1,2,36,105,new york,sullivan,75370,2016
+1,2,36,107,new york,tioga,48778,2016
+1,2,36,109,new york,tompkins,104561,2016
+1,2,36,111,new york,ulster,179546,2016
+1,2,36,113,new york,warren,64519,2016
+1,2,36,115,new york,washington,61806,2016
+1,2,36,117,new york,wayne,90924,2016
+1,2,36,119,new york,westchester,978604,2016
+1,2,36,121,new york,wyoming,40439,2016
+1,2,36,123,new york,yates,25022,2016
+3,5,37,1,north carolina,alamance,159325,2016
+3,5,37,3,north carolina,alexander,37270,2016
+3,5,37,5,north carolina,alleghany,10945,2016
+3,5,37,7,north carolina,anson,25119,2016
+3,5,37,9,north carolina,ashe,26754,2016
+3,5,37,11,north carolina,avery,17500,2016
+3,5,37,13,north carolina,beaufort,47361,2016
+3,5,37,15,north carolina,bertie,19449,2016
+3,5,37,17,north carolina,bladen,33796,2016
+3,5,37,19,north carolina,brunswick,126353,2016
+3,5,37,21,north carolina,buncombe,255334,2016
+3,5,37,23,north carolina,burke,88802,2016
+3,5,37,25,north carolina,cabarrus,201573,2016
+3,5,37,27,north carolina,caldwell,81787,2016
+3,5,37,29,north carolina,camden,10423,2016
+3,5,37,31,north carolina,carteret,68855,2016
+3,5,37,33,north carolina,caswell,22742,2016
+3,5,37,35,north carolina,catawba,156647,2016
+3,5,37,37,north carolina,chatham,69824,2016
+3,5,37,39,north carolina,cherokee,27883,2016
+3,5,37,41,north carolina,chowan,14240,2016
+3,5,37,43,north carolina,clay,10819,2016
+3,5,37,45,north carolina,cleveland,97102,2016
+3,5,37,47,north carolina,columbus,56335,2016
+3,5,37,49,north carolina,craven,102857,2016
+3,5,37,51,north carolina,cumberland,333538,2016
+3,5,37,53,north carolina,currituck,25664,2016
+3,5,37,55,north carolina,dare,35760,2016
+3,5,37,57,north carolina,davidson,164504,2016
+3,5,37,59,north carolina,davie,41973,2016
+3,5,37,61,north carolina,duplin,59559,2016
+3,5,37,63,north carolina,durham,307090,2016
+3,5,37,65,north carolina,edgecombe,53293,2016
+3,5,37,67,north carolina,forsyth,371614,2016
+3,5,37,69,north carolina,franklin,64659,2016
+3,5,37,71,north carolina,gaston,216903,2016
+3,5,37,73,north carolina,gates,11593,2016
+3,5,37,75,north carolina,graham,8548,2016
+3,5,37,77,north carolina,granville,58824,2016
+3,5,37,79,north carolina,greene,21144,2016
+3,5,37,81,north carolina,guilford,521996,2016
+3,5,37,83,north carolina,halifax,51871,2016
+3,5,37,85,north carolina,harnett,130899,2016
+3,5,37,87,north carolina,haywood,60388,2016
+3,5,37,89,north carolina,henderson,113758,2016
+3,5,37,91,north carolina,hertford,24096,2016
+3,5,37,93,north carolina,hoke,53108,2016
+3,5,37,95,north carolina,hyde,5476,2016
+3,5,37,97,north carolina,iredell,172529,2016
+3,5,37,99,north carolina,jackson,42268,2016
+3,5,37,101,north carolina,johnston,191094,2016
+3,5,37,103,north carolina,jones,9625,2016
+3,5,37,105,north carolina,lee,59746,2016
+3,5,37,107,north carolina,lenoir,57432,2016
+3,5,37,109,north carolina,lincoln,81075,2016
+3,5,37,111,north carolina,mcdowell,44989,2016
+3,5,37,113,north carolina,macon,34309,2016
+3,5,37,115,north carolina,madison,21434,2016
+3,5,37,117,north carolina,martin,23081,2016
+3,5,37,119,north carolina,mecklenburg,1057237,2016
+3,5,37,121,north carolina,mitchell,15068,2016
+3,5,37,123,north carolina,montgomery,27438,2016
+3,5,37,125,north carolina,moore,95392,2016
+3,5,37,127,north carolina,nash,94008,2016
+3,5,37,129,north carolina,new hanover,223234,2016
+3,5,37,131,north carolina,northampton,20166,2016
+3,5,37,133,north carolina,onslow,192199,2016
+3,5,37,135,north carolina,orange,142723,2016
+3,5,37,137,north carolina,pamlico,12799,2016
+3,5,37,139,north carolina,pasquotank,39615,2016
+3,5,37,141,north carolina,pender,58897,2016
+3,5,37,143,north carolina,perquimans,13427,2016
+3,5,37,145,north carolina,person,39283,2016
+3,5,37,147,north carolina,pitt,177627,2016
+3,5,37,149,north carolina,polk,20421,2016
+3,5,37,151,north carolina,randolph,143209,2016
+3,5,37,153,north carolina,richmond,45054,2016
+3,5,37,155,north carolina,robeson,133514,2016
+3,5,37,157,north carolina,rockingham,91359,2016
+3,5,37,159,north carolina,rowan,139529,2016
+3,5,37,161,north carolina,rutherford,66305,2016
+3,5,37,163,north carolina,sampson,63363,2016
+3,5,37,165,north carolina,scotland,35250,2016
+3,5,37,167,north carolina,stanly,60880,2016
+3,5,37,169,north carolina,stokes,45891,2016
+3,5,37,171,north carolina,surry,72049,2016
+3,5,37,173,north carolina,swain,14187,2016
+3,5,37,175,north carolina,transylvania,33471,2016
+3,5,37,177,north carolina,tyrrell,4039,2016
+3,5,37,179,north carolina,union,226540,2016
+3,5,37,181,north carolina,vance,44426,2016
+3,5,37,183,north carolina,wake,1049143,2016
+3,5,37,185,north carolina,warren,19889,2016
+3,5,37,187,north carolina,washington,12132,2016
+3,5,37,189,north carolina,watauga,54099,2016
+3,5,37,191,north carolina,wayne,124476,2016
+3,5,37,193,north carolina,wilkes,68634,2016
+3,5,37,195,north carolina,wilson,81433,2016
+3,5,37,197,north carolina,yadkin,37726,2016
+3,5,37,199,north carolina,yancey,17622,2016
+2,4,38,1,north dakota,adams,2348,2016
+2,4,38,3,north dakota,barnes,10929,2016
+2,4,38,5,north dakota,benson,6851,2016
+2,4,38,7,north dakota,billings,953,2016
+2,4,38,9,north dakota,bottineau,6579,2016
+2,4,38,11,north dakota,bowman,3230,2016
+2,4,38,13,north dakota,burke,2227,2016
+2,4,38,15,north dakota,burleigh,94429,2016
+2,4,38,17,north dakota,cass,174625,2016
+2,4,38,19,north dakota,cavalier,3810,2016
+2,4,38,21,north dakota,dickey,4995,2016
+2,4,38,23,north dakota,divide,2389,2016
+2,4,38,25,north dakota,dunn,4373,2016
+2,4,38,27,north dakota,eddy,2288,2016
+2,4,38,29,north dakota,emmons,3335,2016
+2,4,38,31,north dakota,foster,3310,2016
+2,4,38,33,north dakota,golden valley,1861,2016
+2,4,38,35,north dakota,grand forks,70596,2016
+2,4,38,37,north dakota,grant,2396,2016
+2,4,38,39,north dakota,griggs,2262,2016
+2,4,38,41,north dakota,hettinger,2599,2016
+2,4,38,43,north dakota,kidder,2463,2016
+2,4,38,45,north dakota,lamoure,4114,2016
+2,4,38,47,north dakota,logan,1932,2016
+2,4,38,49,north dakota,mchenry,5988,2016
+2,4,38,51,north dakota,mcintosh,2604,2016
+2,4,38,53,north dakota,mckenzie,12616,2016
+2,4,38,55,north dakota,mclean,9665,2016
+2,4,38,57,north dakota,mercer,8637,2016
+2,4,38,59,north dakota,morton,30615,2016
+2,4,38,61,north dakota,mountrail,10245,2016
+2,4,38,63,north dakota,nelson,2901,2016
+2,4,38,65,north dakota,oliver,1898,2016
+2,4,38,67,north dakota,pembina,7063,2016
+2,4,38,69,north dakota,pierce,4213,2016
+2,4,38,71,north dakota,ramsey,11514,2016
+2,4,38,73,north dakota,ransom,5373,2016
+2,4,38,75,north dakota,renville,2523,2016
+2,4,38,77,north dakota,richland,16338,2016
+2,4,38,79,north dakota,rolette,14667,2016
+2,4,38,81,north dakota,sargent,3890,2016
+2,4,38,83,north dakota,sheridan,1347,2016
+2,4,38,85,north dakota,sioux,4455,2016
+2,4,38,87,north dakota,slope,784,2016
+2,4,38,89,north dakota,stark,30856,2016
+2,4,38,91,north dakota,steele,1913,2016
+2,4,38,93,north dakota,stutsman,21009,2016
+2,4,38,95,north dakota,towner,2247,2016
+2,4,38,97,north dakota,traill,8025,2016
+2,4,38,99,north dakota,walsh,10862,2016
+2,4,38,101,north dakota,ward,70153,2016
+2,4,38,103,north dakota,wells,4058,2016
+2,4,38,105,north dakota,williams,34195,2016
+2,3,39,1,ohio,adams,27832,2016
+2,3,39,3,ohio,allen,103626,2016
+2,3,39,5,ohio,ashland,53417,2016
+2,3,39,7,ohio,ashtabula,98169,2016
+2,3,39,9,ohio,athens,66320,2016
+2,3,39,11,ohio,auglaize,45797,2016
+2,3,39,13,ohio,belmont,68568,2016
+2,3,39,15,ohio,brown,43644,2016
+2,3,39,17,ohio,butler,377933,2016
+2,3,39,19,ohio,carroll,27637,2016
+2,3,39,21,ohio,champaign,38737,2016
+2,3,39,23,ohio,clark,134621,2016
+2,3,39,25,ohio,clermont,203016,2016
+2,3,39,27,ohio,clinton,41881,2016
+2,3,39,29,ohio,columbiana,103744,2016
+2,3,39,31,ohio,coshocton,36644,2016
+2,3,39,33,ohio,crawford,42037,2016
+2,3,39,35,ohio,cuyahoga,1253454,2016
+2,3,39,37,ohio,darke,51636,2016
+2,3,39,39,ohio,defiance,38121,2016
+2,3,39,41,ohio,delaware,196777,2016
+2,3,39,43,ohio,erie,74944,2016
+2,3,39,45,ohio,fairfield,152681,2016
+2,3,39,47,ohio,fayette,28662,2016
+2,3,39,49,ohio,franklin,1269998,2016
+2,3,39,51,ohio,fulton,42325,2016
+2,3,39,53,ohio,gallia,29996,2016
+2,3,39,55,ohio,geauga,93848,2016
+2,3,39,57,ohio,greene,165109,2016
+2,3,39,59,ohio,guernsey,39200,2016
+2,3,39,61,ohio,hamilton,810087,2016
+2,3,39,63,ohio,hancock,75590,2016
+2,3,39,65,ohio,hardin,31407,2016
+2,3,39,67,ohio,harrison,15257,2016
+2,3,39,69,ohio,henry,27269,2016
+2,3,39,71,ohio,highland,42993,2016
+2,3,39,73,ohio,hocking,28386,2016
+2,3,39,75,ohio,holmes,43832,2016
+2,3,39,77,ohio,huron,58391,2016
+2,3,39,79,ohio,jackson,32534,2016
+2,3,39,81,ohio,jefferson,66914,2016
+2,3,39,83,ohio,knox,60832,2016
+2,3,39,85,ohio,lake,229270,2016
+2,3,39,87,ohio,lawrence,60729,2016
+2,3,39,89,ohio,licking,171822,2016
+2,3,39,91,ohio,logan,45171,2016
+2,3,39,93,ohio,lorain,306590,2016
+2,3,39,95,ohio,lucas,432562,2016
+2,3,39,97,ohio,madison,43354,2016
+2,3,39,99,ohio,mahoning,230169,2016
+2,3,39,101,ohio,marion,65334,2016
+2,3,39,103,ohio,medina,176903,2016
+2,3,39,105,ohio,meigs,23177,2016
+2,3,39,107,ohio,mercer,40710,2016
+2,3,39,109,ohio,miami,104382,2016
+2,3,39,111,ohio,monroe,14097,2016
+2,3,39,113,ohio,montgomery,531395,2016
+2,3,39,115,ohio,morgan,14762,2016
+2,3,39,117,ohio,morrow,34954,2016
+2,3,39,119,ohio,muskingum,85929,2016
+2,3,39,121,ohio,noble,14443,2016
+2,3,39,123,ohio,ottawa,40495,2016
+2,3,39,125,ohio,paulding,18839,2016
+2,3,39,127,ohio,perry,36019,2016
+2,3,39,129,ohio,pickaway,57530,2016
+2,3,39,131,ohio,pike,28237,2016
+2,3,39,133,ohio,portage,162162,2016
+2,3,39,135,ohio,preble,41105,2016
+2,3,39,137,ohio,putnam,34016,2016
+2,3,39,139,ohio,richland,121167,2016
+2,3,39,141,ohio,ross,76910,2016
+2,3,39,143,ohio,sandusky,59281,2016
+2,3,39,145,ohio,scioto,76240,2016
+2,3,39,147,ohio,seneca,55357,2016
+2,3,39,149,ohio,shelby,48726,2016
+2,3,39,151,ohio,stark,373528,2016
+2,3,39,153,ohio,summit,540394,2016
+2,3,39,155,ohio,trumbull,201701,2016
+2,3,39,157,ohio,tuscarawas,92485,2016
+2,3,39,159,ohio,union,55456,2016
+2,3,39,161,ohio,van wert,28166,2016
+2,3,39,163,ohio,vinton,13021,2016
+2,3,39,165,ohio,warren,226476,2016
+2,3,39,167,ohio,washington,60535,2016
+2,3,39,169,ohio,wayne,116422,2016
+2,3,39,171,ohio,williams,36921,2016
+2,3,39,173,ohio,wood,129704,2016
+2,3,39,175,ohio,wyandot,22042,2016
+3,7,40,1,oklahoma,adair,22111,2016
+3,7,40,3,oklahoma,alfalfa,5914,2016
+3,7,40,5,oklahoma,atoka,13925,2016
+3,7,40,7,oklahoma,beaver,5400,2016
+3,7,40,9,oklahoma,beckham,22432,2016
+3,7,40,11,oklahoma,blaine,9571,2016
+3,7,40,13,oklahoma,bryan,45492,2016
+3,7,40,15,oklahoma,caddo,29542,2016
+3,7,40,17,oklahoma,canadian,136303,2016
+3,7,40,19,oklahoma,carter,48359,2016
+3,7,40,21,oklahoma,cherokee,48751,2016
+3,7,40,23,oklahoma,choctaw,14915,2016
+3,7,40,25,oklahoma,cimarron,2170,2016
+3,7,40,27,oklahoma,cleveland,277670,2016
+3,7,40,29,oklahoma,coal,5642,2016
+3,7,40,31,oklahoma,comanche,121398,2016
+3,7,40,33,oklahoma,cotton,5913,2016
+3,7,40,35,oklahoma,craig,14460,2016
+3,7,40,37,oklahoma,creek,71038,2016
+3,7,40,39,oklahoma,custer,29045,2016
+3,7,40,41,oklahoma,delaware,41880,2016
+3,7,40,43,oklahoma,dewey,4886,2016
+3,7,40,45,oklahoma,ellis,4083,2016
+3,7,40,47,oklahoma,garfield,62384,2016
+3,7,40,49,oklahoma,garvin,27942,2016
+3,7,40,51,oklahoma,grady,54727,2016
+3,7,40,53,oklahoma,grant,4453,2016
+3,7,40,55,oklahoma,greer,5965,2016
+3,7,40,57,oklahoma,harmon,2693,2016
+3,7,40,59,oklahoma,harper,3794,2016
+3,7,40,61,oklahoma,haskell,12646,2016
+3,7,40,63,oklahoma,hughes,13422,2016
+3,7,40,65,oklahoma,jackson,25397,2016
+3,7,40,67,oklahoma,jefferson,6250,2016
+3,7,40,69,oklahoma,johnston,11091,2016
+3,7,40,71,oklahoma,kay,44983,2016
+3,7,40,73,oklahoma,kingfisher,15566,2016
+3,7,40,75,oklahoma,kiowa,9028,2016
+3,7,40,77,oklahoma,latimer,10562,2016
+3,7,40,79,oklahoma,le flore,49842,2016
+3,7,40,81,oklahoma,lincoln,34954,2016
+3,7,40,83,oklahoma,logan,46002,2016
+3,7,40,85,oklahoma,love,9978,2016
+3,7,40,87,oklahoma,mcclain,38599,2016
+3,7,40,89,oklahoma,mccurtain,32919,2016
+3,7,40,91,oklahoma,mcintosh,19759,2016
+3,7,40,93,oklahoma,major,7741,2016
+3,7,40,95,oklahoma,marshall,16249,2016
+3,7,40,97,oklahoma,mayes,40972,2016
+3,7,40,99,oklahoma,murray,13862,2016
+3,7,40,101,oklahoma,muskogee,69046,2016
+3,7,40,103,oklahoma,noble,11364,2016
+3,7,40,105,oklahoma,nowata,10401,2016
+3,7,40,107,oklahoma,okfuskee,12107,2016
+3,7,40,109,oklahoma,oklahoma,784208,2016
+3,7,40,111,oklahoma,okmulgee,39104,2016
+3,7,40,113,oklahoma,osage,47317,2016
+3,7,40,115,oklahoma,ottawa,31523,2016
+3,7,40,117,oklahoma,pawnee,16505,2016
+3,7,40,119,oklahoma,payne,81249,2016
+3,7,40,121,oklahoma,pittsburg,44395,2016
+3,7,40,123,oklahoma,pontotoc,38443,2016
+3,7,40,125,oklahoma,pottawatomie,71982,2016
+3,7,40,127,oklahoma,pushmataha,11064,2016
+3,7,40,129,oklahoma,roger mills,3690,2016
+3,7,40,131,oklahoma,rogers,90951,2016
+3,7,40,133,oklahoma,seminole,25164,2016
+3,7,40,135,oklahoma,sequoyah,41364,2016
+3,7,40,137,oklahoma,stephens,43993,2016
+3,7,40,139,oklahoma,texas,21131,2016
+3,7,40,141,oklahoma,tillman,7530,2016
+3,7,40,143,oklahoma,tulsa,645042,2016
+3,7,40,145,oklahoma,wagoner,77508,2016
+3,7,40,147,oklahoma,washington,51914,2016
+3,7,40,149,oklahoma,washita,11474,2016
+3,7,40,151,oklahoma,woods,9134,2016
+3,7,40,153,oklahoma,woodward,20924,2016
+4,9,41,1,oregon,baker,15948,2016
+4,9,41,3,oregon,benton,89296,2016
+4,9,41,5,oregon,clackamas,406680,2016
+4,9,41,7,oregon,clatsop,38637,2016
+4,9,41,9,oregon,columbia,50886,2016
+4,9,41,11,oregon,coos,63375,2016
+4,9,41,13,oregon,crook,22344,2016
+4,9,41,15,oregon,curry,22588,2016
+4,9,41,17,oregon,deschutes,180675,2016
+4,9,41,19,oregon,douglas,108100,2016
+4,9,41,21,oregon,gilliam,1859,2016
+4,9,41,23,oregon,grant,7184,2016
+4,9,41,25,oregon,harney,7261,2016
+4,9,41,27,oregon,hood river,23064,2016
+4,9,41,29,oregon,jackson,214706,2016
+4,9,41,31,oregon,jefferson,23119,2016
+4,9,41,33,oregon,josephine,85338,2016
+4,9,41,35,oregon,klamath,66283,2016
+4,9,41,37,oregon,lake,7820,2016
+4,9,41,39,oregon,lane,368283,2016
+4,9,41,41,oregon,lincoln,47897,2016
+4,9,41,43,oregon,linn,122700,2016
+4,9,41,45,oregon,malheur,30393,2016
+4,9,41,47,oregon,marion,335766,2016
+4,9,41,49,oregon,morrow,11219,2016
+4,9,41,51,oregon,multnomah,801539,2016
+4,9,41,53,oregon,polk,81442,2016
+4,9,41,55,oregon,sherman,1717,2016
+4,9,41,57,oregon,tillamook,26209,2016
+4,9,41,59,oregon,umatilla,76649,2016
+4,9,41,61,oregon,union,26043,2016
+4,9,41,63,oregon,wallowa,6916,2016
+4,9,41,65,oregon,wasco,25871,2016
+4,9,41,67,oregon,washington,582739,2016
+4,9,41,69,oregon,wheeler,1326,2016
+4,9,41,71,oregon,yamhill,104117,2016
+1,2,42,1,pennsylvania,adams,101684,2016
+1,2,42,3,pennsylvania,allegheny,1227553,2016
+1,2,42,5,pennsylvania,armstrong,66132,2016
+1,2,42,7,pennsylvania,beaver,167123,2016
+1,2,42,9,pennsylvania,bedford,48652,2016
+1,2,42,11,pennsylvania,berks,415732,2016
+1,2,42,13,pennsylvania,blair,123927,2016
+1,2,42,15,pennsylvania,bradford,60986,2016
+1,2,42,17,pennsylvania,bucks,626751,2016
+1,2,42,19,pennsylvania,butler,186207,2016
+1,2,42,21,pennsylvania,cambria,134313,2016
+1,2,42,23,pennsylvania,cameron,4683,2016
+1,2,42,25,pennsylvania,carbon,63515,2016
+1,2,42,27,pennsylvania,centre,162083,2016
+1,2,42,29,pennsylvania,chester,516489,2016
+1,2,42,31,pennsylvania,clarion,38558,2016
+1,2,42,33,pennsylvania,clearfield,80035,2016
+1,2,42,35,pennsylvania,clinton,38985,2016
+1,2,42,37,pennsylvania,columbia,66152,2016
+1,2,42,39,pennsylvania,crawford,86505,2016
+1,2,42,41,pennsylvania,cumberland,247901,2016
+1,2,42,43,pennsylvania,dauphin,274121,2016
+1,2,42,45,pennsylvania,delaware,563995,2016
+1,2,42,47,pennsylvania,elk,30423,2016
+1,2,42,49,pennsylvania,erie,276321,2016
+1,2,42,51,pennsylvania,fayette,132392,2016
+1,2,42,53,pennsylvania,forest,7306,2016
+1,2,42,55,pennsylvania,franklin,153564,2016
+1,2,42,57,pennsylvania,fulton,14617,2016
+1,2,42,59,pennsylvania,greene,37158,2016
+1,2,42,61,pennsylvania,huntingdon,45503,2016
+1,2,42,63,pennsylvania,indiana,85256,2016
+1,2,42,65,pennsylvania,jefferson,43955,2016
+1,2,42,67,pennsylvania,juniata,24475,2016
+1,2,42,69,pennsylvania,lackawanna,210872,2016
+1,2,42,71,pennsylvania,lancaster,539137,2016
+1,2,42,73,pennsylvania,lawrence,87631,2016
+1,2,42,75,pennsylvania,lebanon,138557,2016
+1,2,42,77,pennsylvania,lehigh,363113,2016
+1,2,42,79,pennsylvania,luzerne,316801,2016
+1,2,42,81,pennsylvania,lycoming,114708,2016
+1,2,42,83,pennsylvania,mckean,41518,2016
+1,2,42,85,pennsylvania,mercer,112673,2016
+1,2,42,87,pennsylvania,mifflin,46316,2016
+1,2,42,89,pennsylvania,monroe,166516,2016
+1,2,42,91,pennsylvania,montgomery,820656,2016
+1,2,42,93,pennsylvania,montour,18230,2016
+1,2,42,95,pennsylvania,northampton,301760,2016
+1,2,42,97,pennsylvania,northumberland,92479,2016
+1,2,42,99,pennsylvania,perry,45986,2016
+1,2,42,101,pennsylvania,philadelphia,1574765,2016
+1,2,42,103,pennsylvania,pike,55191,2016
+1,2,42,105,pennsylvania,potter,16925,2016
+1,2,42,107,pennsylvania,schuylkill,143335,2016
+1,2,42,109,pennsylvania,snyder,40667,2016
+1,2,42,111,pennsylvania,somerset,75070,2016
+1,2,42,113,pennsylvania,sullivan,6089,2016
+1,2,42,115,pennsylvania,susquehanna,41238,2016
+1,2,42,117,pennsylvania,tioga,41227,2016
+1,2,42,119,pennsylvania,union,45440,2016
+1,2,42,121,pennsylvania,venango,52469,2016
+1,2,42,123,pennsylvania,warren,39998,2016
+1,2,42,125,pennsylvania,washington,207341,2016
+1,2,42,127,pennsylvania,wayne,51230,2016
+1,2,42,129,pennsylvania,westmoreland,354788,2016
+1,2,42,131,pennsylvania,wyoming,27498,2016
+1,2,42,133,pennsylvania,york,443809,2016
+1,1,44,1,rhode island,bristol,48878,2016
+1,1,44,3,rhode island,kent,163690,2016
+1,1,44,5,rhode island,newport,83495,2016
+1,1,44,7,rhode island,providence,635522,2016
+1,1,44,9,rhode island,washington,125981,2016
+3,5,45,1,south carolina,abbeville,24717,2016
+3,5,45,3,south carolina,aiken,166922,2016
+3,5,45,5,south carolina,allendale,9059,2016
+3,5,45,7,south carolina,anderson,195968,2016
+3,5,45,9,south carolina,bamberg,14530,2016
+3,5,45,11,south carolina,barnwell,21591,2016
+3,5,45,13,south carolina,beaufort,183497,2016
+3,5,45,15,south carolina,berkeley,211863,2016
+3,5,45,17,south carolina,calhoun,14751,2016
+3,5,45,19,south carolina,charleston,396570,2016
+3,5,45,21,south carolina,cherokee,56725,2016
+3,5,45,23,south carolina,chester,32280,2016
+3,5,45,25,south carolina,chesterfield,46170,2016
+3,5,45,27,south carolina,clarendon,34239,2016
+3,5,45,29,south carolina,colleton,37599,2016
+3,5,45,31,south carolina,darlington,67370,2016
+3,5,45,33,south carolina,dillon,30817,2016
+3,5,45,35,south carolina,dorchester,153471,2016
+3,5,45,37,south carolina,edgefield,26580,2016
+3,5,45,39,south carolina,fairfield,22630,2016
+3,5,45,41,south carolina,florence,138448,2016
+3,5,45,43,south carolina,georgetown,61374,2016
+3,5,45,45,south carolina,greenville,499034,2016
+3,5,45,47,south carolina,greenwood,70172,2016
+3,5,45,49,south carolina,hampton,19874,2016
+3,5,45,51,south carolina,horry,321440,2016
+3,5,45,53,south carolina,jasper,28071,2016
+3,5,45,55,south carolina,kershaw,64269,2016
+3,5,45,57,south carolina,lancaster,89855,2016
+3,5,45,59,south carolina,laurens,66571,2016
+3,5,45,61,south carolina,lee,17607,2016
+3,5,45,63,south carolina,lexington,286394,2016
+3,5,45,65,south carolina,mccormick,9569,2016
+3,5,45,67,south carolina,marion,31753,2016
+3,5,45,69,south carolina,marlboro,27036,2016
+3,5,45,71,south carolina,newberry,38044,2016
+3,5,45,73,south carolina,oconee,76407,2016
+3,5,45,75,south carolina,orangeburg,88334,2016
+3,5,45,77,south carolina,pickens,122939,2016
+3,5,45,79,south carolina,richland,409104,2016
+3,5,45,81,south carolina,saluda,20295,2016
+3,5,45,83,south carolina,spartanburg,301066,2016
+3,5,45,85,south carolina,sumter,107287,2016
+3,5,45,87,south carolina,union,27685,2016
+3,5,45,89,south carolina,williamsburg,31847,2016
+3,5,45,91,south carolina,york,257998,2016
+2,4,46,3,south dakota,aurora,2750,2016
+2,4,46,5,south dakota,beadle,18087,2016
+2,4,46,7,south dakota,bennett,3447,2016
+2,4,46,9,south dakota,bon homme,6968,2016
+2,4,46,11,south dakota,brookings,34057,2016
+2,4,46,13,south dakota,brown,38918,2016
+2,4,46,15,south dakota,brule,5213,2016
+2,4,46,17,south dakota,buffalo,2032,2016
+2,4,46,19,south dakota,butte,10127,2016
+2,4,46,21,south dakota,campbell,1388,2016
+2,4,46,23,south dakota,charles mix,9382,2016
+2,4,46,25,south dakota,clark,3640,2016
+2,4,46,27,south dakota,clay,13938,2016
+2,4,46,29,south dakota,codington,28033,2016
+2,4,46,31,south dakota,corson,4125,2016
+2,4,46,33,south dakota,custer,8616,2016
+2,4,46,35,south dakota,davison,19831,2016
+2,4,46,37,south dakota,day,5514,2016
+2,4,46,39,south dakota,deuel,4238,2016
+2,4,46,41,south dakota,dewey,5774,2016
+2,4,46,43,south dakota,douglas,2910,2016
+2,4,46,45,south dakota,edmunds,3938,2016
+2,4,46,47,south dakota,fall river,6769,2016
+2,4,46,49,south dakota,faulk,2325,2016
+2,4,46,51,south dakota,grant,7095,2016
+2,4,46,53,south dakota,gregory,4171,2016
+2,4,46,55,south dakota,haakon,1883,2016
+2,4,46,57,south dakota,hamlin,5878,2016
+2,4,46,59,south dakota,hand,3282,2016
+2,4,46,61,south dakota,hanson,3390,2016
+2,4,46,63,south dakota,harding,1265,2016
+2,4,46,65,south dakota,hughes,17577,2016
+2,4,46,67,south dakota,hutchinson,7338,2016
+2,4,46,69,south dakota,hyde,1339,2016
+2,4,46,71,south dakota,jackson,3297,2016
+2,4,46,73,south dakota,jerauld,2005,2016
+2,4,46,75,south dakota,jones,935,2016
+2,4,46,77,south dakota,kingsbury,4977,2016
+2,4,46,79,south dakota,lake,12605,2016
+2,4,46,81,south dakota,lawrence,25183,2016
+2,4,46,83,south dakota,lincoln,54572,2016
+2,4,46,85,south dakota,lyman,3920,2016
+2,4,46,87,south dakota,mccook,5481,2016
+2,4,46,89,south dakota,mcpherson,2422,2016
+2,4,46,91,south dakota,marshall,4790,2016
+2,4,46,93,south dakota,meade,27360,2016
+2,4,46,95,south dakota,mellette,2081,2016
+2,4,46,97,south dakota,miner,2241,2016
+2,4,46,99,south dakota,minnehaha,186051,2016
+2,4,46,101,south dakota,moody,6556,2016
+2,4,46,102,south dakota,oglala lakota,14392,2016
+2,4,46,103,south dakota,pennington,108903,2016
+2,4,46,105,south dakota,perkins,2966,2016
+2,4,46,107,south dakota,potter,2270,2016
+2,4,46,109,south dakota,roberts,10222,2016
+2,4,46,111,south dakota,sanborn,2378,2016
+2,4,46,115,south dakota,spink,6404,2016
+2,4,46,117,south dakota,stanley,3024,2016
+2,4,46,119,south dakota,sully,1419,2016
+2,4,46,121,south dakota,todd,10099,2016
+2,4,46,123,south dakota,tripp,5490,2016
+2,4,46,125,south dakota,turner,8268,2016
+2,4,46,127,south dakota,union,14992,2016
+2,4,46,129,south dakota,walworth,5501,2016
+2,4,46,135,south dakota,yankton,22626,2016
+2,4,46,137,south dakota,ziebach,2874,2016
+3,6,47,1,tennessee,anderson,75585,2016
+3,6,47,3,tennessee,bedford,47420,2016
+3,6,47,5,tennessee,benton,16059,2016
+3,6,47,7,tennessee,bledsoe,14599,2016
+3,6,47,9,tennessee,blount,128244,2016
+3,6,47,11,tennessee,bradley,104407,2016
+3,6,47,13,tennessee,campbell,39671,2016
+3,6,47,15,tennessee,cannon,13907,2016
+3,6,47,17,tennessee,carroll,27924,2016
+3,6,47,19,tennessee,carter,56458,2016
+3,6,47,21,tennessee,cheatham,39728,2016
+3,6,47,23,tennessee,chester,17102,2016
+3,6,47,25,tennessee,claiborne,31561,2016
+3,6,47,27,tennessee,clay,7688,2016
+3,6,47,29,tennessee,cocke,35160,2016
+3,6,47,31,tennessee,coffee,54428,2016
+3,6,47,33,tennessee,crockett,14467,2016
+3,6,47,35,tennessee,cumberland,58532,2016
+3,6,47,37,tennessee,davidson,688901,2016
+3,6,47,39,tennessee,decatur,11711,2016
+3,6,47,41,tennessee,dekalb,19442,2016
+3,6,47,43,tennessee,dickson,51922,2016
+3,6,47,45,tennessee,dyer,37605,2016
+3,6,47,47,tennessee,fayette,39575,2016
+3,6,47,49,tennessee,fentress,17955,2016
+3,6,47,51,tennessee,franklin,41567,2016
+3,6,47,53,tennessee,gibson,49103,2016
+3,6,47,55,tennessee,giles,29140,2016
+3,6,47,57,tennessee,grainger,23112,2016
+3,6,47,59,tennessee,greene,68559,2016
+3,6,47,61,tennessee,grundy,13279,2016
+3,6,47,63,tennessee,hamblen,63717,2016
+3,6,47,65,tennessee,hamilton,358061,2016
+3,6,47,67,tennessee,hancock,6597,2016
+3,6,47,69,tennessee,hardeman,25476,2016
+3,6,47,71,tennessee,hardin,25759,2016
+3,6,47,73,tennessee,hawkins,56366,2016
+3,6,47,75,tennessee,haywood,17803,2016
+3,6,47,77,tennessee,henderson,27793,2016
+3,6,47,79,tennessee,henry,32245,2016
+3,6,47,81,tennessee,hickman,24649,2016
+3,6,47,83,tennessee,houston,8118,2016
+3,6,47,85,tennessee,humphreys,18381,2016
+3,6,47,87,tennessee,jackson,11602,2016
+3,6,47,89,tennessee,jefferson,53157,2016
+3,6,47,91,tennessee,johnson,17777,2016
+3,6,47,93,tennessee,knox,456114,2016
+3,6,47,95,tennessee,lake,7530,2016
+3,6,47,97,tennessee,lauderdale,25350,2016
+3,6,47,99,tennessee,lawrence,42979,2016
+3,6,47,101,tennessee,lewis,11912,2016
+3,6,47,103,tennessee,lincoln,33528,2016
+3,6,47,105,tennessee,loudon,51275,2016
+3,6,47,107,tennessee,mcminn,52659,2016
+3,6,47,109,tennessee,mcnairy,25810,2016
+3,6,47,111,tennessee,macon,23455,2016
+3,6,47,113,tennessee,madison,97514,2016
+3,6,47,115,tennessee,marion,28321,2016
+3,6,47,117,tennessee,marshall,31973,2016
+3,6,47,119,tennessee,maury,89588,2016
+3,6,47,121,tennessee,meigs,11948,2016
+3,6,47,123,tennessee,monroe,45967,2016
+3,6,47,125,tennessee,montgomery,194795,2016
+3,6,47,127,tennessee,moore,6293,2016
+3,6,47,129,tennessee,morgan,21724,2016
+3,6,47,131,tennessee,obion,30526,2016
+3,6,47,133,tennessee,overton,21978,2016
+3,6,47,135,tennessee,perry,7892,2016
+3,6,47,137,tennessee,pickett,5085,2016
+3,6,47,139,tennessee,polk,16770,2016
+3,6,47,141,tennessee,putnam,76123,2016
+3,6,47,143,tennessee,rhea,32392,2016
+3,6,47,145,tennessee,roane,52913,2016
+3,6,47,147,tennessee,robertson,69177,2016
+3,6,47,149,tennessee,rutherford,307683,2016
+3,6,47,151,tennessee,scott,21892,2016
+3,6,47,153,tennessee,sequatchie,14740,2016
+3,6,47,155,tennessee,sevier,96609,2016
+3,6,47,157,tennessee,shelby,937130,2016
+3,6,47,159,tennessee,smith,19466,2016
+3,6,47,161,tennessee,stewart,13174,2016
+3,6,47,163,tennessee,sullivan,156335,2016
+3,6,47,165,tennessee,sumner,179108,2016
+3,6,47,167,tennessee,tipton,61176,2016
+3,6,47,169,tennessee,trousdale,9950,2016
+3,6,47,171,tennessee,unicoi,17665,2016
+3,6,47,173,tennessee,union,19232,2016
+3,6,47,175,tennessee,van buren,5716,2016
+3,6,47,177,tennessee,warren,40400,2016
+3,6,47,179,tennessee,washington,127220,2016
+3,6,47,181,tennessee,wayne,16665,2016
+3,6,47,183,tennessee,weakley,33568,2016
+3,6,47,185,tennessee,white,26451,2016
+3,6,47,187,tennessee,williamson,218888,2016
+3,6,47,189,tennessee,wilson,132433,2016
+3,7,48,1,texas,anderson,57558,2016
+3,7,48,3,texas,andrews,17837,2016
+3,7,48,5,texas,angelina,87830,2016
+3,7,48,7,texas,aransas,25275,2016
+3,7,48,9,texas,archer,8774,2016
+3,7,48,11,texas,armstrong,1856,2016
+3,7,48,13,texas,atascosa,48666,2016
+3,7,48,15,texas,austin,29637,2016
+3,7,48,17,texas,bailey,7180,2016
+3,7,48,19,texas,bandera,21710,2016
+3,7,48,21,texas,bastrop,82754,2016
+3,7,48,23,texas,baylor,3638,2016
+3,7,48,25,texas,bee,32835,2016
+3,7,48,27,texas,bell,341203,2016
+3,7,48,29,texas,bexar,1927747,2016
+3,7,48,31,texas,blanco,11341,2016
+3,7,48,33,texas,borden,660,2016
+3,7,48,35,texas,bosque,18010,2016
+3,7,48,37,texas,bowie,93881,2016
+3,7,48,39,texas,brazoria,353828,2016
+3,7,48,41,texas,brazos,219561,2016
+3,7,48,43,texas,brewster,9193,2016
+3,7,48,45,texas,briscoe,1486,2016
+3,7,48,47,texas,brooks,7263,2016
+3,7,48,49,texas,brown,38065,2016
+3,7,48,51,texas,burleson,17811,2016
+3,7,48,53,texas,burnet,45914,2016
+3,7,48,55,texas,caldwell,41108,2016
+3,7,48,57,texas,calhoun,21942,2016
+3,7,48,59,texas,callahan,13777,2016
+3,7,48,61,texas,cameron,421766,2016
+3,7,48,63,texas,camp,12775,2016
+3,7,48,65,texas,carson,6107,2016
+3,7,48,67,texas,cass,30080,2016
+3,7,48,69,texas,castro,7823,2016
+3,7,48,71,texas,chambers,40283,2016
+3,7,48,73,texas,cherokee,51896,2016
+3,7,48,75,texas,childress,7095,2016
+3,7,48,77,texas,clay,10242,2016
+3,7,48,79,texas,cochran,2911,2016
+3,7,48,81,texas,coke,3263,2016
+3,7,48,83,texas,coleman,8421,2016
+3,7,48,85,texas,collin,942453,2016
+3,7,48,87,texas,collingsworth,3028,2016
+3,7,48,89,texas,colorado,21027,2016
+3,7,48,91,texas,comal,134142,2016
+3,7,48,93,texas,comanche,13521,2016
+3,7,48,95,texas,concho,4273,2016
+3,7,48,97,texas,cooke,39244,2016
+3,7,48,99,texas,coryell,74943,2016
+3,7,48,101,texas,cottle,1404,2016
+3,7,48,103,texas,crane,4807,2016
+3,7,48,105,texas,crockett,3653,2016
+3,7,48,107,texas,crosby,5917,2016
+3,7,48,109,texas,culberson,2219,2016
+3,7,48,111,texas,dallam,7256,2016
+3,7,48,113,texas,dallas,2587462,2016
+3,7,48,115,texas,dawson,13042,2016
+3,7,48,117,texas,deaf smith,18850,2016
+3,7,48,119,texas,delta,5146,2016
+3,7,48,121,texas,denton,808299,2016
+3,7,48,123,texas,dewitt,20618,2016
+3,7,48,125,texas,dickens,2201,2016
+3,7,48,127,texas,dimmit,10784,2016
+3,7,48,129,texas,donley,3392,2016
+3,7,48,131,texas,duval,11449,2016
+3,7,48,133,texas,eastland,18303,2016
+3,7,48,135,texas,ector,157580,2016
+3,7,48,137,texas,edwards,1918,2016
+3,7,48,139,texas,ellis,168381,2016
+3,7,48,141,texas,el paso,837147,2016
+3,7,48,143,texas,erath,41443,2016
+3,7,48,145,texas,falls,17331,2016
+3,7,48,147,texas,fannin,33855,2016
+3,7,48,149,texas,fayette,25070,2016
+3,7,48,151,texas,fisher,3881,2016
+3,7,48,153,texas,floyd,5876,2016
+3,7,48,155,texas,foard,1211,2016
+3,7,48,157,texas,fort bend,741958,2016
+3,7,48,159,texas,franklin,10659,2016
+3,7,48,161,texas,freestone,19647,2016
+3,7,48,163,texas,frio,19385,2016
+3,7,48,165,texas,gaines,20481,2016
+3,7,48,167,texas,galveston,329306,2016
+3,7,48,169,texas,garza,6444,2016
+3,7,48,171,texas,gillespie,26305,2016
+3,7,48,173,texas,glasscock,1350,2016
+3,7,48,175,texas,goliad,7521,2016
+3,7,48,177,texas,gonzales,20863,2016
+3,7,48,179,texas,gray,22738,2016
+3,7,48,181,texas,grayson,128206,2016
+3,7,48,183,texas,gregg,123594,2016
+3,7,48,185,texas,grimes,27574,2016
+3,7,48,187,texas,guadalupe,154596,2016
+3,7,48,189,texas,hale,34209,2016
+3,7,48,191,texas,hall,3112,2016
+3,7,48,193,texas,hamilton,8231,2016
+3,7,48,195,texas,hansford,5532,2016
+3,7,48,197,texas,hardeman,3991,2016
+3,7,48,199,texas,hardin,56261,2016
+3,7,48,201,texas,harris,4617041,2016
+3,7,48,203,texas,harrison,66730,2016
+3,7,48,205,texas,hartley,5706,2016
+3,7,48,207,texas,haskell,5765,2016
+3,7,48,209,texas,hays,204345,2016
+3,7,48,211,texas,hemphill,4126,2016
+3,7,48,213,texas,henderson,80034,2016
+3,7,48,215,texas,hidalgo,850187,2016
+3,7,48,217,texas,hill,35171,2016
+3,7,48,219,texas,hockley,23103,2016
+3,7,48,221,texas,hood,56758,2016
+3,7,48,223,texas,hopkins,36203,2016
+3,7,48,225,texas,houston,22888,2016
+3,7,48,227,texas,howard,36618,2016
+3,7,48,229,texas,hudspeth,4073,2016
+3,7,48,231,texas,hunt,91939,2016
+3,7,48,233,texas,hutchinson,21570,2016
+3,7,48,235,texas,irion,1570,2016
+3,7,48,237,texas,jack,8766,2016
+3,7,48,239,texas,jackson,14851,2016
+3,7,48,241,texas,jasper,35401,2016
+3,7,48,243,texas,jeff davis,2245,2016
+3,7,48,245,texas,jefferson,255954,2016
+3,7,48,247,texas,jim hogg,5244,2016
+3,7,48,249,texas,jim wells,41115,2016
+3,7,48,251,texas,johnson,162915,2016
+3,7,48,253,texas,jones,19994,2016
+3,7,48,255,texas,karnes,15264,2016
+3,7,48,257,texas,kaufman,118046,2016
+3,7,48,259,texas,kendall,41964,2016
+3,7,48,261,texas,kenedy,428,2016
+3,7,48,263,texas,kent,752,2016
+3,7,48,265,texas,kerr,51296,2016
+3,7,48,267,texas,kimble,4428,2016
+3,7,48,269,texas,king,294,2016
+3,7,48,271,texas,kinney,3640,2016
+3,7,48,273,texas,kleberg,31347,2016
+3,7,48,275,texas,knox,3740,2016
+3,7,48,277,texas,lamar,49565,2016
+3,7,48,279,texas,lamb,13223,2016
+3,7,48,281,texas,lampasas,20657,2016
+3,7,48,283,texas,la salle,7619,2016
+3,7,48,285,texas,lavaca,19910,2016
+3,7,48,287,texas,lee,16998,2016
+3,7,48,289,texas,leon,17196,2016
+3,7,48,291,texas,liberty,81377,2016
+3,7,48,293,texas,limestone,23527,2016
+3,7,48,295,texas,lipscomb,3509,2016
+3,7,48,297,texas,live oak,12022,2016
+3,7,48,299,texas,llano,20570,2016
+3,7,48,301,texas,loving,115,2016
+3,7,48,303,texas,lubbock,302301,2016
+3,7,48,305,texas,lynn,5795,2016
+3,7,48,307,texas,mcculloch,8121,2016
+3,7,48,309,texas,mclennan,247478,2016
+3,7,48,311,texas,mcmullen,815,2016
+3,7,48,313,texas,madison,14094,2016
+3,7,48,315,texas,marion,10087,2016
+3,7,48,317,texas,martin,5688,2016
+3,7,48,319,texas,mason,4161,2016
+3,7,48,321,texas,matagorda,37117,2016
+3,7,48,323,texas,maverick,57989,2016
+3,7,48,325,texas,medina,49196,2016
+3,7,48,327,texas,menard,2102,2016
+3,7,48,329,texas,midland,163473,2016
+3,7,48,331,texas,milam,24735,2016
+3,7,48,333,texas,mills,4894,2016
+3,7,48,335,texas,mitchell,8479,2016
+3,7,48,337,texas,montague,19436,2016
+3,7,48,339,texas,montgomery,554522,2016
+3,7,48,341,texas,moore,21935,2016
+3,7,48,343,texas,morris,12490,2016
+3,7,48,345,texas,motley,1172,2016
+3,7,48,347,texas,nacogdoches,65662,2016
+3,7,48,349,texas,navarro,48375,2016
+3,7,48,351,texas,newton,14186,2016
+3,7,48,353,texas,nolan,14968,2016
+3,7,48,355,texas,nueces,361529,2016
+3,7,48,357,texas,ochiltree,10295,2016
+3,7,48,359,texas,oldham,2074,2016
+3,7,48,361,texas,orange,84508,2016
+3,7,48,363,texas,palo pinto,28132,2016
+3,7,48,365,texas,panola,23440,2016
+3,7,48,367,texas,parker,128861,2016
+3,7,48,369,texas,parmer,9818,2016
+3,7,48,371,texas,pecos,15877,2016
+3,7,48,373,texas,polk,47735,2016
+3,7,48,375,texas,potter,120542,2016
+3,7,48,377,texas,presidio,7166,2016
+3,7,48,379,texas,rains,11307,2016
+3,7,48,381,texas,randall,132457,2016
+3,7,48,383,texas,reagan,3738,2016
+3,7,48,385,texas,real,3397,2016
+3,7,48,387,texas,red river,12217,2016
+3,7,48,389,texas,reeves,15069,2016
+3,7,48,391,texas,refugio,7293,2016
+3,7,48,393,texas,roberts,916,2016
+3,7,48,395,texas,robertson,16858,2016
+3,7,48,397,texas,rockwall,93419,2016
+3,7,48,399,texas,runnels,10255,2016
+3,7,48,401,texas,rusk,52856,2016
+3,7,48,403,texas,sabine,10385,2016
+3,7,48,405,texas,san augustine,8283,2016
+3,7,48,407,texas,san jacinto,27757,2016
+3,7,48,409,texas,san patricio,67262,2016
+3,7,48,411,texas,san saba,5872,2016
+3,7,48,413,texas,schleicher,3064,2016
+3,7,48,415,texas,scurry,17430,2016
+3,7,48,417,texas,shackelford,3364,2016
+3,7,48,419,texas,shelby,25777,2016
+3,7,48,421,texas,sherman,3075,2016
+3,7,48,423,texas,smith,225305,2016
+3,7,48,425,texas,somervell,8680,2016
+3,7,48,427,texas,starr,63931,2016
+3,7,48,429,texas,stephens,9408,2016
+3,7,48,431,texas,sterling,1351,2016
+3,7,48,433,texas,stonewall,1402,2016
+3,7,48,435,texas,sutton,3865,2016
+3,7,48,437,texas,swisher,7440,2016
+3,7,48,439,texas,tarrant,2021746,2016
+3,7,48,441,texas,taylor,135962,2016
+3,7,48,443,texas,terrell,818,2016
+3,7,48,445,texas,terry,12826,2016
+3,7,48,447,texas,throckmorton,1548,2016
+3,7,48,449,texas,titus,32615,2016
+3,7,48,451,texas,tom green,117792,2016
+3,7,48,453,texas,travis,1204582,2016
+3,7,48,455,texas,trinity,14513,2016
+3,7,48,457,texas,tyler,21434,2016
+3,7,48,459,texas,upshur,40864,2016
+3,7,48,461,texas,upton,3697,2016
+3,7,48,463,texas,uvalde,27106,2016
+3,7,48,465,texas,val verde,48953,2016
+3,7,48,467,texas,van zandt,54377,2016
+3,7,48,469,texas,victoria,92379,2016
+3,7,48,471,texas,walker,71701,2016
+3,7,48,473,texas,waller,50058,2016
+3,7,48,475,texas,ward,11589,2016
+3,7,48,477,texas,washington,34821,2016
+3,7,48,479,texas,webb,272401,2016
+3,7,48,481,texas,wharton,41634,2016
+3,7,48,483,texas,wheeler,5548,2016
+3,7,48,485,texas,wichita,131310,2016
+3,7,48,487,texas,wilbarger,12894,2016
+3,7,48,489,texas,willacy,21760,2016
+3,7,48,491,texas,williamson,527769,2016
+3,7,48,493,texas,wilson,48190,2016
+3,7,48,495,texas,winkler,7872,2016
+3,7,48,497,texas,wise,64465,2016
+3,7,48,499,texas,wood,43823,2016
+3,7,48,501,texas,yoakum,8625,2016
+3,7,48,503,texas,young,18079,2016
+3,7,48,505,texas,zapata,14449,2016
+3,7,48,507,texas,zavala,12091,2016
+4,8,49,1,utah,beaver,6454,2016
+4,8,49,3,utah,box elder,52974,2016
+4,8,49,5,utah,cache,122342,2016
+4,8,49,7,utah,carbon,20371,2016
+4,8,49,9,utah,daggett,1081,2016
+4,8,49,11,utah,davis,341329,2016
+4,8,49,13,utah,duchesne,20315,2016
+4,8,49,15,utah,emery,10222,2016
+4,8,49,17,utah,garfield,5000,2016
+4,8,49,19,utah,grand,9656,2016
+4,8,49,21,utah,iron,49796,2016
+4,8,49,23,utah,juab,11003,2016
+4,8,49,25,utah,kane,7326,2016
+4,8,49,27,utah,millard,12682,2016
+4,8,49,29,utah,morgan,11373,2016
+4,8,49,31,utah,piute,1463,2016
+4,8,49,33,utah,rich,2306,2016
+4,8,49,35,utah,salt lake,1121379,2016
+4,8,49,37,utah,san juan,15329,2016
+4,8,49,39,utah,sanpete,29303,2016
+4,8,49,41,utah,sevier,21147,2016
+4,8,49,43,utah,summit,40390,2016
+4,8,49,45,utah,tooele,64599,2016
+4,8,49,47,utah,uintah,36194,2016
+4,8,49,49,utah,utah,590475,2016
+4,8,49,51,utah,wasatch,30571,2016
+4,8,49,53,utah,washington,159237,2016
+4,8,49,55,utah,wayne,2685,2016
+4,8,49,57,utah,weber,247319,2016
+1,1,50,1,vermont,addison,36844,2016
+1,1,50,3,vermont,bennington,35854,2016
+1,1,50,5,vermont,caledonia,30167,2016
+1,1,50,7,vermont,chittenden,161522,2016
+1,1,50,9,vermont,essex,6240,2016
+1,1,50,11,vermont,franklin,48974,2016
+1,1,50,13,vermont,grand isle,6933,2016
+1,1,50,15,vermont,lamoille,25274,2016
+1,1,50,17,vermont,orange,28917,2016
+1,1,50,19,vermont,orleans,26751,2016
+1,1,50,21,vermont,rutland,59172,2016
+1,1,50,23,vermont,washington,58365,2016
+1,1,50,25,vermont,windham,43147,2016
+1,1,50,27,vermont,windsor,55194,2016
+3,5,51,1,virginia,accomack,32818,2016
+3,5,51,3,virginia,albemarle,106419,2016
+3,5,51,5,virginia,alleghany,15372,2016
+3,5,51,7,virginia,amelia,12830,2016
+3,5,51,9,virginia,amherst,31667,2016
+3,5,51,11,virginia,appomattox,15505,2016
+3,5,51,13,virginia,arlington,231610,2016
+3,5,51,15,virginia,augusta,74774,2016
+3,5,51,17,virginia,bath,4413,2016
+3,5,51,19,virginia,bedford,77828,2016
+3,5,51,21,virginia,bland,6475,2016
+3,5,51,23,virginia,botetourt,33150,2016
+3,5,51,25,virginia,brunswick,16275,2016
+3,5,51,27,virginia,buchanan,22102,2016
+3,5,51,29,virginia,buckingham,17060,2016
+3,5,51,31,virginia,campbell,55180,2016
+3,5,51,33,virginia,caroline,30071,2016
+3,5,51,35,virginia,carroll,29699,2016
+3,5,51,36,virginia,charles city,7023,2016
+3,5,51,37,virginia,charlotte,12130,2016
+3,5,51,41,virginia,chesterfield,338815,2016
+3,5,51,43,virginia,clarke,14322,2016
+3,5,51,45,virginia,craig,5140,2016
+3,5,51,47,virginia,culpeper,50333,2016
+3,5,51,49,virginia,cumberland,9742,2016
+3,5,51,51,virginia,dickenson,15040,2016
+3,5,51,53,virginia,dinwiddie,28025,2016
+3,5,51,57,virginia,essex,11096,2016
+3,5,51,59,virginia,fairfax,1144636,2016
+3,5,51,61,virginia,fauquier,68784,2016
+3,5,51,63,virginia,floyd,15658,2016
+3,5,51,65,virginia,fluvanna,26169,2016
+3,5,51,67,virginia,franklin,56159,2016
+3,5,51,69,virginia,frederick,84684,2016
+3,5,51,71,virginia,giles,16887,2016
+3,5,51,73,virginia,gloucester,37101,2016
+3,5,51,75,virginia,goochland,22475,2016
+3,5,51,77,virginia,grayson,15869,2016
+3,5,51,79,virginia,greene,19331,2016
+3,5,51,81,virginia,greensville,11551,2016
+3,5,51,83,virginia,halifax,34964,2016
+3,5,51,85,virginia,hanover,104347,2016
+3,5,51,87,virginia,henrico,326147,2016
+3,5,51,89,virginia,henry,51604,2016
+3,5,51,91,virginia,highland,2212,2016
+3,5,51,93,virginia,isle of wight,36324,2016
+3,5,51,95,virginia,james city,74069,2016
+3,5,51,97,virginia,king and queen,7067,2016
+3,5,51,99,virginia,king george,25918,2016
+3,5,51,101,virginia,king william,16412,2016
+3,5,51,103,virginia,lancaster,10778,2016
+3,5,51,105,virginia,lee,24051,2016
+3,5,51,107,virginia,loudoun,386279,2016
+3,5,51,109,virginia,louisa,35276,2016
+3,5,51,111,virginia,lunenburg,12266,2016
+3,5,51,113,virginia,madison,13108,2016
+3,5,51,115,virginia,mathews,8806,2016
+3,5,51,117,virginia,mecklenburg,30786,2016
+3,5,51,119,virginia,middlesex,10768,2016
+3,5,51,121,virginia,montgomery,98440,2016
+3,5,51,125,virginia,nelson,14895,2016
+3,5,51,127,virginia,new kent,21030,2016
+3,5,51,131,virginia,northampton,12006,2016
+3,5,51,133,virginia,northumberland,12195,2016
+3,5,51,135,virginia,nottoway,15510,2016
+3,5,51,137,virginia,orange,35481,2016
+3,5,51,139,virginia,page,23591,2016
+3,5,51,141,virginia,patrick,17769,2016
+3,5,51,143,virginia,pittsylvania,61673,2016
+3,5,51,145,virginia,powhatan,28398,2016
+3,5,51,147,virginia,prince edward,23023,2016
+3,5,51,149,virginia,prince george,37807,2016
+3,5,51,153,virginia,prince william,456560,2016
+3,5,51,155,virginia,pulaski,34240,2016
+3,5,51,157,virginia,rappahannock,7333,2016
+3,5,51,159,virginia,richmond,8784,2016
+3,5,51,161,virginia,roanoke,93363,2016
+3,5,51,163,virginia,rockbridge,22411,2016
+3,5,51,165,virginia,rockingham,79298,2016
+3,5,51,167,virginia,russell,27394,2016
+3,5,51,169,virginia,scott,22028,2016
+3,5,51,171,virginia,shenandoah,42928,2016
+3,5,51,173,virginia,smyth,31075,2016
+3,5,51,175,virginia,southampton,18019,2016
+3,5,51,177,virginia,spotsylvania,131405,2016
+3,5,51,179,virginia,stafford,143477,2016
+3,5,51,181,virginia,surry,6570,2016
+3,5,51,183,virginia,sussex,11426,2016
+3,5,51,185,virginia,tazewell,42046,2016
+3,5,51,187,virginia,warren,39066,2016
+3,5,51,191,virginia,washington,54237,2016
+3,5,51,193,virginia,westmoreland,17659,2016
+3,5,51,195,virginia,wise,39034,2016
+3,5,51,197,virginia,wythe,28942,2016
+3,5,51,199,virginia,york,67742,2016
+3,5,51,510,virginia,alexandria city,157288,2016
+3,5,51,520,virginia,bristol city,16927,2016
+3,5,51,530,virginia,buena vista city,6384,2016
+3,5,51,540,virginia,charlottesville city,47286,2016
+3,5,51,550,virginia,chesapeake city,237621,2016
+3,5,51,570,virginia,colonial heights city,17642,2016
+3,5,51,580,virginia,covington city,5582,2016
+3,5,51,590,virginia,danville city,41643,2016
+3,5,51,595,virginia,emporia city,5375,2016
+3,5,51,600,virginia,fairfax city,23827,2016
+3,5,51,610,virginia,falls church city,13868,2016
+3,5,51,620,virginia,franklin city,8228,2016
+3,5,51,630,virginia,fredericksburg city,28271,2016
+3,5,51,640,virginia,galax city,6664,2016
+3,5,51,650,virginia,hampton city,135332,2016
+3,5,51,660,virginia,harrisonburg city,53943,2016
+3,5,51,670,virginia,hopewell city,22619,2016
+3,5,51,678,virginia,lexington city,7087,2016
+3,5,51,680,virginia,lynchburg city,79912,2016
+3,5,51,683,virginia,manassas city,41457,2016
+3,5,51,685,virginia,manassas park city,16085,2016
+3,5,51,690,virginia,martinsville city,13119,2016
+3,5,51,700,virginia,newport news city,180388,2016
+3,5,51,710,virginia,norfolk city,245532,2016
+3,5,51,720,virginia,norton city,3988,2016
+3,5,51,730,virginia,petersburg city,31850,2016
+3,5,51,735,virginia,poquoson city,11947,2016
+3,5,51,740,virginia,portsmouth city,94997,2016
+3,5,51,750,virginia,radford city,17410,2016
+3,5,51,760,virginia,richmond city,225288,2016
+3,5,51,770,virginia,roanoke city,99743,2016
+3,5,51,775,virginia,salem city,25547,2016
+3,5,51,790,virginia,staunton city,24257,2016
+3,5,51,800,virginia,suffolk city,89294,2016
+3,5,51,810,virginia,virginia beach city,451404,2016
+3,5,51,820,virginia,waynesboro city,21802,2016
+3,5,51,830,virginia,williamsburg city,14952,2016
+3,5,51,840,virginia,winchester city,27566,2016
+4,9,53,1,washington,adams,19262,2016
+4,9,53,3,washington,asotin,22310,2016
+4,9,53,5,washington,benton,193484,2016
+4,9,53,7,washington,chelan,75968,2016
+4,9,53,9,washington,clallam,74098,2016
+4,9,53,11,washington,clark,465548,2016
+4,9,53,13,washington,columbia,3997,2016
+4,9,53,15,washington,cowlitz,104756,2016
+4,9,53,17,washington,douglas,41272,2016
+4,9,53,19,washington,ferry,7542,2016
+4,9,53,21,washington,franklin,90315,2016
+4,9,53,23,washington,garfield,2257,2016
+4,9,53,25,washington,grant,93904,2016
+4,9,53,27,washington,grays harbor,71625,2016
+4,9,53,29,washington,island,81638,2016
+4,9,53,31,washington,jefferson,30909,2016
+4,9,53,33,washington,king,2155962,2016
+4,9,53,35,washington,kitsap,263109,2016
+4,9,53,37,washington,kittitas,44928,2016
+4,9,53,39,washington,klickitat,21306,2016
+4,9,53,41,washington,lewis,76630,2016
+4,9,53,43,washington,lincoln,10333,2016
+4,9,53,45,washington,mason,62123,2016
+4,9,53,47,washington,okanogan,41479,2016
+4,9,53,49,washington,pacific,21209,2016
+4,9,53,51,washington,pend oreille,13126,2016
+4,9,53,53,washington,pierce,859752,2016
+4,9,53,55,washington,san juan,16296,2016
+4,9,53,57,washington,skagit,123390,2016
+4,9,53,59,washington,skamania,11593,2016
+4,9,53,61,washington,snohomish,786946,2016
+4,9,53,63,washington,spokane,497437,2016
+4,9,53,65,washington,stevens,44214,2016
+4,9,53,67,washington,thurston,273923,2016
+4,9,53,69,washington,wahkiakum,4176,2016
+4,9,53,71,washington,walla walla,59992,2016
+4,9,53,73,washington,whatcom,216274,2016
+4,9,53,75,washington,whitman,48528,2016
+4,9,53,77,washington,yakima,249323,2016
+3,5,54,1,west virginia,barbour,16720,2016
+3,5,54,3,west virginia,berkeley,113270,2016
+3,5,54,5,west virginia,boone,22795,2016
+3,5,54,7,west virginia,braxton,14341,2016
+3,5,54,9,west virginia,brooke,22707,2016
+3,5,54,11,west virginia,cabell,95669,2016
+3,5,54,13,west virginia,calhoun,7367,2016
+3,5,54,15,west virginia,clay,8843,2016
+3,5,54,17,west virginia,doddridge,8583,2016
+3,5,54,19,west virginia,fayette,44102,2016
+3,5,54,21,west virginia,gilmer,8128,2016
+3,5,54,23,west virginia,grant,11643,2016
+3,5,54,25,west virginia,greenbrier,35494,2016
+3,5,54,27,west virginia,hampshire,23343,2016
+3,5,54,29,west virginia,hancock,29621,2016
+3,5,54,31,west virginia,hardy,13731,2016
+3,5,54,33,west virginia,harrison,68280,2016
+3,5,54,35,west virginia,jackson,29172,2016
+3,5,54,37,west virginia,jefferson,55848,2016
+3,5,54,39,west virginia,kanawha,186097,2016
+3,5,54,41,west virginia,lewis,16292,2016
+3,5,54,43,west virginia,lincoln,21096,2016
+3,5,54,45,west virginia,logan,33644,2016
+3,5,54,47,west virginia,mcdowell,19139,2016
+3,5,54,49,west virginia,marion,56477,2016
+3,5,54,51,west virginia,marshall,31705,2016
+3,5,54,53,west virginia,mason,26909,2016
+3,5,54,55,west virginia,mercer,60494,2016
+3,5,54,57,west virginia,mineral,27322,2016
+3,5,54,59,west virginia,mingo,24677,2016
+3,5,54,61,west virginia,monongalia,104771,2016
+3,5,54,63,west virginia,monroe,13477,2016
+3,5,54,65,west virginia,morgan,17583,2016
+3,5,54,67,west virginia,nicholas,25291,2016
+3,5,54,69,west virginia,ohio,42598,2016
+3,5,54,71,west virginia,pendleton,6987,2016
+3,5,54,73,west virginia,pleasants,7512,2016
+3,5,54,75,west virginia,pocahontas,8518,2016
+3,5,54,77,west virginia,preston,33711,2016
+3,5,54,79,west virginia,putnam,56692,2016
+3,5,54,81,west virginia,raleigh,76259,2016
+3,5,54,83,west virginia,randolph,28962,2016
+3,5,54,85,west virginia,ritchie,9942,2016
+3,5,54,87,west virginia,roane,14128,2016
+3,5,54,89,west virginia,summers,13004,2016
+3,5,54,91,west virginia,taylor,16947,2016
+3,5,54,93,west virginia,tucker,7041,2016
+3,5,54,95,west virginia,tyler,8958,2016
+3,5,54,97,west virginia,upshur,24610,2016
+3,5,54,99,west virginia,wayne,40680,2016
+3,5,54,101,west virginia,webster,8575,2016
+3,5,54,103,west virginia,wetzel,15641,2016
+3,5,54,105,west virginia,wirt,5770,2016
+3,5,54,107,west virginia,wood,85718,2016
+3,5,54,109,west virginia,wyoming,21753,2016
+2,3,55,1,wisconsin,adams,19997,2016
+2,3,55,3,wisconsin,ashland,15634,2016
+2,3,55,5,wisconsin,barron,45267,2016
+2,3,55,7,wisconsin,bayfield,14940,2016
+2,3,55,9,wisconsin,brown,259586,2016
+2,3,55,11,wisconsin,buffalo,13160,2016
+2,3,55,13,wisconsin,burnett,15229,2016
+2,3,55,15,wisconsin,calumet,49648,2016
+2,3,55,17,wisconsin,chippewa,63567,2016
+2,3,55,19,wisconsin,clark,34558,2016
+2,3,55,21,wisconsin,columbia,56893,2016
+2,3,55,23,wisconsin,crawford,16280,2016
+2,3,55,25,wisconsin,dane,530257,2016
+2,3,55,27,wisconsin,dodge,87428,2016
+2,3,55,29,wisconsin,door,27348,2016
+2,3,55,31,wisconsin,douglas,43392,2016
+2,3,55,33,wisconsin,dunn,44327,2016
+2,3,55,35,wisconsin,eau claire,102885,2016
+2,3,55,37,wisconsin,florence,4334,2016
+2,3,55,39,wisconsin,fond du lac,102210,2016
+2,3,55,41,wisconsin,forest,9020,2016
+2,3,55,43,wisconsin,grant,51993,2016
+2,3,55,45,wisconsin,green,36812,2016
+2,3,55,47,wisconsin,green lake,18623,2016
+2,3,55,49,wisconsin,iowa,23470,2016
+2,3,55,51,wisconsin,iron,5665,2016
+2,3,55,53,wisconsin,jackson,20472,2016
+2,3,55,55,wisconsin,jefferson,84545,2016
+2,3,55,57,wisconsin,juneau,26359,2016
+2,3,55,59,wisconsin,kenosha,167869,2016
+2,3,55,61,wisconsin,kewaunee,20384,2016
+2,3,55,63,wisconsin,la crosse,117723,2016
+2,3,55,65,wisconsin,lafayette,16776,2016
+2,3,55,67,wisconsin,langlade,19086,2016
+2,3,55,69,wisconsin,lincoln,27854,2016
+2,3,55,71,wisconsin,manitowoc,79331,2016
+2,3,55,73,wisconsin,marathon,135195,2016
+2,3,55,75,wisconsin,marinette,40289,2016
+2,3,55,77,wisconsin,marquette,15137,2016
+2,3,55,78,wisconsin,menominee,4537,2016
+2,3,55,79,wisconsin,milwaukee,955369,2016
+2,3,55,81,wisconsin,monroe,45356,2016
+2,3,55,83,wisconsin,oconto,37471,2016
+2,3,55,85,wisconsin,oneida,35374,2016
+2,3,55,87,wisconsin,outagamie,184654,2016
+2,3,55,89,wisconsin,ozaukee,88177,2016
+2,3,55,91,wisconsin,pepin,7266,2016
+2,3,55,93,wisconsin,pierce,41428,2016
+2,3,55,95,wisconsin,polk,43297,2016
+2,3,55,97,wisconsin,portage,70188,2016
+2,3,55,99,wisconsin,price,13424,2016
+2,3,55,101,wisconsin,racine,195010,2016
+2,3,55,103,wisconsin,richland,17520,2016
+2,3,55,105,wisconsin,rock,161421,2016
+2,3,55,107,wisconsin,rusk,14092,2016
+2,3,55,109,wisconsin,st. croix,87645,2016
+2,3,55,111,wisconsin,sauk,63604,2016
+2,3,55,113,wisconsin,sawyer,16348,2016
+2,3,55,115,wisconsin,shawano,40941,2016
+2,3,55,117,wisconsin,sheboygan,115127,2016
+2,3,55,119,wisconsin,taylor,20275,2016
+2,3,55,121,wisconsin,trempealeau,29624,2016
+2,3,55,123,wisconsin,vernon,30543,2016
+2,3,55,125,wisconsin,vilas,21464,2016
+2,3,55,127,wisconsin,walworth,102775,2016
+2,3,55,129,wisconsin,washburn,15610,2016
+2,3,55,131,wisconsin,washington,134372,2016
+2,3,55,133,wisconsin,waukesha,398225,2016
+2,3,55,135,wisconsin,waupaca,51354,2016
+2,3,55,137,wisconsin,waushara,24132,2016
+2,3,55,139,wisconsin,winnebago,169555,2016
+2,3,55,141,wisconsin,wood,73196,2016
+4,8,56,1,wyoming,albany,37987,2016
+4,8,56,3,wyoming,big horn,11941,2016
+4,8,56,5,wyoming,campbell,48800,2016
+4,8,56,7,wyoming,carbon,15727,2016
+4,8,56,9,wyoming,converse,14127,2016
+4,8,56,11,wyoming,crook,7497,2016
+4,8,56,13,wyoming,fremont,40245,2016
+4,8,56,15,wyoming,goshen,13355,2016
+4,8,56,17,wyoming,hot springs,4669,2016
+4,8,56,19,wyoming,johnson,8496,2016
+4,8,56,21,wyoming,laramie,97968,2016
+4,8,56,23,wyoming,lincoln,19076,2016
+4,8,56,25,wyoming,natrona,80892,2016
+4,8,56,27,wyoming,niobrara,2470,2016
+4,8,56,29,wyoming,park,29412,2016
+4,8,56,31,wyoming,platte,8675,2016
+4,8,56,33,wyoming,sheridan,30049,2016
+4,8,56,35,wyoming,sublette,10002,2016
+4,8,56,37,wyoming,sweetwater,44245,2016
+4,8,56,39,wyoming,teton,23180,2016
+4,8,56,41,wyoming,uinta,20711,2016
+4,8,56,43,wyoming,washakie,8188,2016
+4,8,56,45,wyoming,weston,7198,2016
