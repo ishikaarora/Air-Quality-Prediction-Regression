@@ -114,7 +114,7 @@ def get_county_weather_data(token, state, county, start_date, end_date, *argv):
 # @profile
 def main():
     temp = pd.DataFrame()
-    batch = 0
+    batch = 1
     counties_abbrev = get_counties()
     token = get_token(mesowest_api_key)
 
