@@ -15,7 +15,7 @@ start_date = date(2016, 1, 1)
 end_date = date(2016, 12, 31)
 
 def get_counties():
-    counties_abbrev = pd.read_csv("counties_abbrev_Tess.csv")
+    counties_abbrev = pd.read_csv("counties_abbrev_Tess_1000s.csv")
     counties_abbrev.columns = ["OrigIndex", "State", "County", "Abbreviation"]
     counties_abbrev["County"] = counties_abbrev["County"].apply(lambda x: x.replace(" ", "%"))
     counties_abbrev["State"] = counties_abbrev["State"].apply(str.strip)
@@ -114,7 +114,7 @@ def get_county_weather_data(token, state, county, start_date, end_date, *argv):
 # @profile
 def main():
     temp = pd.DataFrame()
-    batch = 0
+    batch = 1
     counties_abbrev = get_counties()
     token = get_token(mesowest_api_key)
 
@@ -132,17 +132,17 @@ def main():
             continue
 
         # we don't want to write for just first county, write every 20 counties!
-        if ((i!=0) & (i%20 == 0)):
+        if ((i!=0) & (i%10 == 0)):
             batch += 1
             temp.reset_index(drop=True,inplace=True)
             print("\nWriting data to csv for batch {}".format(batch))
-            temp.to_csv("weather_data_{}.csv".format(batch), index=None,header=True)
+            temp.to_csv("weather_data_Tess_1000s_{}.csv".format(batch), index=None,header=True)
             temp = pd.DataFrame()
 
     batch += 1
     temp.reset_index(drop=True,inplace=True)
     print("\nWriting data to csv for batch {}".format(batch))
-    temp.to_csv("weather_data_{}.csv".format(batch), index=None,header=True)
+    temp.to_csv("weather_data_Tess_1000s_{}.csv".format(batch), index=None,header=True)
 
 if __name__ == "__main__":
     main()
