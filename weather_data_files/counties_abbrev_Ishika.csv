@@ -1,0 +1,321 @@
+,State,County,Abbreviation
+400,Maryland,Baltimore,MD
+401,Maryland,Calvert,MD
+402,Maryland,Carroll,MD
+403,Maryland,Cecil,MD
+404,Maryland,Charles,MD
+405,Maryland,Dorchester,MD
+406,Maryland,Frederick,MD
+407,Maryland,Garrett,MD
+408,Maryland,Harford,MD
+409,Maryland,Howard,MD
+410,Maryland,Kent,MD
+411,Maryland,Montgomery,MD
+412,Maryland,Prince George's,MD
+413,Maryland,Washington,MD
+414,Massachusetts,Barnstable,MA
+415,Massachusetts,Berkshire,MA
+416,Massachusetts,Bristol,MA
+417,Massachusetts,Dukes,MA
+418,Massachusetts,Essex,MA
+419,Massachusetts,Franklin,MA
+420,Massachusetts,Hampden,MA
+421,Massachusetts,Hampshire,MA
+422,Massachusetts,Middlesex,MA
+423,Massachusetts,Norfolk,MA
+424,Massachusetts,Plymouth,MA
+425,Massachusetts,Suffolk,MA
+426,Massachusetts,Worcester,MA
+427,Michigan,Allegan,MI
+428,Michigan,Bay,MI
+429,Michigan,Benzie,MI
+430,Michigan,Berrien,MI
+431,Michigan,Cass,MI
+432,Michigan,Chippewa,MI
+433,Michigan,Clinton,MI
+434,Michigan,Genesee,MI
+435,Michigan,Huron,MI
+436,Michigan,Ingham,MI
+437,Michigan,Kalamazoo,MI
+438,Michigan,Kent,MI
+439,Michigan,Keweenaw,MI
+440,Michigan,Lenawee,MI
+441,Michigan,Macomb,MI
+442,Michigan,Manistee,MI
+443,Michigan,Mason,MI
+444,Michigan,Missaukee,MI
+445,Michigan,Monroe,MI
+446,Michigan,Muskegon,MI
+447,Michigan,Oakland,MI
+448,Michigan,Ottawa,MI
+449,Michigan,Schoolcraft,MI
+450,Michigan,St. Clair,MI
+451,Michigan,Tuscola,MI
+452,Michigan,Washtenaw,MI
+453,Michigan,Wayne,MI
+454,Michigan,Wexford,MI
+455,Minnesota,Anoka,MN
+456,Minnesota,Becker,MN
+457,Minnesota,Beltrami,MN
+458,Minnesota,Carlton,MN
+459,Minnesota,Cook,MN
+460,Minnesota,Crow Wing,MN
+461,Minnesota,Dakota,MN
+462,Minnesota,Goodhue,MN
+463,Minnesota,Hennepin,MN
+464,Minnesota,Lake,MN
+465,Minnesota,Lyon,MN
+466,Minnesota,Mille Lacs,MN
+467,Minnesota,Olmsted,MN
+468,Minnesota,Ramsey,MN
+469,Minnesota,Rock,MN
+470,Minnesota,Saint Louis,MN
+471,Minnesota,Scott,MN
+472,Minnesota,Stearns,MN
+473,Minnesota,Washington,MN
+474,Minnesota,Winona,MN
+475,Minnesota,Wright,MN
+476,Mississippi,Bolivar,MS
+477,Mississippi,DeSoto,MS
+478,Mississippi,Forrest,MS
+479,Mississippi,Hancock,MS
+480,Mississippi,Harrison,MS
+481,Mississippi,Hinds,MS
+482,Mississippi,Jackson,MS
+483,Mississippi,Lauderdale,MS
+484,Mississippi,Lee,MS
+485,Mississippi,Yalobusha,MS
+486,Missouri,Andrew,MO
+487,Missouri,Boone,MO
+488,Missouri,Buchanan,MO
+489,Missouri,Callaway,MO
+490,Missouri,Cass,MO
+491,Missouri,Cedar,MO
+492,Missouri,Clay,MO
+493,Missouri,Clinton,MO
+494,Missouri,Greene,MO
+495,Missouri,Iron,MO
+496,Missouri,Jackson,MO
+497,Missouri,Jasper,MO
+498,Missouri,Jefferson,MO
+499,Missouri,Lincoln,MO
+500,Missouri,Monroe,MO
+501,Missouri,Perry,MO
+502,Missouri,Saint Charles,MO
+503,Missouri,Saint Louis,MO
+504,Missouri,Sainte Genevieve,MO
+505,Missouri,St. Louis City,MO
+506,Missouri,Stoddard,MO
+507,Missouri,Taney,MO
+508,Montana,Cascade,MT
+509,Montana,Fergus,MT
+510,Montana,Flathead,MT
+511,Montana,Gallatin,MT
+512,Montana,Lake,MT
+513,Montana,Lewis and Clark,MT
+514,Montana,Lincoln,MT
+515,Montana,Missoula,MT
+516,Montana,Phillips,MT
+517,Montana,Powder River,MT
+518,Montana,Powell,MT
+519,Montana,Ravalli,MT
+520,Montana,Richland,MT
+521,Montana,Roosevelt,MT
+522,Montana,Rosebud,MT
+523,Montana,Sanders,MT
+524,Montana,Sheridan,MT
+525,Montana,Silver Bow,MT
+526,Montana,Yellowstone,MT
+527,Nebraska,Cass,NE
+528,Nebraska,Dawson,NE
+529,Nebraska,Douglas,NE
+530,Nebraska,Garden,NE
+531,Nebraska,Hall,NE
+532,Nebraska,Knox,NE
+533,Nebraska,Lancaster,NE
+534,Nebraska,Sarpy,NE
+535,Nebraska,Scotts Bluff,NE
+536,Nebraska,Thomas,NE
+537,Nebraska,Washington,NE
+538,Nevada,Carson City,NV
+539,Nevada,Churchill,NV
+540,Nevada,Clark,NV
+541,Nevada,Douglas,NV
+542,Nevada,Elko,NV
+543,Nevada,Lyon,NV
+544,Nevada,Nye,NV
+545,Nevada,Washoe,NV
+546,Nevada,White Pine,NV
+547,New Hampshire,Belknap,NH
+548,New Hampshire,Cheshire,NH
+549,New Hampshire,Coos,NH
+550,New Hampshire,Grafton,NH
+551,New Hampshire,Hillsborough,NH
+552,New Hampshire,Merrimack,NH
+553,New Hampshire,Rockingham,NH
+554,New Jersey,Atlantic,NJ
+555,New Jersey,Bergen,NJ
+556,New Jersey,Camden,NJ
+557,New Jersey,Cumberland,NJ
+558,New Jersey,Essex,NJ
+559,New Jersey,Gloucester,NJ
+560,New Jersey,Hudson,NJ
+561,New Jersey,Hunterdon,NJ
+562,New Jersey,Mercer,NJ
+563,New Jersey,Middlesex,NJ
+564,New Jersey,Monmouth,NJ
+565,New Jersey,Morris,NJ
+566,New Jersey,Ocean,NJ
+567,New Jersey,Passaic,NJ
+568,New Jersey,Union,NJ
+569,New Jersey,Warren,NJ
+570,New Mexico,Bernalillo,NM
+571,New Mexico,Catron,NM
+572,New Mexico,Chaves,NM
+573,New Mexico,Dona Ana,NM
+574,New Mexico,Eddy,NM
+575,New Mexico,Grant,NM
+576,New Mexico,Lea,NM
+577,New Mexico,Lincoln,NM
+578,New Mexico,Los Alamos,NM
+579,New Mexico,Luna,NM
+580,New Mexico,Rio Arriba,NM
+581,New Mexico,San Juan,NM
+582,New Mexico,Sandoval,NM
+583,New Mexico,Santa Fe,NM
+584,New Mexico,Socorro,NM
+585,New Mexico,Taos,NM
+586,New Mexico,Valencia,NM
+587,New York,Albany,NY
+588,New York,Bronx,NY
+589,New York,Chautauqua,NY
+590,New York,Dutchess,NY
+591,New York,Erie,NY
+592,New York,Essex,NY
+593,New York,Franklin,NY
+594,New York,Hamilton,NY
+595,New York,Herkimer,NY
+596,New York,Jefferson,NY
+597,New York,Kings,NY
+598,New York,Monroe,NY
+599,New York,Nassau,NY
+600,New York,New York,NY
+601,New York,Niagara,NY
+602,New York,Oneida,NY
+603,New York,Onondaga,NY
+604,New York,Orange,NY
+605,New York,Oswego,NY
+606,New York,Putnam,NY
+607,New York,Queens,NY
+608,New York,Richmond,NY
+609,New York,Rockland,NY
+610,New York,Saratoga,NY
+611,New York,Steuben,NY
+612,New York,Suffolk,NY
+613,New York,Tompkins,NY
+614,New York,Wayne,NY
+615,New York,Westchester,NY
+616,North Carolina,Alamance,NC
+617,North Carolina,Alexander,NC
+618,North Carolina,Avery,NC
+619,North Carolina,Beaufort,NC
+620,North Carolina,Buncombe,NC
+621,North Carolina,Caldwell,NC
+622,North Carolina,Carteret,NC
+623,North Carolina,Caswell,NC
+624,North Carolina,Catawba,NC
+625,North Carolina,Chatham,NC
+626,North Carolina,Cumberland,NC
+627,North Carolina,Davidson,NC
+628,North Carolina,Davie,NC
+629,North Carolina,Duplin,NC
+630,North Carolina,Durham,NC
+631,North Carolina,Edgecombe,NC
+632,North Carolina,Forsyth,NC
+633,North Carolina,Franklin,NC
+634,North Carolina,Gaston,NC
+635,North Carolina,Graham,NC
+636,North Carolina,Granville,NC
+637,North Carolina,Guilford,NC
+638,North Carolina,Haywood,NC
+639,North Carolina,Hyde,NC
+640,North Carolina,Jackson,NC
+641,North Carolina,Johnston,NC
+642,North Carolina,Lee,NC
+643,North Carolina,Lenoir,NC
+644,North Carolina,Lincoln,NC
+645,North Carolina,Macon,NC
+646,North Carolina,Martin,NC
+647,North Carolina,McDowell,NC
+648,North Carolina,Mecklenburg,NC
+649,North Carolina,Mitchell,NC
+650,North Carolina,Montgomery,NC
+651,North Carolina,New Hanover,NC
+652,North Carolina,Person,NC
+653,North Carolina,Pitt,NC
+654,North Carolina,Robeson,NC
+655,North Carolina,Rockingham,NC
+656,North Carolina,Rowan,NC
+657,North Carolina,Swain,NC
+658,North Carolina,Union,NC
+659,North Carolina,Wake,NC
+660,North Carolina,Watauga,NC
+661,North Carolina,Wayne,NC
+662,North Carolina,Yancey,NC
+663,North Dakota,Billings,ND
+664,North Dakota,Burke,ND
+665,North Dakota,Burleigh,ND
+666,North Dakota,Cass,ND
+667,North Dakota,Dunn,ND
+668,North Dakota,McKenzie,ND
+669,North Dakota,Mercer,ND
+670,North Dakota,Oliver,ND
+671,North Dakota,Williams,ND
+672,Ohio,Adams,OH
+673,Ohio,Allen,OH
+674,Ohio,Ashtabula,OH
+675,Ohio,Athens,OH
+676,Ohio,Belmont,OH
+677,Ohio,Butler,OH
+678,Ohio,Clark,OH
+679,Ohio,Clermont,OH
+680,Ohio,Clinton,OH
+681,Ohio,Columbiana,OH
+682,Ohio,Cuyahoga,OH
+683,Ohio,Delaware,OH
+684,Ohio,Fayette,OH
+685,Ohio,Franklin,OH
+686,Ohio,Geauga,OH
+687,Ohio,Greene,OH
+688,Ohio,Hamilton,OH
+689,Ohio,Jefferson,OH
+690,Ohio,Knox,OH
+691,Ohio,Lake,OH
+692,Ohio,Lawrence,OH
+693,Ohio,Licking,OH
+694,Ohio,Lorain,OH
+695,Ohio,Lucas,OH
+696,Ohio,Madison,OH
+697,Ohio,Mahoning,OH
+698,Ohio,Medina,OH
+699,Ohio,Meigs,OH
+700,Ohio,Miami,OH
+701,Ohio,Montgomery,OH
+702,Ohio,Morgan,OH
+703,Ohio,Noble,OH
+704,Ohio,Portage,OH
+705,Ohio,Preble,OH
+706,Ohio,Scioto,OH
+707,Ohio,Stark,OH
+708,Ohio,Summit,OH
+709,Ohio,Trumbull,OH
+710,Ohio,Warren,OH
+711,Ohio,Washington,OH
+712,Ohio,Wood,OH
+713,Oklahoma,Adair,OK
+714,Oklahoma,Bryan,OK
+715,Oklahoma,Caddo,OK
+716,Oklahoma,Canadian,OK
+717,Oklahoma,Cherokee,OK
+718,Oklahoma,Cleveland,OK
+719,Oklahoma,Comanche,OK
