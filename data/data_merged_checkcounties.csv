@@ -1,6 +1,6 @@
 ,State,County,aqi,ghg,income,pop,plant,weather_epa,weather_meso
 1053,alabama,autauga,,1.0,1.0,1.0,1.0,,
-0,alabama,baldwin,1.0,1.0,1.0,1.0,,,
+0,alabama,baldwin,1.0,1.0,1.0,1.0,,,1.0
 1054,alabama,barbour,,1.0,1.0,1.0,,,
 2206,alabama,bibb,,,1.0,1.0,,,
 2065,alabama,blount,,1.0,1.0,1.0,,,
@@ -12,10 +12,10 @@
 1057,alabama,chilton,,1.0,1.0,1.0,1.0,,
 1058,alabama,choctaw,,1.0,1.0,1.0,1.0,,
 1059,alabama,clarke,,1.0,1.0,1.0,1.0,,
-1,alabama,clay,1.0,,1.0,1.0,,,
+1,alabama,clay,1.0,,1.0,1.0,,,1.0
 2209,alabama,cleburne,,,1.0,1.0,,,
 1060,alabama,coffee,,1.0,1.0,1.0,,,
-2,alabama,colbert,1.0,1.0,1.0,1.0,1.0,,
+2,alabama,colbert,1.0,1.0,1.0,1.0,1.0,,1.0
 2210,alabama,conecuh,,,1.0,1.0,,,
 1061,alabama,coosa,,1.0,1.0,1.0,1.0,,
 1062,alabama,covington,,1.0,1.0,1.0,1.0,,
@@ -23,72 +23,72 @@
 1063,alabama,cullman,,1.0,1.0,1.0,,,
 2212,alabama,dale,,,1.0,1.0,,,
 1064,alabama,dallas,,1.0,1.0,1.0,1.0,,
-3,alabama,dekalb,1.0,1.0,1.0,1.0,1.0,,
-4,alabama,elmore,1.0,1.0,1.0,1.0,1.0,,
+3,alabama,dekalb,1.0,1.0,1.0,1.0,1.0,,1.0
+4,alabama,elmore,1.0,1.0,1.0,1.0,1.0,,1.0
 1065,alabama,escambia,,1.0,1.0,1.0,1.0,,
-5,alabama,etowah,1.0,1.0,1.0,1.0,1.0,,
+5,alabama,etowah,1.0,1.0,1.0,1.0,1.0,,1.0
 2066,alabama,fayette,,1.0,1.0,1.0,,,
 2213,alabama,franklin,,,1.0,1.0,,,
 2214,alabama,geneva,,,1.0,1.0,,,
 1066,alabama,greene,,1.0,1.0,1.0,1.0,,
 2119,alabama,hale,,1.0,1.0,1.0,1.0,,
 2215,alabama,henry,,,1.0,1.0,,,
-6,alabama,houston,1.0,1.0,1.0,1.0,1.0,,
+6,alabama,houston,1.0,1.0,1.0,1.0,1.0,,1.0
 1067,alabama,jackson,,1.0,1.0,1.0,,,
-7,alabama,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,
+7,alabama,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1068,alabama,lamar,,1.0,1.0,1.0,,,
 1069,alabama,lauderdale,,1.0,1.0,1.0,1.0,,
-8,alabama,lawrence,1.0,1.0,1.0,1.0,1.0,,
+8,alabama,lawrence,1.0,1.0,1.0,1.0,1.0,,1.0
 1070,alabama,lee,,1.0,1.0,1.0,1.0,,
 2216,alabama,limestone,,,1.0,1.0,1.0,,
 1071,alabama,lowndes,,1.0,1.0,1.0,1.0,,
 2217,alabama,macon,,,1.0,1.0,,,
-9,alabama,madison,1.0,1.0,1.0,1.0,,,
+9,alabama,madison,1.0,1.0,1.0,1.0,,,1.0
 1072,alabama,marengo,,1.0,1.0,1.0,1.0,,
 1073,alabama,marion,,1.0,1.0,1.0,,,
 1074,alabama,marshall,,1.0,1.0,1.0,1.0,,
-10,alabama,mobile,1.0,1.0,1.0,1.0,1.0,,
+10,alabama,mobile,1.0,1.0,1.0,1.0,1.0,,1.0
 1075,alabama,monroe,,1.0,1.0,1.0,1.0,,
-11,alabama,montgomery,1.0,1.0,1.0,1.0,,,
-12,alabama,morgan,1.0,1.0,1.0,1.0,1.0,,
+11,alabama,montgomery,1.0,1.0,1.0,1.0,,,1.0
+12,alabama,morgan,1.0,1.0,1.0,1.0,1.0,,1.0
 2168,alabama,perry,,1.0,1.0,1.0,,,
 2218,alabama,pickens,,,1.0,1.0,,,
 1076,alabama,pike,,1.0,1.0,1.0,,,
 1077,alabama,randolph,,1.0,1.0,1.0,1.0,,
-13,alabama,russell,1.0,1.0,1.0,1.0,1.0,,
-14,alabama,shelby,1.0,1.0,1.0,1.0,1.0,,
+13,alabama,russell,1.0,1.0,1.0,1.0,1.0,,1.0
+14,alabama,shelby,1.0,1.0,1.0,1.0,1.0,,1.0
 1078,alabama,stclair,,1.0,1.0,1.0,,,
-15,alabama,sumter,1.0,1.0,1.0,1.0,,,
-16,alabama,talladega,1.0,1.0,1.0,1.0,1.0,,
+15,alabama,sumter,1.0,1.0,1.0,1.0,,,1.0
+16,alabama,talladega,1.0,1.0,1.0,1.0,1.0,,1.0
 1079,alabama,tallapoosa,,1.0,1.0,1.0,1.0,,
-17,alabama,tuscaloosa,1.0,1.0,1.0,1.0,1.0,,
+17,alabama,tuscaloosa,1.0,1.0,1.0,1.0,1.0,,1.0
 1080,alabama,walker,,1.0,1.0,1.0,1.0,,
 1081,alabama,washington,,1.0,1.0,1.0,1.0,,
 1082,alabama,wilcox,,1.0,1.0,1.0,1.0,,
 2219,alabama,winston,,,1.0,1.0,,,
 2220,alaska,aleutianislands,,,1.0,,,,
-18,alaska,aleutianseast,1.0,1.0,1.0,1.0,1.0,,
+18,alaska,aleutianseast,1.0,1.0,1.0,1.0,1.0,,1.0
 1083,alaska,aleutianswest,,1.0,1.0,1.0,1.0,,
-19,alaska,anchorage,1.0,1.0,1.0,1.0,1.0,,
+19,alaska,anchorage,1.0,1.0,1.0,1.0,1.0,,1.0
 2242,alaska,angoon,,,1.0,,,,
 2243,alaska,barrownorthslope,,,1.0,,,,
 2221,alaska,bethel,,,1.0,1.0,1.0,,
 2222,alaska,bristolbay,,,1.0,1.0,1.0,,
 2244,alaska,cordovamccarthy,,,1.0,,,,
-20,alaska,denali,1.0,1.0,1.0,1.0,1.0,1.0,
+20,alaska,denali,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2223,alaska,dillingham,,,1.0,1.0,1.0,,
-21,alaska,fairbanksnorthstar,1.0,1.0,1.0,1.0,1.0,,
+21,alaska,fairbanksnorthstar,1.0,1.0,1.0,1.0,1.0,,1.0
 2224,alaska,haines,,,1.0,1.0,1.0,,
 2225,alaska,hoonahangoon,,,1.0,1.0,,,
-22,alaska,juneau,1.0,1.0,1.0,1.0,1.0,,
+22,alaska,juneau,1.0,1.0,1.0,1.0,1.0,,1.0
 2245,alaska,kenaicookinlet,,,1.0,,,,
-23,alaska,kenaipeninsula,1.0,1.0,1.0,1.0,1.0,,
+23,alaska,kenaipeninsula,1.0,1.0,1.0,1.0,1.0,,1.0
 2226,alaska,ketchikangateway,,,1.0,1.0,1.0,,
 2227,alaska,kodiakisland,,,1.0,1.0,1.0,,
 2228,alaska,kusilvak,,,1.0,1.0,,,
 2246,alaska,kuskokwim,,,1.0,,,,
 2229,alaska,lakeandpeninsula,,,1.0,1.0,1.0,,
-24,alaska,matanuskasusitna,1.0,1.0,1.0,1.0,1.0,,
+24,alaska,matanuskasusitna,1.0,1.0,1.0,1.0,1.0,,1.0
 2230,alaska,nome,,,1.0,1.0,1.0,,
 1084,alaska,northslope,,1.0,1.0,1.0,1.0,,
 1085,alaska,northwestarctic,,1.0,1.0,1.0,1.0,,
@@ -112,24 +112,24 @@
 2239,alaska,wrangell,,,1.0,1.0,,,
 2240,alaska,wrangellpetersburg,,,1.0,,1.0,,
 2241,alaska,yakutat,,,1.0,1.0,1.0,,
-2169,alaska,yukonkoyukuk,,1.0,1.0,1.0,1.0,,
-25,arizona,apache,1.0,1.0,1.0,1.0,1.0,,
-26,arizona,cochise,1.0,1.0,1.0,1.0,1.0,1.0,
-27,arizona,coconino,1.0,1.0,1.0,1.0,1.0,1.0,
-28,arizona,gila,1.0,1.0,1.0,1.0,1.0,,
+2169,alaska,yukonkoyukuk,,1.0,1.0,1.0,1.0,,1.0
+25,arizona,apache,1.0,1.0,1.0,1.0,1.0,,1.0
+26,arizona,cochise,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+27,arizona,coconino,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+28,arizona,gila,1.0,1.0,1.0,1.0,1.0,,1.0
 1087,arizona,graham,,1.0,1.0,1.0,,,
 1088,arizona,greenlee,,1.0,1.0,1.0,,,
-29,arizona,lapaz,1.0,1.0,1.0,1.0,1.0,,
-30,arizona,maricopa,1.0,1.0,1.0,1.0,1.0,1.0,
-31,arizona,mohave,1.0,1.0,1.0,1.0,1.0,,
-32,arizona,navajo,1.0,1.0,1.0,1.0,1.0,1.0,
-33,arizona,pima,1.0,1.0,1.0,1.0,1.0,1.0,
-34,arizona,pinal,1.0,1.0,1.0,1.0,1.0,1.0,
-35,arizona,santacruz,1.0,,1.0,1.0,1.0,,
-36,arizona,yavapai,1.0,1.0,1.0,1.0,1.0,,
-37,arizona,yuma,1.0,1.0,1.0,1.0,1.0,,
-38,arkansas,arkansas,1.0,1.0,1.0,1.0,1.0,,
-39,arkansas,ashley,1.0,1.0,1.0,1.0,1.0,,
+29,arizona,lapaz,1.0,1.0,1.0,1.0,1.0,,1.0
+30,arizona,maricopa,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+31,arizona,mohave,1.0,1.0,1.0,1.0,1.0,,1.0
+32,arizona,navajo,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+33,arizona,pima,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+34,arizona,pinal,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+35,arizona,santacruz,1.0,,1.0,1.0,1.0,,1.0
+36,arizona,yavapai,1.0,1.0,1.0,1.0,1.0,,1.0
+37,arizona,yuma,1.0,1.0,1.0,1.0,1.0,,1.0
+38,arkansas,arkansas,1.0,1.0,1.0,1.0,1.0,,1.0
+39,arkansas,ashley,1.0,1.0,1.0,1.0,1.0,,1.0
 1089,arkansas,baxter,,1.0,1.0,1.0,1.0,,
 1090,arkansas,benton,,1.0,1.0,1.0,1.0,,
 2253,arkansas,boone,,,1.0,1.0,,,
@@ -137,7 +137,7 @@
 2120,arkansas,calhoun,,1.0,1.0,1.0,1.0,,
 1091,arkansas,carroll,,1.0,1.0,1.0,1.0,,
 2255,arkansas,chicot,,,1.0,1.0,,,
-40,arkansas,clark,1.0,1.0,1.0,1.0,1.0,,
+40,arkansas,clark,1.0,1.0,1.0,1.0,1.0,,1.0
 2256,arkansas,clay,,,1.0,1.0,1.0,,
 1092,arkansas,cleburne,,1.0,1.0,1.0,1.0,,
 2257,arkansas,cleveland,,,1.0,1.0,,,
@@ -145,7 +145,7 @@
 1094,arkansas,conway,,1.0,1.0,1.0,1.0,,
 1095,arkansas,craighead,,1.0,1.0,1.0,1.0,,
 1096,arkansas,crawford,,1.0,1.0,1.0,1.0,,
-41,arkansas,crittenden,1.0,1.0,1.0,1.0,,,
+41,arkansas,crittenden,1.0,1.0,1.0,1.0,,,1.0
 2258,arkansas,cross,,,1.0,1.0,,,
 2067,arkansas,dallas,,1.0,1.0,1.0,,,
 1097,arkansas,desha,,1.0,1.0,1.0,1.0,,
@@ -153,7 +153,7 @@
 1098,arkansas,faulkner,,1.0,1.0,1.0,,,
 1099,arkansas,franklin,,1.0,1.0,1.0,1.0,,
 2260,arkansas,fulton,,,1.0,1.0,,,
-42,arkansas,garland,1.0,1.0,1.0,1.0,1.0,,
+42,arkansas,garland,1.0,1.0,1.0,1.0,1.0,,1.0
 2261,arkansas,grant,,,1.0,1.0,,,
 1100,arkansas,greene,,1.0,1.0,1.0,1.0,,
 1101,arkansas,hempstead,,1.0,1.0,1.0,1.0,,
@@ -161,7 +161,7 @@
 1103,arkansas,howard,,1.0,1.0,1.0,,,
 1104,arkansas,independence,,1.0,1.0,1.0,1.0,,
 2262,arkansas,izard,,,1.0,1.0,1.0,,
-43,arkansas,jackson,1.0,1.0,1.0,1.0,,,
+43,arkansas,jackson,1.0,1.0,1.0,1.0,,,1.0
 1105,arkansas,jefferson,,1.0,1.0,1.0,1.0,,
 2068,arkansas,johnson,,1.0,1.0,1.0,,,
 1106,arkansas,lafayette,,1.0,1.0,1.0,,,
@@ -178,16 +178,16 @@
 2269,arkansas,monroe,,,1.0,1.0,,,
 2270,arkansas,montgomery,,,1.0,1.0,,,
 2271,arkansas,nevada,,,1.0,1.0,,,
-44,arkansas,newton,1.0,,1.0,1.0,,,
+44,arkansas,newton,1.0,,1.0,1.0,,,1.0
 1111,arkansas,ouachita,,1.0,1.0,1.0,1.0,,
 2272,arkansas,perry,,,1.0,1.0,,,
 1112,arkansas,phillips,,1.0,1.0,1.0,,,
 2273,arkansas,pike,,,1.0,1.0,1.0,,
 2274,arkansas,poinsett,,,1.0,1.0,,,
-45,arkansas,polk,1.0,,1.0,1.0,,,
+45,arkansas,polk,1.0,,1.0,1.0,,,1.0
 2275,arkansas,pope,,,1.0,1.0,1.0,,
 1113,arkansas,prairie,,1.0,1.0,1.0,,,
-46,arkansas,pulaski,1.0,1.0,1.0,1.0,1.0,1.0,
+46,arkansas,pulaski,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1114,arkansas,randolph,,1.0,1.0,1.0,,,
 1116,arkansas,saline,,1.0,1.0,1.0,,,
 2276,arkansas,scott,,,1.0,1.0,,,
@@ -197,66 +197,56 @@
 1118,arkansas,sharp,,1.0,1.0,1.0,,,
 1115,arkansas,stfrancis,,1.0,1.0,1.0,,,
 2279,arkansas,stone,,,1.0,1.0,1.0,,
-47,arkansas,union,1.0,1.0,1.0,1.0,1.0,,
+47,arkansas,union,1.0,1.0,1.0,1.0,1.0,,1.0
 1119,arkansas,vanburen,,1.0,1.0,1.0,,,
-48,arkansas,washington,1.0,1.0,1.0,1.0,1.0,,
+48,arkansas,washington,1.0,1.0,1.0,1.0,1.0,,1.0
 1120,arkansas,white,,1.0,1.0,1.0,,,
 1121,arkansas,woodruff,,1.0,1.0,1.0,1.0,,
 1122,arkansas,yell,,1.0,1.0,1.0,,,
-49,california,alameda,1.0,1.0,1.0,1.0,1.0,,
-50,california,alpine,1.0,,1.0,1.0,,,
-51,california,amador,1.0,,1.0,1.0,1.0,1.0,
-52,california,butte,1.0,1.0,1.0,1.0,1.0,1.0,
-53,california,calaveras,1.0,,1.0,1.0,1.0,1.0,
-54,california,colusa,1.0,1.0,1.0,1.0,1.0,1.0,
-55,california,contracosta,1.0,1.0,1.0,1.0,1.0,,
-56,california,delnorte,1.0,,1.0,1.0,,,
-57,california,eldorado,1.0,,1.0,1.0,1.0,1.0,
-58,california,fresno,1.0,1.0,1.0,1.0,1.0,1.0,
-59,california,glenn,1.0,,1.0,1.0,1.0,1.0,
-60,california,humboldt,1.0,1.0,1.0,1.0,1.0,,
-61,california,imperial,1.0,1.0,1.0,1.0,1.0,1.0,
-62,california,inyo,1.0,,1.0,1.0,1.0,1.0,
-63,california,kern,1.0,1.0,1.0,1.0,1.0,1.0,
-64,california,kings,1.0,1.0,1.0,1.0,1.0,1.0,
-65,california,lake,1.0,1.0,1.0,1.0,1.0,1.0,
+49,california,alameda,1.0,1.0,1.0,1.0,1.0,,1.0
+50,california,alpine,1.0,,1.0,1.0,,,1.0
+51,california,amador,1.0,,1.0,1.0,1.0,1.0,1.0
+52,california,butte,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+53,california,calaveras,1.0,,1.0,1.0,1.0,1.0,1.0
+54,california,colusa,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+55,california,contracosta,1.0,1.0,1.0,1.0,1.0,,1.0
+56,california,delnorte,1.0,,1.0,1.0,,,1.0
+57,california,eldorado,1.0,,1.0,1.0,1.0,1.0,1.0
+58,california,fresno,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+59,california,glenn,1.0,,1.0,1.0,1.0,1.0,1.0
+60,california,humboldt,1.0,1.0,1.0,1.0,1.0,,1.0
+61,california,imperial,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+62,california,inyo,1.0,,1.0,1.0,1.0,1.0,1.0
+63,california,kern,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+64,california,kings,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+65,california,lake,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2280,california,lassen,,,1.0,1.0,1.0,,
-66,california,losangeles,1.0,1.0,1.0,1.0,1.0,1.0,
-67,california,madera,1.0,1.0,1.0,1.0,1.0,1.0,
-68,california,marin,1.0,1.0,1.0,1.0,1.0,,
-69,california,mariposa,1.0,,1.0,1.0,1.0,1.0,
-70,california,mendocino,1.0,1.0,1.0,1.0,1.0,,
-71,california,merced,1.0,1.0,1.0,1.0,1.0,1.0,
+66,california,losangeles,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+67,california,madera,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+68,california,marin,1.0,1.0,1.0,1.0,1.0,,1.0
+69,california,mariposa,1.0,,1.0,1.0,1.0,1.0,1.0
+70,california,mendocino,1.0,1.0,1.0,1.0,1.0,,1.0
+71,california,merced,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2121,california,modoc,,1.0,1.0,1.0,,,
-72,california,mono,1.0,,1.0,1.0,1.0,1.0,
-73,california,monterey,1.0,1.0,1.0,1.0,1.0,1.0,
-74,california,napa,1.0,1.0,1.0,1.0,1.0,,
-75,california,nevada,1.0,,1.0,1.0,1.0,,
-76,california,orange,1.0,1.0,1.0,1.0,1.0,1.0,
-77,california,placer,1.0,1.0,1.0,1.0,1.0,1.0,
-78,california,plumas,1.0,,1.0,1.0,1.0,,
-79,california,riverside,1.0,1.0,1.0,1.0,1.0,1.0,
+72,california,mono,1.0,,1.0,1.0,1.0,1.0,1.0
+73,california,monterey,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+74,california,napa,1.0,1.0,1.0,1.0,1.0,,1.0
+75,california,nevada,1.0,,1.0,1.0,1.0,,1.0
+76,california,orange,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+77,california,placer,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+78,california,plumas,1.0,,1.0,1.0,1.0,,1.0
+79,california,riverside,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 80,california,sacramento,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-3196,california,san%benito,,,,,,,1.0
-3197,california,san%bernardino,,,,,,,1.0
-3198,california,san%diego,,,,,,,1.0
-3199,california,san%francisco,,,,,,,1.0
-3200,california,san%joaquin,,,,,,,1.0
-3201,california,san%luis%obispo,,,,,,,1.0
-3202,california,san%mateo,,,,,,,1.0
-81,california,sanbenito,1.0,1.0,1.0,1.0,1.0,1.0,
-82,california,sanbernardino,1.0,1.0,1.0,1.0,1.0,1.0,
-83,california,sandiego,1.0,1.0,1.0,1.0,1.0,1.0,
-84,california,sanfrancisco,1.0,1.0,1.0,1.0,1.0,,
-85,california,sanjoaquin,1.0,1.0,1.0,1.0,1.0,1.0,
-86,california,sanluisobispo,1.0,1.0,1.0,1.0,1.0,1.0,
-87,california,sanmateo,1.0,1.0,1.0,1.0,1.0,,
-3203,california,santa%barbara,,,,,,,1.0
-3204,california,santa%clara,,,,,,,1.0
-3205,california,santa%cruz,,,,,,,1.0
-88,california,santabarbara,1.0,1.0,1.0,1.0,1.0,1.0,
-89,california,santaclara,1.0,1.0,1.0,1.0,1.0,1.0,
-90,california,santacruz,1.0,1.0,1.0,1.0,1.0,1.0,
+81,california,sanbenito,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+82,california,sanbernardino,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+83,california,sandiego,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+84,california,sanfrancisco,1.0,1.0,1.0,1.0,1.0,,1.0
+85,california,sanjoaquin,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+86,california,sanluisobispo,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+87,california,sanmateo,1.0,1.0,1.0,1.0,1.0,,1.0
+88,california,santabarbara,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+89,california,santaclara,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+90,california,santacruz,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 91,california,shasta,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2281,california,sierra,,,1.0,1.0,1.0,,
 92,california,siskiyou,1.0,,1.0,1.0,1.0,,1.0
@@ -281,8 +271,7 @@
 2284,colorado,broomfield,,,1.0,1.0,,,
 108,colorado,chaffee,1.0,,1.0,1.0,1.0,,1.0
 1124,colorado,cheyenne,,1.0,1.0,1.0,,,
-3206,colorado,clear%creek,,,,,,,1.0
-109,colorado,clearcreek,1.0,,1.0,1.0,1.0,,
+109,colorado,clearcreek,1.0,,1.0,1.0,1.0,,1.0
 2285,colorado,conejos,,,1.0,1.0,,,
 2286,colorado,costilla,,,1.0,1.0,,,
 2287,colorado,crowley,,,1.0,1.0,,,
@@ -292,9 +281,8 @@
 2289,colorado,dolores,,,1.0,1.0,,,
 112,colorado,douglas,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1125,colorado,eagle,,1.0,1.0,1.0,1.0,,
-3207,colorado,el%paso,,,,,,,1.0
 2290,colorado,elbert,,,1.0,1.0,,,
-113,colorado,elpaso,1.0,1.0,1.0,1.0,1.0,1.0,
+113,colorado,elpaso,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 114,colorado,fremont,1.0,1.0,1.0,1.0,,,1.0
 115,colorado,garfield,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2291,colorado,gilpin,,,1.0,1.0,,,
@@ -306,9 +294,8 @@
 119,colorado,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1126,colorado,kiowa,,1.0,1.0,1.0,,,
 2294,colorado,kitcarson,,,1.0,1.0,1.0,,
-3208,colorado,la%plata,,,,,,,1.0
 2295,colorado,lake,,,1.0,1.0,1.0,,
-120,colorado,laplata,1.0,1.0,1.0,1.0,1.0,1.0,
+120,colorado,laplata,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 121,colorado,larimer,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1127,colorado,lasanimas,,1.0,1.0,1.0,1.0,,
 1128,colorado,lincoln,,1.0,1.0,1.0,1.0,,
@@ -326,15 +313,12 @@
 127,colorado,pitkin,1.0,,1.0,1.0,,,1.0
 128,colorado,prowers,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 129,colorado,pueblo,1.0,1.0,1.0,1.0,1.0,,1.0
-3209,colorado,rio%blanco,,,,,,,1.0
-130,colorado,rioblanco,1.0,1.0,1.0,1.0,1.0,1.0,
+130,colorado,rioblanco,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2300,colorado,riogrande,,,1.0,1.0,,,
 131,colorado,routt,1.0,1.0,1.0,1.0,1.0,,1.0
 2301,colorado,saguache,,,1.0,1.0,1.0,,
-3210,colorado,san%juan,,,,,,,1.0
-3211,colorado,san%miguel,,,,,,,1.0
-132,colorado,sanjuan,1.0,,1.0,1.0,,,
-133,colorado,sanmiguel,1.0,1.0,1.0,1.0,1.0,,
+132,colorado,sanjuan,1.0,,1.0,1.0,,,1.0
+133,colorado,sanmiguel,1.0,1.0,1.0,1.0,1.0,,1.0
 2302,colorado,sedgwick,,,1.0,1.0,1.0,,
 1131,colorado,summit,,1.0,1.0,1.0,1.0,,
 2303,colorado,teller,,,1.0,1.0,,,
@@ -345,16 +329,13 @@
 136,connecticut,hartford,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 137,connecticut,litchfield,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 138,connecticut,middlesex,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-3212,connecticut,new%haven,,,,,,,1.0
-3213,connecticut,new%london,,,,,,,1.0
-139,connecticut,newhaven,1.0,1.0,1.0,1.0,1.0,1.0,
-140,connecticut,newlondon,1.0,1.0,1.0,1.0,1.0,1.0,
+139,connecticut,newhaven,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+140,connecticut,newlondon,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 141,connecticut,tolland,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 142,connecticut,windham,1.0,1.0,1.0,1.0,1.0,,1.0
 143,country of mexico,bajacalifornianorte,1.0,,,,,1.0,
 144,delaware,kent,1.0,1.0,1.0,1.0,1.0,,1.0
-3214,delaware,new%castle,,,,,,,1.0
-145,delaware,newcastle,1.0,1.0,1.0,1.0,1.0,1.0,
+145,delaware,newcastle,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 146,delaware,sussex,1.0,1.0,1.0,1.0,1.0,,1.0
 147,district of columbia,districtofcolumbia,1.0,1.0,,1.0,1.0,1.0,
 148,florida,alachua,1.0,1.0,1.0,1.0,1.0,,1.0
@@ -386,8 +367,7 @@
 160,florida,highlands,1.0,,1.0,1.0,1.0,,1.0
 161,florida,hillsborough,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 162,florida,holmes,1.0,,1.0,1.0,,,1.0
-3215,florida,indian%river,,,,,,,1.0
-163,florida,indianriver,1.0,1.0,1.0,1.0,1.0,,
+163,florida,indianriver,1.0,1.0,1.0,1.0,1.0,,1.0
 1141,florida,jackson,,1.0,1.0,1.0,1.0,,
 2311,florida,jefferson,,,1.0,1.0,,,
 2312,florida,lafayette,,,1.0,1.0,,,
@@ -407,19 +387,16 @@
 1144,florida,okeechobee,,1.0,1.0,1.0,,,
 174,florida,orange,1.0,1.0,1.0,1.0,1.0,,1.0
 175,florida,osceola,1.0,1.0,1.0,1.0,1.0,,1.0
-3216,florida,palm%beach,,,,,,,1.0
-176,florida,palmbeach,1.0,1.0,1.0,1.0,1.0,,
+176,florida,palmbeach,1.0,1.0,1.0,1.0,1.0,,1.0
 177,florida,pasco,1.0,1.0,1.0,1.0,1.0,,1.0
 178,florida,pinellas,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 179,florida,polk,1.0,1.0,1.0,1.0,1.0,,1.0
 180,florida,putnam,1.0,1.0,1.0,1.0,1.0,,1.0
-3217,florida,santa%rosa,,,,,,,1.0
-181,florida,santarosa,1.0,1.0,1.0,1.0,1.0,,
+181,florida,santarosa,1.0,1.0,1.0,1.0,1.0,,1.0
 182,florida,sarasota,1.0,1.0,1.0,1.0,1.0,,1.0
 183,florida,seminole,1.0,1.0,1.0,1.0,1.0,,1.0
-3218,florida,st%lucie,,,,,,,1.0
 2314,florida,stjohns,,,1.0,1.0,,,
-184,florida,stlucie,1.0,1.0,1.0,1.0,1.0,,
+184,florida,stlucie,1.0,1.0,1.0,1.0,1.0,,1.0
 1145,florida,sumter,,1.0,1.0,1.0,,,
 1146,florida,suwannee,,1.0,1.0,1.0,1.0,,
 1147,florida,taylor,,1.0,1.0,1.0,1.0,,
@@ -626,16 +603,14 @@
 2399,idaho,lincoln,,,1.0,1.0,1.0,,
 2188,idaho,madison,,1.0,1.0,1.0,1.0,,
 1199,idaho,minidoka,,1.0,1.0,1.0,1.0,,
-3284,idaho,nez%perce,,,,,,,1.0
-240,idaho,nezperce,1.0,1.0,1.0,1.0,1.0,1.0,
+240,idaho,nezperce,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2400,idaho,oneida,,,1.0,1.0,,,
 2401,idaho,owyhee,,,1.0,1.0,1.0,,
 2126,idaho,payette,,1.0,1.0,1.0,1.0,,
 1200,idaho,power,,1.0,1.0,1.0,1.0,,
 241,idaho,shoshone,1.0,,1.0,1.0,,1.0,1.0
 2402,idaho,teton,,,1.0,1.0,1.0,,
-3285,idaho,twin%falls,,,,,,,1.0
-242,idaho,twinfalls,1.0,1.0,1.0,1.0,1.0,1.0,
+242,idaho,twinfalls,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 243,idaho,valley,1.0,,1.0,1.0,1.0,,1.0
 2403,idaho,washington,,,1.0,1.0,1.0,,
 244,illinois,adams,1.0,1.0,1.0,1.0,,,1.0
@@ -680,16 +655,14 @@
 1221,illinois,jasper,,1.0,1.0,1.0,1.0,,
 1222,illinois,jefferson,,1.0,1.0,1.0,,,
 251,illinois,jersey,1.0,,1.0,1.0,,,1.0
-3219,illinois,jo%daviess,,,,,,,1.0
-252,illinois,jodaviess,1.0,1.0,1.0,1.0,,,
+252,illinois,jodaviess,1.0,1.0,1.0,1.0,,,1.0
 2415,illinois,johnson,,,1.0,1.0,,,
 253,illinois,kane,1.0,1.0,1.0,1.0,1.0,,1.0
 1223,illinois,kankakee,,1.0,1.0,1.0,1.0,,
 1224,illinois,kendall,,1.0,1.0,1.0,1.0,,
 1225,illinois,knox,,1.0,1.0,1.0,,,
-3220,illinois,la%salle,,,,,,,1.0
 255,illinois,lake,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-254,illinois,lasalle,1.0,1.0,1.0,1.0,1.0,,
+254,illinois,lasalle,1.0,1.0,1.0,1.0,1.0,,1.0
 1226,illinois,lawrence,,1.0,1.0,1.0,,,
 1227,illinois,lee,,1.0,1.0,1.0,1.0,,
 1228,illinois,livingston,,1.0,1.0,1.0,1.0,,
@@ -720,10 +693,8 @@
 1244,illinois,putnam,,1.0,1.0,1.0,1.0,,
 263,illinois,randolph,1.0,1.0,1.0,1.0,1.0,,1.0
 2418,illinois,richland,,,1.0,1.0,,,
-3221,illinois,rock%island,,,,,,,1.0
-264,illinois,rockisland,1.0,1.0,1.0,1.0,1.0,,
-3222,illinois,saint%clair,,,,,,,1.0
-265,illinois,saintclair,1.0,,,,,,
+264,illinois,rockisland,1.0,1.0,1.0,1.0,1.0,,1.0
+265,illinois,saintclair,1.0,,,,,,1.0
 1246,illinois,saline,,1.0,1.0,1.0,,,
 266,illinois,sangamon,1.0,1.0,1.0,1.0,1.0,,1.0
 2419,illinois,schuyler,,,1.0,1.0,,,
@@ -818,10 +789,9 @@
 1274,indiana,scott,,1.0,1.0,1.0,,,
 303,indiana,shelby,1.0,1.0,1.0,1.0,,,1.0
 304,indiana,spencer,1.0,1.0,1.0,1.0,1.0,,1.0
-3223,indiana,st%joseph,,,,,,,1.0
 2072,indiana,starke,,1.0,1.0,1.0,,,
 2440,indiana,steuben,,,1.0,1.0,,,
-305,indiana,stjoseph,1.0,1.0,1.0,1.0,1.0,1.0,
+305,indiana,stjoseph,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1275,indiana,sullivan,,1.0,1.0,1.0,1.0,,1.0
 2441,indiana,switzerland,,,1.0,1.0,1.0,,
 306,indiana,tippecanoe,1.0,1.0,1.0,1.0,1.0,,1.0
@@ -844,8 +814,7 @@
 2447,iowa,appanoose,,,1.0,1.0,1.0,,
 1281,iowa,audubon,,1.0,1.0,1.0,1.0,,
 2448,iowa,benton,,,1.0,1.0,1.0,,
-3224,iowa,black%hawk,,,,,,,1.0
-313,iowa,blackhawk,1.0,1.0,1.0,1.0,1.0,1.0,
+313,iowa,blackhawk,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1282,iowa,boone,,1.0,1.0,1.0,1.0,,
 314,iowa,bremer,1.0,,1.0,1.0,1.0,,1.0
 1283,iowa,buchanan,,1.0,1.0,1.0,1.0,,
@@ -855,8 +824,7 @@
 2073,iowa,carroll,,1.0,1.0,1.0,1.0,,
 2450,iowa,cass,,,1.0,1.0,1.0,,
 2451,iowa,cedar,,,1.0,1.0,1.0,,
-3225,iowa,cerro%gordo,,,,,,,1.0
-315,iowa,cerrogordo,1.0,1.0,1.0,1.0,1.0,,
+315,iowa,cerrogordo,1.0,1.0,1.0,1.0,1.0,,1.0
 1286,iowa,cherokee,,1.0,1.0,1.0,,,
 1287,iowa,chickasaw,,1.0,1.0,1.0,1.0,,
 2452,iowa,clarke,,,1.0,1.0,,,
@@ -914,8 +882,7 @@
 1311,iowa,obrien,,1.0,,,,,
 1312,iowa,osceola,,1.0,1.0,1.0,1.0,,
 1313,iowa,page,,1.0,1.0,1.0,1.0,,
-3226,iowa,palo%alto,,,,,,,1.0
-324,iowa,paloalto,1.0,1.0,1.0,1.0,1.0,1.0,
+324,iowa,paloalto,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1314,iowa,plymouth,,1.0,1.0,1.0,,,
 2471,iowa,pocahontas,,,1.0,1.0,1.0,,
 325,iowa,polk,1.0,1.0,1.0,1.0,1.0,1.0,1.0
@@ -930,8 +897,7 @@
 2190,iowa,tama,,1.0,1.0,1.0,1.0,,
 2476,iowa,taylor,,,1.0,1.0,1.0,,
 1316,iowa,union,,1.0,1.0,1.0,1.0,,
-3227,iowa,van%buren,,,,,,,1.0
-329,iowa,vanburen,1.0,1.0,1.0,1.0,,1.0,
+329,iowa,vanburen,1.0,1.0,1.0,1.0,,1.0,1.0
 1317,iowa,wapello,,1.0,1.0,1.0,1.0,,
 330,iowa,warren,1.0,1.0,1.0,1.0,1.0,,1.0
 2477,iowa,washington,,,1.0,1.0,,,
@@ -1183,8 +1149,7 @@
 2580,louisiana,claiborne,,,1.0,1.0,,,
 2581,louisiana,concordia,,,1.0,1.0,1.0,,
 1403,louisiana,desoto,,1.0,1.0,1.0,1.0,,
-3228,louisiana,east%baton%rouge,,,,,,,1.0
-375,louisiana,eastbatonrouge,1.0,1.0,1.0,1.0,1.0,1.0,
+375,louisiana,eastbatonrouge,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2582,louisiana,eastcarroll,,,1.0,1.0,,,
 1404,louisiana,eastfeliciana,,1.0,1.0,1.0,,,
 1405,louisiana,evangeline,,1.0,1.0,1.0,1.0,,
@@ -1207,27 +1172,20 @@
 381,louisiana,orleans,1.0,1.0,1.0,1.0,1.0,,1.0
 382,louisiana,ouachita,1.0,1.0,1.0,1.0,1.0,,1.0
 1414,louisiana,plaquemines,,1.0,1.0,1.0,1.0,,
-3229,louisiana,pointe%coupee,,,,,,,1.0
-383,louisiana,pointecoupee,1.0,1.0,1.0,1.0,1.0,,
+383,louisiana,pointecoupee,1.0,1.0,1.0,1.0,1.0,,1.0
 384,louisiana,rapides,1.0,1.0,1.0,1.0,1.0,,1.0
 1415,louisiana,redriver,,1.0,1.0,1.0,1.0,,
 1416,louisiana,richland,,1.0,1.0,1.0,,,
 1417,louisiana,sabine,,1.0,1.0,1.0,,,
-3230,louisiana,st%bernard,,,,,,,1.0
-3231,louisiana,st%charles,,,,,,,1.0
-3232,louisiana,st%james,,,,,,,1.0
-3233,louisiana,st%john%the%baptist,,,,,,,1.0
-3286,louisiana,st%martin,,,,,,,1.0
-3234,louisiana,st%tammany,,,,,,,1.0
-385,louisiana,stbernard,1.0,1.0,1.0,1.0,1.0,,
-1418,louisiana,stcharles,,1.0,1.0,1.0,1.0,,
+385,louisiana,stbernard,1.0,1.0,1.0,1.0,1.0,,1.0
+1418,louisiana,stcharles,,1.0,1.0,1.0,1.0,,1.0
 2082,louisiana,sthelena,,1.0,1.0,1.0,,,
-386,louisiana,stjames,1.0,1.0,1.0,1.0,1.0,,
-387,louisiana,stjohnthebaptist,1.0,1.0,1.0,1.0,,1.0,
+386,louisiana,stjames,1.0,1.0,1.0,1.0,1.0,,1.0
+387,louisiana,stjohnthebaptist,1.0,1.0,1.0,1.0,,1.0,1.0
 1419,louisiana,stlandry,,1.0,1.0,1.0,,,
-388,louisiana,stmartin,1.0,1.0,1.0,1.0,,,
+388,louisiana,stmartin,1.0,1.0,1.0,1.0,,,1.0
 1420,louisiana,stmary,,1.0,1.0,1.0,1.0,,
-389,louisiana,sttammany,1.0,1.0,1.0,1.0,,,
+389,louisiana,sttammany,1.0,1.0,1.0,1.0,,,1.0
 390,louisiana,tangipahoa,1.0,1.0,1.0,1.0,,,1.0
 1421,louisiana,tensas,,1.0,1.0,1.0,,,
 391,louisiana,terrebonne,1.0,1.0,1.0,1.0,1.0,,1.0
@@ -1237,8 +1195,7 @@
 2586,louisiana,vernon,,,1.0,1.0,,,
 1424,louisiana,washington,,1.0,1.0,1.0,1.0,,
 1425,louisiana,webster,,1.0,1.0,1.0,1.0,,
-3235,louisiana,west%baton%rouge,,,,,,,1.0
-392,louisiana,westbatonrouge,1.0,1.0,1.0,1.0,1.0,,
+392,louisiana,westbatonrouge,1.0,1.0,1.0,1.0,1.0,,1.0
 1426,louisiana,westcarroll,,1.0,1.0,1.0,,,
 1427,louisiana,westfeliciana,,1.0,1.0,1.0,1.0,,
 2587,louisiana,winn,,,1.0,1.0,,,
@@ -1259,8 +1216,7 @@
 402,maine,washington,1.0,1.0,1.0,1.0,1.0,,1.0
 403,maine,york,1.0,1.0,1.0,1.0,1.0,,1.0
 1430,maryland,allegany,,1.0,1.0,1.0,1.0,,1.0
-3236,maryland,anne%arundel,,,,,,,1.0
-404,maryland,annearundel,1.0,1.0,1.0,1.0,1.0,1.0,
+404,maryland,annearundel,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 405,maryland,baltimore,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 406,maryland,baltimorecity,1.0,1.0,1.0,1.0,1.0,,
 407,maryland,calvert,1.0,1.0,1.0,1.0,1.0,,1.0
@@ -1275,8 +1231,7 @@
 415,maryland,howard,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 416,maryland,kent,1.0,,1.0,1.0,1.0,1.0,1.0
 417,maryland,montgomery,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-3237,maryland,prince%george's,,,,,,,1.0
-418,maryland,princegeorge's,1.0,1.0,1.0,1.0,,1.0,
+418,maryland,princegeorge's,1.0,1.0,1.0,1.0,,1.0,1.0
 1431,maryland,princegeorges,,1.0,,,1.0,,
 2591,maryland,queenanne's,,,1.0,1.0,,,
 3195,maryland,queenannes,,,,,1.0,,
@@ -1293,125 +1248,123 @@
 424,massachusetts,essex,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 425,massachusetts,franklin,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 426,massachusetts,hampden,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-427,massachusetts,hampshire,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-428,massachusetts,middlesex,1.0,1.0,1.0,1.0,1.0,,1.0
+427,massachusetts,hampshire,1.0,1.0,1.0,1.0,1.0,1.0,
+428,massachusetts,middlesex,1.0,1.0,1.0,1.0,1.0,,
 2593,massachusetts,nantucket,,,1.0,1.0,1.0,,
-429,massachusetts,norfolk,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-430,massachusetts,plymouth,1.0,1.0,1.0,1.0,1.0,,1.0
-431,massachusetts,suffolk,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-432,massachusetts,worcester,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+429,massachusetts,norfolk,1.0,1.0,1.0,1.0,1.0,1.0,
+430,massachusetts,plymouth,1.0,1.0,1.0,1.0,1.0,,
+431,massachusetts,suffolk,1.0,1.0,1.0,1.0,1.0,1.0,
+432,massachusetts,worcester,1.0,1.0,1.0,1.0,1.0,1.0,
 1436,michigan,alcona,,1.0,1.0,1.0,1.0,,
 1437,michigan,alger,,1.0,1.0,1.0,1.0,,
-433,michigan,allegan,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+433,michigan,allegan,1.0,1.0,1.0,1.0,1.0,1.0,
 1438,michigan,alpena,,1.0,1.0,1.0,1.0,,
 2594,michigan,antrim,,,1.0,1.0,,,
 2595,michigan,arenac,,,1.0,1.0,,,
 1439,michigan,baraga,,1.0,1.0,1.0,1.0,,
 1440,michigan,barry,,1.0,1.0,1.0,,,
-434,michigan,bay,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-435,michigan,benzie,1.0,,1.0,1.0,,,1.0
-436,michigan,berrien,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+434,michigan,bay,1.0,1.0,1.0,1.0,1.0,1.0,
+435,michigan,benzie,1.0,,1.0,1.0,,,
+436,michigan,berrien,1.0,1.0,1.0,1.0,1.0,1.0,
 1441,michigan,branch,,1.0,1.0,1.0,1.0,,
 1442,michigan,calhoun,,1.0,1.0,1.0,1.0,,
-437,michigan,cass,1.0,,1.0,1.0,,1.0,1.0
+437,michigan,cass,1.0,,1.0,1.0,,1.0,
 1443,michigan,charlevoix,,1.0,1.0,1.0,1.0,,
 2596,michigan,cheboygan,,,1.0,1.0,1.0,,
-438,michigan,chippewa,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+438,michigan,chippewa,1.0,1.0,1.0,1.0,1.0,1.0,
 1444,michigan,clare,,1.0,1.0,1.0,1.0,,
-439,michigan,clinton,1.0,1.0,1.0,1.0,1.0,,1.0
+439,michigan,clinton,1.0,1.0,1.0,1.0,1.0,,
 1445,michigan,crawford,,1.0,1.0,1.0,1.0,,
 1446,michigan,delta,,1.0,1.0,1.0,1.0,,
 1447,michigan,dickinson,,1.0,1.0,1.0,1.0,,
 1448,michigan,eaton,,1.0,1.0,1.0,1.0,,
 2597,michigan,emmet,,,1.0,1.0,1.0,,
-440,michigan,genesee,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+440,michigan,genesee,1.0,1.0,1.0,1.0,1.0,1.0,
 2598,michigan,gladwin,,,1.0,1.0,1.0,,
 1449,michigan,gogebic,,1.0,1.0,1.0,1.0,,
 2599,michigan,grandtraverse,,,1.0,1.0,,,
 2600,michigan,gratiot,,,1.0,1.0,1.0,,
 1450,michigan,hillsdale,,1.0,1.0,1.0,1.0,,
 2601,michigan,houghton,,,1.0,1.0,1.0,,
-441,michigan,huron,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-442,michigan,ingham,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+441,michigan,huron,1.0,1.0,1.0,1.0,1.0,1.0,
+442,michigan,ingham,1.0,1.0,1.0,1.0,1.0,1.0,
 2602,michigan,ionia,,,1.0,1.0,1.0,1.0,
 2603,michigan,iosco,,,1.0,1.0,1.0,,
 1451,michigan,iron,,1.0,1.0,1.0,1.0,,
 1452,michigan,isabella,,1.0,1.0,1.0,1.0,,
 1453,michigan,jackson,,1.0,1.0,1.0,1.0,,
-443,michigan,kalamazoo,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+443,michigan,kalamazoo,1.0,1.0,1.0,1.0,1.0,1.0,
 1454,michigan,kalkaska,,1.0,1.0,1.0,1.0,,
-444,michigan,kent,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-445,michigan,keweenaw,1.0,,1.0,1.0,,,1.0
+444,michigan,kent,1.0,1.0,1.0,1.0,1.0,1.0,
+445,michigan,keweenaw,1.0,,1.0,1.0,,,
 2604,michigan,lake,,,1.0,1.0,,,
 2605,michigan,lapeer,,,1.0,1.0,,,
 1455,michigan,leelanau,,1.0,1.0,1.0,,,
-446,michigan,lenawee,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+446,michigan,lenawee,1.0,1.0,1.0,1.0,1.0,1.0,
 1456,michigan,livingston,,1.0,1.0,1.0,1.0,,
 2606,michigan,luce,,,1.0,1.0,1.0,,
 1457,michigan,mackinac,,1.0,1.0,1.0,,,
-447,michigan,macomb,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-448,michigan,manistee,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+447,michigan,macomb,1.0,1.0,1.0,1.0,1.0,1.0,
+448,michigan,manistee,1.0,1.0,1.0,1.0,1.0,1.0,
 1458,michigan,marquette,,1.0,1.0,1.0,1.0,,
-449,michigan,mason,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+449,michigan,mason,1.0,1.0,1.0,1.0,1.0,1.0,
 1459,michigan,mecosta,,1.0,1.0,1.0,1.0,,
 1460,michigan,menominee,,1.0,1.0,1.0,1.0,,
 1461,michigan,midland,,1.0,1.0,1.0,1.0,,
-450,michigan,missaukee,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-451,michigan,monroe,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+450,michigan,missaukee,1.0,1.0,1.0,1.0,1.0,1.0,
+451,michigan,monroe,1.0,1.0,1.0,1.0,1.0,1.0,
 1462,michigan,montcalm,,1.0,1.0,1.0,1.0,,
 1463,michigan,montmorency,,1.0,1.0,1.0,1.0,,
-452,michigan,muskegon,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+452,michigan,muskegon,1.0,1.0,1.0,1.0,1.0,1.0,
 1464,michigan,newaygo,,1.0,1.0,1.0,1.0,,
-453,michigan,oakland,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+453,michigan,oakland,1.0,1.0,1.0,1.0,1.0,1.0,
 2607,michigan,oceana,,,1.0,1.0,1.0,,
 2608,michigan,ogemaw,,,1.0,1.0,,,
 1465,michigan,ontonagon,,1.0,1.0,1.0,1.0,,
 1466,michigan,osceola,,1.0,1.0,1.0,1.0,,
 2609,michigan,oscoda,,,1.0,1.0,1.0,,
 1467,michigan,otsego,,1.0,1.0,1.0,1.0,,
-454,michigan,ottawa,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+454,michigan,ottawa,1.0,1.0,1.0,1.0,1.0,1.0,
 1468,michigan,presqueisle,,1.0,1.0,1.0,,,
 2610,michigan,roscommon,,,1.0,1.0,,,
 1469,michigan,saginaw,,1.0,1.0,1.0,1.0,,
 1471,michigan,sanilac,,1.0,1.0,1.0,1.0,,
-455,michigan,schoolcraft,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+455,michigan,schoolcraft,1.0,1.0,1.0,1.0,1.0,1.0,
 2611,michigan,shiawassee,,,1.0,1.0,1.0,,
-3239,michigan,st%clair,,,,,,,1.0
 456,michigan,stclair,1.0,1.0,1.0,1.0,1.0,1.0,
 1470,michigan,stjoseph,,1.0,1.0,1.0,1.0,,
-457,michigan,tuscola,1.0,1.0,1.0,1.0,1.0,,1.0
+457,michigan,tuscola,1.0,1.0,1.0,1.0,1.0,,
 1472,michigan,vanburen,,1.0,1.0,1.0,1.0,,
-458,michigan,washtenaw,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-459,michigan,wayne,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-460,michigan,wexford,1.0,1.0,1.0,1.0,1.0,,1.0
+458,michigan,washtenaw,1.0,1.0,1.0,1.0,1.0,1.0,
+459,michigan,wayne,1.0,1.0,1.0,1.0,1.0,1.0,
+460,michigan,wexford,1.0,1.0,1.0,1.0,1.0,,
 2612,minnesota,aitkin,,,1.0,1.0,,,
-461,minnesota,anoka,1.0,1.0,1.0,1.0,,,1.0
-462,minnesota,becker,1.0,,1.0,1.0,1.0,,1.0
-463,minnesota,beltrami,1.0,1.0,1.0,1.0,1.0,,1.0
+461,minnesota,anoka,1.0,1.0,1.0,1.0,,,
+462,minnesota,becker,1.0,,1.0,1.0,1.0,,
+463,minnesota,beltrami,1.0,1.0,1.0,1.0,1.0,,
 2131,minnesota,benton,,1.0,1.0,1.0,1.0,,
 2613,minnesota,bigstone,,,1.0,1.0,,,
 1473,minnesota,blueearth,,1.0,1.0,1.0,1.0,,
 2614,minnesota,brown,,,1.0,1.0,1.0,,
-464,minnesota,carlton,1.0,1.0,1.0,1.0,1.0,,1.0
+464,minnesota,carlton,1.0,1.0,1.0,1.0,1.0,,
 1474,minnesota,carver,,1.0,1.0,1.0,1.0,,
 2615,minnesota,cass,,,1.0,1.0,1.0,,1.0
 1475,minnesota,chippewa,,1.0,1.0,1.0,1.0,,
 2616,minnesota,chisago,,,1.0,1.0,1.0,,
 1476,minnesota,clay,,1.0,1.0,1.0,1.0,,
 1477,minnesota,clearwater,,1.0,1.0,1.0,,,
-465,minnesota,cook,1.0,1.0,1.0,1.0,1.0,,1.0
+465,minnesota,cook,1.0,1.0,1.0,1.0,1.0,,
 1478,minnesota,cottonwood,,1.0,1.0,1.0,1.0,,
-3240,minnesota,crow%wing,,,,,,,1.0
 466,minnesota,crowwing,1.0,1.0,1.0,1.0,1.0,,
-467,minnesota,dakota,1.0,1.0,1.0,1.0,1.0,,1.0
+467,minnesota,dakota,1.0,1.0,1.0,1.0,1.0,,
 1479,minnesota,dodge,,1.0,1.0,1.0,1.0,,
 2132,minnesota,douglas,,1.0,1.0,1.0,1.0,,
 1480,minnesota,faribault,,1.0,1.0,1.0,1.0,,
 1481,minnesota,fillmore,,1.0,1.0,1.0,1.0,,
 1482,minnesota,freeborn,,1.0,1.0,1.0,1.0,,
-468,minnesota,goodhue,1.0,1.0,1.0,1.0,1.0,,1.0
+468,minnesota,goodhue,1.0,1.0,1.0,1.0,1.0,,
 2617,minnesota,grant,,,1.0,1.0,1.0,,
-469,minnesota,hennepin,1.0,1.0,1.0,1.0,1.0,,1.0
+469,minnesota,hennepin,1.0,1.0,1.0,1.0,1.0,,
 2618,minnesota,houston,,,1.0,1.0,,,
 1483,minnesota,hubbard,,1.0,1.0,1.0,,,
 1484,minnesota,isanti,,1.0,1.0,1.0,1.0,,
@@ -1422,17 +1375,16 @@
 1488,minnesota,kittson,,1.0,1.0,1.0,,,
 1489,minnesota,koochiching,,1.0,1.0,1.0,1.0,,
 1490,minnesota,lacquiparle,,1.0,1.0,1.0,,,
-470,minnesota,lake,1.0,1.0,1.0,1.0,1.0,,1.0
+470,minnesota,lake,1.0,1.0,1.0,1.0,1.0,,
 2620,minnesota,lakeofthewoods,,,1.0,1.0,,,
 2621,minnesota,lesueur,,,1.0,1.0,1.0,,
 2622,minnesota,lincoln,,,1.0,1.0,1.0,,
-471,minnesota,lyon,1.0,1.0,1.0,1.0,1.0,,1.0
+471,minnesota,lyon,1.0,1.0,1.0,1.0,1.0,,
 2623,minnesota,mahnomen,,,1.0,1.0,,,
 1491,minnesota,marshall,,1.0,1.0,1.0,,,
 1492,minnesota,martin,,1.0,1.0,1.0,1.0,,
 1493,minnesota,mcleod,,1.0,1.0,1.0,1.0,,
 2624,minnesota,meeker,,,1.0,1.0,1.0,,
-3255,minnesota,mille%lacs,,,,,,,1.0
 472,minnesota,millelacs,1.0,,1.0,1.0,1.0,,
 1494,minnesota,morrison,,1.0,1.0,1.0,1.0,,
 1495,minnesota,mower,,1.0,1.0,1.0,1.0,,
@@ -1440,26 +1392,25 @@
 2626,minnesota,nicollet,,,1.0,1.0,1.0,,
 1496,minnesota,nobles,,1.0,1.0,1.0,1.0,,
 2627,minnesota,norman,,,1.0,1.0,1.0,,
-473,minnesota,olmsted,1.0,1.0,1.0,1.0,1.0,,1.0
+473,minnesota,olmsted,1.0,1.0,1.0,1.0,1.0,,
 1497,minnesota,ottertail,,1.0,1.0,1.0,1.0,,
 2628,minnesota,pennington,,,1.0,1.0,1.0,,
 2629,minnesota,pine,,,1.0,1.0,1.0,,
 2630,minnesota,pipestone,,,1.0,1.0,1.0,,
 1498,minnesota,polk,,1.0,1.0,1.0,1.0,,
 2631,minnesota,pope,,,1.0,1.0,,,
-474,minnesota,ramsey,1.0,1.0,1.0,1.0,1.0,,1.0
+474,minnesota,ramsey,1.0,1.0,1.0,1.0,1.0,,
 2632,minnesota,redlake,,,1.0,1.0,,,
 1499,minnesota,redwood,,1.0,1.0,1.0,1.0,,
 1500,minnesota,renville,,1.0,1.0,1.0,1.0,,
 1501,minnesota,rice,,1.0,1.0,1.0,1.0,,
-1502,minnesota,rock,,1.0,1.0,1.0,1.0,,1.0
+1502,minnesota,rock,,1.0,1.0,1.0,1.0,,
 2174,minnesota,roseau,,1.0,1.0,1.0,,,
-3256,minnesota,saint%louis,,,,,,,1.0
 475,minnesota,saintlouis,1.0,,,,,,
-476,minnesota,scott,1.0,1.0,1.0,1.0,1.0,,1.0
+476,minnesota,scott,1.0,1.0,1.0,1.0,1.0,,
 1504,minnesota,sherburne,,1.0,1.0,1.0,1.0,,
 1505,minnesota,sibley,,1.0,1.0,1.0,,,
-477,minnesota,stearns,1.0,1.0,1.0,1.0,1.0,,1.0
+477,minnesota,stearns,1.0,1.0,1.0,1.0,1.0,,
 2156,minnesota,steele,,1.0,1.0,1.0,1.0,,
 1506,minnesota,stevens,,1.0,1.0,1.0,1.0,,
 1503,minnesota,stlouis,,1.0,1.0,1.0,1.0,1.0,
@@ -1469,18 +1420,18 @@
 2634,minnesota,wabasha,,,1.0,1.0,1.0,,
 2635,minnesota,wadena,,,1.0,1.0,,,
 1509,minnesota,waseca,,1.0,1.0,1.0,1.0,,
-478,minnesota,washington,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+478,minnesota,washington,1.0,1.0,1.0,1.0,1.0,1.0,
 1510,minnesota,watonwan,,1.0,1.0,1.0,1.0,,
 2636,minnesota,wilkin,,,1.0,1.0,,,
-479,minnesota,winona,1.0,,1.0,1.0,1.0,,1.0
-480,minnesota,wright,1.0,1.0,1.0,1.0,1.0,,1.0
+479,minnesota,winona,1.0,,1.0,1.0,1.0,,
+480,minnesota,wright,1.0,1.0,1.0,1.0,1.0,,
 2637,minnesota,yellowmedicine,,,1.0,1.0,1.0,,
 1511,mississippi,adams,,1.0,1.0,1.0,,,
 1512,mississippi,alcorn,,1.0,1.0,1.0,,,
 2638,mississippi,amite,,,1.0,1.0,,,
 1513,mississippi,attala,,1.0,1.0,1.0,1.0,,
 1514,mississippi,benton,,1.0,1.0,1.0,1.0,,
-481,mississippi,bolivar,1.0,1.0,1.0,1.0,,,1.0
+481,mississippi,bolivar,1.0,1.0,1.0,1.0,,,
 2639,mississippi,calhoun,,,1.0,1.0,,,
 2640,mississippi,carroll,,,1.0,1.0,,,
 1515,mississippi,chickasaw,,1.0,1.0,1.0,1.0,,
@@ -1491,20 +1442,20 @@
 1518,mississippi,coahoma,,1.0,1.0,1.0,1.0,,
 2643,mississippi,copiah,,,1.0,1.0,,,
 2083,mississippi,covington,,1.0,1.0,1.0,,,
-482,mississippi,desoto,1.0,1.0,1.0,1.0,1.0,,1.0
-483,mississippi,forrest,1.0,1.0,1.0,1.0,,,1.0
+482,mississippi,desoto,1.0,1.0,1.0,1.0,1.0,,
+483,mississippi,forrest,1.0,1.0,1.0,1.0,,,
 2644,mississippi,franklin,,,1.0,1.0,,,
 1519,mississippi,george,,1.0,1.0,1.0,1.0,,
 2084,mississippi,greene,,1.0,1.0,1.0,,,
 484,mississippi,grenada,1.0,,1.0,1.0,,,1.0
-485,mississippi,hancock,1.0,1.0,1.0,1.0,,,1.0
-486,mississippi,harrison,1.0,1.0,1.0,1.0,1.0,,1.0
-487,mississippi,hinds,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+485,mississippi,hancock,1.0,1.0,1.0,1.0,,,
+486,mississippi,harrison,1.0,1.0,1.0,1.0,1.0,,
+487,mississippi,hinds,1.0,1.0,1.0,1.0,1.0,1.0,
 2645,mississippi,holmes,,,1.0,1.0,,,
 1520,mississippi,humphreys,,1.0,1.0,1.0,,,
 2646,mississippi,issaquena,,,1.0,1.0,,,
 2647,mississippi,itawamba,,,1.0,1.0,,,
-488,mississippi,jackson,1.0,1.0,1.0,1.0,1.0,,1.0
+488,mississippi,jackson,1.0,1.0,1.0,1.0,1.0,,
 1521,mississippi,jasper,,1.0,1.0,1.0,1.0,,
 2199,mississippi,jefferson,,1.0,1.0,1.0,,,
 1522,mississippi,jeffersondavis,,1.0,1.0,1.0,1.0,,
@@ -1512,10 +1463,10 @@
 1524,mississippi,kemper,,1.0,1.0,1.0,1.0,,
 2648,mississippi,lafayette,,,1.0,1.0,,,
 1525,mississippi,lamar,,1.0,1.0,1.0,1.0,,
-489,mississippi,lauderdale,1.0,1.0,1.0,1.0,1.0,,1.0
+489,mississippi,lauderdale,1.0,1.0,1.0,1.0,1.0,,
 1526,mississippi,lawrence,,1.0,1.0,1.0,1.0,,
 2085,mississippi,leake,,1.0,1.0,1.0,,,
-490,mississippi,lee,1.0,1.0,1.0,1.0,,,1.0
+490,mississippi,lee,1.0,1.0,1.0,1.0,,,
 1527,mississippi,leflore,,1.0,1.0,1.0,1.0,,
 2649,mississippi,lincoln,,,1.0,1.0,,,
 1528,mississippi,lowndes,,1.0,1.0,1.0,1.0,,
@@ -1555,10 +1506,10 @@
 2660,mississippi,webster,,,1.0,1.0,,,
 2661,mississippi,wilkinson,,,1.0,1.0,,,
 2176,mississippi,winston,,1.0,1.0,1.0,,,
-491,mississippi,yalobusha,1.0,1.0,1.0,1.0,,,1.0
+491,mississippi,yalobusha,1.0,1.0,1.0,1.0,,,
 1548,mississippi,yazoo,,1.0,1.0,1.0,1.0,,
 2662,missouri,adair,,,1.0,1.0,1.0,,
-492,missouri,andrew,1.0,,1.0,1.0,,,1.0
+492,missouri,andrew,1.0,,1.0,1.0,,,
 2663,missouri,atchison,,,1.0,1.0,1.0,,
 1549,missouri,audrain,,1.0,1.0,1.0,1.0,,
 2664,missouri,barry,,,1.0,1.0,,,
@@ -1566,22 +1517,22 @@
 2665,missouri,bates,,,1.0,1.0,1.0,,
 2666,missouri,benton,,,1.0,1.0,1.0,,
 1551,missouri,bollinger,,1.0,1.0,1.0,,,
-493,missouri,boone,1.0,1.0,1.0,1.0,1.0,,1.0
-494,missouri,buchanan,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+493,missouri,boone,1.0,1.0,1.0,1.0,1.0,,
+494,missouri,buchanan,1.0,1.0,1.0,1.0,1.0,1.0,
 1552,missouri,butler,,1.0,1.0,1.0,1.0,,
 2667,missouri,caldwell,,,1.0,1.0,,,
-495,missouri,callaway,1.0,1.0,1.0,1.0,1.0,,1.0
+495,missouri,callaway,1.0,1.0,1.0,1.0,1.0,,
 2668,missouri,camden,,,1.0,1.0,1.0,,
 1553,missouri,capegirardeau,,1.0,1.0,1.0,1.0,,
 1554,missouri,carroll,,1.0,1.0,1.0,1.0,,
 2669,missouri,carter,,,1.0,1.0,,,
-496,missouri,cass,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-497,missouri,cedar,1.0,,1.0,1.0,1.0,1.0,1.0
+496,missouri,cass,1.0,1.0,1.0,1.0,1.0,1.0,
+497,missouri,cedar,1.0,,1.0,1.0,1.0,1.0,
 2670,missouri,chariton,,,1.0,1.0,1.0,,
 2671,missouri,christian,,,1.0,1.0,,,
 2672,missouri,clark,,,1.0,1.0,1.0,,
-498,missouri,clay,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-499,missouri,clinton,1.0,,1.0,1.0,,,1.0
+498,missouri,clay,1.0,1.0,1.0,1.0,1.0,1.0,
+499,missouri,clinton,1.0,,1.0,1.0,,,
 1555,missouri,cole,,1.0,1.0,1.0,1.0,,
 2673,missouri,cooper,,,1.0,1.0,,,
 2674,missouri,crawford,,,1.0,1.0,,,
@@ -1595,7 +1546,7 @@
 500,missouri,franklin,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2681,missouri,gasconade,,,1.0,1.0,,,
 2682,missouri,gentry,,,1.0,1.0,1.0,,
-501,missouri,greene,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+501,missouri,greene,1.0,1.0,1.0,1.0,1.0,1.0,
 2683,missouri,grundy,,,1.0,1.0,1.0,,
 2684,missouri,harrison,,,1.0,1.0,,,
 1557,missouri,henry,,1.0,1.0,1.0,1.0,,
@@ -1603,17 +1554,17 @@
 1558,missouri,holt,,1.0,1.0,1.0,,,
 2686,missouri,howard,,,1.0,1.0,,,
 2687,missouri,howell,,,1.0,1.0,1.0,,
-502,missouri,iron,1.0,1.0,1.0,1.0,,,1.0
-503,missouri,jackson,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-504,missouri,jasper,1.0,1.0,1.0,1.0,1.0,,1.0
-505,missouri,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+502,missouri,iron,1.0,1.0,1.0,1.0,,,
+503,missouri,jackson,1.0,1.0,1.0,1.0,1.0,1.0,
+504,missouri,jasper,1.0,1.0,1.0,1.0,1.0,,
+505,missouri,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,
 1559,missouri,johnson,,1.0,1.0,1.0,1.0,,
 2688,missouri,knox,,,1.0,1.0,,,
 2689,missouri,laclede,,,1.0,1.0,,,
 2690,missouri,lafayette,,,1.0,1.0,1.0,,
 2691,missouri,lawrence,,,1.0,1.0,,,
 1560,missouri,lewis,,1.0,1.0,1.0,,,
-506,missouri,lincoln,1.0,1.0,1.0,1.0,,,1.0
+506,missouri,lincoln,1.0,1.0,1.0,1.0,,,
 2692,missouri,linn,,,1.0,1.0,1.0,,
 2693,missouri,livingston,,,1.0,1.0,1.0,,
 1561,missouri,macon,,1.0,1.0,1.0,1.0,,
@@ -1625,18 +1576,17 @@
 2697,missouri,miller,,,1.0,1.0,1.0,,
 2698,missouri,mississippi,,,1.0,1.0,,,
 2699,missouri,moniteau,,,1.0,1.0,,,
-507,missouri,monroe,1.0,,1.0,1.0,1.0,,1.0
+507,missouri,monroe,1.0,,1.0,1.0,1.0,,
 1564,missouri,montgomery,,1.0,1.0,1.0,,,
 2700,missouri,morgan,,,1.0,1.0,,,
-3287,missouri,new%madrid,,,,,,,1.0
-1565,missouri,newmadrid,,1.0,1.0,1.0,1.0,,
+1565,missouri,newmadrid,,1.0,1.0,1.0,1.0,,1.0
 2177,missouri,newton,,1.0,1.0,1.0,,,
 1566,missouri,nodaway,,1.0,1.0,1.0,1.0,,
 2701,missouri,oregon,,,1.0,1.0,,,
 1567,missouri,osage,,1.0,1.0,1.0,,,
 2702,missouri,ozark,,,1.0,1.0,,,
 2703,missouri,pemiscot,,,1.0,1.0,,,
-508,missouri,perry,1.0,,1.0,1.0,,,1.0
+508,missouri,perry,1.0,,1.0,1.0,,,
 1568,missouri,pettis,,1.0,1.0,1.0,1.0,,
 2704,missouri,phelps,,,1.0,1.0,1.0,,
 1569,missouri,pike,,1.0,1.0,1.0,1.0,,
@@ -1649,10 +1599,7 @@
 2707,missouri,ray,,,1.0,1.0,,,
 2708,missouri,reynolds,,,1.0,1.0,1.0,,
 2709,missouri,ripley,,,1.0,1.0,,,
-3249,missouri,saint%charles,,,,,,,1.0
-3250,missouri,saint%louis,,,,,,,1.0
 509,missouri,saintcharles,1.0,,,,,,
-3251,missouri,sainte%genevieve,,,,,,,1.0
 511,missouri,saintegenevieve,1.0,1.0,,,,,
 510,missouri,saintlouis,1.0,,,,,,
 1575,missouri,saline,,1.0,1.0,1.0,1.0,,
@@ -1661,17 +1608,16 @@
 1576,missouri,scott,,1.0,1.0,1.0,1.0,,
 2713,missouri,shannon,,,1.0,1.0,,,
 2714,missouri,shelby,,,1.0,1.0,1.0,,
-3252,missouri,st%louis%city,,,,,,,1.0
 1573,missouri,stcharles,,1.0,1.0,1.0,1.0,1.0,
 2710,missouri,stclair,,,1.0,1.0,,,
 2088,missouri,ste.genevieve,,1.0,1.0,1.0,,,
 1577,missouri,stfrancois,,1.0,1.0,1.0,1.0,,
 1574,missouri,stlouis,,1.0,1.0,1.0,1.0,1.0,
 512,missouri,stlouiscity,1.0,1.0,1.0,1.0,1.0,1.0,
-513,missouri,stoddard,1.0,1.0,1.0,1.0,1.0,,1.0
+513,missouri,stoddard,1.0,1.0,1.0,1.0,1.0,,
 2715,missouri,stone,,,1.0,1.0,,,
 2178,missouri,sullivan,,1.0,1.0,1.0,,,
-514,missouri,taney,1.0,,1.0,1.0,1.0,,1.0
+514,missouri,taney,1.0,,1.0,1.0,1.0,,
 2716,missouri,texas,,,1.0,1.0,,,
 1578,missouri,vernon,,1.0,1.0,1.0,1.0,,
 2717,missouri,warren,,,1.0,1.0,,,
@@ -1686,16 +1632,16 @@
 1582,montana,broadwater,,1.0,1.0,1.0,1.0,,
 2723,montana,carbon,,,1.0,1.0,1.0,,
 2724,montana,carter,,,1.0,1.0,,,
-515,montana,cascade,1.0,1.0,1.0,1.0,1.0,,1.0
+515,montana,cascade,1.0,1.0,1.0,1.0,1.0,,
 2725,montana,chouteau,,,1.0,1.0,,,
 2726,montana,custer,,,1.0,1.0,1.0,,
 2727,montana,daniels,,,1.0,1.0,,,
 1583,montana,dawson,,1.0,1.0,1.0,1.0,,
 1584,montana,deerlodge,,1.0,1.0,1.0,1.0,,
 1585,montana,fallon,,1.0,1.0,1.0,1.0,,
-516,montana,fergus,1.0,,1.0,1.0,,1.0,1.0
-517,montana,flathead,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-518,montana,gallatin,1.0,1.0,1.0,1.0,,1.0,1.0
+516,montana,fergus,1.0,,1.0,1.0,,1.0,
+517,montana,flathead,1.0,1.0,1.0,1.0,1.0,1.0,
+518,montana,gallatin,1.0,1.0,1.0,1.0,,1.0,
 2728,montana,garfield,,,1.0,1.0,,,
 2729,montana,glacier,,,1.0,1.0,,,
 2730,montana,goldenvalley,,,1.0,1.0,,,
@@ -1703,32 +1649,29 @@
 2732,montana,hill,,,1.0,1.0,,,
 1586,montana,jefferson,,1.0,1.0,1.0,,,
 2733,montana,judithbasin,,,1.0,1.0,1.0,,
-519,montana,lake,1.0,1.0,1.0,1.0,1.0,,1.0
-3253,montana,lewis%and%clark,,,,,,,1.0
+519,montana,lake,1.0,1.0,1.0,1.0,1.0,,
 520,montana,lewisandclark,1.0,1.0,1.0,1.0,1.0,1.0,
 2734,montana,liberty,,,1.0,1.0,1.0,,
-521,montana,lincoln,1.0,,1.0,1.0,1.0,,1.0
+521,montana,lincoln,1.0,,1.0,1.0,1.0,,
 2736,montana,madison,,,1.0,1.0,1.0,,
 2735,montana,mccone,,,1.0,1.0,1.0,,
 2737,montana,meagher,,,1.0,1.0,1.0,,
 2738,montana,mineral,,,1.0,1.0,,,
-522,montana,missoula,1.0,1.0,1.0,1.0,,,1.0
+522,montana,missoula,1.0,1.0,1.0,1.0,,,
 2739,montana,musselshell,,,1.0,1.0,,,
 2740,montana,park,,,1.0,1.0,,,
 2741,montana,petroleum,,,1.0,1.0,,,
-523,montana,phillips,1.0,,1.0,1.0,,1.0,1.0
+523,montana,phillips,1.0,,1.0,1.0,,1.0,
 2742,montana,pondera,,,1.0,1.0,,,
-3254,montana,powder%river,,,,,,,1.0
 524,montana,powderriver,1.0,,1.0,1.0,,1.0,
-525,montana,powell,1.0,,1.0,1.0,,,1.0
+525,montana,powell,1.0,,1.0,1.0,,,
 2743,montana,prairie,,,1.0,1.0,,,
-526,montana,ravalli,1.0,,1.0,1.0,,,1.0
-527,montana,richland,1.0,1.0,1.0,1.0,1.0,,1.0
-528,montana,roosevelt,1.0,1.0,1.0,1.0,1.0,,1.0
-529,montana,rosebud,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-530,montana,sanders,1.0,,1.0,1.0,1.0,,1.0
-531,montana,sheridan,1.0,,1.0,1.0,,,1.0
-3241,montana,silver%bow,,,,,,,1.0
+526,montana,ravalli,1.0,,1.0,1.0,,,
+527,montana,richland,1.0,1.0,1.0,1.0,1.0,,
+528,montana,roosevelt,1.0,1.0,1.0,1.0,1.0,,
+529,montana,rosebud,1.0,1.0,1.0,1.0,1.0,1.0,
+530,montana,sanders,1.0,,1.0,1.0,1.0,,
+531,montana,sheridan,1.0,,1.0,1.0,,,
 532,montana,silverbow,1.0,1.0,1.0,1.0,1.0,,
 2744,montana,stillwater,,,1.0,1.0,1.0,,
 2745,montana,sweetgrass,,,1.0,1.0,,,
@@ -1738,7 +1681,7 @@
 1587,montana,valley,,1.0,1.0,1.0,,,
 2749,montana,wheatland,,,1.0,1.0,1.0,,
 2750,montana,wibaux,,,1.0,1.0,,,
-533,montana,yellowstone,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+533,montana,yellowstone,1.0,1.0,1.0,1.0,1.0,1.0,
 1588,nebraska,adams,,1.0,1.0,1.0,1.0,,
 2751,nebraska,antelope,,,1.0,1.0,1.0,,
 2752,nebraska,arthur,,,1.0,1.0,,,
@@ -1751,7 +1694,7 @@
 1590,nebraska,buffalo,,1.0,1.0,1.0,1.0,,
 2758,nebraska,burt,,,1.0,1.0,1.0,,
 1591,nebraska,butler,,1.0,1.0,1.0,1.0,,
-534,nebraska,cass,1.0,1.0,1.0,1.0,1.0,,1.0
+534,nebraska,cass,1.0,1.0,1.0,1.0,1.0,,
 2759,nebraska,cedar,,,1.0,1.0,1.0,,
 2760,nebraska,chase,,,1.0,1.0,,,
 2761,nebraska,cherry,,,1.0,1.0,1.0,,
@@ -1762,23 +1705,23 @@
 2765,nebraska,custer,,,1.0,1.0,1.0,,
 1593,nebraska,dakota,,1.0,1.0,1.0,1.0,,
 2766,nebraska,dawes,,,1.0,1.0,,,
-535,nebraska,dawson,1.0,1.0,1.0,1.0,,,1.0
+535,nebraska,dawson,1.0,1.0,1.0,1.0,,,
 2767,nebraska,deuel,,,1.0,1.0,1.0,,
 2768,nebraska,dixon,,,1.0,1.0,1.0,,
 1594,nebraska,dodge,,1.0,1.0,1.0,1.0,,
-536,nebraska,douglas,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+536,nebraska,douglas,1.0,1.0,1.0,1.0,1.0,1.0,
 2769,nebraska,dundy,,,1.0,1.0,,,
 2135,nebraska,fillmore,,1.0,1.0,1.0,,,
 2770,nebraska,franklin,,,1.0,1.0,1.0,,
 2771,nebraska,frontier,,,1.0,1.0,1.0,,
 1595,nebraska,furnas,,1.0,1.0,1.0,1.0,,
 1596,nebraska,gage,,1.0,1.0,1.0,1.0,,
-2772,nebraska,garden,,,1.0,1.0,,,1.0
+2772,nebraska,garden,,,1.0,1.0,,,
 2773,nebraska,garfield,,,1.0,1.0,1.0,,
 1597,nebraska,gosper,,1.0,1.0,1.0,1.0,,
 2774,nebraska,grant,,,1.0,1.0,,,
 2775,nebraska,greeley,,,1.0,1.0,1.0,,
-537,nebraska,hall,1.0,1.0,1.0,1.0,1.0,,1.0
+537,nebraska,hall,1.0,1.0,1.0,1.0,1.0,,
 1598,nebraska,hamilton,,1.0,1.0,1.0,,,
 2776,nebraska,harlan,,,1.0,1.0,,,
 2777,nebraska,hayes,,,1.0,1.0,,,
@@ -1792,8 +1735,8 @@
 1602,nebraska,keith,,1.0,1.0,1.0,1.0,,
 2782,nebraska,keyapaha,,,1.0,1.0,1.0,,
 2783,nebraska,kimball,,,1.0,1.0,1.0,,
-538,nebraska,knox,1.0,,1.0,1.0,1.0,,1.0
-539,nebraska,lancaster,1.0,1.0,1.0,1.0,1.0,,1.0
+538,nebraska,knox,1.0,,1.0,1.0,1.0,,
+539,nebraska,lancaster,1.0,1.0,1.0,1.0,1.0,,
 1603,nebraska,lincoln,,1.0,1.0,1.0,1.0,,
 2784,nebraska,logan,,,1.0,1.0,,,
 2785,nebraska,loup,,,1.0,1.0,,,
@@ -1815,9 +1758,8 @@
 2793,nebraska,richardson,,,1.0,1.0,1.0,,
 2794,nebraska,rock,,,1.0,1.0,,,
 1612,nebraska,saline,,1.0,1.0,1.0,1.0,,
-540,nebraska,sarpy,1.0,1.0,1.0,1.0,1.0,,1.0
+540,nebraska,sarpy,1.0,1.0,1.0,1.0,1.0,,
 2193,nebraska,saunders,,1.0,1.0,1.0,1.0,,
-3242,nebraska,scotts%bluff,,,,,,,1.0
 541,nebraska,scottsbluff,1.0,1.0,1.0,1.0,1.0,,
 2136,nebraska,seward,,1.0,1.0,1.0,,,
 2795,nebraska,sheridan,,,1.0,1.0,,,
@@ -1825,231 +1767,221 @@
 2797,nebraska,sioux,,,1.0,1.0,,,
 1613,nebraska,stanton,,1.0,1.0,1.0,,,
 2798,nebraska,thayer,,,1.0,1.0,1.0,,
-542,nebraska,thomas,1.0,,1.0,1.0,,,1.0
+542,nebraska,thomas,1.0,,1.0,1.0,,,
 2799,nebraska,thurston,,,1.0,1.0,1.0,,
 1614,nebraska,valley,,1.0,1.0,1.0,1.0,,
-543,nebraska,washington,1.0,1.0,1.0,1.0,1.0,,1.0
+543,nebraska,washington,1.0,1.0,1.0,1.0,1.0,,
 2800,nebraska,wayne,,,1.0,1.0,1.0,,
 2801,nebraska,webster,,,1.0,1.0,1.0,,
 2802,nebraska,wheeler,,,1.0,1.0,,,
 1615,nebraska,york,,1.0,1.0,1.0,1.0,,
-3243,nevada,carson%city,,,,,,,1.0
 544,nevada,carsoncity,1.0,,1.0,1.0,,,
-545,nevada,churchill,1.0,,1.0,1.0,1.0,,1.0
-546,nevada,clark,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-547,nevada,douglas,1.0,,1.0,1.0,,,1.0
-548,nevada,elko,1.0,1.0,1.0,1.0,1.0,,1.0
+545,nevada,churchill,1.0,,1.0,1.0,1.0,,
+546,nevada,clark,1.0,1.0,1.0,1.0,1.0,1.0,
+547,nevada,douglas,1.0,,1.0,1.0,,,
+548,nevada,elko,1.0,1.0,1.0,1.0,1.0,,
 2803,nevada,esmeralda,,,1.0,1.0,,,
 1616,nevada,eureka,,1.0,1.0,1.0,1.0,,
 1617,nevada,humboldt,,1.0,1.0,1.0,1.0,,
 1618,nevada,lander,,1.0,1.0,1.0,1.0,,
 2804,nevada,lincoln,,,1.0,1.0,,,
-549,nevada,lyon,1.0,1.0,1.0,1.0,1.0,,1.0
+549,nevada,lyon,1.0,1.0,1.0,1.0,1.0,,
 2805,nevada,mineral,,,1.0,1.0,1.0,,
-550,nevada,nye,1.0,1.0,1.0,1.0,1.0,,1.0
+550,nevada,nye,1.0,1.0,1.0,1.0,1.0,,
 1619,nevada,pershing,,1.0,1.0,1.0,1.0,,
 1620,nevada,storey,,1.0,1.0,1.0,1.0,,
-551,nevada,washoe,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-3258,nevada,white%pine,,,,,,,1.0
+551,nevada,washoe,1.0,1.0,1.0,1.0,1.0,1.0,
 552,nevada,whitepine,1.0,,1.0,1.0,1.0,1.0,
-553,new hampshire,belknap,1.0,,1.0,1.0,1.0,1.0,1.0
+553,new hampshire,belknap,1.0,,1.0,1.0,1.0,1.0,
 2806,new hampshire,carroll,,,1.0,1.0,1.0,,
-554,new hampshire,cheshire,1.0,,1.0,1.0,,1.0,1.0
-555,new hampshire,coos,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-556,new hampshire,grafton,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-557,new hampshire,hillsborough,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-558,new hampshire,merrimack,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-559,new hampshire,rockingham,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+554,new hampshire,cheshire,1.0,,1.0,1.0,,1.0,
+555,new hampshire,coos,1.0,1.0,1.0,1.0,1.0,1.0,
+556,new hampshire,grafton,1.0,1.0,1.0,1.0,1.0,1.0,
+557,new hampshire,hillsborough,1.0,1.0,1.0,1.0,1.0,1.0,
+558,new hampshire,merrimack,1.0,1.0,1.0,1.0,1.0,1.0,
+559,new hampshire,rockingham,1.0,1.0,1.0,1.0,1.0,1.0,
 1621,new hampshire,strafford,,1.0,1.0,1.0,1.0,,
 1622,new hampshire,sullivan,,1.0,1.0,1.0,1.0,,
-560,new jersey,atlantic,1.0,1.0,1.0,1.0,1.0,,1.0
-561,new jersey,bergen,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+560,new jersey,atlantic,1.0,1.0,1.0,1.0,1.0,,
+561,new jersey,bergen,1.0,1.0,1.0,1.0,1.0,1.0,
 1623,new jersey,burlington,,1.0,1.0,1.0,1.0,,
-562,new jersey,camden,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+562,new jersey,camden,1.0,1.0,1.0,1.0,1.0,1.0,
 1624,new jersey,capemay,,1.0,1.0,1.0,1.0,,
-563,new jersey,cumberland,1.0,1.0,1.0,1.0,1.0,,1.0
-564,new jersey,essex,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-565,new jersey,gloucester,1.0,1.0,1.0,1.0,1.0,,1.0
-566,new jersey,hudson,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-567,new jersey,hunterdon,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-568,new jersey,mercer,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-569,new jersey,middlesex,1.0,1.0,1.0,1.0,1.0,,1.0
-570,new jersey,monmouth,1.0,1.0,1.0,1.0,1.0,,1.0
-571,new jersey,morris,1.0,1.0,1.0,1.0,1.0,,1.0
-572,new jersey,ocean,1.0,1.0,1.0,1.0,1.0,,1.0
-573,new jersey,passaic,1.0,,1.0,1.0,1.0,,1.0
+563,new jersey,cumberland,1.0,1.0,1.0,1.0,1.0,,
+564,new jersey,essex,1.0,1.0,1.0,1.0,1.0,1.0,
+565,new jersey,gloucester,1.0,1.0,1.0,1.0,1.0,,
+566,new jersey,hudson,1.0,1.0,1.0,1.0,1.0,1.0,
+567,new jersey,hunterdon,1.0,1.0,1.0,1.0,1.0,1.0,
+568,new jersey,mercer,1.0,1.0,1.0,1.0,1.0,1.0,
+569,new jersey,middlesex,1.0,1.0,1.0,1.0,1.0,,
+570,new jersey,monmouth,1.0,1.0,1.0,1.0,1.0,,
+571,new jersey,morris,1.0,1.0,1.0,1.0,1.0,,
+572,new jersey,ocean,1.0,1.0,1.0,1.0,1.0,,
+573,new jersey,passaic,1.0,,1.0,1.0,1.0,,
 1625,new jersey,salem,,1.0,1.0,1.0,1.0,,
 1626,new jersey,somerset,,1.0,1.0,1.0,1.0,,
 1627,new jersey,sussex,,1.0,1.0,1.0,1.0,,
-574,new jersey,union,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-575,new jersey,warren,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-576,new mexico,bernalillo,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-577,new mexico,catron,1.0,,1.0,1.0,,,1.0
-578,new mexico,chaves,1.0,1.0,1.0,1.0,1.0,,1.0
+574,new jersey,union,1.0,1.0,1.0,1.0,1.0,1.0,
+575,new jersey,warren,1.0,1.0,1.0,1.0,1.0,1.0,
+576,new mexico,bernalillo,1.0,1.0,1.0,1.0,1.0,1.0,
+577,new mexico,catron,1.0,,1.0,1.0,,,
+578,new mexico,chaves,1.0,1.0,1.0,1.0,1.0,,
 2807,new mexico,cibola,,,1.0,1.0,1.0,,
 2808,new mexico,colfax,,,1.0,1.0,1.0,,
 1628,new mexico,curry,,1.0,1.0,1.0,1.0,,
 2809,new mexico,debaca,,,1.0,1.0,,,
-3244,new mexico,dona%ana,,,,,,,1.0
 579,new mexico,donaana,1.0,1.0,1.0,1.0,1.0,1.0,
-580,new mexico,eddy,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-2089,new mexico,grant,,1.0,1.0,1.0,1.0,,1.0
+580,new mexico,eddy,1.0,1.0,1.0,1.0,1.0,1.0,
+2089,new mexico,grant,,1.0,1.0,1.0,1.0,,
 2810,new mexico,guadalupe,,,1.0,1.0,1.0,,
 2811,new mexico,harding,,,1.0,1.0,,,
 1629,new mexico,hidalgo,,1.0,1.0,1.0,1.0,,
-581,new mexico,lea,1.0,1.0,1.0,1.0,1.0,,1.0
-582,new mexico,lincoln,1.0,,1.0,1.0,,,1.0
-3245,new mexico,los%alamos,,,,,,,1.0
+581,new mexico,lea,1.0,1.0,1.0,1.0,1.0,,
+582,new mexico,lincoln,1.0,,1.0,1.0,,,
 583,new mexico,losalamos,1.0,1.0,1.0,1.0,1.0,,
-584,new mexico,luna,1.0,1.0,1.0,1.0,1.0,,1.0
+584,new mexico,luna,1.0,1.0,1.0,1.0,1.0,,
 1630,new mexico,mckinley,,1.0,1.0,1.0,1.0,,
 2812,new mexico,mora,,,1.0,1.0,,,
 2157,new mexico,otero,,1.0,1.0,1.0,1.0,,
 2813,new mexico,quay,,,1.0,1.0,1.0,,
-3246,new mexico,rio%arriba,,,,,,,1.0
 585,new mexico,rioarriba,1.0,1.0,1.0,1.0,1.0,,
 1631,new mexico,roosevelt,,1.0,1.0,1.0,1.0,,
-3247,new mexico,san%juan,,,,,,,1.0
-587,new mexico,sandoval,1.0,1.0,1.0,1.0,1.0,,1.0
+587,new mexico,sandoval,1.0,1.0,1.0,1.0,1.0,,
 586,new mexico,sanjuan,1.0,1.0,1.0,1.0,1.0,1.0,
 2814,new mexico,sanmiguel,,,1.0,1.0,1.0,,
-3248,new mexico,santa%fe,,,,,,,1.0
 588,new mexico,santafe,1.0,1.0,1.0,1.0,1.0,,
 2815,new mexico,sierra,,,1.0,1.0,1.0,,
-589,new mexico,socorro,1.0,,1.0,1.0,,,1.0
-590,new mexico,taos,1.0,,1.0,1.0,1.0,,1.0
+589,new mexico,socorro,1.0,,1.0,1.0,,,
+590,new mexico,taos,1.0,,1.0,1.0,1.0,,
 2816,new mexico,torrance,,,1.0,1.0,1.0,,
 2817,new mexico,union,,,1.0,1.0,,,
-591,new mexico,valencia,1.0,1.0,1.0,1.0,1.0,,1.0
-592,new york,albany,1.0,1.0,1.0,1.0,1.0,,1.0
+591,new mexico,valencia,1.0,1.0,1.0,1.0,1.0,,
+592,new york,albany,1.0,1.0,1.0,1.0,1.0,,
 1632,new york,allegany,,1.0,1.0,1.0,1.0,,
-593,new york,bronx,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+593,new york,bronx,1.0,1.0,1.0,1.0,1.0,1.0,
 1633,new york,broome,,1.0,1.0,1.0,1.0,,
 1634,new york,cattaraugus,,1.0,1.0,1.0,1.0,,
 1635,new york,cayuga,,1.0,1.0,1.0,1.0,,
-594,new york,chautauqua,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+594,new york,chautauqua,1.0,1.0,1.0,1.0,1.0,1.0,
 1636,new york,chemung,,1.0,1.0,1.0,1.0,,
 2818,new york,chenango,,,1.0,1.0,,,
 1637,new york,clinton,,1.0,1.0,1.0,1.0,,
 2819,new york,columbia,,,1.0,1.0,1.0,,
 1638,new york,cortland,,1.0,1.0,1.0,,,
 2179,new york,delaware,,1.0,1.0,1.0,,,
-595,new york,dutchess,1.0,1.0,1.0,1.0,1.0,,1.0
-596,new york,erie,1.0,1.0,1.0,1.0,1.0,,1.0
-597,new york,essex,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-598,new york,franklin,1.0,1.0,1.0,1.0,1.0,,1.0
+595,new york,dutchess,1.0,1.0,1.0,1.0,1.0,,
+596,new york,erie,1.0,1.0,1.0,1.0,1.0,,
+597,new york,essex,1.0,1.0,1.0,1.0,1.0,1.0,
+598,new york,franklin,1.0,1.0,1.0,1.0,1.0,,
 1639,new york,fulton,,1.0,1.0,1.0,1.0,,
 1640,new york,genesee,,1.0,1.0,1.0,1.0,,
 1641,new york,greene,,1.0,1.0,1.0,1.0,,
-599,new york,hamilton,1.0,,1.0,1.0,,1.0,1.0
-600,new york,herkimer,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-601,new york,jefferson,1.0,1.0,1.0,1.0,1.0,,1.0
-602,new york,kings,1.0,1.0,1.0,1.0,1.0,,1.0
+599,new york,hamilton,1.0,,1.0,1.0,,1.0,
+600,new york,herkimer,1.0,1.0,1.0,1.0,1.0,1.0,
+601,new york,jefferson,1.0,1.0,1.0,1.0,1.0,,
+602,new york,kings,1.0,1.0,1.0,1.0,1.0,,
 1642,new york,lewis,,1.0,1.0,1.0,1.0,,
 2820,new york,livingston,,,1.0,1.0,,,
 1643,new york,madison,,1.0,1.0,1.0,1.0,,
-603,new york,monroe,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+603,new york,monroe,1.0,1.0,1.0,1.0,1.0,1.0,
 1644,new york,montgomery,,1.0,1.0,1.0,,,
-604,new york,nassau,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-3257,new york,new%york,,,,,,,1.0
+604,new york,nassau,1.0,1.0,1.0,1.0,1.0,1.0,
 605,new york,newyork,1.0,1.0,1.0,1.0,1.0,,
-606,new york,niagara,1.0,1.0,1.0,1.0,1.0,,1.0
-607,new york,oneida,1.0,1.0,1.0,1.0,1.0,,1.0
-608,new york,onondaga,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+606,new york,niagara,1.0,1.0,1.0,1.0,1.0,,
+607,new york,oneida,1.0,1.0,1.0,1.0,1.0,,
+608,new york,onondaga,1.0,1.0,1.0,1.0,1.0,1.0,
 1645,new york,ontario,,1.0,1.0,1.0,1.0,,
-609,new york,orange,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+609,new york,orange,1.0,1.0,1.0,1.0,1.0,1.0,
 1646,new york,orleans,,1.0,1.0,1.0,1.0,,
-610,new york,oswego,1.0,1.0,1.0,1.0,1.0,,1.0
+610,new york,oswego,1.0,1.0,1.0,1.0,1.0,,
 2821,new york,otsego,,,1.0,1.0,1.0,,
-611,new york,putnam,1.0,1.0,1.0,1.0,1.0,,1.0
-612,new york,queens,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+611,new york,putnam,1.0,1.0,1.0,1.0,1.0,,
+612,new york,queens,1.0,1.0,1.0,1.0,1.0,1.0,
 1647,new york,rensselaer,,1.0,1.0,1.0,1.0,,
-613,new york,richmond,1.0,1.0,1.0,1.0,1.0,,1.0
-614,new york,rockland,1.0,1.0,1.0,1.0,1.0,,1.0
-615,new york,saratoga,1.0,1.0,1.0,1.0,1.0,,1.0
+613,new york,richmond,1.0,1.0,1.0,1.0,1.0,,
+614,new york,rockland,1.0,1.0,1.0,1.0,1.0,,
+615,new york,saratoga,1.0,1.0,1.0,1.0,1.0,,
 1649,new york,schenectady,,1.0,1.0,1.0,,,
 1650,new york,schoharie,,1.0,1.0,1.0,1.0,,
 1651,new york,schuyler,,1.0,1.0,1.0,,,
 1652,new york,seneca,,1.0,1.0,1.0,1.0,,1.0
-3288,new york,st%lawrence,,,,,,,1.0
-616,new york,steuben,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-1648,new york,stlawrence,,1.0,1.0,1.0,1.0,,
-617,new york,suffolk,1.0,1.0,1.0,1.0,1.0,,1.0
+616,new york,steuben,1.0,1.0,1.0,1.0,1.0,1.0,
+1648,new york,stlawrence,,1.0,1.0,1.0,1.0,,1.0
+617,new york,suffolk,1.0,1.0,1.0,1.0,1.0,,
 1653,new york,sullivan,,1.0,1.0,1.0,1.0,,
 2822,new york,tioga,,,1.0,1.0,,,
-618,new york,tompkins,1.0,1.0,1.0,1.0,1.0,,1.0
+618,new york,tompkins,1.0,1.0,1.0,1.0,1.0,,
 1654,new york,ulster,,1.0,1.0,1.0,1.0,,
 1655,new york,warren,,1.0,1.0,1.0,1.0,,
 1656,new york,washington,,1.0,1.0,1.0,1.0,,
-619,new york,wayne,1.0,,1.0,1.0,1.0,,1.0
-620,new york,westchester,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+619,new york,wayne,1.0,,1.0,1.0,1.0,,
+620,new york,westchester,1.0,1.0,1.0,1.0,1.0,1.0,
 1657,new york,wyoming,,1.0,1.0,1.0,1.0,,
 1658,new york,yates,,1.0,1.0,1.0,1.0,,
-1659,north carolina,alamance,,1.0,1.0,1.0,1.0,,1.0
-621,north carolina,alexander,1.0,,1.0,1.0,1.0,,1.0
+1659,north carolina,alamance,,1.0,1.0,1.0,1.0,,
+621,north carolina,alexander,1.0,,1.0,1.0,1.0,,
 2823,north carolina,alleghany,,,1.0,1.0,,,
 1660,north carolina,anson,,1.0,1.0,1.0,1.0,,
 2824,north carolina,ashe,,,1.0,1.0,,,
-622,north carolina,avery,1.0,,1.0,1.0,,,1.0
-623,north carolina,beaufort,1.0,1.0,1.0,1.0,1.0,,1.0
+622,north carolina,avery,1.0,,1.0,1.0,,,
+623,north carolina,beaufort,1.0,1.0,1.0,1.0,1.0,,
 1661,north carolina,bertie,,1.0,1.0,1.0,1.0,,
 1662,north carolina,bladen,,1.0,1.0,1.0,1.0,,
 624,north carolina,brunswick,1.0,1.0,1.0,1.0,1.0,,1.0
-625,north carolina,buncombe,1.0,1.0,1.0,1.0,1.0,,1.0
+625,north carolina,buncombe,1.0,1.0,1.0,1.0,1.0,,
 2825,north carolina,burke,,,1.0,1.0,1.0,,
 1663,north carolina,cabarrus,,1.0,1.0,1.0,1.0,,
-626,north carolina,caldwell,1.0,1.0,1.0,1.0,1.0,,1.0
+626,north carolina,caldwell,1.0,1.0,1.0,1.0,1.0,,
 2826,north carolina,camden,,,1.0,1.0,,,
-627,north carolina,carteret,1.0,,1.0,1.0,,,1.0
-628,north carolina,caswell,1.0,,1.0,1.0,1.0,,1.0
-629,north carolina,catawba,1.0,1.0,1.0,1.0,1.0,,1.0
-1664,north carolina,chatham,,1.0,1.0,1.0,1.0,,1.0
+627,north carolina,carteret,1.0,,1.0,1.0,,,
+628,north carolina,caswell,1.0,,1.0,1.0,1.0,,
+629,north carolina,catawba,1.0,1.0,1.0,1.0,1.0,,
+1664,north carolina,chatham,,1.0,1.0,1.0,1.0,,
 2827,north carolina,cherokee,,,1.0,1.0,1.0,,
 2828,north carolina,chowan,,,1.0,1.0,1.0,,
 2829,north carolina,clay,,,1.0,1.0,1.0,,
 1665,north carolina,cleveland,,1.0,1.0,1.0,1.0,,
 1666,north carolina,columbus,,1.0,1.0,1.0,1.0,,
 1667,north carolina,craven,,1.0,1.0,1.0,1.0,,
-630,north carolina,cumberland,1.0,1.0,1.0,1.0,1.0,,1.0
+630,north carolina,cumberland,1.0,1.0,1.0,1.0,1.0,,
 2830,north carolina,currituck,,,1.0,1.0,1.0,,
 2831,north carolina,dare,,,1.0,1.0,1.0,,
-631,north carolina,davidson,1.0,1.0,1.0,1.0,1.0,,1.0
-2832,north carolina,davie,,,1.0,1.0,1.0,,1.0
-1668,north carolina,duplin,,1.0,1.0,1.0,1.0,,1.0
-632,north carolina,durham,1.0,1.0,1.0,1.0,1.0,,1.0
-633,north carolina,edgecombe,1.0,1.0,1.0,1.0,1.0,,1.0
-634,north carolina,forsyth,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-2833,north carolina,franklin,,,1.0,1.0,1.0,,1.0
-1669,north carolina,gaston,,1.0,1.0,1.0,1.0,,1.0
+631,north carolina,davidson,1.0,1.0,1.0,1.0,1.0,,
+2832,north carolina,davie,,,1.0,1.0,1.0,,
+1668,north carolina,duplin,,1.0,1.0,1.0,1.0,,
+632,north carolina,durham,1.0,1.0,1.0,1.0,1.0,,
+633,north carolina,edgecombe,1.0,1.0,1.0,1.0,1.0,,
+634,north carolina,forsyth,1.0,1.0,1.0,1.0,1.0,1.0,
+2833,north carolina,franklin,,,1.0,1.0,1.0,,
+1669,north carolina,gaston,,1.0,1.0,1.0,1.0,,
 2834,north carolina,gates,,,1.0,1.0,1.0,,
-635,north carolina,graham,1.0,,1.0,1.0,1.0,,1.0
-636,north carolina,granville,1.0,,1.0,1.0,1.0,,1.0
+635,north carolina,graham,1.0,,1.0,1.0,1.0,,
+636,north carolina,granville,1.0,,1.0,1.0,1.0,,
 2835,north carolina,greene,,,1.0,1.0,1.0,,
-637,north carolina,guilford,1.0,1.0,1.0,1.0,1.0,,1.0
+637,north carolina,guilford,1.0,1.0,1.0,1.0,1.0,,
 1670,north carolina,halifax,,1.0,1.0,1.0,1.0,,
 2836,north carolina,harnett,,,1.0,1.0,1.0,,
-638,north carolina,haywood,1.0,1.0,1.0,1.0,1.0,,1.0
+638,north carolina,haywood,1.0,1.0,1.0,1.0,1.0,,
 1671,north carolina,henderson,,1.0,1.0,1.0,1.0,,
 1672,north carolina,hertford,,1.0,1.0,1.0,1.0,,
 2837,north carolina,hoke,,,1.0,1.0,1.0,,
-639,north carolina,hyde,1.0,,1.0,1.0,1.0,,1.0
+639,north carolina,hyde,1.0,,1.0,1.0,1.0,,
 1673,north carolina,iredell,,1.0,1.0,1.0,1.0,,
-640,north carolina,jackson,1.0,,1.0,1.0,1.0,,1.0
-641,north carolina,johnston,1.0,1.0,1.0,1.0,1.0,,1.0
+640,north carolina,jackson,1.0,,1.0,1.0,1.0,,
+641,north carolina,johnston,1.0,1.0,1.0,1.0,1.0,,
 2838,north carolina,jones,,,1.0,1.0,1.0,,
-642,north carolina,lee,1.0,,1.0,1.0,1.0,1.0,1.0
-643,north carolina,lenoir,1.0,1.0,1.0,1.0,1.0,,1.0
-644,north carolina,lincoln,1.0,1.0,1.0,1.0,1.0,,1.0
-645,north carolina,macon,1.0,,1.0,1.0,1.0,,1.0
+642,north carolina,lee,1.0,,1.0,1.0,1.0,1.0,
+643,north carolina,lenoir,1.0,1.0,1.0,1.0,1.0,,
+644,north carolina,lincoln,1.0,1.0,1.0,1.0,1.0,,
+645,north carolina,macon,1.0,,1.0,1.0,1.0,,
 2840,north carolina,madison,,,1.0,1.0,1.0,,
-646,north carolina,martin,1.0,1.0,1.0,1.0,1.0,,1.0
-2839,north carolina,mcdowell,,,1.0,1.0,,,1.0
-647,north carolina,mecklenburg,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-648,north carolina,mitchell,1.0,,1.0,1.0,,,1.0
-649,north carolina,montgomery,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+646,north carolina,martin,1.0,1.0,1.0,1.0,1.0,,
+2839,north carolina,mcdowell,,,1.0,1.0,,,
+647,north carolina,mecklenburg,1.0,1.0,1.0,1.0,1.0,1.0,
+648,north carolina,mitchell,1.0,,1.0,1.0,,,
+649,north carolina,montgomery,1.0,1.0,1.0,1.0,1.0,1.0,
 2841,north carolina,moore,,,1.0,1.0,1.0,,
 2842,north carolina,nash,,,1.0,1.0,1.0,,
-3238,north carolina,new%hanover,,,,,,,1.0
 650,north carolina,newhanover,1.0,1.0,1.0,1.0,1.0,,
 2843,north carolina,northampton,,,1.0,1.0,1.0,,
 1674,north carolina,onslow,,1.0,1.0,1.0,1.0,,
@@ -2058,48 +1990,48 @@
 2845,north carolina,pasquotank,,,1.0,1.0,1.0,,
 2846,north carolina,pender,,,1.0,1.0,1.0,,
 2847,north carolina,perquimans,,,1.0,1.0,1.0,,
-651,north carolina,person,1.0,1.0,1.0,1.0,1.0,,1.0
-652,north carolina,pitt,1.0,1.0,1.0,1.0,1.0,,1.0
+651,north carolina,person,1.0,1.0,1.0,1.0,1.0,,
+652,north carolina,pitt,1.0,1.0,1.0,1.0,1.0,,
 2848,north carolina,polk,,,1.0,1.0,1.0,,
 1676,north carolina,randolph,,1.0,1.0,1.0,1.0,,
 1677,north carolina,richmond,,1.0,1.0,1.0,1.0,,
-1678,north carolina,robeson,,1.0,1.0,1.0,1.0,,1.0
-653,north carolina,rockingham,1.0,1.0,1.0,1.0,1.0,,1.0
-654,north carolina,rowan,1.0,1.0,1.0,1.0,1.0,,1.0
+1678,north carolina,robeson,,1.0,1.0,1.0,1.0,,
+653,north carolina,rockingham,1.0,1.0,1.0,1.0,1.0,,
+654,north carolina,rowan,1.0,1.0,1.0,1.0,1.0,,
 2849,north carolina,rutherford,,,1.0,1.0,1.0,,
 1679,north carolina,sampson,,1.0,1.0,1.0,1.0,,
 1680,north carolina,scotland,,1.0,1.0,1.0,1.0,,
 1681,north carolina,stanly,,1.0,1.0,1.0,1.0,,
 1682,north carolina,stokes,,1.0,1.0,1.0,1.0,,
 1683,north carolina,surry,,1.0,1.0,1.0,1.0,,
-655,north carolina,swain,1.0,,1.0,1.0,1.0,1.0,1.0
+655,north carolina,swain,1.0,,1.0,1.0,1.0,1.0,
 2850,north carolina,transylvania,,,1.0,1.0,,,
 2851,north carolina,tyrrell,,,1.0,1.0,,,
-656,north carolina,union,1.0,1.0,1.0,1.0,1.0,,1.0
+656,north carolina,union,1.0,1.0,1.0,1.0,1.0,,
 1684,north carolina,vance,,1.0,1.0,1.0,1.0,,
-657,north carolina,wake,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+657,north carolina,wake,1.0,1.0,1.0,1.0,1.0,1.0,
 2852,north carolina,warren,,,1.0,1.0,1.0,,
 2853,north carolina,washington,,,1.0,1.0,1.0,,
-2854,north carolina,watauga,,,1.0,1.0,,,1.0
-1685,north carolina,wayne,,1.0,1.0,1.0,1.0,,1.0
+2854,north carolina,watauga,,,1.0,1.0,,,
+1685,north carolina,wayne,,1.0,1.0,1.0,1.0,,
 1686,north carolina,wilkes,,1.0,1.0,1.0,,,
 1687,north carolina,wilson,,1.0,1.0,1.0,1.0,,
 2855,north carolina,yadkin,,,1.0,1.0,1.0,,
-658,north carolina,yancey,1.0,,1.0,1.0,,,1.0
+658,north carolina,yancey,1.0,,1.0,1.0,,,
 2856,north dakota,adams,,,1.0,1.0,1.0,,
 1688,north dakota,barnes,,1.0,1.0,1.0,1.0,,
 2857,north dakota,benson,,,1.0,1.0,,,
-659,north dakota,billings,1.0,,1.0,1.0,,1.0,1.0
+659,north dakota,billings,1.0,,1.0,1.0,,1.0,
 2858,north dakota,bottineau,,,1.0,1.0,,,
 2090,north dakota,bowman,,1.0,1.0,1.0,1.0,,
-660,north dakota,burke,1.0,,1.0,1.0,,1.0,1.0
-661,north dakota,burleigh,1.0,,1.0,1.0,1.0,1.0,1.0
-662,north dakota,cass,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+660,north dakota,burke,1.0,,1.0,1.0,,1.0,
+661,north dakota,burleigh,1.0,,1.0,1.0,1.0,1.0,
+662,north dakota,cass,1.0,1.0,1.0,1.0,1.0,1.0,
 2859,north dakota,cavalier,,,1.0,1.0,1.0,,
 1689,north dakota,clark,,1.0,,,,,
 2860,north dakota,dickey,,,1.0,1.0,1.0,,
 2137,north dakota,divide,,1.0,1.0,1.0,,,
-663,north dakota,dunn,1.0,1.0,1.0,1.0,,1.0,1.0
+663,north dakota,dunn,1.0,1.0,1.0,1.0,,1.0,
 2861,north dakota,eddy,,,1.0,1.0,,,
 1690,north dakota,edmunds,,1.0,,,,,
 2862,north dakota,emmons,,,1.0,1.0,,,
@@ -2115,13 +2047,13 @@
 2870,north dakota,logan,,,1.0,1.0,,,
 1693,north dakota,mchenry,,1.0,1.0,1.0,1.0,,
 1694,north dakota,mcintosh,,1.0,1.0,1.0,,,
-664,north dakota,mckenzie,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+664,north dakota,mckenzie,1.0,1.0,1.0,1.0,1.0,1.0,
 1695,north dakota,mclean,,1.0,1.0,1.0,1.0,,
-665,north dakota,mercer,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+665,north dakota,mercer,1.0,1.0,1.0,1.0,1.0,1.0,
 1696,north dakota,morton,,1.0,1.0,1.0,1.0,,
 2091,north dakota,mountrail,,1.0,1.0,1.0,,,
 2871,north dakota,nelson,,,1.0,1.0,,,
-666,north dakota,oliver,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+666,north dakota,oliver,1.0,1.0,1.0,1.0,1.0,1.0,
 1697,north dakota,pembina,,1.0,1.0,1.0,1.0,,
 2872,north dakota,pierce,,,1.0,1.0,1.0,,
 2873,north dakota,ramsey,,,1.0,1.0,,,
@@ -2141,38 +2073,38 @@
 2882,north dakota,walsh,,,1.0,1.0,1.0,,
 2092,north dakota,ward,,1.0,1.0,1.0,1.0,,1.0
 2883,north dakota,wells,,,1.0,1.0,,,
-668,north dakota,williams,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-669,ohio,adams,1.0,1.0,1.0,1.0,1.0,,1.0
-670,ohio,allen,1.0,1.0,1.0,1.0,1.0,,1.0
+668,north dakota,williams,1.0,1.0,1.0,1.0,1.0,1.0,
+669,ohio,adams,1.0,1.0,1.0,1.0,1.0,,
+670,ohio,allen,1.0,1.0,1.0,1.0,1.0,,
 2884,ohio,ashland,,,1.0,1.0,,,
-671,ohio,ashtabula,1.0,1.0,1.0,1.0,1.0,,1.0
-672,ohio,athens,1.0,1.0,1.0,1.0,,,1.0
+671,ohio,ashtabula,1.0,1.0,1.0,1.0,1.0,,
+672,ohio,athens,1.0,1.0,1.0,1.0,,,
 1702,ohio,auglaize,,1.0,1.0,1.0,1.0,,
-673,ohio,belmont,1.0,1.0,1.0,1.0,,,1.0
+673,ohio,belmont,1.0,1.0,1.0,1.0,,,
 1703,ohio,brown,,1.0,1.0,1.0,,,
-674,ohio,butler,1.0,1.0,1.0,1.0,1.0,,1.0
+674,ohio,butler,1.0,1.0,1.0,1.0,1.0,,
 1704,ohio,carroll,,1.0,1.0,1.0,,,
 2885,ohio,champaign,,,1.0,1.0,,,
-675,ohio,clark,1.0,1.0,1.0,1.0,1.0,,1.0
-676,ohio,clermont,1.0,1.0,1.0,1.0,1.0,,1.0
-677,ohio,clinton,1.0,,1.0,1.0,1.0,,1.0
-678,ohio,columbiana,1.0,1.0,1.0,1.0,,,1.0
+675,ohio,clark,1.0,1.0,1.0,1.0,1.0,,
+676,ohio,clermont,1.0,1.0,1.0,1.0,1.0,,
+677,ohio,clinton,1.0,,1.0,1.0,1.0,,
+678,ohio,columbiana,1.0,1.0,1.0,1.0,,,
 1705,ohio,coshocton,,1.0,1.0,1.0,1.0,,
 1706,ohio,crawford,,1.0,1.0,1.0,1.0,,
-679,ohio,cuyahoga,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+679,ohio,cuyahoga,1.0,1.0,1.0,1.0,1.0,1.0,
 1707,ohio,darke,,1.0,1.0,1.0,1.0,,
 1708,ohio,defiance,,1.0,1.0,1.0,1.0,,
-680,ohio,delaware,1.0,,1.0,1.0,1.0,,1.0
+680,ohio,delaware,1.0,,1.0,1.0,1.0,,
 1709,ohio,erie,,1.0,1.0,1.0,1.0,,
 1710,ohio,fairfield,,1.0,1.0,1.0,,,
-681,ohio,fayette,1.0,1.0,1.0,1.0,,,1.0
-682,ohio,franklin,1.0,1.0,1.0,1.0,1.0,,1.0
+681,ohio,fayette,1.0,1.0,1.0,1.0,,,
+682,ohio,franklin,1.0,1.0,1.0,1.0,1.0,,
 1711,ohio,fulton,,1.0,1.0,1.0,1.0,,
 1712,ohio,gallia,,1.0,1.0,1.0,1.0,,1.0
-683,ohio,geauga,1.0,1.0,1.0,1.0,,,1.0
-684,ohio,greene,1.0,1.0,1.0,1.0,1.0,,1.0
+683,ohio,geauga,1.0,1.0,1.0,1.0,,,
+684,ohio,greene,1.0,1.0,1.0,1.0,1.0,,
 1713,ohio,guernsey,,1.0,1.0,1.0,,,
-685,ohio,hamilton,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+685,ohio,hamilton,1.0,1.0,1.0,1.0,1.0,1.0,
 1714,ohio,hancock,,1.0,1.0,1.0,1.0,,
 2886,ohio,hardin,,,1.0,1.0,1.0,,
 2093,ohio,harrison,,1.0,1.0,1.0,,,1.0
@@ -2182,9 +2114,9 @@
 2888,ohio,holmes,,,1.0,1.0,,,
 1717,ohio,huron,,1.0,1.0,1.0,,,
 1718,ohio,jackson,,1.0,1.0,1.0,1.0,,
-686,ohio,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-687,ohio,knox,1.0,,1.0,1.0,,,1.0
-688,ohio,lake,1.0,1.0,1.0,1.0,1.0,,1.0
+686,ohio,jefferson,1.0,1.0,1.0,1.0,1.0,1.0,
+687,ohio,knox,1.0,,1.0,1.0,,,
+688,ohio,lake,1.0,1.0,1.0,1.0,1.0,,
 689,ohio,lawrence,1.0,1.0,1.0,1.0,1.0,,1.0
 690,ohio,licking,1.0,1.0,1.0,1.0,,,1.0
 1719,ohio,logan,,1.0,1.0,1.0,1.0,,
@@ -2199,33 +2131,33 @@
 697,ohio,miami,1.0,,1.0,1.0,1.0,,1.0
 1722,ohio,monroe,,1.0,1.0,1.0,1.0,,
 698,ohio,montgomery,1.0,1.0,1.0,1.0,1.0,,1.0
-699,ohio,morgan,1.0,1.0,1.0,1.0,,,1.0
+699,ohio,morgan,1.0,1.0,1.0,1.0,,,
 2889,ohio,morrow,,,1.0,1.0,,,
 1723,ohio,muskingum,,1.0,1.0,1.0,1.0,,
-700,ohio,noble,1.0,1.0,1.0,1.0,,,1.0
+700,ohio,noble,1.0,1.0,1.0,1.0,,,
 1724,ohio,ottawa,,1.0,1.0,1.0,1.0,,
 1725,ohio,paulding,,1.0,1.0,1.0,1.0,,
 1726,ohio,perry,,1.0,1.0,1.0,1.0,,
 1727,ohio,pickaway,,1.0,1.0,1.0,1.0,,
 1728,ohio,pike,,1.0,1.0,1.0,,,
-701,ohio,portage,1.0,1.0,1.0,1.0,1.0,,1.0
-702,ohio,preble,1.0,1.0,1.0,1.0,,1.0,1.0
+701,ohio,portage,1.0,1.0,1.0,1.0,1.0,,
+702,ohio,preble,1.0,1.0,1.0,1.0,,1.0,
 1729,ohio,putnam,,1.0,1.0,1.0,,,
 1730,ohio,richland,,1.0,1.0,1.0,1.0,,
 1731,ohio,ross,,1.0,1.0,1.0,1.0,,
 1732,ohio,sandusky,,1.0,1.0,1.0,1.0,,
-703,ohio,scioto,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+703,ohio,scioto,1.0,1.0,1.0,1.0,1.0,1.0,
 1733,ohio,seneca,,1.0,1.0,1.0,,,
 1734,ohio,shelby,,1.0,1.0,1.0,1.0,,
-704,ohio,stark,1.0,1.0,1.0,1.0,,,1.0
-705,ohio,summit,1.0,1.0,1.0,1.0,1.0,,1.0
-706,ohio,trumbull,1.0,1.0,1.0,1.0,1.0,,1.0
+704,ohio,stark,1.0,1.0,1.0,1.0,,,
+705,ohio,summit,1.0,1.0,1.0,1.0,1.0,,
+706,ohio,trumbull,1.0,1.0,1.0,1.0,1.0,,
 1735,ohio,tuscarawas,,1.0,1.0,1.0,1.0,,
 1736,ohio,union,,1.0,1.0,1.0,,,
 1737,ohio,vanwert,,1.0,1.0,1.0,1.0,,
 1738,ohio,vinton,,1.0,1.0,1.0,1.0,,
-707,ohio,warren,1.0,1.0,1.0,1.0,1.0,,1.0
-708,ohio,washington,1.0,1.0,1.0,1.0,1.0,,1.0
+707,ohio,warren,1.0,1.0,1.0,1.0,1.0,,
+708,ohio,washington,1.0,1.0,1.0,1.0,1.0,,
 1739,ohio,wayne,,1.0,1.0,1.0,1.0,,
 1740,ohio,williams,,1.0,1.0,1.0,1.0,,
 709,ohio,wood,1.0,1.0,1.0,1.0,1.0,,1.0
@@ -2704,9 +2636,8 @@
 3036,texas,eastland,,,1.0,1.0,,,
 874,texas,ector,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 3037,texas,edwards,,,1.0,1.0,,,
-3259,texas,el%paso,,,,,,,1.0
 876,texas,ellis,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-875,texas,elpaso,1.0,1.0,1.0,1.0,1.0,1.0,
+875,texas,elpaso,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 3038,texas,erath,,,1.0,1.0,1.0,,
 3039,texas,falls,,,1.0,1.0,,,
 1876,texas,fannin,,1.0,1.0,1.0,,,
@@ -2891,8 +2822,7 @@
 3091,texas,zapata,,,1.0,1.0,,,
 3092,texas,zavala,,,1.0,1.0,,,
 2107,utah,beaver,,1.0,1.0,1.0,1.0,,
-3260,utah,box%elder,,,,,,,1.0
-911,utah,boxelder,1.0,1.0,1.0,1.0,1.0,1.0,
+911,utah,boxelder,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 912,utah,cache,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 913,utah,carbon,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1955,utah,daggett,,1.0,1.0,1.0,1.0,,1.0
@@ -2908,10 +2838,8 @@
 1959,utah,morgan,,1.0,1.0,1.0,1.0,,
 3096,utah,piute,,,1.0,1.0,,,
 3097,utah,rich,,,1.0,1.0,,,
-3261,utah,salt%lake,,,,,,,1.0
-917,utah,saltlake,1.0,1.0,1.0,1.0,1.0,1.0,
-3262,utah,san%juan,,,,,,,1.0
-918,utah,sanjuan,1.0,1.0,1.0,1.0,1.0,1.0,
+917,utah,saltlake,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+918,utah,sanjuan,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 3098,utah,sanpete,,,1.0,1.0,1.0,,
 3099,utah,sevier,,,1.0,1.0,,,
 2148,utah,summit,,1.0,1.0,1.0,1.0,,
@@ -2939,8 +2867,7 @@
 929,virgin islands,stjohn,1.0,,,,,,
 1964,virginia,accomack,,1.0,1.0,1.0,1.0,,
 930,virginia,albemarle,1.0,1.0,1.0,1.0,,,1.0
-3263,virginia,alexandria%city,,,,,,,1.0
-931,virginia,alexandriacity,1.0,1.0,1.0,1.0,1.0,,
+931,virginia,alexandriacity,1.0,1.0,1.0,1.0,1.0,,1.0
 1965,virginia,alleghany,,1.0,1.0,1.0,1.0,,
 1966,virginia,amelia,,1.0,1.0,1.0,1.0,,
 2149,virginia,amherst,,1.0,1.0,1.0,1.0,,
@@ -2952,8 +2879,7 @@
 3108,virginia,bland,,,1.0,1.0,,,
 1969,virginia,botetourt,,1.0,1.0,1.0,,,1.0
 1970,virginia,bristol,,1.0,,,,,
-3264,virginia,bristol%city,,,,,,,1.0
-933,virginia,bristolcity,1.0,,,1.0,1.0,,
+933,virginia,bristolcity,1.0,,,1.0,1.0,,1.0
 1971,virginia,brunswick,,1.0,1.0,1.0,1.0,,
 1972,virginia,buchanan,,1.0,1.0,1.0,1.0,,
 2108,virginia,buckingham,,1.0,1.0,1.0,1.0,,
@@ -2969,8 +2895,7 @@
 937,virginia,chesterfield,1.0,1.0,1.0,1.0,1.0,,1.0
 3110,virginia,clarke,,,1.0,1.0,,,
 3181,virginia,colonialheightscity,,,,1.0,,,
-3289,virginia,covington%city,,,,,,,1.0
-3182,virginia,covingtoncity,,,,1.0,1.0,,
+3182,virginia,covingtoncity,,,,1.0,1.0,,1.0
 3111,virginia,craig,,,1.0,1.0,,,
 3112,virginia,culpeper,,,1.0,1.0,1.0,,
 3113,virginia,cumberland,,,1.0,1.0,,,
@@ -2988,8 +2913,7 @@
 1980,virginia,franklin,,1.0,1.0,1.0,,,
 3185,virginia,franklincity,,,,1.0,,,
 940,virginia,frederick,1.0,1.0,1.0,1.0,1.0,,1.0
-3265,virginia,fredericksburg%city,,,,,,,1.0
-941,virginia,fredericksburgcity,1.0,,,1.0,,,
+941,virginia,fredericksburgcity,1.0,,,1.0,,,1.0
 3186,virginia,galaxcity,,,,1.0,,,
 942,virginia,giles,1.0,1.0,1.0,1.0,1.0,,1.0
 1981,virginia,gloucester,,1.0,1.0,1.0,,,
@@ -2998,30 +2922,26 @@
 3118,virginia,greene,,,1.0,1.0,,,
 1982,virginia,greensville,,1.0,1.0,1.0,1.0,,
 1983,virginia,halifax,,1.0,1.0,1.0,1.0,,
-3266,virginia,hampton%city,,,,,,,1.0
-943,virginia,hamptoncity,1.0,1.0,1.0,1.0,1.0,,
+943,virginia,hamptoncity,1.0,1.0,1.0,1.0,1.0,,1.0
 944,virginia,hanover,1.0,1.0,1.0,1.0,1.0,,1.0
 1984,virginia,harrisonburgcity,,1.0,,1.0,1.0,,
 945,virginia,henrico,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 3133,virginia,henry,,,1.0,1.0,1.0,,
 3119,virginia,highland,,,1.0,1.0,1.0,,
 1985,virginia,hopewell,,1.0,,,,,
-3267,virginia,hopewell%city,,,,,,,1.0
-946,virginia,hopewellcity,1.0,1.0,,1.0,1.0,,
+946,virginia,hopewellcity,1.0,1.0,,1.0,1.0,,1.0
 1986,virginia,isleofwight,,1.0,1.0,1.0,1.0,,
 1987,virginia,jamescity,,1.0,1.0,1.0,,,
-3268,virginia,king%william,,,,,,,1.0
 1988,virginia,kingandqueen,,1.0,1.0,1.0,1.0,,
 1989,virginia,kinggeorge,,1.0,1.0,1.0,1.0,,
-947,virginia,kingwilliam,1.0,1.0,1.0,1.0,1.0,,
+947,virginia,kingwilliam,1.0,1.0,1.0,1.0,1.0,,1.0
 3120,virginia,lancaster,,,1.0,1.0,,,
 2109,virginia,lee,,1.0,1.0,1.0,,,
 3187,virginia,lexingtoncity,,,,1.0,,,
 948,virginia,loudoun,1.0,1.0,1.0,1.0,,,1.0
 1990,virginia,louisa,,1.0,1.0,1.0,1.0,,
 3121,virginia,lunenburg,,,1.0,1.0,,,
-3269,virginia,lynchburg%city,,,,,,,1.0
-949,virginia,lynchburgcity,1.0,1.0,,1.0,1.0,,
+949,virginia,lynchburgcity,1.0,1.0,,1.0,1.0,,1.0
 950,virginia,madison,1.0,,1.0,1.0,,1.0,1.0
 2110,virginia,manassascity,,1.0,,1.0,1.0,,
 3188,virginia,manassasparkcity,,,,1.0,,,
@@ -3033,8 +2953,7 @@
 1994,virginia,nelson,,1.0,1.0,1.0,,,
 1995,virginia,newkent,,1.0,1.0,1.0,,,
 1996,virginia,newportnewscity,,1.0,1.0,1.0,,,
-3270,virginia,norfolk%city,,,,,,,1.0
-951,virginia,norfolkcity,1.0,1.0,1.0,1.0,,,
+951,virginia,norfolkcity,1.0,1.0,1.0,1.0,,,1.0
 3124,virginia,northampton,,,1.0,1.0,1.0,,
 3125,virginia,northumberland,,,1.0,1.0,,,
 3189,virginia,nortoncity,,,,1.0,,,
@@ -3048,26 +2967,22 @@
 2001,virginia,portsmouth,,1.0,,,,,
 2002,virginia,portsmouthcity,,1.0,1.0,1.0,1.0,,
 3128,virginia,powhatan,,,1.0,1.0,1.0,,
-3271,virginia,prince%edward,,,,,,,1.0
-3272,virginia,prince%william,,,,,,,1.0
-952,virginia,princeedward,1.0,,1.0,1.0,,,
+952,virginia,princeedward,1.0,,1.0,1.0,,,1.0
 3134,virginia,princegeorge,,,1.0,1.0,1.0,,
-953,virginia,princewilliam,1.0,1.0,1.0,1.0,1.0,,
+953,virginia,princewilliam,1.0,1.0,1.0,1.0,1.0,,1.0
 2003,virginia,pulaski,,1.0,1.0,1.0,1.0,,
 2004,virginia,radford,,1.0,,,,,
 3191,virginia,radfordcity,,,,1.0,,,
 3129,virginia,rappahannock,,,1.0,1.0,,,
 2005,virginia,richmond,,1.0,1.0,1.0,1.0,,
-3273,virginia,richmond%city,,,,,,,1.0
-954,virginia,richmondcity,1.0,1.0,1.0,1.0,1.0,,
+954,virginia,richmondcity,1.0,1.0,1.0,1.0,1.0,,1.0
 955,virginia,roanoke,1.0,1.0,1.0,1.0,1.0,,1.0
 2006,virginia,roanokecity,,1.0,1.0,1.0,,,
 956,virginia,rockbridge,1.0,1.0,1.0,1.0,,1.0,1.0
 957,virginia,rockingham,1.0,1.0,1.0,1.0,1.0,,1.0
 2007,virginia,russell,,1.0,1.0,1.0,1.0,,
 2008,virginia,salem,,1.0,,,,,
-3274,virginia,salem%city,,,,,,,1.0
-958,virginia,salemcity,1.0,,,1.0,1.0,,
+958,virginia,salemcity,1.0,,,1.0,1.0,,1.0
 3130,virginia,scott,,,1.0,1.0,,,
 2009,virginia,shenandoah,,1.0,1.0,1.0,,,
 3131,virginia,smyth,,,1.0,1.0,,,
@@ -3075,20 +2990,17 @@
 2011,virginia,spotsylvania,,1.0,1.0,1.0,,,
 959,virginia,stafford,1.0,1.0,1.0,1.0,1.0,,1.0
 2012,virginia,stauntoncity,,1.0,,1.0,,,
-3275,virginia,suffolk%city,,,,,,,1.0
-960,virginia,suffolkcity,1.0,,1.0,1.0,1.0,,
+960,virginia,suffolkcity,1.0,,1.0,1.0,1.0,,1.0
 2013,virginia,surry,,1.0,1.0,1.0,1.0,,
 2014,virginia,sussex,,1.0,1.0,1.0,,,
 2015,virginia,tazewell,,1.0,1.0,1.0,,,
-3276,virginia,virginia%beach%city,,,,,,,1.0
-961,virginia,virginiabeachcity,1.0,1.0,1.0,1.0,1.0,,
+961,virginia,virginiabeachcity,1.0,1.0,1.0,1.0,1.0,,1.0
 2184,virginia,warren,,1.0,1.0,1.0,1.0,,
 2016,virginia,washington,,1.0,1.0,1.0,1.0,,
 2017,virginia,waynesborocity,,1.0,,1.0,,,
 3132,virginia,westmoreland,,,1.0,1.0,,,
 3192,virginia,williamsburgcity,,,,1.0,,,
-3277,virginia,winchester%city,,,,,,,1.0
-962,virginia,winchestercity,1.0,,,1.0,,,
+962,virginia,winchestercity,1.0,,,1.0,,,1.0
 2111,virginia,wise,,1.0,1.0,1.0,1.0,,
 963,virginia,wythe,1.0,1.0,1.0,1.0,,,1.0
 2018,virginia,york,,1.0,1.0,1.0,1.0,,
@@ -3105,8 +3017,7 @@
 972,washington,franklin,1.0,1.0,1.0,1.0,1.0,,1.0
 3136,washington,garfield,,,1.0,1.0,1.0,,1.0
 973,washington,grant,1.0,1.0,1.0,1.0,1.0,,1.0
-3278,washington,grays%harbor,,,,,,,1.0
-974,washington,graysharbor,1.0,1.0,1.0,1.0,1.0,,
+974,washington,graysharbor,1.0,1.0,1.0,1.0,1.0,,1.0
 3137,washington,island,,,1.0,1.0,,,
 975,washington,jefferson,1.0,1.0,1.0,1.0,1.0,,1.0
 976,washington,king,1.0,1.0,1.0,1.0,1.0,1.0,1.0
@@ -3128,8 +3039,7 @@
 987,washington,stevens,1.0,,1.0,1.0,1.0,1.0,1.0
 988,washington,thurston,1.0,,1.0,1.0,1.0,,1.0
 3143,washington,wahkiakum,,,1.0,1.0,,,
-3279,washington,walla%walla,,,,,,,1.0
-989,washington,wallawalla,1.0,1.0,1.0,1.0,1.0,,
+989,washington,wallawalla,1.0,1.0,1.0,1.0,1.0,,1.0
 990,washington,whatcom,1.0,1.0,1.0,1.0,1.0,,1.0
 991,washington,whitman,1.0,1.0,1.0,1.0,1.0,,1.0
 992,washington,yakima,1.0,1.0,1.0,1.0,1.0,1.0,1.0
@@ -3206,11 +3116,9 @@
 1012,wisconsin,door,1.0,,1.0,1.0,1.0,1.0,1.0
 2045,wisconsin,douglas,,1.0,1.0,1.0,1.0,1.0,
 2046,wisconsin,dunn,,1.0,1.0,1.0,1.0,,
-3280,wisconsin,eau%claire,,,,,,,1.0
-1013,wisconsin,eauclaire,1.0,1.0,1.0,1.0,1.0,,
+1013,wisconsin,eauclaire,1.0,1.0,1.0,1.0,1.0,,1.0
 3160,wisconsin,florence,,,1.0,1.0,1.0,,
-3281,wisconsin,fond%du%lac,,,,,,,1.0
-1014,wisconsin,fonddulac,1.0,1.0,1.0,1.0,1.0,,
+1014,wisconsin,fonddulac,1.0,1.0,1.0,1.0,1.0,,1.0
 1015,wisconsin,forest,1.0,,1.0,1.0,,1.0,1.0
 1016,wisconsin,grant,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2047,wisconsin,green,,1.0,1.0,1.0,,,
@@ -3222,8 +3130,7 @@
 2049,wisconsin,juneau,,1.0,1.0,1.0,1.0,,
 1018,wisconsin,kenosha,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1019,wisconsin,kewaunee,1.0,,1.0,1.0,1.0,,1.0
-3282,wisconsin,la%crosse,,,,,,,1.0
-1020,wisconsin,lacrosse,1.0,1.0,1.0,1.0,1.0,1.0,
+1020,wisconsin,lacrosse,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 3164,wisconsin,lafayette,,,1.0,1.0,1.0,,
 3165,wisconsin,langlade,,,1.0,1.0,,,
 2050,wisconsin,lincoln,,1.0,1.0,1.0,1.0,,
@@ -3265,8 +3172,7 @@
 2061,wisconsin,winnebago,,1.0,1.0,1.0,1.0,,
 2062,wisconsin,wood,,1.0,1.0,1.0,1.0,,
 1035,wyoming,albany,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-3283,wyoming,big%horn,,,,,,,1.0
-1036,wyoming,bighorn,1.0,1.0,1.0,1.0,,1.0,
+1036,wyoming,bighorn,1.0,1.0,1.0,1.0,,1.0,1.0
 1037,wyoming,campbell,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 1038,wyoming,carbon,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 2117,wyoming,contracosta,,1.0,,,,,
