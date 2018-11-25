@@ -1,0 +1,35 @@
+---
+title: "model"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data Analysis
+
+```{r weather data}
+weather <- read.csv("data/EPA_weather_2016.csv")
+weather_na <- weather %>% filter(!is.na(Average.Air.Pressure))
+length(unique(weather$County))
+```
+
+```{r load data}
+data <- read.csv("data/data_merged_meso_weather-dropped.csv")
+```
+
+```{r check missing data}
+sapply(data,function(x) sum(is.na(x)))
+```
+
+```{r check missing vs observed}
+missmap(data, main = "Missing values vs observed")
+```
+
+```{r Linear Model}
+mod <- lm(AQI ~ Temperature + Altimeter + Precipitation_24hrAccum + RelHumidity + WindSpeed + Total.Emissions + CO2 + Methane + Nitrous.Oxide + HFC + PFC + SF6 + NF3 + HFE + Short.Lived.Compounds + Income + Population + pp_net_gen_MWh, data=data)
+summary(mod)
+
+```
+
