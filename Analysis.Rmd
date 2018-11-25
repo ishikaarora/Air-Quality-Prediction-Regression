@@ -1,0 +1,122 @@
+---
+title: "aqs"
+author: "Ian Jiang"
+date: "November 24, 2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Loading in necessary packages}
+install.packages("MASS")
+library(MASS)
+
+install.packages("faraway")
+library(faraway)
+
+install.packages("nlme")
+library(nlme)
+```
+
+
+
+```{r Loading data}
+#Loading data
+data <- read.csv("data_nomiss.csv")
+
+#Dropping missing values in response
+data <- data[!is.na(data$AQI),]
+
+#Assigning date from year, month, day
+data$date <- as.numeric( difftime(ISOdate(data$Year, data$Month, data$Day, 0), ISOdate(2016,1,1,0), units="days"))
+```
+
+```{r Fitting full model} 
+
+#Fitting full model
+full.lmod <- lm(formula = AQI ~ Nitrous.Oxide + County + NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data)
+
+```
+
+```{r Diagnostics}
+#--------------------Constant Variance--------------------
+
+#Plot residuals against fitted
+plot(full.lmod$fitted.values, sqrt(abs(full.lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))))
+abline(h=0)
+
+#--------------------Normality--------------------
+
+#Checking normality with QQ-plot
+qqnorm(full.lmod$residuals, ylab="Residuals", main="")
+qqline(residuals(full.lmod))
+
+#Checking normality with histogram of residuals
+hist(residuals(full.lmod), xlab="Residuals", main="")
+
+#Checking normality with Shapiro-Wilks test
+shapiro.test(full.lmod$residuals[1:4999])
+
+#--------------------Timeseries Diagnostics--------------------
+
+#Checking for serial correlation 
+n <- length(full.lmod$residuals)
+plot(tail(full.lmod$residuals, n - 1) ~ head(full.lmod$residuals, n - 1), xlab=expression(hat(epsilon)[i]), ylab=expression(hat(epsilon)[i + 1]))
+
+summary(lm(tail(full.lmod$residuals, n - 1) ~ head(full.lmod$residuals, n - 1)))
+
+#--------------------Checking Leverage Points--------------------
+hatv <- hatvalues(full.lmod)
+halfnorm(hatv, labs=data$County, ylab="Leverages")
+
+#--------------------Checking for Outliers--------------------
+stud <- rstudent(full.lmod)
+data[which.max(stud),]
+
+```
+Errors appear to be approximately constant, by examination of the residuals vs. fitted. However, the histogram, QQ-plots, and Shapiro-Wilks indicate that the data is strongly non-normal. Data transformations are clearly required. Additionally, residuals display moderate serial correlation (R2 = 0.45 for a serial regression). Generalized least squares can resolve this issue. 
+
+Furthermore, we find that Pinal County (Arizona) represents an extreme outlier on 7/29/2016 (from its large studentized error). Its removal, however, does not significantly affect the model, since the dataset is large.
+
+```{r Checking for multicollinearity}
+
+#Generating correlation matrix 
+cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")])
+
+#Removing significantly collinear columns
+data_nocol <- data[,-which(names(data) %in% c("pp_consumed_MMBtu","Total.Emissions"))]
+
+#New fit
+full.lmod.nocol <- lm(formula = AQI ~ Nitrous.Oxide + NF3 + Other.GHG + HFC + Other.Fluorane + 
+    Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + Temperature +  
+    Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data_nocol)
+
+```
+
+
+```{r Data Transformations}
+
+#Making response AQI positive by adding a small constant (1) -- can change later
+data$AQI <- data$AQI + 1
+
+#Getting model Likelihoods on a range of parameters
+bx <- boxcox(full.lmod, plotit=T, lambda=seq(0.0, 0.5, by=0.001))
+
+#Getting best boxcox parameter -- lambda ~ 0.5
+lambda <- bx$x[which.max(bx$y)]
+
+#Transforming model accordingly
+full.lmod.T <- lm(formula = AQI ^ lambda ~ Nitrous.Oxide + NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane +  Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu 
++ Temperature + Methane + SF6 + Short.Lived.Compounds + Income + pp_net_gen_MWh, data = data)
+
+```
+
+Although the likelihood is maximized by this value of lambda, we find that the R2 value is still small :( 
+
+
+```{r Generalized Least Squares}
+full.glmod <- gls(AQI ~ Nitrous.Oxide + NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + 
++ Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh,  data = data)
+```
