@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r remove irrelavant columns}
+data_rel <- subset(data, select = c("AQI","Defining.Parameter","Nitrous.Oxide", "NF3", "Other.GHG", "Total.Emissions", "HFC", "Other.Fluorane", "Biogenic.CO2", "Population", "CO2", "PFC", "HFE", "Stationary.Combustion", "pp_consumed_MMBtu", "Temperature",  "Methane", "SF6", "Short.Lived.Compounds", "Income", "pp_net_gen_MWh","AQI_PM2.5", "AQI_PM10", "AQI_CO", "AQI_NO2", "AQI_Ozone", "AQI_SO2"))
+```
+
+
+```{r split up data by response}
+data_PM2.5 <- data_rel[!is.na(data_rel$AQI_PM2.5),]
+data_PM10 <- data_rel[!is.na(data_rel$AQI_PM10),]
+data_CO <- data_rel[!is.na(data_rel$AQI_CO),]
+data_NO2 <- data_rel[!is.na(data_rel$AQI_NO2),]
+data_Ozone <- data_rel[!is.na(data_rel$AQI_Ozone),]
+data_SO2 <- data_rel[!is.na(data_rel$AQI_SO2),]
+```
