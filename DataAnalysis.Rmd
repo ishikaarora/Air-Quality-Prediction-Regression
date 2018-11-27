@@ -1,0 +1,151 @@
+---
+title: "DataAnalysis.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r split up data by response}
+data_PM2.5 <- data_mod[!is.na(data_mod$AQI_PM2.5),]
+data_PM10 <- data_mod[!is.na(data_mod$AQI_PM10),]
+data_CO <- data_mod[!is.na(data_mod$AQI_CO),]
+data_NO2 <- data_mod[!is.na(data_mod$AQI_NO2),]
+data_ozone <- data_mod[!is.na(data_mod$AQI_Ozone),]
+data_SO2 <- data_mod[!is.na(data_mod$AQI_SO2),]
+
+data_PM2.5 <- subset(data_PM2.5, select=-c(AQI))
+colnames(data_PM2.5)[colnames(data_PM2.5)=="AQI_PM2.5"] <- "AQI"
+
+data_PM10 <- subset(data_PM10, select=-c(AQI))
+colnames(data_PM10)[colnames(data_PM10)=="AQI_PM10"] <- "AQI"
+
+data_CO <- subset(data_CO, select=-c(AQI))
+colnames(data_CO)[colnames(data_CO)=="AQI_CO"] <- "AQI"
+
+data_NO2 <- subset(data_NO2, select=-c(AQI))
+colnames(data_NO2)[colnames(data_NO2)=="AQI_NO2"] <- "AQI"
+
+data_ozone <- subset(data_ozone, select=-c(AQI))
+colnames(data_ozone)[colnames(data_ozone)=="AQI_Ozone"] <- "AQI"
+
+data_SO2 <- subset(data_SO2, select=-c(AQI))
+colnames(data_SO2)[colnames(data_SO2)=="AQI_SO2"] <- "AQI"
+```
+
+##Diagnostics and transformation function
+```{r Diagnostics and Transformation Function}
+analysis <- function(data){
+  
+  #Fitting full model
+  lmod <- lm(formula = AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data)
+  
+  summary(lmod)
+  
+  #--------------------Constant Variance--------------------
+  #Plot residuals against fitted
+  plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted (Original)")
+  abline(h=0)
+  
+  
+  summary(lm(sqrt(abs(residuals(lmod))) ~ fitted(lmod)))
+  #--------------------Normality--------------------
+  #Checking normality with QQ-plot
+  qqnorm(lmod$residuals, ylab="Residuals", main="QQ Plot of Residuals (Original)")
+  qqline(residuals(lmod))
+  
+  #Checking normality with histogram of residuals
+  hist(residuals(lmod), xlab="Residuals", main="Histogram of Residuals (Orignal)")
+  
+  #Checking normality with Shapiro-Wilks test
+  shapiro.test(lmod$residuals[1:4999])
+  
+  #--------------------Checking Leverage Points--------------------
+  #Obtaining leverages
+  hatv <- hatvalues(lmod)
+  
+  #Comparing leverages to the halfnormal distribution
+  halfnorm(hatv, labs=data$County, ylab="Leverages")
+  
+  #Removing large leverage points
+  data_mod <- data[hatv < 0.2,]
+  
+  
+  #--------------------Checking for Outliers--------------------
+  #Calculating Studentized Residuals
+  stud <- rstudent(lmod)
+  
+  #Removing large influence points
+  data_mod <- data_mod[stud < 10,]
+  
+  
+  #--------------------Checking for Multicollinearity--------------------
+  #Calculating t(X) %*% X
+  x <- model.matrix(lmod)[,-1]
+  
+  #Calculating VIFs for all variables
+  vif(x)
+  
+  #Calculating correlation matrix over the variables
+  corr <- cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")])
+  
+  #data_mod$AQI <- data_mod$AQI + 1
+  
+  #Refitting model with extraneous variables and outliers removed
+  lmod.nocol <- lm(formula = AQI ~ NF3 + Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + Methane + SF6 + Income, data = data_mod)
+  
+  summary(lmod.nocol)
+  
+  #--------------------Fitting optimal box-cox transformation--------------------
+  #Making response AQI positive by adding a small constant (1) -- can change later
+  #data_mod$AQI <- data_mod$AQI + 1
+  
+  #Getting model Likelihoods on a range of parameters
+  bx <- boxcox(lmod.nocol, plotit=T, lambda=seq(0.0, 1.0, by=0.001))
+  
+  #Getting best boxcox parameter -- lambda ~ 0.5
+  lambda <- bx$x[which.max(bx$y)]
+  
+  #Transforming model accordingly
+  lmod.T <- lm(formula = AQI ^ lambda ~ NF3 + Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + Methane + SF6 + Income, data = data_mod)
+  
+  summary(lmod.T)
+  
+  #--------------------Re-checking Normality--------------------
+  #Checking normality with QQ-plot
+  qqnorm(lmod.T$residuals, ylab="Residuals", main="QQ Plot of Residuals (Transformed)")
+  qqline(residuals(lmod.T))
+  
+  #Checking normality with histogram of residuals
+  hist(residuals(lmod.T), xlab="Residuals", main="Histogram of Residuals (Transformed)")
+  
+  #Checking normality with Shapiro-Wilks test
+  shapiro.test(lmod.T$residuals[1:4999])
+  
+  #Obtaining list of relevant objects
+  result <- list(lmod.transform=lmod.T, lmod.nocollinearity=lmod.nocol, data.mod=data_mod, lambda=lambda, lmod.orig=lmod, corr=corr)
+  
+  return(result)
+}
+```
+
+```{r}
+anal_CO <- analysis(data = data_CO)
+```
+
+```{r}
+anal_NO2 <- analysis(data = data_NO2)
+summary(anal_NO2$lmod.orig)
+summary(anal_NO2$lmod.transform)
+
+anal_CO <- analysis(data = data_CO)
+summary(anal_CO$lmod.orig)
+summary(anal_CO$lmod.transform)
+
+anal_PM10 <- analysis(data=data_PM10)
+summary(anal_PM10$lmod.orig)
+summary(anal_PM10$lmod.transform)
+
+anal_PM10$lambda
+```
