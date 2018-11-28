@@ -253,6 +253,7 @@ summary(lmod.nocol)
 #Making response AQI positive by adding a small constant (1) -- can change later
 data_mod$AQI <- data_mod$AQI + 1
 
+
 #Getting model Likelihoods on a range of parameters
 bx <- boxcox(lmod.nocol, plotit=T, lambda=seq(0.0, 1.0, by=0.001))
 

@@ -48,7 +48,6 @@ analysis <- function(data){
   plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted (Original)")
   abline(h=0)
   
-  
   summary(lm(sqrt(abs(residuals(lmod))) ~ fitted(lmod)))
   #--------------------Normality--------------------
   #Checking normality with QQ-plot
@@ -99,7 +98,7 @@ analysis <- function(data){
   
   #--------------------Fitting optimal box-cox transformation--------------------
   #Making response AQI positive by adding a small constant (1) -- can change later
-  #data_mod$AQI <- data_mod$AQI + 1
+  data_mod$AQI <- data_mod$AQI + 1
   
   #Getting model Likelihoods on a range of parameters
   bx <- boxcox(lmod.nocol, plotit=T, lambda=seq(0.0, 1.0, by=0.001))
@@ -130,8 +129,9 @@ analysis <- function(data){
 }
 ```
 
+
 ```{r}
-anal_CO <- analysis(data = data_CO)
+summary(anal_SO2$lmod.transform)
 ```
 
 ```{r}
@@ -148,4 +148,16 @@ summary(anal_PM10$lmod.orig)
 summary(anal_PM10$lmod.transform)
 
 anal_PM10$lambda
+
+anal_ozone <- analysis(data=data_ozone)
+summary(anal_ozone$lmod.orig)
+summary(anal_ozone$lmod.transform)
+
+anal_SO2 <- analysis(data=data_SO2)
+summary(anal_SO2$lmod.orig)
+summary(anal_SO2$lmod.transform)
+
+anal_PM2.5 <- analysis(data=data_PM2.5)
+summary(anal_PM2.5$lmod.orig)
+summary(anal_PM2.5$lmod.transform)
 ```
