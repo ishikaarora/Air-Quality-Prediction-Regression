@@ -1,0 +1,41 @@
+1) Overview of problem statement/motivation for project
+2) Data collection
+  A) Sources of data
+  B) Methods of collection
+3) Data cleaning
+  A) Formatting for merging
+  B) Dropping sparse columns
+    i) discuss need for new weather data
+    ii) missing a lot of predictors we originally thought we had
+  C) Dealing with missing data
+  D) Checking for data quality
+  E) Rescale the predictors/response as necessary 
+      *** we should do this. see p. 103 of textbook ***
+  F) Choosing subset of data to enable us to work within R
+4) Diagnostics on model
+  A) Checking error assumptions of the model
+    i) Constant variance
+    ii) Normality
+    iii) Correlated errors
+  B) Finding unusual observations within the model
+    i) Leverage
+    ii) Outliers
+    iii) Influential observations
+  C) Finding problems in the predictors
+    i) Collinearity
+  D) Checking the model's structure
+5) Model selection
+  A) stepwise selection (discuss why we didn't use it)
+  B) forward/backward selection
+  C) criterion-based procedures
+6) Transformations
+  A) Box-cox to determine transformation on the response
+  B) Polynomial terms for predictors
+  C) Additive models
+7) Final model
+8) Future research/problems
+
+
+page 113:
+When the errors are dependent, we can use *generalized least squares (GLS)*. 
+When the errors are not normally distributed, we can use *robust regression*.
