@@ -1,0 +1,283 @@
+---
+title: "Diagnostics"
+author: "Ian Jiang"
+date: "November 29, 2018"
+output:
+  pdf_document: default
+  html_document: default
+fig_width: 5
+fig_height: 3
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width=5, fig.height=3, echo=TRUE) 
+```
+
+```{r Loading Script, include=FALSE}
+# install.packages("faraway")
+# install.packages("leaps")
+# install.packages("Amelia")
+# install.packages("pls")
+#install.packages("MASS")
+library(MASS)
+#install.packages("faraway")
+library(faraway)
+#install.packages("nlme")
+library(nlme)
+library(leaps)
+library(Amelia)
+library(pls)
+
+
+#Loading data
+data_raw <- read.csv("data_nomiss_specificAQI_updatedNov25.csv")
+#Dropping missing values in response
+data_raw <- data_raw[!is.na(data_raw$AQI),]
+#Assigning date from year, month, day
+data_raw$date <- as.numeric( difftime(ISOdate(data_raw$Year, data_raw$Month, data_raw$Day, 0), ISOdate(2016,1,1,0), units="days"))
+
+#TEMPERATURE DATA
+plot(data_raw$Temperature, data_raw$Month)
+data_raw[data_raw$Temperature < -30,]
+
+# remove iberville, louisiana since it is unlikely a county in LA actually saw 
+#temperatures in the -38 range
+remove <- c("iberville")
+data1 <- data_raw
+data1 <- data1[!(data1$County %in% remove),]
+
+plot(data1$Temperature, data1$Month)
+data1[which(data1$Temperature < -15 & data1$Temperature > -20 & data1$Month == 4),]
+
+# remove effingham, illinois, greenup, kentucky, and roane, tennessee since 
+#they have the exact same value for every day and is unlikely to have -17.78 
+#in the middle of the summer
+remove2 <- c("effingham", "greenup")
+data2 <- data1[!(data1$County %in% remove2),]
+
+data2[which(data2$Temperature < -15 & data2$Temperature > -20 & data2$Month == 7),]
+
+remove3 <- c("roane")
+data3 <- data2[!(data2$County %in% remove3),]
+
+plot(data3$Temperature, data3$Month)
+
+qqnorm(data3$Temperature)
+qqline(data3$Temperature)
+#probably needs transformation
+
+#AQI_PM2.5
+summary(data_raw$AQI_PM2.5)
+plot(data_raw$AQI_PM2.5)
+#all values within 0-500 range
+
+qqnorm(data_raw$AQI_PM2.5)
+qqline(data_raw$AQI_PM2.5)
+#probably needs transformation
+
+
+#AQI_PM10
+summary(data_raw$AQI_PM10)
+plot(data_raw$AQI_PM10, data_raw$Month)
+#not all values within 0-500 range
+
+#remove values which are outside of the AQI range of 0-500 since 
+#something is not right with those values
+data_raw[which(data_raw$AQI_PM10 > 500),]
+remove4 <- c(8912, 13425)
+data4 <- data3[-remove4,]
+data4[which(data4$AQI_PM10 > 500),]
+
+plot(data4$AQI_PM10, data4$Month)
+
+qqnorm(data4$AQI_PM10)
+qqline(data4$AQI_PM10)
+#probably needs transformation
+
+#AQI_CO
+summary(data_raw$AQI_CO)
+plot(data_raw$AQI_CO, data_raw$Month)
+#all values within 0-500 range
+
+qqnorm(data_raw$AQI_CO)
+qqline(data_raw$AQI_CO)
+#probably needs transformation
+
+
+#AQI_NO2
+summary(data_raw$AQI_NO2)
+plot(data_raw$AQI_NO2, data_raw$Month)
+#all values within 0-500 range
+
+qqnorm(data_raw$AQI_NO2)
+qqline(data_raw$AQI_NO2)
+#probably needs transformation
+
+#AQI_Ozone
+summary(data_raw$AQI_Ozone)
+plot(data_raw$AQI_Ozone, data_raw$Month)
+#all values within 0-500 range
+
+qqnorm(data_raw$AQI_Ozone)
+qqline(data_raw$AQI_Ozone)
+#probably needs transformation
+
+#AQI_SO2
+summary(data_raw$AQI_SO2)
+plot(data_raw$AQI_SO2, data_raw$Month)
+#all values within 0-500 range
+
+qqnorm(data_raw$AQI_SO2)
+qqline(data_raw$AQI_SO2)
+
+qqnorm(data4$AQI_SO2)
+qqline(data4$AQI_SO2)
+
+data4[which(data4$AQI_SO2 == 200),]
+#remove hawaii, hawaii since every single recorded day has the same AQI_SO2
+remove5 <- c("hawaii")
+data5 <- data4[!(data4$County %in% remove5),]
+
+qqnorm(data5$AQI_SO2)
+qqline(data5$AQI_SO2)
+#probably needs transformation
+
+
+#TOTAL EMISSIONS
+summary(data_raw$Total.Emissions)
+plot(data_raw$Total.Emissions, data_raw$Month)
+
+data_raw[which(data_raw$Total.Emissions == max(data_raw$Total.Emissions)),]
+
+#harris county (county which houses Houston) has much more total emissions 
+#than the others, but no real reason to believe it's a bad data point
+
+qqnorm(data5$Total.Emissions)
+qqline(data5$Total.Emissions)
+#probably needs transformation
+
+#TESS FINAL DATA (NOT INCLUDING IAN'S REMOVALS)
+data <- data5
+
+lmod <- lm(formula = AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data)
+
+data_PM2.5 <- data[!is.na(data$AQI_PM2.5),]
+data_PM10 <- data[!is.na(data$AQI_PM10),]
+data_CO <- data[!is.na(data$AQI_CO),]
+data_NO2 <- data[!is.na(data$AQI_NO2),]
+data_ozone <- data[!is.na(data$AQI_Ozone),]
+data_SO2 <- data[!is.na(data$AQI_SO2),]
+
+data_PM2.5 <- subset(data_PM2.5, select=-c(AQI))
+colnames(data_PM2.5)[colnames(data_PM2.5)=="AQI_PM2.5"] <- "AQI"
+
+data_PM10 <- subset(data_PM10, select=-c(AQI))
+colnames(data_PM10)[colnames(data_PM10)=="AQI_PM10"] <- "AQI"
+
+data_CO <- subset(data_CO, select=-c(AQI))
+colnames(data_CO)[colnames(data_CO)=="AQI_CO"] <- "AQI"
+
+data_NO2 <- subset(data_NO2, select=-c(AQI))
+colnames(data_NO2)[colnames(data_NO2)=="AQI_NO2"] <- "AQI"
+
+data_ozone <- subset(data_ozone, select=-c(AQI))
+colnames(data_ozone)[colnames(data_ozone)=="AQI_Ozone"] <- "AQI"
+
+data_SO2 <- subset(data_SO2, select=-c(AQI))
+colnames(data_SO2)[colnames(data_SO2)=="AQI_SO2"] <- "AQI"
+
+```
+
+#Diagnostics
+
+In the following, we give results for diagnostics preformed on one dataset, data_NO2. This data contains records from the full dataset with missing and spurious values of the response pruned. 
+
+##Checking Error Assumptions
+
+We check for the constancy of variance by examining the relationship of the residuals to the fitted values of the full model. If residuals follow a normal distribution, then their magnitudes would be half-normally distributed. Therefore, in order to mitigate the effects of the skewedness of this distribution, we also take the square root of the magnitudes, and plot it against the corresponding predictions:
+
+```{r Error constancy, tidy=FALSE, results="hide", fig.width=5, fig.height=3}
+ #Plot residuals against fitted
+plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted")
+```
+
+When the square root residuals are fitted on the estimated response, we find a significant p-value, indicating that there is a dependence of the residuals. Therefore, transformation of either the response or factors are needed. For the moment, we leave the response alone, in order to proceed with the diagnostics. 
+
+##Non-normality
+
+Secondly, we investigate whether or not the residuals of the model are normal distributed. For this, we visually examine the histogram of residuals, as well as the qq-plot of residual quartiles against the corresponding Gaussian quartiles:
+
+```{r non-normality, fig.width=5, fig.height=3, echo=TRUE, results="hide"}
+par(mfrow=c(1, 2))
+
+#Checking normality with QQ-plot
+qqnorm(lmod$residuals, ylab="Residuals", main="QQ Plot of Residuals")
+qqline(residuals(lmod))
+
+#Checking normality with histogram of residuals
+hist(residuals(lmod), xlab="Residuals", main="Histogram of Residuals")
+```
+
+
+From the qq-plot, the quartiles appear to be skewed, with mass tending to the tails. Additionally, the histogram shows that the residuals appear to be right-skewed. We also use the shapiro-wilks test:
+
+```{r Shapiro}
+#Checking normality with Shapiro-Wilks test
+shapiro.test(lmod$residuals[1:4999])
+```
+
+The results reinforce the conclusion that residuals are non-normally distributed. 
+
+##Serial Correlation
+
+Next, we check the autocorrelation in the error, to determine if there is any serial dependence of the residuals. This is achieved by simply regressing each residual on the previous, to determine if there is any trend:
+
+```{r Serial correlation, results="hide", fig.width=5, fig.height=3}
+n <- length(lmod$residuals)
+
+plot(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1), xlab=expression(hat(epsilon)[i]), ylab=expression(hat(epsilon)[i + 1]))
+summary(lm(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1)))
+```
+
+The R squared and the p-values show that this result is significant, and we can conclude that there is marked autocorrelation among the residuals. We address this issue using transformations of the response. 
+
+##Unusual Points
+
+Next we address unusual points. As a point of clarification, this is to be distinguished from the examination of extreme points in the data cleaning - in the cleaning, we remove spurious results, while the remaining extreme points are assumed to be naturally-occuring. We first examine the leverages. With the assumption that errors are normal, leverages will have half-normal distributions; therefore, we produce a qqplot of the residual quantiles against half-normal quantiles:
+
+```{r Large-Leverages, fig.width=5, fig.height=3}
+#Obtaining leverages
+hatv <- hatvalues(lmod)
+  
+#Comparing leverages to the halfnormal distribution
+halfnorm(hatv, labs=data$County, ylab="Leverages")
+```
+
+In order to preserve the stability and representability of the model, we remove points with extremely large leverage (h > 0.2). In order to identify outliers, we calculate the studentized residuals of each point, and compare them to the Bonferroni-corrected 5% quartile of a t-distribution with n - p - 1 degrees of freedom:
+
+```{r Outliers}
+#Calculating Studentized Residuals
+stud <- rstudent(lmod)
+```
+
+Here we remove outliers with studentized residuals greater than 10. 
+
+##Multicollinearity
+
+To check collinearity of the predictors, we initially examine the variable inflation factors for each predictor, and then the correlation matrix:
+
+```{r Collinearity}
+ x <- model.matrix(lmod)[,-1]
+  
+  #Calculating VIFs for all variables
+  vif(x)
+  
+  #Calculating correlation matrix 
+  corr <- cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")])
+```
+
+In order to rule out cases where there is only a single pair of highly-correlated variables, we remove one variable at a time, if they have an exceedingly large correlation with another variable, and re-run the VIFs. This way, we verify if the high VIFs were due to pairwise correlations. Based upon this analysis, we choose to remove the following variables: Short.Lived.Compounds, CO2, Total.Emissions, pp_net_gen_MWh, Other.Fluorane, and Nitrous.Oxide. 
+
+
+  
