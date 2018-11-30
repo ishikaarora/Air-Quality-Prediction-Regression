@@ -6,7 +6,7 @@ output:
   pdf_document: default
   html_document: default
 ---
-#0 - Problem Setup
+
 ```{r Setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -203,7 +203,7 @@ data_mod_NO2 <- data_mod_NO2[stud < 10,]
 
 #1 - Problem Statement
 
-Air quality is a factor that is cited as both contributing to and being affected by climate change (1), and has been shown to have a direct impact on human health. As a factor with such important consequences, our team decided to study factors that impact air quality. For our project, we focus on answering the following question: *How is air quality across the United States related to demographic, emissions, and weather factors?* Specifically, we chose to investigate the impact of factors related to economic output and climate, including temperature, population, per capita income, greenhouse gas emissions, and industrial power consumption and generation. Our response variable is the Air Quality Index (AQI), a measure of local air quality calculated by the Environmental Protection Agency (EPA) based on the concentrations of 6 major classes of ground-level pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and two measures of particulate matter (PM2.5 and PM10). ##individual AQIs
+Air quality is a factor that is cited as both contributing to and being affected by climate change (1), and has been shown to have a direct impact on human health. As a factor with such important consequences, our team decided to study factors that impact air quality. For our project, we focus on answering the following question: *How is air quality across the United States related to demographic, emissions, and weather factors?* Specifically, we chose to investigate the impact of factors related to economic output and climate, including temperature, population, per capita income, greenhouse gas emissions, and industrial power consumption and generation. Our response variable is the Air Quality Index (AQI), a measure of local air quality calculated by the Environmental Protection Agency (EPA) based on the concentrations of 6 major classes of ground-level pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and two measures of particulate matter (PM2.5 and PM10). Upon building initial models of overall AQI, we found that the residuals differed based on the defining parameter (pollutant class) of the AQI.  Thus, we ended up building models for the 6 individual pollutant AQIs in addition to the overall AQI.
 
 The scope of our analysis ultimately included county-level data for all US counties with available AQI data. To limit the size of our dataset to a size manageable within R, we used daily data from 2016, the most recent year with data available for each of the factors included in our analysis.
 
@@ -226,9 +226,9 @@ Next, we checked our merged data to ensure data quality. One of our more effecti
 
 Finally, our initial dataset across multiple years included more than a million observations and was too large a file to easily work with within R, so our team made the decision to trim our dataset to a more reasonable size of approximately 330,000 observations by including only data from 2016.
 
-#4 - Model Diagnostics (Ian)
+#4 - Model Diagnostics
 
-In the following analysis, we give results for diagnostics preformed on one model, the model for AQI_NO2. The data for this model does not include records with missing or spurious values of the response or predictors. 
+In the following analysis, we give results for diagnostics preformed on one model, the initial model for overall AQI. The data for this model does not include records with missing or spurious values of the response or predictors. 
 
 ##Checking Error Assumptions
 
@@ -288,12 +288,44 @@ We tried running stepwise regression on the model before removing the collinear 
 ##B) Backward selection
 Because of the complex interaction of the factors, we decided to use backward elimination for removing non-significant factors from the model. We started with 13 predictors in the model and then removed the predictor with highest p-value greater than 0.05. We removed two more factors from the model and finally used the following factors to train our model -  - *other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, sulfur hexafluoride, and per capita income*.
 
+#6 - Transformations
+Based on the model diagnostics, specifically the violations of constant error variance and normality, it was clear we needed to modify the initial model.  Several transformations were performed and tested to see if any transformations resulted in a better-fitting model.  Some of these included square root transformations, adding polynomial terms for the predictors, investigating interactions between predictors, using log transformations, and others.  Adding polynomial terms for Temperature improves the model fit.  Most of the other transformations tested only improved model fit marginally while making it more difficult to interpret the model. Ultimately, we used Box Cox to identify the best transformation on the response.  
 
-#6 - Transformations (Tess)
+Box Cox identified a lambda value of 0.5, so for model interpretability we used a square root transformation on the response.  This helped resolve some, but not all of the error assumption violations while improving the R squared value. We have a relatively large dataset, and in this case it is not uncommone for small deviations from non-normality to be detected.  We continue, however, with this model because we have a large sample size and can lean on the central limit theorem. The errors are not exactly normal, so the least squares estimate may not be optimal, though it will remain the best linear unbiased estimate.  Investigations into robust regression methods reveal residual standard errors similar to that of the transformed model. 
+
+Upon completing all of these steps, we repeat analysis steps as necessary as we build and update each of the models for the 6 air quality defining parameters.
+
+
+```{r}
+lmod.select <- lm(formula = (AQI+1) ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = data_mod)
+summary(lmod.select)
+
+bx <- boxcox(lmod.select, plotit=T, lambda=seq(0.5, 0.6, by=0.01))
+
+#Getting best boxcox parameter -- lambda ~ 0.5
+lambda <- bx$x[which.max(bx$y)]
+
+lmod.select.T <- lm(formula = (AQI+1)^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = data_mod)
+sumary(lmod.select.T)
+
+
+rlmod <- rlm(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income,data)
+summary(rlmod)
+```
+
+```{r GLS, echo=FALSE}
+#the errors were clearly dependent, so we try generalized least squares on the non-collinear factors:
+glmod <- gls(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income,weights=varPower(), data=na.omit(data))
+summary(glmod)
+
+#remove Stationary.Combustion
+glmod <- gls(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + pp_consumed_MMBtu + Temperature + SF6 + Income,weights=varPower(), data=na.omit(data))
+summary(glmod)
+```
 
 
 
-#7 - Final Model (Ishika)
+#7 - Final Model
 Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*.
 
 The R-squared value of the full final model comes out to be 9.5%. All the predictors are statistically significant in this model as shown in the model summary below.
@@ -302,7 +334,7 @@ The R-squared value of the full final model comes out to be 9.5%. All the predic
 lambda <- 0.5
 lmod.T <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod)
 
-summary(lmod.T)
+sumary(lmod.T)
 ```
 
  
@@ -310,34 +342,12 @@ Similarly, we built the final component models for each defining parameter with 
 
 ```{r Final NO2 Model}
 lambda <- 0.5
-lmod.T.NO2 <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod_NO2)
+lmod.T.NO2 <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = na.omit(data_mod_NO2))
 
-summary(lmod.T.NO2)
+sumary(lmod.T.NO2)
 ```
 
 #8 - Future Research (Ishika)
-
-
-
-#9 
-```{r}
-lmod.T2 <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod)
-  
-lmod.T2 <- lm(formula = AQI ^ 0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod)
-
-summary(lmod.T2)
-```
-
-
-```{r GLS}
-#the errors were clearly dependent, so we try generalized least squares on the non-collinear factors:
-glmod <- gls(AQI ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data=na.omit(data))
-summary(glmod)
-
-#the residual standard error is higher than our transformed model 
-```
-
-
 
 ##A) Additional predictors
 Future research work can include additional predictors in the model, since only about 20% of the variation in the model is explained by the current set of predictors. Some additional factors that can be included are -
@@ -348,7 +358,7 @@ We can further investigate air quality with more data collected across the globe
 
 ##C) Nonlinear models
 We tried running the general additive model. Future work could involve expanding on this, since we think it would produce promising results.
->>>>>>> 10b54100cd32fddef01cd331553330169e1d8300:Final_Report/Report_Tess_Sections_1-4.Rmd
+
   
   
   
