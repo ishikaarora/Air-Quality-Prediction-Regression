@@ -179,11 +179,22 @@ colnames(data_SO2)[colnames(data_SO2)=="AQI_SO2"] <- "AQI"
 
 ```
 
+```{r Full Model, include=FALSE}
+lmod <- lm(formula = AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data)
+
+#Remove outliers and high leverage points
+hatv <- hatvalues(lmod)
+data_mod <- data[hatv < 0.2,]
+
+stud <- rstudent(lmod)
+data_mod <- data_mod[stud < 10,]
+```
+
 ```{r NO2 model, include=FALSE}
 lmod.NO2 <- lm(formula = AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data_NO2)
 
 #Remove outliers and high leverage points
-hatv <- hatvalues(lmod)
+hatv <- hatvalues(lmod.NO2)
 data_mod_NO2 <- data_NO2[hatv < 0.2,]
 
 stud <- rstudent(lmod)
