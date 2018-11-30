@@ -18,6 +18,7 @@ library(nlme)
 library(leaps)
 library(Amelia)
 library(pls)
+library(mgcv)
 
 #Loading data
 # setwd("/Users/tessleggio/GoogleDrive/GeorgiaTech/2018-Fall/01-ISYE-6414/6414Project/cleaned_data")
@@ -203,12 +204,11 @@ data_mod_NO2 <- data_mod_NO2[stud < 10,]
 
 #1 - Problem Statement
 
-Air quality is a factor that is cited as both contributing to and being affected by climate change (1), and has been shown to have a direct impact on human health. As a factor with such important consequences, our team decided to study factors that impact air quality. For our project, we focus on answering the following question: *How is air quality across the United States related to demographic, emissions, and weather factors?* Specifically, we chose to investigate the impact of factors related to economic output and climate, including temperature, population, per capita income, greenhouse gas emissions, and industrial power consumption and generation. Our response variable is the Air Quality Index (AQI), a measure of local air quality calculated by the Environmental Protection Agency (EPA) based on the concentrations of 6 major classes of ground-level pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and two measures of particulate matter (PM2.5 and PM10). Upon building initial models of overall AQI, we found that the residuals differed based on the defining parameter (pollutant class) of the AQI.  Thus, we ended up building models for the 6 individual pollutant AQIs in addition to the overall AQI.
+Air quality is a factor that is cited as both contributing to and being affected by climate change, and has been shown to have a direct impact on human health. As a factor with such important consequences, our team decided to study factors that impact air quality. For our project, we focus on answering the following question: *How is air quality across the United States related to demographic, emissions, and weather factors?* Specifically, we chose to investigate the impact of factors related to economic output and climate, including temperature, population, per capita income, greenhouse gas emissions, and industrial power consumption and generation. Our response variable is the Air Quality Index (AQI), a measure of local air quality calculated by the Environmental Protection Agency (EPA) based on the concentrations of 6 major classes of ground-level pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and two measures of particulate matter (PM2.5 and PM10). Upon building initial models of overall AQI, we found that the residuals differed based on the defining parameter (pollutant class) of the AQI.  Thus, we ended up building models for the 6 individual pollutant AQIs in addition to the overall AQI.
 
 The scope of our analysis ultimately included county-level data for all US counties with available AQI data. To limit the size of our dataset to a size manageable within R, we used daily data from 2016, the most recent year with data available for each of the factors included in our analysis.
 
-(1): https://www.epa.gov/air-research/air-quality-and-climate-change-research
-
+In the following analysis, we give results for analysis preformed to generate one of the 7 models, the initial model for overall AQI. We used a similar approach to generate each of the models for the individual AQI defining parameters.
 
 #2 - Data Collection
 
@@ -228,13 +228,11 @@ Finally, our initial dataset across multiple years included more than a million 
 
 #4 - Model Diagnostics
 
-In the following analysis, we give results for diagnostics preformed on one model, the initial model for overall AQI. The data for this model does not include records with missing or spurious values of the response or predictors. 
+##Checking Constant Variance Assumption
 
-##Checking Error Assumptions
+We check for the constancy of variance by examining the relationship of the residuals to the fitted values of the full model. If residuals follow a normal distribution, then their magnitudes would be half-normally distributed. Therefore, in order to mitigate the effects of the skewedness of this distribution, we also take the square root of the magnitudes, and plot it against the corresponding predictions. 
 
-We check for the constancy of variance by examining the relationship of the residuals to the fitted values of the full model. If residuals follow a normal distribution, then their magnitudes would be half-normally distributed. Therefore, in order to mitigate the effects of the skewedness of this distribution, we also take the square root of the magnitudes, and plot it against the corresponding predictions:
-
-```{r Residuals vs. Fitted, echo=FALSE}
+```{r Residuals vs. Fitted, fig.width=6, fig.height=4,fig.align='center', echo=FALSE}
  #Plot residuals against fitted
 plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted")
 ```
@@ -243,10 +241,13 @@ When the square root residuals are fitted on the estimated response, we find a s
 
 ##Checking Normality Assumption
 
-Secondly, we investigate whether or not the residuals of the model are normal distributed. For this, we visually examine the histogram of residuals, as well as the qq-plot of residual quartiles against the corresponding Gaussian quartiles:
+Next, we investigate whether or not the residuals of the model are normal distributed. For this, we visually examine the histogram of residuals to gain intuition around the distribution of residuals (though a histogram alone is not sufficient to make a determination about the normality of residuals), as well as the qq-plot of residual quartiles against the corresponding Gaussian quartiles.
 
-```{r Normal Testing, echo=FALSE}
-par(mfrow=c(1, 2))
+```{r Figures, fig.width=6, fig.height=5,fig.align='center', echo=FALSE}
+par(mfrow=c(2, 2))
+
+ #Plot residuals against fitted
+plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted")
 
 #Checking normality with QQ-plot
 qqnorm(lmod$residuals, ylab="Residuals", main="QQ Plot of Residuals")
@@ -255,36 +256,31 @@ qqline(residuals(lmod))
 #Checking normality with histogram of residuals
 hist(residuals(lmod), xlab="Residuals", main="Histogram of Residuals")
 
+#Chceking serial correlations
+n <- length(lmod$residuals)
+
+plot(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1), xlab=expression(hat(epsilon)[i]), ylab=expression(hat(epsilon)[i + 1]))
+
 ```
 
 
-From the qq-plot, the quartiles appear to be skewed, with mass tending to the tails. Additionally, the histogram shows that the residuals appear to be right-skewed. We also use the shapiro-wilks test:
+As seen in the above figures, the residuals of the model appear to be right-skewed. The non-normality of the residuals are confirmed using a Shapiro-Wilks test. The p-value for this test is highly significant at the 5% level, so we reject the null hypothesis that the errors are normally distributed.  Further investigation into ways to resolve non-normality will be needed.
 
 ```{r Shapiro, echo=FALSE}
 #Checking normality with Shapiro-Wilks test
 shapiro.test(lmod$residuals[1:4999])
 ```
 
-The results reinforce the conclusion that residuals are non-normally distributed. 
-
 ##Checking for Serial Correlation
 
-Next, we check the serial correlation in the error, to determine if there is any serial dependence of the residuals. This is achieved by regressing each residual on the previous to determine if there is any trend.  The R squared p-values show that this result is significant, and we can conclude that there is marked serial correlation among the residuals which may be caused by a missing covariate. We plot successive pairs of residuals to visualize this serial correlation.
-
-```{r Serial correlation, echo=FALSE}
-n <- length(lmod$residuals)
-
-plot(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1), xlab=expression(hat(epsilon)[i]), ylab=expression(hat(epsilon)[i + 1]))
-#summary(lm(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1)))
-```
-
+Next, we check the serial correlation in the error, to determine if there is any serial dependence of the residuals. This is achieved by regressing each residual on the previous to determine if there is any trend.  The R squared p-values show that this result is significant, and we can conclude that there is marked serial correlation among the residuals which may be caused by a missing covariate. We plot successive pairs of residuals to visualize this serial correlation in the bottom right of the following set of figures.
 
 
 ##Unusual Points
 
-Next we address unusual points. As a point of clarification, this is to be distinguished from the examination of extreme points in the data cleaning - in the cleaning, we remove spurious results, while the remaining extreme points are assumed to be naturally-occuring. We first examine the leverages. With the assumption that errors are normal, leverages will have half-normal distributions; therefore, we produce a qqplot of the residual quantiles against half-normal quantiles:
+Next, we address unusual points. As a point of clarification, this is to be distinguished from the examination of extreme points in the data cleaning. In the cleaning, we remove spurious results that are likely due to data entry or data collection errors (such as a failed sensor), while the remaining extreme points are assumed to be naturally-occuring. We first examine the leverages. We produce a qqplot of the residual quantiles against half-normal quantiles to investigate high-leverage points.
 
-```{r Large-Leverages, fig.width=5, fig.height=3, echo=FALSE}
+```{r Large-Leverages, fig.width=5, fig.height=3,fig.align='center', echo=FALSE}
 #Obtaining leverages
 hatv <- hatvalues(lmod)
   
@@ -292,27 +288,31 @@ hatv <- hatvalues(lmod)
 halfnorm(hatv, labs=data$County, ylab="Leverages")
 ```
 
-In order to preserve the stability and representability of the model, we remove points with extremely large leverage (h > 0.2). In order to identify outliers, we calculate the studentized residuals of each point, and compare them to the Bonferroni-corrected 5% quartile of a t-distribution with n - p - 1 degrees of freedom:
+In order to preserve the stability and representability of the model, we try removing points with extremely large leverage (h > 0.2). As we have a very large dataset, this does not much change the model. Next, in order to identify outliers, we calculate the studentized residuals of each point, and compare them to the Bonferroni-corrected 5% quartile of a t-distribution with n - p - 1 degrees of freedom. Here we investigate potential outliers with studentized residuals greater than the Bonferroni criterion, which represent about 0.3% of our dataset.
 
 ```{r Outliers}
 #Calculating Studentized Residuals
 stud <- rstudent(lmod)
+n = nrow(data)
+df = lmod$df
+bonferroni <- abs(qt(.05/(n*2),df))
+length(stud[abs(stud) > bonferroni])/n
 ```
 
-Here we remove outliers with studentized residuals greater than 10. 
 
 ##Multicollinearity
 
-To check collinearity of the predictors, we initially examine the variable inflation factors for each predictor, and then the correlation matrix. In order to rule out cases where there is only a single pair of highly-correlated variables, we remove one variable at a time, if they have an exceedingly large correlation with another variable, and re-run the VIFs. This way, we verify if the high VIFs were due to pairwise correlations. Based upon this analysis, we choose to remove the following variables: Short.Lived.Compounds, CO2, Total.Emissions, pp_net_gen_MWh, Other.Fluorane, and Nitrous.Oxide. 
+To check collinearity of the predictors, we first examine the variable inflation factors for each predictor to identify those with a high (>5) VIF.  A VIF that is high indicates that the standard error is much larger than it would be without collinearity.  We identify 7 factors with high VIF values, so it is clear some predictors are collinear.  Using this model with highly collinear predictors leads to unstable models, which leads to drastic changes in the coefficient estimates with even small perturbations to the response.  We produce and investigate the correlation matrix to better understand which predictors are related to one another.  Armed with this understanding, we remove one high-VIF predictor at a time and rerun analysis so as to ensure we are only only removing predictors that provide redundant information to the model. Using this process, we choose to remove the following variables: Short.Lived.Compounds, CO2, Total.Emissions, pp_net_gen_MWh, Other.Fluorane, and Nitrous.Oxide. 
 
 ```{r Collinearity, echo=FALSE}
- x <- model.matrix(lmod)[,-1]
-  
-  #Calculating VIFs for all variables
-  vif(x)
-  
-  #Calculating correlation matrix 
-  corr <- cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")])
+#Calculating VIFs for all variables
+VIF <- vif(lmod)
+VIF[VIF > 5]
+
+```
+```{r, results = "hide"}
+#Calculating correlation matrix 
+corr <- round(cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")]),2)
 ```
 
 
@@ -326,12 +326,13 @@ Because of the complex interaction of the factors, we decided to use backward el
 #6 - Transformations
 Based on the model diagnostics, specifically the violations of constant error variance and normality, it was clear we needed to modify the initial model.  Several transformations were performed and tested to see if any transformations resulted in a better-fitting model.  Some of these included square root transformations, adding polynomial terms for the predictors, investigating interactions between predictors, using log transformations, and others.  Adding polynomial terms for Temperature improves the model fit.  Most of the other transformations tested only improved model fit marginally while making it more difficult to interpret the model. Ultimately, we used Box Cox to identify the best transformation on the response.  
 
-Box Cox identified a lambda value of 0.5, so for model interpretability we used a square root transformation on the response.  This helped resolve some, but not all of the error assumption violations while improving the R squared value. All predictors remain significant in this model. We have a relatively large dataset, and in this case it is not uncommone for small deviations from non-normality to be detected.  We continue, however, with this model because we have a large sample size and can lean on the central limit theorem. The errors are not exactly normal, so the least squares estimate may not be optimal, though it will remain the best linear unbiased estimate.  Investigations into robust regression methods reveal residual standard errors similar to that of the transformed model. 
+Box Cox identified a lambda value of 0.56, so for model interpretability we used a square root transformation on the response.  This helped resolve some, but not all of the error assumption violations while improving the R squared value. All predictors remain significant in this model. We have a relatively large dataset, and in this case it is not uncommone for small deviations from non-normality to be detected.  We continue, however, with this model because we have a large sample size and can lean on the central limit theorem. The errors are not exactly normal, so the least squares estimate may not be optimal, though it will remain the best linear unbiased estimate.  Investigations into robust regression methods, which are used especially when errors are not normally distributed, reveal residual standard errors similar to that of the transformed model. 
 
 Upon completing all of these steps, we repeat analysis steps as necessary as we build and update each of the models for the 6 air quality defining parameters.
 
 
-```{r echo=FALSE}
+```{r, fig.width=5.5, fig.height=3,fig.align='center', echo=FALSE}
+
 lmod.select <- lm(formula = (AQI+1) ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = data_mod)
 #summary(lmod.select)
 
@@ -342,59 +343,61 @@ lambda <- bx$x[which.max(bx$y)]
 
 lmod.select.T <- lm(formula = (AQI+1)^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = data_mod)
 sumary(lmod.select.T)
-
-
-rlmod <- rlm(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income,data)
-summary(rlmod)
 ```
 
-```{r GLS, echo=FALSE}
+```{r echo=FALSE}
+
+rlmod <- rlm(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income,data)
+cat('Robust Regression residual standard error:',summary(rlmod)$sigma)
+```
+
+```{r GLS, echo=FALSE, include=FALSE}
 #the errors were clearly dependent, so we try generalized least squares on the non-collinear factors:
 glmod <- gls(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income,weights=varPower(), data=na.omit(data))
-summary(glmod)
+#summary(glmod)
 
 #remove Stationary.Combustion
 glmod <- gls(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + pp_consumed_MMBtu + Temperature + SF6 + Income,weights=varPower(), data=na.omit(data))
-summary(glmod)
+#summary(glmod)
 ```
 
 
 
 #7 - Final Model
-Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*.
-
-The R-squared value of the full final model comes out to be 9.5%. All the predictors are statistically significant in this model as shown in the model summary below.
+Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section and backwards elimination - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*. The R-squared value of the full final model comes out to be 10.7%. All the predictors are highly statistically significant in this model as shown in the model summary below.
 
 ```{r Final Full Model}
-lambda <- 0.5
-lmod.T <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod)
+lmod.T <- lm(formula = AQI ^ 0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = data_mod)
 
 sumary(lmod.T)
 ```
 
  
-Similarly, we built the final component models for each defining parameter with response transformation and selected factors. We are only showing the results here for the NO2 model, for which the final R-squared value came out to be 20.5%.
+Similarly, we built the final component models for each defining parameter with response transformation and selected factors. Here we show the results here for the NO2 AQI model, for which the final R-squared value came out to be 27.1%.
 
-```{r Final NO2 Model}
-lambda <- 0.5
-lmod.T.NO2 <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = na.omit(data_mod_NO2))
+```{r Final NO2 Model, echo=FALSE}
+lmod.T.NO2 <- lm(formula = AQI ^ 0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + Income, data = na.omit(data_mod_NO2))
 
-sumary(lmod.T.NO2)
+cat("NO2 Model R-squared: ",round(summary(lmod.T.NO2)$r.squared,2))
 ```
 
-#8 - Future Research
+#8 - Conclusions and Future Research
 
-##A) Additional predictors
-Future research work can include additional predictors in the model, since only about 20% of the variation in the model is explained by the current set of predictors. Some additional factors that can be included are -
-*more weather factors (wind speed, humidity and precipitation), geographical data like elevation or use city-level data rather than county-level data*.
+Through our analysis, we conclude that the factors used in each of our models, primarily *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*, are significantly related to the air quality of a given area.  However, despite highly significant predictors, the relatively low R squared values of the models in addition to somewhat heteroscedasticity in model residuals indicate that there are likely important covariates missing or an underlying nonlinear relationship that may be explored in further analysis.
 
-##B) Additional scope
-We can further investigate air quality with more data collected across the globe so that we have more informational dataset. We can also run the analysis over a larger time interval (current analysis is for an year's data). We couldn't process more than an year's data in R, so we decided to build the model for lesser data.
+####A) Additional predictors
+Future research work can include additional predictors in the model, since only up to about 27% of the variation in the response is explained by the current set of predictors. Some additional factors that can be included are -
+*more weather factors (wind speed, humidity and precipitation), geographical data like elevation or use city-level data rather than county-level data*. This may help explain more of the variation in the response as well as help address the serial correlation present in the current fit.
 
-##C) Nonlinear models
-We tried running the general additive model. Future work could involve expanding on this, since we think it would produce promising results.
+####B) Additional scope
+We can further investigate air quality with more data collected across the globe so that we have more informational dataset. We can also run the analysis over a larger time interval (current analysis is for a year's worth of data). We could not process more than a year of data in R, so we decided to build the model for the smalle dataset.
 
-  
+####C) Nonlinear models
+Initial investigation into general additive models seem promising, as even the unrefined model produces a higher percentage of deviance explained than our best linear model for total AQI.  Further analysis is required to better understand if there is an underlying nonlinear relationship in predicting air quality index.
+```{r, echo=FALSE}
+gammod <- gam(AQI ~ s(HFC) +  s(Biogenic.CO2) + s(Population) + s(HFE) + s(Stationary.Combustion) + s(pp_consumed_MMBtu) + s(Temperature) + s(Income), data=data)
+cat("GAM % deviance explained: ",summary(gammod)$dev.expl)
+```
   
   
   
