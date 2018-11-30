@@ -1,0 +1,357 @@
+---
+title: "DataAnalysis.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Clear global environment 
+```{r}
+rm(list=ls())
+```
+
+##Installing Necessary Packages
+```{r Loading packages}
+#install.packages("faraway")
+#install.packages("leaps")
+#install.packages("Amelia")
+#install.packages("pls")
+```
+
+
+##Loading Necessary Packages into environment
+```{r Loading in necessary packages}
+#install.packages("MASS")
+library(MASS)
+#install.packages("faraway")
+library(faraway)
+#install.packages("nlme")
+library(nlme)
+library(leaps)
+library(Amelia)
+library(pls)
+```
+
+##Loading raw data
+```{r Loading raw data}
+getwd()
+setwd("/Users/tessleggio/GoogleDrive/GeorgiaTech/2018-Fall/01-ISYE-6414/6414Project/cleaned_data")
+#Loading data
+data_raw <- read.csv("data_nomiss_specificAQI_updatedNov25.csv")
+#Dropping missing values in response
+data_raw <- data_raw[!is.na(data_raw$AQI),]
+#Assigning date from year, month, day
+data_raw$date <- as.numeric( difftime(ISOdate(data_raw$Year, data_raw$Month, data_raw$Day, 0), ISOdate(2016,1,1,0), units="days"))
+
+```
+
+
+##Data Cleaning
+```{r Data Cleaning}
+#TEMPERATURE DATA
+  plot(data_raw$Temperature, data_raw$Month)
+  data_raw[data_raw$Temperature < -30,]
+  
+  # remove iberville, louisiana since it is unlikely a county in LA actually saw 
+  #temperatures in the -38 range
+    remove <- c("iberville")
+    data1 <- data_raw
+    data1 <- data1[!(data1$County %in% remove),]
+  
+  plot(data1$Temperature, data1$Month)
+  data1[which(data1$Temperature < -15 & data1$Temperature > -20 & data1$Month == 4),]
+  
+  
+  # remove effingham, illinois, greenup, kentucky, and roane, tennessee since 
+  #they have the exact same value for every day and is unlikely to have -17.78 
+  #in the middle of the summer
+    remove2 <- c("effingham", "greenup")
+    data2 <- data1[!(data1$County %in% remove2),]
+  
+    data2[which(data2$Temperature < -15 & data2$Temperature > -20 & data2$Month == 7),]
+    
+    remove3 <- c("roane")
+    data3 <- data2[!(data2$County %in% remove3),]
+    
+  plot(data3$Temperature, data3$Month)
+  
+  qqnorm(data3$Temperature)
+  qqline(data3$Temperature)
+  #probably needs transformation
+
+
+#AQI_PM2.5
+  summary(data_raw$AQI_PM2.5)
+  plot(data_raw$AQI_PM2.5)
+  #all values within 0-500 range
+  
+  qqnorm(data_raw$AQI_PM2.5)
+  qqline(data_raw$AQI_PM2.5)
+  #probably needs transformation
+  
+  
+#AQI_PM10
+  summary(data_raw$AQI_PM10)
+  plot(data_raw$AQI_PM10, data_raw$Month)
+  #not all values within 0-500 range
+  
+  #remove values which are outside of the AQI range of 0-500 since 
+  #something is not right with those values
+    data_raw[which(data_raw$AQI_PM10 > 500),]
+    remove4 <- c(8912, 13425)
+    data4 <- data3[-remove4,]
+    data4[which(data4$AQI_PM10 > 500),]
+
+  plot(data4$AQI_PM10, data4$Month)
+    
+  qqnorm(data4$AQI_PM10)
+  qqline(data4$AQI_PM10)
+  #probably needs transformation
+
+  
+#AQI_CO
+  summary(data_raw$AQI_CO)
+  plot(data_raw$AQI_CO, data_raw$Month)
+  #all values within 0-500 range
+  
+  qqnorm(data_raw$AQI_CO)
+  qqline(data_raw$AQI_CO)
+  #probably needs transformation
+  
+  
+#AQI_NO2
+  summary(data_raw$AQI_NO2)
+  plot(data_raw$AQI_NO2, data_raw$Month)
+  #all values within 0-500 range
+  
+  qqnorm(data_raw$AQI_NO2)
+  qqline(data_raw$AQI_NO2)
+  #probably needs transformation
+  
+#AQI_Ozone
+  summary(data_raw$AQI_Ozone)
+  plot(data_raw$AQI_Ozone, data_raw$Month)
+  #all values within 0-500 range
+  
+  qqnorm(data_raw$AQI_Ozone)
+  qqline(data_raw$AQI_Ozone)
+  #probably needs transformation
+  
+#AQI_SO2
+  summary(data_raw$AQI_SO2)
+  plot(data_raw$AQI_SO2, data_raw$Month)
+  #all values within 0-500 range
+  
+  qqnorm(data_raw$AQI_SO2)
+  qqline(data_raw$AQI_SO2)
+  
+  qqnorm(data4$AQI_SO2)
+  qqline(data4$AQI_SO2)
+  
+  data4[which(data4$AQI_SO2 == 200),]
+  #remove hawaii, hawaii since every single recorded day has the same AQI_SO2
+    remove5 <- c("hawaii")
+    data5 <- data4[!(data4$County %in% remove5),]
+  
+  qqnorm(data5$AQI_SO2)
+  qqline(data5$AQI_SO2)
+  #probably needs transformation
+  
+
+#TOTAL EMISSIONS
+  summary(data_raw$Total.Emissions)
+  plot(data_raw$Total.Emissions, data_raw$Month)
+  
+  data_raw[which(data_raw$Total.Emissions == max(data_raw$Total.Emissions)),]
+  
+  #harris county (county which houses Houston) has much more total emissions 
+  #than the others, but no real reason to believe it's a bad data point
+  
+  qqnorm(data5$Total.Emissions)
+  qqline(data5$Total.Emissions)
+  #probably needs transformation
+
+  
+#TESS FINAL DATA (NOT INCLUDING IAN'S REMOVALS)
+data <- data5
+
+```
+
+##Running full model
+```{r Full model}
+lmod <- lm(formula = AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data)
+
+summary(lmod)
+```
+
+##Splitting data by response
+```{r split up data by response}
+data_PM2.5 <- data[!is.na(data$AQI_PM2.5),]
+data_PM10 <- data[!is.na(data$AQI_PM10),]
+data_CO <- data[!is.na(data$AQI_CO),]
+data_NO2 <- data[!is.na(data$AQI_NO2),]
+data_ozone <- data[!is.na(data$AQI_Ozone),]
+data_SO2 <- data[!is.na(data$AQI_SO2),]
+
+data_PM2.5 <- subset(data_PM2.5, select=-c(AQI))
+colnames(data_PM2.5)[colnames(data_PM2.5)=="AQI_PM2.5"] <- "AQI"
+
+data_PM10 <- subset(data_PM10, select=-c(AQI))
+colnames(data_PM10)[colnames(data_PM10)=="AQI_PM10"] <- "AQI"
+
+data_CO <- subset(data_CO, select=-c(AQI))
+colnames(data_CO)[colnames(data_CO)=="AQI_CO"] <- "AQI"
+
+data_NO2 <- subset(data_NO2, select=-c(AQI))
+colnames(data_NO2)[colnames(data_NO2)=="AQI_NO2"] <- "AQI"
+
+data_ozone <- subset(data_ozone, select=-c(AQI))
+colnames(data_ozone)[colnames(data_ozone)=="AQI_Ozone"] <- "AQI"
+
+data_SO2 <- subset(data_SO2, select=-c(AQI))
+colnames(data_SO2)[colnames(data_SO2)=="AQI_SO2"] <- "AQI"
+```
+
+##Diagnostics and transformation function
+```{r Diagnostics and Transformation Function}
+analysis <- function(data){
+  
+  #Fitting full model
+  lmod <- lm(formula = AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data = data)
+  
+  summary(lmod)
+  
+  print("Constant Variance")
+  #--------------------Constant Variance--------------------
+  #Plot residuals against fitted
+  plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted (Original)")
+  abline(h=0)
+  
+  summary(lm(sqrt(abs(residuals(lmod))) ~ fitted(lmod)))
+  
+  print("Checking for Normality of residuals")
+  #--------------------Normality--------------------
+  #Checking normality with QQ-plot
+  qqnorm(lmod$residuals, ylab="Residuals", main="QQ Plot of Residuals (Original)")
+  qqline(residuals(lmod))
+  
+  #Checking normality with histogram of residuals
+  hist(residuals(lmod), xlab="Residuals", main="Histogram of Residuals (Original)")
+  
+  #Checking normality with Shapiro-Wilks test
+  shapiro.test(lmod$residuals[1:4999])
+  
+  print("Checking Leverage points")
+  #--------------------Checking Leverage Points--------------------
+  #Obtaining leverages
+  hatv <- hatvalues(lmod)
+  
+  #Comparing leverages to the halfnormal distribution
+  halfnorm(hatv, labs=data$County, ylab="Leverages")
+  
+  #Removing large leverage points
+  data_mod <<- data[hatv < 0.2,]
+  
+  print("Checking for outliers")
+  #--------------------Checking for Outliers--------------------
+  #Calculating Studentized Residuals
+  stud <- rstudent(lmod)
+  
+  #Removing large influence points
+  data_mod <<- data_mod[stud < 10,]
+  
+  print("Checking for Multicollinearity")
+  #--------------------Checking for Multicollinearity--------------------
+  #Calculating t(X) %*% X
+  x <- model.matrix(lmod)[,-1]
+  
+  #Calculating VIFs for all variables
+  vif(x)
+  
+  #Calculating correlation matrix over the variables
+  corr <- cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")])
+  
+  #Refitting model with extraneous variables and outliers removed
+  lmod.nocol <- lm(formula = AQI ~ NF3 + Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + Methane + SF6 + Income, data = data_mod)
+  
+  summary(lmod.nocol)
+  
+  print("Fitting box-cox model")
+  #--------------------Fitting optimal box-cox transformation--------------------
+  #Making response AQI positive by adding a small constant (1) -- can change later
+  data_mod$AQI <<- data_mod$AQI + 1
+  
+  #Getting model Likelihoods on a range of parameters
+  bx <- boxcox(lmod.nocol, plotit=T, lambda=seq(0.0, 1.0, by=0.001))
+  
+  #Getting best boxcox parameter -- lambda ~ 0.5
+  lambda <- bx$x[which.max(bx$y)]
+  
+  #Transforming model accordingly
+  lmod.T <- lm(formula = AQI ^ lambda ~ NF3 + Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + Methane + SF6 + Income, data = data_mod)
+  
+  summary(lmod.T)
+  
+  print("Re-checking normality")
+  #--------------------Re-checking Normality--------------------
+  #Checking normality with QQ-plot
+  qqnorm(lmod.T$residuals, ylab="Residuals", main="QQ Plot of Residuals (Transformed)")
+  qqline(residuals(lmod.T))
+  
+  #Checking normality with histogram of residuals
+  hist(residuals(lmod.T), xlab="Residuals", main="Histogram of Residuals (Transformed)")
+  
+  #Checking normality with Shapiro-Wilks test
+  shapiro.test(lmod.T$residuals[1:4999])
+  
+  #Obtaining list of relevant objects
+  result <- list(lmod.transform=lmod.T, lmod.nocollinearity=lmod.nocol, data.mod=data_mod, lambda=lambda, lmod.orig=lmod, corr=corr)
+  
+  return(result)
+}
+```
+
+
+```{r}
+summary(anal_NO2$lmod.transform)
+```
+
+```{r}
+anal_NO2 <- analysis(data = data_NO2)
+summary(anal_NO2$lmod.orig)
+summary(anal_NO2$lmod.transform)
+
+anal_CO <- analysis(data = data_CO)
+summary(anal_CO$lmod.orig)
+summary(anal_CO$lmod.transform)
+
+anal_PM10 <- analysis(data=data_PM10)
+summary(anal_PM10$lmod.orig)
+summary(anal_PM10$lmod.transform)
+
+anal_PM10$lambda
+
+anal_ozone <- analysis(data=data_ozone)
+summary(anal_ozone$lmod.orig)
+summary(anal_ozone$lmod.transform)
+
+anal_SO2 <- analysis(data=data_SO2)
+summary(anal_SO2$lmod.orig)
+summary(anal_SO2$lmod.transform)
+
+anal_PM2.5 <- analysis(data=data_PM2.5)
+summary(anal_PM2.5$lmod.orig)
+summary(anal_PM2.5$lmod.transform)
+```
+
+
+
+```{r}
+require(nlme)
+glmod <- gls(AQI ~ NF3 + Other.GHG + Total.Emissions + HFC + Other.Fluorane + Biogenic.CO2 + Population + CO2 + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature +  Methane + SF6 + Short.Lived.Compounds + Income +  pp_net_gen_MWh, data=na.omit(data))
+summary(glmod)
+
+summary(lmod)
+```

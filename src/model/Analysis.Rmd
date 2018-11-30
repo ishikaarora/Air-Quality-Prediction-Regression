@@ -24,7 +24,7 @@ library(nlme)
 
 ```{r Loading data}
 #Loading data
-data <- read.csv("data_nomiss.csv")
+data <- read.csv("data/data_nomiss.csv")
 
 #Dropping missing values in response
 data <- data[!is.na(data$AQI),]
