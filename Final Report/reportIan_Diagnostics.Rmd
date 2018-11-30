@@ -1,0 +1,63 @@
+---
+title: "reportIan_Diagnostics.Rmd"
+author: "Ian Jiang"
+date: "November 29, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Diagnostics
+
+In the following, we give results for diagnostics preformed on one dataset, data_NO2. This data contains records from the full dataset with missing and spurious values of the response pruned. 
+
+Checking Error Assumptions
+
+We check for the constancy of variance by examining the relationship of the residuals to the fitted values of the full model. If residuals follow a normal distribution, then their magnitudes would be half-normally distributed. Therefore, in order to mitigate the effects of the skewedness of this distribution, we also take the square root of the magnitudes, and plot it against the corresponding predictions:
+
+```{r }
+ #Plot residuals against fitted
+plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted")
+```
+
+When the square root residuals are fitted on the estimated response, we find a significant p-value, indicating that there is a dependence of the residuals. Therefore, transformation of either the response or factors are needed. For the moment, we leave the response alone, in order to proceed with the diagnostics. 
+
+Non-normality
+
+Secondly, we investigate whether or not the residuals of the model are normal distributed. For this, we visually examine the histogram of residuals, as well as the qq-plot of residual quartiles against the corresponding Gaussian quartiles:
+
+```{r Normal Testing}
+par(mfrow=c(1, 2))
+
+#Checking normality with QQ-plot
+qqnorm(lmod$residuals, ylab="Residuals", main="QQ Plot of Residuals")
+qqline(residuals(lmod))
+
+#Checking normality with histogram of residuals
+hist(residuals(lmod), xlab="Residuals", main="Histogram of Residuals")
+
+```
+
+
+From the qq-plot, the quartiles appear to be skewed, with mass tending to the tails. Additionally, the histogram shows that the residuals appear to be right-skewed. We also use the shapiro-wilks test:
+
+```{r Shapiro}
+#Checking normality with Shapiro-Wilks test
+shapiro.test(lmod$residuals[1:4999])
+```
+
+The results reinforce the conclusion that residuals are non-normally distributed. 
+
+Next, we check the autocorrelation in the error, to determine if there is any serial dependence of the residuals. This is achieved by simply regressing each residual on the previous, to determine if there is any trend:
+
+
+```{r Serial correlation}
+n <- length(lmod$residuals)
+
+plot(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1), xlab=expression(hat(epsilon)[i]), ylab=expression(hat(epsilon)[i + 1]))
+summary(lm(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1)))
+```
+
+The residuals show marked autocorrelation
