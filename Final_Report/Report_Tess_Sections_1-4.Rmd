@@ -296,10 +296,10 @@ Because of the complex interaction of the factors, we decided to use backward el
 #7 - Final Model (Ishika)
 Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*.
 
-The R-squared value of the full final model comes out to be 9.5%. Most of the predictors are statistically significant in this model as shown in the model summary below.
-
+The R-squared value of the full final model comes out to be 9.5%. All the predictors are statistically significant in this model as shown in the model summary below.
 
 ```{r Final Full Model}
+lambda <- 0.5
 lmod.T <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod)
 
 summary(lmod.T)
@@ -309,6 +309,7 @@ summary(lmod.T)
 Similarly, we built the final component models for each defining parameter with response transformation and selected factors. We are only showing the results here for the NO2 model, for which the final R-squared value came out to be 20.5%.
 
 ```{r Final NO2 Model}
+lambda <- 0.5
 lmod.T.NO2 <- lm(formula = AQI ^ lambda ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + Temperature + SF6 + Income, data = data_mod_NO2)
 
 summary(lmod.T.NO2)
