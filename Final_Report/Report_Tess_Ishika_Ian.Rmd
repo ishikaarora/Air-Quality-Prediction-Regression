@@ -204,7 +204,9 @@ data_mod_NO2 <- data_mod_NO2[stud < 10,]
 
 #1 - Problem Statement
 
-Air quality is a factor that is cited as both contributing to and being affected by climate change, and has been shown to have a direct impact on human health. As a factor with such important consequences, our team decided to study factors that impact air quality. For our project, we focus on answering the following question: *How is air quality across the United States related to demographic, emissions, and weather factors?* Specifically, we chose to investigate the impact of factors related to economic output and climate, including temperature, population, per capita income, greenhouse gas emissions, and industrial power consumption and generation. Our response variable is the Air Quality Index (AQI), a measure of local air quality calculated by the Environmental Protection Agency (EPA) based on the concentrations of 6 major classes of ground-level pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and two measures of particulate matter (PM2.5 and PM10). Upon building initial models of overall AQI, we found that the residuals differed based on the defining parameter (pollutant class) of the AQI.  Thus, we ended up building models for the 6 individual pollutant AQIs in addition to the overall AQI.
+Air quality is a factor that is cited as both contributing to and being affected by climate change, and has been shown to have a direct impact on human health. As a factor with such important consequences, our team decided to study factors that impact air quality. For our project, we focus on answering the following question: *How is air quality across the United States related to demographic, emissions, and weather factors?* Specifically, we chose to investigate the impact of factors related to economic output and climate, including temperature, population, per capita income, greenhouse gas emissions, and industrial power consumption and generation. 
+
+Our response variable is the Air Quality Index (AQI), a measure of local air quality calculated by the Environmental Protection Agency (EPA) based on the concentrations of 6 major classes of ground-level pollutants: ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and two measures of particulate matter (PM2.5 and PM10). Upon building initial models of overall AQI, we found that the residuals differed based on the defining parameter (pollutant class) of the AQI.  Thus, we ended up building models for the 6 individual pollutant AQIs in addition to the overall AQI.
 
 The scope of our analysis ultimately included county-level data for all US counties with available AQI data. To limit the size of our dataset to a size manageable within R, we used daily data from 2016, the most recent year with data available for each of the factors included in our analysis.
 
@@ -214,7 +216,7 @@ In the following analysis, we give results for analysis preformed to generate on
 
 Most of the data we used in our analysis is available from government websites. Data is available for download as CSV files from the following sources: per capita income data from bea.gov, population data from census.gov, powerplant energy consumption and generation data from eia.gov, and AQI data from aqs.epa.gov.
 
-Weather data were significantly more challenging to collect. Daily weather sensor data is available from aqs.epa.gov, however the county data is far less complete than AQI data, so to avoid omitting a large portion of data from analysis, which could introduce bias into the model we instead collected temperature data from api.mesowest.net, an API which allows straight-forward programmatic extraction of data. By setting parameters in the URL, daily temperature and other weather averages can be scraped for any given day, state and county. We exploit this feature by looping through all counties in the AQI data and all days within our date range, sending a "get" request for each iteration. Data is available in JSON format, and includes daily averages for all stations within a given county. Therefore, a global measure of temperature and other weather factors is easily calculated by converting the JSON format into a Python dictionary and averaging across all stations. The speed of the script is highly dependent on local factors and internet speed, but on average it takes about 10 minutes per county for each of the 1053 counties included in our analysis.
+Weather data were significantly more challenging to collect. Daily weather sensor data is available from aqs.epa.gov, however the county data is far less complete than AQI data, so to avoid omitting a large portion of data from analysis, which could introduce bias into the model we instead collected temperature data from api.mesowest.net, an API which allows straight-forward programmatic extraction of data. By setting parameters in the URL, daily temperature and other weather averages can be scraped for any given day, state and county. We exploit this feature by looping through all counties in the AQI data and all days within our date range, sending a "get" request for each iteration. Data is available in JSON format, and includes daily averages for all stations within a given county. The speed of the script is highly dependent on local factors and internet speed, but on average it takes about 10 minutes per county for each of the 1053 counties included in our analysis.
 
 #3 - Data Cleaning
 
@@ -230,12 +232,7 @@ Finally, our initial dataset across multiple years included more than a million 
 
 ##Checking Constant Variance Assumption
 
-We check for the constancy of variance by examining the relationship of the residuals to the fitted values of the full model. If residuals follow a normal distribution, then their magnitudes would be half-normally distributed. Therefore, in order to mitigate the effects of the skewedness of this distribution, we also take the square root of the magnitudes, and plot it against the corresponding predictions. 
-
-```{r Residuals vs. Fitted, fig.width=6, fig.height=4,fig.align='center', echo=FALSE}
- #Plot residuals against fitted
-plot(lmod$fitted.values, sqrt(abs(lmod$residuals)), xlab="Fitted", ylab=expression(sqrt(hat(epsilon))), main="Residuals vs. Fitted")
-```
+We check for the constancy of variance by examining the relationship of the residuals to the fitted values of the full model. If residuals follow a normal distribution, then their magnitudes would be half-normally distributed. Therefore, in order to mitigate the effects of the skewedness of this distribution, we also take the square root of the magnitudes, and plot it against the corresponding predictions (as shown in the plot below).
 
 When the square root residuals are fitted on the estimated response, we find a significant p-value, indicating that there is a dependence of the residuals. Therefore, transformation of either the response or factors are needed. For the moment, we leave the response alone, in order to proceed with the diagnostics.
 
@@ -273,7 +270,7 @@ shapiro.test(lmod$residuals[1:4999])
 
 ##Checking for Serial Correlation
 
-Next, we check the serial correlation in the error, to determine if there is any serial dependence of the residuals. This is achieved by regressing each residual on the previous to determine if there is any trend.  The R squared p-values show that this result is significant, and we can conclude that there is marked serial correlation among the residuals which may be caused by a missing covariate. We plot successive pairs of residuals to visualize this serial correlation in the bottom right of the following set of figures.
+Next, we check the serial correlation in the error, to determine if there is any serial dependence of the residuals. This is achieved by regressing each residual on the previous to determine if there is any trend.  The R squared p-values show that this result is significant, and we can conclude that there is marked serial correlation among the residuals which may be caused by a missing covariate. We plot successive pairs of residuals to visualize this serial correlation in the plot above.
 
 
 ##Unusual Points
@@ -367,7 +364,7 @@ glmod <- gls(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE 
 
 
 #7 - Final Model
-Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section and backwards elimination - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*. The R-squared value of the full final model comes out to be 10.7%. All the predictors are highly statistically significant in this model as shown in the model summary below.
+Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root of AQI. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section and backward elimination - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, (Temperature)^2, methane, sulfur hexafluoride, and per capita income*. The R-squared value of the full final model comes out to be 10.7%. All the predictors are highly statistically significant in this model as shown in the model summary below.
 
 ```{r Final Full Model}
 lmod.T <- lm(formula = AQI ^ 0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + 
