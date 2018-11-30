@@ -1,0 +1,22 @@
+---
+title: "reportIan.Rmd"
+author: "Ian Jiang"
+date: "November 29, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Data Collection
+
+Most data is available from government websites. Data is available for download as CSV files from the following sources:
+
+Per capita income data -- https://www.bea.gov
+Population data -- https://www2.census.gov/
+Powerplant Enery consumption and generation data -- https://www.eia.gov/
+AQI data -- https://aqs.epa.gov
+
+Temperature data were significantly more challenging to collect. Daily sensor data is available on https://aqs.epa.gov, however, the county data is far less complete than the AQI data. As our analysis is descriptive in nature, this scarcity of data is too stringent. Therefore, temperature data were collected from http://api.mesowest.net, an API which allows easy programmatic extraction of data. By setting parameters in the URL, daily temperature averages can be scraped for any given day, state and county. We exploit this feature by looping through all counties in the AQI data and all days in 2016, sending a get request for each iteration. Data is available in JSON format, and includes daily averages for all stations within a given county. Therefore, a global measure of temperature is easily calculated by converting the JSON format into a Python dictionary and averaging across all stations. The speed of the script is highly dependent on local factors and internet speed, however, on average it takes about 10 minutes per county.    
+
