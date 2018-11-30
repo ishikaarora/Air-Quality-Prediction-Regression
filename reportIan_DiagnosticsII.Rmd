@@ -5,13 +5,11 @@ date: "November 29, 2018"
 output:
   pdf_document: default
   html_document: default
-fig_width: 5
-fig_height: 3
 ---
 
 ```{r setup, include=FALSE}
 #knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(fig.width=5, fig.height=3, echo=TRUE) 
+knitr::opts_chunk$set(echo=TRUE) 
 ```
 
 ```{r Loading Script, include=FALSE}
@@ -208,7 +206,7 @@ The image is displayed in the upper left corner of the below image. When the squ
 
 Secondly, we investigate whether or not the residuals of the model are normal distributed. For this, we visually examine the histogram of residuals, as well as the qq-plot of residual quartiles against the corresponding Gaussian quartiles:
 
-```{r Figures, fig.width=5, fig.height=3, echo=FALSE}
+```{r Figures, fig.width=6, fig.height=5, echo=FALSE}
 par(mfrow=c(2, 2))
 
  #Plot residuals against fitted
