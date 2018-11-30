@@ -314,10 +314,6 @@ analysis <- function(data){
 
 
 ```{r}
-summary(anal_NO2$lmod.transform)
-```
-
-```{r}
 anal_NO2 <- analysis(data = data_NO2)
 summary(anal_NO2$lmod.orig)
 summary(anal_NO2$lmod.transform)

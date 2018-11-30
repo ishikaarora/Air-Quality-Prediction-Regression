@@ -59,5 +59,4 @@ n <- length(lmod$residuals)
 plot(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1), xlab=expression(hat(epsilon)[i]), ylab=expression(hat(epsilon)[i + 1]))
 summary(lm(tail(lmod$residuals, n - 1) ~ head(lmod$residuals, n - 1)))
 ```
-
-The residuals show marked autocorrelation
+The R squared and the p-values show that this result is significant, and we can conclude that there is marked autocorrelation among the residuals. 
