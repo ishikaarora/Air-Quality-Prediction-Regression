@@ -1,8 +1,8 @@
-1) Overview of problem statement/motivation for project
-2) Data collection
+1) Overview of problem statement/motivation for project - TESS
+2) Data collection - IAN
   A) Sources of data
   B) Methods of collection
-3) Data cleaning
+3) Data cleaning - TESS
   A) Formatting for merging
   B) Dropping sparse columns
     i) discuss need for new weather data
@@ -12,7 +12,7 @@
   E) Rescale the predictors/response as necessary 
       *** we should do this. see p. 103 of textbook ***
   F) Choosing subset of data to enable us to work within R
-4) Diagnostics on model
+4) Diagnostics on model - IAN
   A) Checking error assumptions of the model
     i) Constant variance
     ii) Normality
@@ -24,16 +24,16 @@
   C) Finding problems in the predictors
     i) Collinearity
   D) Checking the model's structure
-5) Model selection
+5) Model selection - ISHIKA
   A) stepwise selection (discuss why we didn't use it)
   B) forward/backward selection
   C) criterion-based procedures
-6) Transformations
+6) Transformations - TESS
   A) Box-cox to determine transformation on the response
   B) Polynomial terms for predictors
   C) Additive models
-7) Final model
-8) Future research/problems
+7) Final model - ISHIKA
+8) Future research/problems - ISHIKA
   A) Additional predictors
   B) Additional scope (example: time, global)
   C) Nonlinear models
