@@ -312,7 +312,10 @@ VIF[VIF > 5]
 ```
 ```{r, results = "hide"}
 #Calculating correlation matrix 
-corr <- round(cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", "pp_net_gen_MWh", "Methane", "Other.Fluorane")]),2)
+corr <- round(cor(data[,c("AQI", "HFC", "Other.GHG", "SF6", "Stationary.Combustion", 
+    "Biogenic.CO2", "HFE", "NF3", "PFC", "Short.Lived.Compounds", "Temperature", 
+    "pp_consumed_MMBtu", "CO2", "Income", "Nitrous.Oxide", "Population", "Total.Emissions", 
+    "pp_net_gen_MWh", "Methane", "Other.Fluorane")]),2)
 ```
 
 
@@ -367,8 +370,9 @@ glmod <- gls(AQI^0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE 
 Based on the diagnostics and transformation results (as shown above), we built the final models for each defining parameter by transforming the response as square root. We used the following set of factors to train the model, which were selected based on the results of multicollinearity tests in the diagnostics section and backwards elimination - *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*. The R-squared value of the full final model comes out to be 10.7%. All the predictors are highly statistically significant in this model as shown in the model summary below.
 
 ```{r Final Full Model}
-lmod.T <- lm(formula = AQI ^ 0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + poly(Temperature,2) + SF6 + Income, data = data_mod)
-
+lmod.T <- lm(formula = AQI ^ 0.5 ~ Other.GHG + HFC +  Biogenic.CO2 + Population + 
+               PFC + HFE + Stationary.Combustion + pp_consumed_MMBtu + 
+               poly(Temperature,2) + SF6 + Income, data = data_mod)
 sumary(lmod.T)
 ```
 
@@ -385,17 +389,16 @@ cat("NO2 Model R-squared: ",round(summary(lmod.T.NO2)$r.squared,2))
 
 Through our analysis, we conclude that the factors used in each of our models, primarily *nitrogen trifluoride, other greenhouse gases, hydrofluorocarbons, biogenic CO2, population, perfluorinated chemicals, hexafluorethane, stationary combustion, industrial power consumption, Temperature, methane, sulfur hexafluoride, and per capita income*, are significantly related to the air quality of a given area.  However, despite highly significant predictors, the relatively low R squared values of the models in addition to somewhat heteroscedasticity in model residuals indicate that there are likely important covariates missing or an underlying nonlinear relationship that may be explored in further analysis.
 
-####A) Additional predictors
-Future research work can include additional predictors in the model, since only up to about 27% of the variation in the response is explained by the current set of predictors. Some additional factors that can be included are -
+**Additional predictors: **Future research work can include additional predictors in the model, since only up to about 27% of the variation in the response is explained by the current set of predictors. Some additional factors that can be included are -
 *more weather factors (wind speed, humidity and precipitation), geographical data like elevation or use city-level data rather than county-level data*. This may help explain more of the variation in the response as well as help address the serial correlation present in the current fit.
 
-####B) Additional scope
-We can further investigate air quality with more data collected across the globe so that we have more informational dataset. We can also run the analysis over a larger time interval (current analysis is for a year's worth of data). We could not process more than a year of data in R, so we decided to build the model for the smalle dataset.
+**Additional scope: **We can further investigate air quality with more data collected across the globe so that we have more informational dataset. We can also run the analysis over a larger time interval (current analysis is for a year's worth of data). We could not process more than a year of data in R, so we decided to build the model for the smalle dataset.
 
-####C) Nonlinear models
-Initial investigation into general additive models seem promising, as even the unrefined model produces a higher percentage of deviance explained than our best linear model for total AQI.  Further analysis is required to better understand if there is an underlying nonlinear relationship in predicting air quality index.
+**Nonlinear models: **Initial investigation into general additive models seem promising, as even the unrefined model produces a higher percentage of deviance explained than our best linear model for total AQI.  Further analysis is required to better understand if there is an underlying nonlinear relationship in predicting air quality index.
 ```{r, echo=FALSE}
-gammod <- gam(AQI ~ s(HFC) +  s(Biogenic.CO2) + s(Population) + s(HFE) + s(Stationary.Combustion) + s(pp_consumed_MMBtu) + s(Temperature) + s(Income), data=data)
+gammod <- gam(AQI ~ s(HFC) +  s(Biogenic.CO2) + s(Population) + s(HFE) + 
+                s(Stationary.Combustion) + s(pp_consumed_MMBtu) + 
+                s(Temperature) + s(Income), data=data)
 cat("GAM % deviance explained: ",summary(gammod)$dev.expl)
 ```
   
